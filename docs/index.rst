@@ -15,7 +15,7 @@
    preface
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Начало работы
 
    installation
@@ -24,9 +24,10 @@
    convert_project
    editors
    preferences
+   properties
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Задачи
 
    project_update
@@ -44,7 +45,7 @@
    :caption: Дополнительная информация
 
    white_black_list
-   helper_functions
    cli_version
+   windowsauth
    contributors
    about
