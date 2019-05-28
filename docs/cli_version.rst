@@ -19,14 +19,20 @@ CLI версия
 
 Набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:
 
+::
+
  ./pgcodekeeper-cli.sh --help
 
 Примеры
 ~~~~~~~
 
- ./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/ 
+::
+
+ ./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/
 
 После выполнения этой команды в файл diff.sql будет записан скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432.
+
+::
 
  ./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/
 
