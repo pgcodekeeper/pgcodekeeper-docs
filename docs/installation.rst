@@ -1,9 +1,11 @@
 =========
 Установка
 =========
-Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить Java SDK для вашей платформы.
+Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы.
 
-Последнюю версию сборки pgCodeKeeper можно скачать здесь: https://github.com/pgcodekeeper/pgcodekeeper/releases
+Последнюю версию сборки pgCodeKeeper можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
+
+Кроме обычной установки вы можете поставить pgCodeKeeper в ваш Eclipse IDE.
 
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
