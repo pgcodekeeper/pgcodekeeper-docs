@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-09 15:25+0300\n"
-"PO-Revision-Date: 2020-12-09 12:32\n"
+"PO-Revision-Date: 2020-12-10 05:22\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Installation"
 
 #: ../../installation.rst:4
 msgid "Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы."
-msgstr ""
+msgstr "You can install pgCodeKeeper with a separate build. First, you should install `Java SDK <https://jdk.dev/>`_ for your platform."
 
 #: ../../installation.rst:6
 msgid "Последнюю версию сборки pgCodeKeeper можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
