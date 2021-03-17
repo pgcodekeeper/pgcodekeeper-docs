@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-27 13:31+0300\n"
+"POT-Creation-Date: 2021-03-17 16:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,31 +78,35 @@ msgstr ""
 msgid "Акифьев Антон"
 msgstr ""
 
-#: ../../contributors.rst:28
-msgid "Шайдуллин Ильдар"
-msgstr ""
-
-#: ../../contributors.rst:31
-msgid "Дизайн и вёрстка сайта"
-msgstr ""
-
-#: ../../contributors.rst:33
+#: ../../contributors.rst:28 ../../contributors.rst:35
 msgid "Хазиева Гульназ"
 msgstr ""
 
-#: ../../contributors.rst:34
+#: ../../contributors.rst:29
+msgid "Тавтурин Михаил"
+msgstr ""
+
+#: ../../contributors.rst:30
+msgid "Шайдуллин Ильдар"
+msgstr ""
+
+#: ../../contributors.rst:33
+msgid "Дизайн и вёрстка сайта"
+msgstr ""
+
+#: ../../contributors.rst:36
 msgid "Демаков Василий"
 msgstr ""
 
-#: ../../contributors.rst:37
+#: ../../contributors.rst:39
 msgid "Перевод документации"
 msgstr ""
 
-#: ../../contributors.rst:39
+#: ../../contributors.rst:41
 msgid "Пигин Кирилл"
 msgstr ""
 
-#: ../../contributors.rst:40
+#: ../../contributors.rst:42
 msgid "Мы ищем контрибьюторов для выполнения перевода документации."
 msgstr ""
 
