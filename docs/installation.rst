@@ -17,7 +17,7 @@ Eclipse Marketplace
 
 Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**.
 
-Для установки не последней версии pgCodeKeeper перейдите в https://github.com/pgcodekeeper/pgcodekeeper/releases и скачайте нужную вам версию релиза и установите его вручную. На сайте представлены архивы релизов версии 5.10.5 и выше.
+Для установки предыдущих версий pgCodeKeeper перейдите по ссылке https://github.com/pgcodekeeper/pgcodekeeper/releases и скачайте нужную вам версию релиза и установите его вручную. На сайте представлены архивы релизов версии 5.10.5 и выше.
 
 Сайт обновления
 ~~~~~~~~~~~~~~~
