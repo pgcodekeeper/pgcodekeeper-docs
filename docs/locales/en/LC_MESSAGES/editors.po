@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-17 16:40\n"
+"PO-Revision-Date: 2021-03-18 05:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Object counter"
 
 #: ../../editors.rst:20
 msgid "**Панель инструментов Eclipse** содержит инструменты для работы с редактором SQL. Кнопка |file| позволяет открыть новый :ref:`sqlEditor`."
-msgstr ""
+msgstr "**Eclipse tool bar** contains tools for working with SQL editor. The |file| button allows you to open a new :ref:`sqlEditor`."
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
@@ -76,31 +76,31 @@ msgstr "|copy_edit| – copy the set of selected objects to the clipboard as a r
 
 #: ../../editors.rst:28
 msgid "|empty_filter| – неактивный / |filter_tsk| – активный фильтр объектов."
-msgstr ""
+msgstr "|empty_filter| – inactive / |filter_tsk| – active object filter."
 
 #: ../../editors.rst:29
 msgid "|search| – отфильтровать список объектов по имени или регулярному выражению."
-msgstr ""
+msgstr "|search| – filter list of objects by name or regular expression."
 
 #: ../../editors.rst:30
 msgid "|save_edit| – применить изменения"
-msgstr ""
+msgstr "|save_edit| – apply changes"
 
 #: ../../editors.rst:31
 msgid "⯆ – выпадающее меню с направлениями изменений"
-msgstr ""
+msgstr "⯆ – a drop-down menu containing the direction of changes"
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
-msgstr ""
+msgstr "|refresh| – get changes"
 
 #: ../../editors.rst:33
 msgid "⯆ – выпадающее меню с источниками баз данных"
-msgstr ""
+msgstr "⯆ – a drop-down menu containing the databases sources"
 
 #: ../../editors.rst:35
 msgid "Выпадающие меню ⯆ позволяют запустить операции получения или применения изменений с переопределением некоторых настроек."
-msgstr ""
+msgstr "The ⯆ drop-down menus allow us to launch the operations of receiving and applying changes with overriding some settings."
 
 #: ../../editors.rst:37
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
