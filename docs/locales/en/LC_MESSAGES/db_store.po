@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-18 04:46\n"
+"PO-Revision-Date: 2021-03-18 05:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -32,15 +32,15 @@ msgstr "In the SQL editor, the DB source is selected from the drop-down menu on 
 
 #: ../../db_store.rst:13
 msgid "В списках источников БД показаны доступные подключения к БД и последние три дамп-файла."
-msgstr ""
+msgstr "The DB sources lists display the available DB connections, as well as the three latest dump files."
 
 #: ../../db_store.rst:15
 msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по пункту **Add DB connection / Добавить подключение к БД** в выпадающем меню кнопки **Get Changes / Получить изменения** |refresh|."
-msgstr ""
+msgstr "You can find the databases list in :ref:`dbStore`, which can be accessed from the **Add DB connection** item in the **Get Changes** |refresh| drop-down list."
 
 #: ../../db_store.rst:17
 msgid "Для выбора файл-дампа необходимо выбрать элемент списка **Load from file... / Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
-msgstr ""
+msgstr "To select a dump file, you should select the item from the **Load from file...** list. In the appeared dialog window select the required file and click **OK**. The selected file is added to the database source list."
 
 #~ msgid ""
 #~ "Список баз данных находится в "
