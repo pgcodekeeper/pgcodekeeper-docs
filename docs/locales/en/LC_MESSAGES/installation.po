@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-17 18:58+0300\n"
-"PO-Revision-Date: 2021-03-17 16:40\n"
+"PO-Revision-Date: 2021-03-18 05:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Enter \"pgCodeKeeper\" into the search box."
 
 #: ../../installation.rst:17
 msgid "Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish, и начнется установка последней версии pgCodeKeeper."
-msgstr ""
+msgstr "Select the pgCodeKeeper package, review the Terms of service, and click Finish for the installation of the latest pgCodeKeeper version to begin."
 
 #: ../../installation.rst:21 ../../installation.rst:40
 msgid "По завершению установки для применения изменений необходимо перезапустить Eclipse."
@@ -60,7 +60,7 @@ msgstr "Launch Eclipse and select **Window > Perspective > Open Perspective > Ot
 
 #: ../../installation.rst:25
 msgid "Для установки предыдущих версий pgCodeKeeper перейдите по ссылке https://github.com/pgcodekeeper/pgcodekeeper/releases и скачайте нужную вам версию релиза и установите его вручную. На сайте представлены архивы релизов версии 5.10.5 и выше."
-msgstr ""
+msgstr "To download a previous pgCodeKeeper version, go to https://github.com/pgcodekeeper/pgcodekeeper/releases, download the required release version, and install it manually. On the website, you can find release versions starting with 5.10.5."
 
 #: ../../installation.rst:28
 msgid "Сайт обновления"
