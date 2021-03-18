@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-17 16:40\n"
+"PO-Revision-Date: 2021-03-18 04:46\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgstr "Selecting of the database source"
 
 #: ../../db_store.rst:5
 msgid "В редакторе проекта для выбора источника БД используется выпадающее меню **Get Changes / Получить изменения** |refresh|."
-msgstr ""
+msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down menu to select the DB source."
 
 #: ../../db_store.rst:9
 msgid "В редакторе SQL выбор источника БД происходит в выпадающем списке на панели инструментов Eclipse."
-msgstr ""
+msgstr "In the SQL editor, the DB source is selected from the drop-down menu on the Eclipse tool bar."
 
 #: ../../db_store.rst:13
 msgid "В списках источников БД показаны доступные подключения к БД и последние три дамп-файла."
