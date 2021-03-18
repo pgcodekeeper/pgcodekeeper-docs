@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-17 16:40\n"
+"PO-Revision-Date: 2021-03-18 04:46\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr "Gulnaz Khazieva"
 
 #: ../../contributors.rst:29
 msgid "Тавтурин Михаил"
-msgstr ""
+msgstr "Mikhail Tavturin"
 
 #: ../../contributors.rst:30
 msgid "Шайдуллин Ильдар"
