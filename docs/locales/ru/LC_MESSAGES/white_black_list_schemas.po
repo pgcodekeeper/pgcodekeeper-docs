@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 5.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-11 16:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../white_black_list_schemas.rst:5
+msgid "Исключение схем при загрузке"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:6
+msgid ""
+"В pgCodeKeeper реализована возможность выборочной загрузки объектов из "
+"базы данных. Для того, чтобы загрузить только определенные объекты, их "
+"нужно указать в списке исключаемых схем."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:8
+msgid ""
+"Список исключаемых схем - это список схем с их содержимым, которые не "
+"должны или наоборот должны загружаться с БД."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:10
+msgid ""
+"Схемы и их содержимое, отфильтрованные данными списками, участвуют в "
+"сравнении и могут попасть в итоговый скрипт миграции по зависимости."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:12
+msgid "Существует два типа списков исключаемых схем:"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:15
+msgid "черный список"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:15
+msgid ""
+"разрешает отображение всех объектов, кроме объектов из указанных схем и "
+"самой схемы в правилах списка;"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:18
+msgid "белый список"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:18
+msgid ""
+"работает противоположно черному, запрещает отображение всех объектов, "
+"кроме объектов из указанных схем  и самой схемы  в правилах списка."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:20
+msgid ""
+"В каждом проекте можно создать **список исключаемых схем**, "
+"распространяющий свое действие только на данный проект, для этого в корне"
+" проекта необходимо создать файл **.pgcodekeeperignoreschema** и "
+"заполнить его правилами согласно синтаксису списков."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:22
+msgid ""
+"Формат файла **.pgcodekeeperignoreschema** чувствителен к регистру. "
+"Кодировка должна быть – UTF-8."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:24
+msgid ""
+"Для файла **.pgcodekeeperignoreschema** действуют те же правила "
+"заполнения, что и для :ref:`ignoreList` (смотри раздел "
+":ref:`listSyntax`)."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:26
+msgid ""
+"Мы можем применить список исключаемых схем и в :ref:`dbStore`. "
+":ref:`cliVersion` pgCodeKeeper командой: ``pgcodekeeper-cli --ignore-"
+"schema <path> SOURCE DEST``."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:30
+msgid "Выбор объектов"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:32
+msgid ""
+"При выборе флага Pattern(REGEX) в окне создания нового правила поиск "
+"объекта будет производится по регулярному выражению, указанном в поле для"
+" имени объекта. |ignore-schema|"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:37
+msgid "Пример использования исключения схем при загрузке"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:39
+msgid ""
+"Например, нам понадобилось загрузить все объекты из базы данных, кроме "
+"объектов из схемы worker. Добавляем в список исключаемых схем worker, "
+"выбираем флаг Black-list / Черный список  в интерфейсе исключаемых схем:"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:41
+msgid "|black_list_2|"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:43
+msgid "Нажимаем Apply and Close."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:45
+msgid ""
+"В редакторе проекта  кликаем по Changes / Получить изменения** |refresh|."
+" На панели различий нет объектов из схемы worker!"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:47
+msgid "|black_list_worker|"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:49
+msgid ""
+"Если нам необходимо загрузить только объекты из схемы worker, то в "
+"интерфейсе исключаемых схем выбираем флаг White-list / Белый список. В "
+"результате на панели различий мы получим объекты только из схемы worker."
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:52
+msgid "|white_list_worker|"
+msgstr ""
+

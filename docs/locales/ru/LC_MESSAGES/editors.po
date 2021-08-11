@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-17 16:21+0300\n"
+"POT-Creation-Date: 2021-08-11 16:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../editors.rst:3
 msgid "Редакторы и панели"
@@ -97,7 +97,9 @@ msgid "|save_edit| – применить изменения"
 msgstr ""
 
 #: ../../editors.rst:31
-msgid "⯆ – выпадающее меню с направлениями изменений"
+msgid ""
+"⯆ – выпадающее меню с направлениями изменений. При клике по лейблу "
+"Project/ Проект также отображается меню с направлениями изменений."
 msgstr ""
 
 #: ../../editors.rst:32
@@ -105,7 +107,9 @@ msgid "|refresh| – получить изменения"
 msgstr ""
 
 #: ../../editors.rst:33
-msgid "⯆ – выпадающее меню с источниками баз данных"
+msgid ""
+"⯆ – выпадающее меню с источниками баз данных. Источники баз данных можно "
+"выбрать и в элементе комбобокс."
 msgstr ""
 
 #: ../../editors.rst:35
@@ -437,5 +441,17 @@ msgstr ""
 #~ "получения или применения изменений к БД"
 #~ " с одноразовым переопределением некоторых "
 #~ "настроек."
+#~ msgstr ""
+
+#~ msgid "⯆ – выпадающее меню с направлениями изменений"
+#~ msgstr ""
+
+#~ msgid "⯆ – выпадающее меню с источниками баз данных"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⯆ – выпадающее меню с источниками "
+#~ "баз данных. Источники баз данных можно"
+#~ " выбрать и в комбобоксе."
 #~ msgstr ""
 
