@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 16:25+0300\n"
-"PO-Revision-Date: 2021-08-12 05:29\n"
+"PO-Revision-Date: 2021-08-12 06:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -100,11 +100,11 @@ msgstr "To edit a file, click |editor_area|. The editor of list of rules from cu
 
 #: ../../properties.rst:53
 msgid "Исключенные схемы"
-msgstr ""
+msgstr "Ignored schemas"
 
 #: ../../properties.rst:55
 msgid "Настройки, регулирующие загрузку объектов из базы данных. Подробное описание работы находится в разделе :ref:`ignoreSchemaList`."
-msgstr ""
+msgstr "Settings that regulate the uploading of objects from the database. See the :ref:`ignoreSchemaList` section for more details."
 
 #: ../../properties.rst:59
 msgid "Для добавления объекта нажмите кнопку |add_obj| - откроется редактор добавления нового объекта."
@@ -112,11 +112,11 @@ msgstr "Click |add_obj| to add a new object. A new object editor will open."
 
 #: ../../properties.rst:61
 msgid "Для удаления объекта нажмите кнопку |delete|."
-msgstr ""
+msgstr "To delete an object, click |delete|."
 
 #: ../../properties.rst:63
 msgid "Если возникла необходимость изменить название объекта, надо кликнуть по имени объекта и ввести новое имя."
-msgstr ""
+msgstr "If you need to change an object's name, click the name and enter a new one."
 
 #: ../../properties.rst:67
 msgid "Библиотечные зависимости"
