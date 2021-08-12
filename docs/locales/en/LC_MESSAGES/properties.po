@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 16:25+0300\n"
-"PO-Revision-Date: 2021-08-11 13:50\n"
+"PO-Revision-Date: 2021-08-12 05:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../properties.rst:59
 msgid "Для добавления объекта нажмите кнопку |add_obj| - откроется редактор добавления нового объекта."
-msgstr ""
+msgstr "Click |add_obj| to add a new object. A new object editor will open."
 
 #: ../../properties.rst:61
 msgid "Для удаления объекта нажмите кнопку |delete|."
