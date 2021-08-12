@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2020-06-15 10:14\n"
+"PO-Revision-Date: 2021-08-12 06:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "pgCodeKeeper User Guide"
 
 #: ../../index.rst:5
 msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
-msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL DB schemas and selective applying the differences, considering possible dependences between the scheme objects."
+msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL DB schemas and selective applying the differences, considering possible dependences between the schema objects."
 
 #: ../../index.rst:7
 msgid "Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре."
