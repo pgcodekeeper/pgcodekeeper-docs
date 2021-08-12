@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 16:32+0300\n"
-"PO-Revision-Date: 2021-08-11 13:50\n"
+"PO-Revision-Date: 2021-08-12 05:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "|save_edit| – apply changes"
 
 #: ../../editors.rst:31
 msgid "⯆ – выпадающее меню с направлениями изменений. При клике по лейблу Project/ Проект также отображается меню с направлениями изменений."
-msgstr ""
+msgstr "⯆ – drop-down menu with the directions of changes. If you click the Project label, you will also see the menu with the directions of changes."
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
@@ -96,7 +96,7 @@ msgstr "|refresh| – get changes"
 
 #: ../../editors.rst:33
 msgid "⯆ – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать и в элементе комбобокс."
-msgstr ""
+msgstr "⯆ – drop-down menu with database sources. You can also select the database sources in the combo box element."
 
 #: ../../editors.rst:35
 msgid "Выпадающие меню ⯆ позволяют запустить операции получения или применения изменений с переопределением некоторых настроек."
