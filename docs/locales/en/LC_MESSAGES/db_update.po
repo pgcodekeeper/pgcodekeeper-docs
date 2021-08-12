@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 16:32+0300\n"
-"PO-Revision-Date: 2021-08-11 13:50\n"
+"PO-Revision-Date: 2021-08-12 05:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Updating remote database"
 
 #: ../../db_update.rst:5
 msgid "На панели инструментов редактора проекта открываем выпадающее меню кнопки **Get Changes / Получить изменения** |refresh| или в выпадающем списке на панели инструментов редактора. Далее выбираем источник базы данных, на основании которого будет сгенерирован DDL скрипт для применения изменений к удаленной базе данных."
-msgstr ""
+msgstr "On the project editor tool bar, open the set the **Get Changes** |refresh| drop-down menu, or in the drop-down list on the editor tool bar. Next, select the database source based on which a DDL script for applying changes to the remote database will be generated."
 
 #: ../../db_update.rst:7
 msgid "Нажимаем кнопку |refresh|. После недолгого ожидания на панели различий отобразится список объектов с указанием типа изменения."
@@ -32,7 +32,7 @@ msgstr "Click |refresh|. After a short wait, the list of objects with the indica
 
 #: ../../db_update.rst:11
 msgid "Открываем выпадающее меню кнопки **Применить / Apply** |save_edit| и выбираем |database| **БД / DB**. Такое же меню выбора направления изменений можно получить кликнув по лейблу project / проект. Отмечаем флажками необходимые изменения, нажимаем на кнопку |save_edit|."
-msgstr ""
+msgstr "Open the **Apply** |save_edit| drop-down menu and select |database| **DB**. You can get the same menu of selecting the direction of changes if you click the Project label. Tick the necessary changes and click |save_edit|."
 
 #: ../../db_update.rst:13
 msgid "После окончания генерации скрипта откроется SQL редактор. Проверяем сгенерированный скрипт, при необходимости вносим изменения самостоятельно."
