@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 16:32+0300\n"
-"PO-Revision-Date: 2021-08-12 04:31\n"
+"PO-Revision-Date: 2021-08-12 05:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "The DB sources lists display the available DB connections, as well as th
 
 #: ../../db_store.rst:21
 msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по пункту **Add DB connection / Добавить подключение к БД** в выпадающем меню кнопки **Get Changes / Получить изменения** |refresh| или комбобокса."
-msgstr ""
+msgstr "You can find the databases list in :ref:`dbStore`, which can be accessed from the **Add DB connection** item in the **Get Changes** |refresh| drop-down list or combo box."
 
 #: ../../db_store.rst:23
 msgid "Для выбора файл-дампа необходимо выбрать элемент списка **Load from file... / Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
