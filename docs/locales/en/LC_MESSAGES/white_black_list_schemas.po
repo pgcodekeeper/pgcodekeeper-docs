@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 17:09+0300\n"
-"PO-Revision-Date: 2021-08-11 14:50\n"
+"PO-Revision-Date: 2021-08-12 06:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -20,43 +20,43 @@ msgstr ""
 
 #: ../../white_black_list_schemas.rst:5
 msgid "Исключение схем при загрузке"
-msgstr ""
+msgstr "Ignoring schemas when downloading"
 
 #: ../../white_black_list_schemas.rst:6
 msgid "В pgCodeKeeper реализована возможность выборочной загрузки объектов из базы данных. Для того, чтобы загрузить содержимое определенных схем, их нужно указать в списке исключаемых схем."
-msgstr ""
+msgstr "pgCodeKeeper has a feature of a selective downloading of objects from the database. To download the content of specific database schemas, you should select them on the list of ignored schemas."
 
 #: ../../white_black_list_schemas.rst:8
 msgid "Список исключаемых схем - это список схем с их содержимым, которые не должны или наоборот должны загружаться с БД."
-msgstr ""
+msgstr "List of ignored schemas is a list of schemas and thier content that shouldn't or should be downloaded from the DB."
 
 #: ../../white_black_list_schemas.rst:11
 msgid "Существует два типа списков исключаемых схем:"
-msgstr ""
+msgstr "There are two types of lists of ignored schemas:"
 
 #: ../../white_black_list_schemas.rst:14
 msgid "черный список"
-msgstr ""
+msgstr "black list"
 
 #: ../../white_black_list_schemas.rst:14
 msgid "разрешает отображение всех объектов, кроме объектов из указанных схем и самой схемы в правилах списка;"
-msgstr ""
+msgstr "allows displaying of all the objects except the ones from the specified schemas and the schemas themselves in the list rules;"
 
 #: ../../white_black_list_schemas.rst:17
 msgid "белый список"
-msgstr ""
+msgstr "white list"
 
 #: ../../white_black_list_schemas.rst:17
 msgid "работает противоположно черному, запрещает отображение всех объектов, кроме объектов из указанных схем  и самой схемы  в правилах списка."
-msgstr ""
+msgstr "as opposed to the black list, it forbids displaying of all the objects except the ones from the specified schemas and the schemas themselves in the list rules."
 
 #: ../../white_black_list_schemas.rst:19
 msgid "В каждом проекте можно создать **список исключаемых схем**, распространяющий свое действие только на данный проект, для этого в корне проекта необходимо создать файл **.pgcodekeeperignoreschema** и заполнить его правилами согласно синтаксису списков."
-msgstr ""
+msgstr "In each project, it is possible to create an **ignored objects list**, applying only to current project. To do this, create the **.pgcodekeeperignoreschema** file in the project root and fill it with the rules according to the list syntax."
 
 #: ../../white_black_list_schemas.rst:21
 msgid "Формат файла **.pgcodekeeperignoreschema** чувствителен к регистру. Кодировка должна быть – UTF-8."
-msgstr ""
+msgstr "The **.pgcodekeeperignoreschema** file format is case-sensitive. You should use UTF-8."
 
 #: ../../white_black_list_schemas.rst:23
 msgid "Для файла **.pgcodekeeperignoreschema** действуют те же правила заполнения, что и для :ref:`ignoreList` (смотри раздел :ref:`listSyntax`)."
