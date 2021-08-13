@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 17:09+0300\n"
-"PO-Revision-Date: 2021-08-12 07:25\n"
+"PO-Revision-Date: 2021-08-13 07:56\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "pgCodeKeeper has a feature of a selective downloading of objects from th
 
 #: ../../white_black_list_schemas.rst:8
 msgid "Список исключаемых схем - это список схем с их содержимым, которые не должны или наоборот должны загружаться с БД."
-msgstr "List of ignored schemas is a list of schemas and thier content that shouldn't or should be downloaded from the DB."
+msgstr "List of ignored schemas is a list of schemas and their content that shouldn't or should be downloaded from the DB."
 
 #: ../../white_black_list_schemas.rst:11
 msgid "Существует два типа списков исключаемых схем:"
