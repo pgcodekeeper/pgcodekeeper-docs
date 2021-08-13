@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-16 10:31+0300\n"
-"PO-Revision-Date: 2020-06-16 08:02\n"
+"PO-Revision-Date: 2021-08-12 06:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "In each project, it is possible to create a **ignore list**, applying on
 
 #: ../../white_black_list.rst:21
 msgid "Формат файла **.pgcodekeeperignore** чувствителен к регистру. Кодировка должна быть – UTF-8."
-msgstr "The **.pgcodekeeperignore** file format is case sensitive. You should use UTF-8."
+msgstr "The **.pgcodekeeperignore** file format is case-sensitive. You should use UTF-8."
 
 #: ../../white_black_list.rst:23
 msgid "Ниже, в разделе :ref:`listSyntax` рассмотрим правила формирования файла **.pgcodekeeperignore**."
@@ -232,7 +232,7 @@ msgstr "separation symbols contained in the line, are escaped by repeating the s
 
 #: ../../white_black_list.rst:111
 msgid "\"objectType\" чувствителен к регистру."
-msgstr "\"objectType\" is case sensitive."
+msgstr "\"objectType\" is case-sensitive."
 
 #: ../../white_black_list.rst:114
 msgid "flag { NONE | REGEX | CONTENT | QUALIFIED }"

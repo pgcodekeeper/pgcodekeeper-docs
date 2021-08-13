@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-18 05:54\n"
+"POT-Creation-Date: 2021-08-11 16:32+0300\n"
+"PO-Revision-Date: 2021-08-12 05:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,22 +23,26 @@ msgid "Выбор источника базы данных"
 msgstr "Selecting of the database source"
 
 #: ../../db_store.rst:5
-msgid "В редакторе проекта для выбора источника БД используется выпадающее меню **Get Changes / Получить изменения** |refresh|."
-msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down menu to select the DB source."
+msgid "В редакторе проекта для выбора источника БД используется выпадающее меню **Get Changes / Получить изменения** |refresh|"
+msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down menu to select the DB source"
 
-#: ../../db_store.rst:9
+#: ../../db_store.rst:10
+msgid "или выпдающий список."
+msgstr "or the drop-down list."
+
+#: ../../db_store.rst:15
 msgid "В редакторе SQL выбор источника БД происходит в выпадающем списке на панели инструментов Eclipse."
 msgstr "In the SQL editor, the DB source is selected from the drop-down menu on the Eclipse tool bar."
 
-#: ../../db_store.rst:13
+#: ../../db_store.rst:19
 msgid "В списках источников БД показаны доступные подключения к БД и последние три дамп-файла."
 msgstr "The DB sources lists display the available DB connections, as well as the three latest dump files."
 
-#: ../../db_store.rst:15
-msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по пункту **Add DB connection / Добавить подключение к БД** в выпадающем меню кнопки **Get Changes / Получить изменения** |refresh|."
-msgstr "You can find the databases list in :ref:`dbStore`, which can be accessed from the **Add DB connection** item in the **Get Changes** |refresh| drop-down list."
+#: ../../db_store.rst:21
+msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по пункту **Add DB connection / Добавить подключение к БД** в выпадающем меню кнопки **Get Changes / Получить изменения** |refresh| или комбобокса."
+msgstr "You can find the databases list in :ref:`dbStore`, which can be accessed from the **Add DB connection** item in the **Get Changes** |refresh| drop-down list or combo box."
 
-#: ../../db_store.rst:17
+#: ../../db_store.rst:23
 msgid "Для выбора файл-дампа необходимо выбрать элемент списка **Load from file... / Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
 msgstr "To select a dump file, you should select the item from the **Load from file...** list. In the appeared dialog window select the required file and click **OK**. The selected file is added to the database source list."
 
@@ -82,5 +86,23 @@ msgstr "To select a dump file, you should select the item from the **Load from f
 #~ " и нажимаем кнопку **OK**. Выбранный "
 #~ "файл добавлен в список источников баз"
 #~ " данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "В редакторе проекта для выбора источника"
+#~ " БД используется выпадающее меню **Get "
+#~ "Changes / Получить изменения** |refresh|."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Список баз данных находится в "
+#~ ":ref:`dbStore`, в которое можно перейти "
+#~ "по пункту **Add DB connection / "
+#~ "Добавить подключение к БД** в выпадающем"
+#~ " меню кнопки **Get Changes / Получить"
+#~ " изменения** |refresh|."
+#~ msgstr ""
+
+#~ msgid "или комбобокс."
 #~ msgstr ""
 
