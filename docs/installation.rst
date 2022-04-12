@@ -1,6 +1,11 @@
 =========
 Установка
 =========
+Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы.
+
+Последнюю версию сборки pgCodeKeeper можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
+
+Кроме обычной установки вы можете поставить pgCodeKeeper в ваш Eclipse IDE.
 
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
@@ -9,13 +14,15 @@ Eclipse Marketplace
 
 В поле поиска ввести: pgCodeKeeper.
 
-Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка.
+Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish, и начнется установка последней версии pgCodeKeeper.
 
 .. image:: ../images/marketplace.png
 
 По завершению установки для применения изменений необходимо перезапустить Eclipse.
 
 Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**.
+
+Для установки предыдущих версий pgCodeKeeper перейдите по ссылке https://github.com/pgcodekeeper/pgcodekeeper/releases и скачайте нужную вам версию релиза и установите его вручную. На сайте представлены архивы релизов версии 5.10.5 и выше.
 
 Сайт обновления
 ~~~~~~~~~~~~~~~

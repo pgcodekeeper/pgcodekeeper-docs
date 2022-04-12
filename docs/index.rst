@@ -46,6 +46,7 @@
    :caption: Дополнительная информация
 
    white_black_list
+   white_black_list_schemas
    cli_version
    windowsauth
    contributors

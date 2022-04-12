@@ -49,10 +49,18 @@
 Для редактирования файла нажмите кнопку |editor_area|. Будет открыт редактор списка правил из текущего файла.
 
 
-.. |add_file| image:: ../images/pgcodekeeper_project_view/add_file.png
-.. |delete| image:: ../images/pgcodekeeper_project_view/delete_obj.gif
-.. |add_obj| image:: ../images/pgcodekeeper_project_view/add_obj.gif
-.. |editor_area| image:: ../images/pgcodekeeper_project_view/editor_area.gif
+Исключенные схемы
+~~~~~~~~~~~~~~~~~
+
+Настройки, регулирующие загрузку объектов из базы данных. Подробное описание работы находится в разделе :ref:`ignoreSchemaList`.
+
+.. image:: ../images/ignored_schemas.png
+
+Для добавления объекта нажмите кнопку |add_obj| - откроется редактор добавления нового объекта.
+
+Для удаления объекта нажмите кнопку |delete|.
+
+Если возникла необходимость изменить название объекта, надо кликнуть по имени объекта и ввести новое имя.
 
 
 Библиотечные зависимости
@@ -84,3 +92,9 @@
 Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`.
 
 .. image:: ../images/db_update_props.png
+
+
+.. |add_file| image:: ../images/pgcodekeeper_project_view/add_file.png
+.. |add_obj| image:: ../images/pgcodekeeper_project_view/add_obj.gif
+.. |delete| image:: ../images/pgcodekeeper_project_view/delete_obj.gif
+.. |editor_area| image:: ../images/pgcodekeeper_project_view/editor_area.gif
