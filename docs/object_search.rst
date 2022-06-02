@@ -48,3 +48,12 @@
 
 .. |empty_filter| image:: ../images/pgcodekeeper_project_view/empty_filter.png
 .. |filter_tsk| image:: ../images/pgcodekeeper_project_view/filter_tsk.png
+
+
+Поиск ссылок на объекты
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Для поиска всех ссылок на необходимый объект, необхоимо выделить этот объект и воспользоваться горячей клавишой Ctrl+Shift+G или в контекстном меню редактора SQL выбрать **Find references / Найти ссылки**
+
+.. image:: ../images/find_references.png
+

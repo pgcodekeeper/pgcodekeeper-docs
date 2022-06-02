@@ -9,14 +9,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2022-06-02 16:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../index.rst:17
+msgid "Начало работы"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "Задачи"
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Known Issues"
+msgstr ""
+
+#: ../../index.rst:51
+msgid "Дополнительная информация"
+msgstr ""
 
 #: ../../index.rst:3
 msgid "Руководство пользователя pgCodeKeeper"
@@ -47,17 +63,5 @@ msgstr ""
 msgid ""
 "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
 "`GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
-msgstr ""
-
-#: ../../index.rst:17
-msgid "Начало работы"
-msgstr ""
-
-#: ../../index.rst:29
-msgid "Задачи"
-msgstr ""
-
-#: ../../index.rst:43
-msgid "Дополнительная информация"
 msgstr ""
 

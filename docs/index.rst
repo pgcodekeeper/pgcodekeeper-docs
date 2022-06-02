@@ -34,12 +34,19 @@
    project_update
    db_update
    object_search
+   refactoring
    project_edit
    feedback
    sort
    db_store
    diff
    mock_data
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Known Issues
+
+   data_migration
 
 .. toctree::
    :maxdepth: 1
