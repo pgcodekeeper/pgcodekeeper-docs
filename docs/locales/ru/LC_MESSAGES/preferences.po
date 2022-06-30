@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 16:32+0300\n"
+"POT-Creation-Date: 2022-06-30 14:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,67 +268,67 @@ msgstr ""
 msgid ""
 "**Migrate data when re-creationg tables / Мигрировать данные при "
 "пересоздании таблиц** - опция, позволяющая пересоздавать таблицы с "
-"сохранением данных в ней."
+"сохранением данных в ней. Перенос данных осуществляется для таблиц с "
+"IDENTITY SEQUENCE колонками."
 msgstr ""
 
 #: ../../preferences.rst:65
 msgid ""
-"Перенос данных осуществляется для таблиц с IDENTITY SEQUENCE колонками. -"
-" **Migration command / Команда миграции** - позволяет использовать другую"
-" утилиту или параметры запуска при применении скрипта наката к базе "
+"**Migration command / Команда миграции** - позволяет использовать другую "
+"утилиту или параметры запуска при применении скрипта наката к базе "
 "данных."
 msgstr ""
 
-#: ../../preferences.rst:70
+#: ../../preferences.rst:69
 msgid "Отчеты об использовании"
 msgstr ""
 
-#: ../../preferences.rst:72
+#: ../../preferences.rst:71
 msgid "Настройки, управляющие отправкой отчетов."
 msgstr ""
 
-#: ../../preferences.rst:76
+#: ../../preferences.rst:75
 msgid ""
 "На странице настроек **pgCodeKeeper -> Usage Reporting / Отчеты об "
 "использовании** Вы можете включить или выключить отправление статистики "
 "об использовании pgCodeKeeper."
 msgstr ""
 
-#: ../../preferences.rst:78
+#: ../../preferences.rst:77
 msgid ""
 "Отправляемые значения для статистики Вы можете просмотреть в поле "
 "**Reported Values / Отправляемые значения**."
 msgstr ""
 
-#: ../../preferences.rst:83
+#: ../../preferences.rst:82
 msgid "Редактор проекта"
 msgstr ""
 
-#: ../../preferences.rst:85
+#: ../../preferences.rst:84
 msgid "Настройки, управляющие редактором проекта."
 msgstr ""
 
-#: ../../preferences.rst:89
+#: ../../preferences.rst:88
 msgid ""
 "На странице настроек **pgCodeKeeper -> Project editor / Редактор "
 "проекта** Вы можете настроить параметры редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:91
+#: ../../preferences.rst:90
 msgid ""
 "**Switch to pgCodeKeeper perspective when opening editor / Переключать в "
 "перспективу pgCodeKeeper при открытии редактора** – определяет поведение "
 "переключения перспективы при открытии редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:92
+#: ../../preferences.rst:91
 msgid ""
 "**After applying a migration to editor's DB do: / После выполнения "
 "миграции на БД редактора выполнить:** – определяет поведение редактора "
 "при накате скриптов миграции."
 msgstr ""
 
-#: ../../preferences.rst:93
+#: ../../preferences.rst:92
 msgid ""
 "**Display git user that math the change / Отображать пользователя git, "
 "совершившего изменение** – позволяет отображать в редакторе колонку с "
@@ -336,28 +336,28 @@ msgid ""
 "находиться под системой контроля версий."
 msgstr ""
 
-#: ../../preferences.rst:94
+#: ../../preferences.rst:93
 msgid ""
 "**Show errors while getting changes / Показывать ошибки во время "
 "получения изменений** – позволяет отображать список ошибок, найденных во "
 "время получения изменений."
 msgstr ""
 
-#: ../../preferences.rst:98
+#: ../../preferences.rst:97
 msgid "Редактор SQL"
 msgstr ""
 
-#: ../../preferences.rst:100
+#: ../../preferences.rst:99
 msgid "Настройки, управляющие редактором SQL."
 msgstr ""
 
-#: ../../preferences.rst:104
+#: ../../preferences.rst:103
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL** Вы "
 "можете настроить параметры редактора SQL."
 msgstr ""
 
-#: ../../preferences.rst:106
+#: ../../preferences.rst:105
 msgid ""
 "**Disable parser for files larger than (lines): / Отключить парсер для "
 "файлов больше чем (строки):** – позволяет выбрать размер файла, для "
@@ -366,82 +366,82 @@ msgid ""
 "файла. Значение равное 0 отключает данное поведение."
 msgstr ""
 
-#: ../../preferences.rst:107
+#: ../../preferences.rst:106
 msgid ""
 "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в "
 "одном из режимов."
 msgstr ""
 
-#: ../../preferences.rst:108
+#: ../../preferences.rst:107
 msgid ""
 "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную"
 " скобку."
 msgstr ""
 
-#: ../../preferences.rst:109
+#: ../../preferences.rst:108
 msgid ""
 "**Both brackets / Обе скобки** – при выборе скобки, подсвечивает текущую "
 "и парную скобку."
 msgstr ""
 
-#: ../../preferences.rst:110
+#: ../../preferences.rst:109
 msgid ""
 "**Current block brackets / Скобки текущего блока** – подсвечивает скобки,"
 " между которыми находится курсор."
 msgstr ""
 
-#: ../../preferences.rst:111
+#: ../../preferences.rst:110
 msgid ""
 "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать "
 "цвет подсветки скобок."
 msgstr ""
 
-#: ../../preferences.rst:116
+#: ../../preferences.rst:115
 msgid "Форматирование"
 msgstr ""
 
-#: ../../preferences.rst:118
+#: ../../preferences.rst:117
 msgid "Настройки для управления правилами форматирования."
 msgstr ""
 
-#: ../../preferences.rst:120
+#: ../../preferences.rst:119
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> "
 "Formatting / Форматирование** можно установить:"
 msgstr ""
 
-#: ../../preferences.rst:122
+#: ../../preferences.rst:121
 msgid "тип отступа, применяемый в начале строки кода;"
 msgstr ""
 
-#: ../../preferences.rst:123
+#: ../../preferences.rst:122
 msgid "задать ширину отступа для выбранного типа отступа;"
 msgstr ""
 
-#: ../../preferences.rst:124
+#: ../../preferences.rst:123
 msgid "включить/отключить настройку удаления пробелов в конце строки;"
 msgstr ""
 
-#: ../../preferences.rst:125
+#: ../../preferences.rst:124
 msgid "добавление пробелов перед/после операторов."
 msgstr ""
 
-#: ../../preferences.rst:130
+#: ../../preferences.rst:129
 msgid ""
 "Форматирование автоматически применится к коду после использовании "
 "комбинации клавиш Shift+Ctrl+F, или в контекстном меню выбрать пункт "
 "**Format / Форматировать**."
 msgstr ""
 
-#: ../../preferences.rst:136
+#: ../../preferences.rst:135
 msgid "Подсветка синтаксиса"
 msgstr ""
 
-#: ../../preferences.rst:138
+#: ../../preferences.rst:137
 msgid "Настройки, управляющие подсветкой синтаксиса."
 msgstr ""
 
-#: ../../preferences.rst:142
+#: ../../preferences.rst:141
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> "
 "Syntax Coloring / Подсветка синтаксиса** Вы можете установить цвет и "
@@ -449,17 +449,17 @@ msgid ""
 "редакторе pgCodeKeeper."
 msgstr ""
 
-#: ../../preferences.rst:146
+#: ../../preferences.rst:145
 msgid "Шаблоны редактора SQL"
 msgstr ""
 
-#: ../../preferences.rst:148
+#: ../../preferences.rst:147
 msgid ""
 "Создание, удаление и редактирование шаблонов для автоподстановки в SQL "
 "редакторе"
 msgstr ""
 
-#: ../../preferences.rst:152
+#: ../../preferences.rst:151
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL "
 "Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL "
@@ -467,21 +467,21 @@ msgid ""
 "действий отображается справа от списка шаблонов."
 msgstr ""
 
-#: ../../preferences.rst:158
+#: ../../preferences.rst:157
 msgid "Хранилище БД"
 msgstr ""
 
-#: ../../preferences.rst:159
+#: ../../preferences.rst:158
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
 msgstr ""
 
-#: ../../preferences.rst:161
+#: ../../preferences.rst:160
 msgid ""
 "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД** "
 "находится список записей для подключения к базам данных."
 msgstr ""
 
-#: ../../preferences.rst:165
+#: ../../preferences.rst:164
 msgid ""
 "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB "
 "credentials** (Данные подключения к БД), в котором нужно указать "
@@ -492,53 +492,53 @@ msgid ""
 "Автогенерация**."
 msgstr ""
 
-#: ../../preferences.rst:167
+#: ../../preferences.rst:166
 msgid ""
 "pgCodeKeeper поддерживает работу с `pgpass файлом "
 "<https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого "
 "поле с паролем нужно оставить пустым."
 msgstr ""
 
-#: ../../preferences.rst:172
+#: ../../preferences.rst:171
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
 msgstr ""
 
-#: ../../preferences.rst:176
+#: ../../preferences.rst:175
 msgid "Свойства соединения можно дополнить параметрами указанными по адресу:"
 msgstr ""
 
-#: ../../preferences.rst:177
+#: ../../preferences.rst:176
 msgid ""
 "https://jdbc.postgresql.org/documentation/head/connect.html (Для "
 "PostgreSQL)"
 msgstr ""
 
-#: ../../preferences.rst:178
+#: ../../preferences.rst:177
 msgid ""
 "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-"
 "properties (Для MS SQL)"
 msgstr ""
 
-#: ../../preferences.rst:183
+#: ../../preferences.rst:182
 msgid ""
 "**Use external DB loader instead of JDBC / Использовать внешний загрузчик"
 " pg_dump** - позволяет использовать внешний загрузчик для базы данных "
 "вместо JDBC."
 msgstr ""
 
-#: ../../preferences.rst:184
+#: ../../preferences.rst:183
 msgid ""
 "**Loader executable / Исполняемый файл загрузчика** - путь к утилите, "
 "исполняемому файлу или скрипту, используемый для загрузки."
 msgstr ""
 
-#: ../../preferences.rst:185
+#: ../../preferences.rst:184
 msgid ""
 "**Loader custom parameters / Дополнительные параметры загрузчика** - "
 "дополнительные параметры вызова утилиты."
 msgstr ""
 
-#: ../../preferences.rst:189
+#: ../../preferences.rst:188
 msgid ""
 "Для добавления хранилища на основе данных из уже созданного хранилища "
 "следует выделить объект хранилища баз данных, нажать кнопку |copy|. "
@@ -546,7 +546,7 @@ msgid ""
 "можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:191
+#: ../../preferences.rst:190
 msgid ""
 "Для добавления хранилища на основе данных из файла **.pgpass**, нажать "
 "кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать "
@@ -554,59 +554,44 @@ msgid ""
 "источников из pgpass**:"
 msgstr ""
 
-#: ../../preferences.rst:195
+#: ../../preferences.rst:194
 msgid ""
 "В нем нужно выбрать строку с данными на основе которых будет создаваться "
 "хранилище. Откроется диалог **DB credentials / Данные подключения к БД** "
 "в котором можно подтвердить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:199
+#: ../../preferences.rst:198
 msgid ""
 "После этого можно закрывать диалог **Pgpass sources list / Список "
 "источников из pgpass**."
 msgstr ""
 
-#: ../../preferences.rst:201
+#: ../../preferences.rst:200
 msgid ""
 "Для редактирования хранилища выделить объект хранилища баз данных, нажать"
 " кнопку |editor_area|. Откроется диалог **DB credentials / Данные "
 "подключения к БД** в котором можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:203
+#: ../../preferences.rst:202
 msgid ""
 "Для удаления хранилища выбрать необходимую запись и нажать кнопку "
 "|delete|."
 msgstr ""
 
-#: ../../preferences.rst:205
+#: ../../preferences.rst:204
 msgid ""
 "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для"
 " подключения к базам данных и создает одну запись default без данных для "
 "подключения."
 msgstr ""
 
-#: ../../preferences.rst:207
+#: ../../preferences.rst:206
 msgid ""
 "Для сохранения внесенных изменений, в хранилище параметров подключения к "
 "БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply "
 "and Close**."
-msgstr ""
-
-#: ../../preferences.rst:211
-msgid "Хранение паролей"
-msgstr ""
-
-#: ../../preferences.rst:213
-msgid ""
-"При нестабильной работе Eclipse можно отключить хранение паролей в "
-"безопасном хранилище Eclipse. В этом случае пароли БД будут храниться "
-"открытым текстом в рабочем пространстве Eclipse (workspace). Также, "
-"возможно использовать пароли из файла *.pgpass*. Для отключения "
-"сохранения паролей в безопасном хранилище Eclipse выключите флажок в "
-"настройке **Save password in Eclipse secure storage / Сохранять пароли в "
-"безопасном хранилище Eclipse**."
 msgstr ""
 
 #~ msgid ""
@@ -800,5 +785,39 @@ msgstr ""
 #~ "Название записи можно указать вручную, "
 #~ "для этого нужно отключить опцию "
 #~ "**Auto-generate / Автогенерация**."
+#~ msgstr ""
+
+#~ msgid "Хранение паролей"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При нестабильной работе Eclipse можно "
+#~ "отключить хранение паролей в безопасном "
+#~ "хранилище Eclipse. В этом случае пароли"
+#~ " БД будут храниться открытым текстом "
+#~ "в рабочем пространстве Eclipse (workspace)."
+#~ " Также, возможно использовать пароли из "
+#~ "файла *.pgpass*. Для отключения сохранения "
+#~ "паролей в безопасном хранилище Eclipse "
+#~ "выключите флажок в настройке **Save "
+#~ "password in Eclipse secure storage / "
+#~ "Сохранять пароли в безопасном хранилище "
+#~ "Eclipse**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Migrate data when re-creationg tables"
+#~ " / Мигрировать данные при пересоздании "
+#~ "таблиц** - опция, позволяющая пересоздавать"
+#~ " таблицы с сохранением данных в ней."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Перенос данных осуществляется для таблиц "
+#~ "с IDENTITY SEQUENCE колонками. - "
+#~ "**Migration command / Команда миграции** "
+#~ "- позволяет использовать другую утилиту "
+#~ "или параметры запуска при применении "
+#~ "скрипта наката к базе данных."
 #~ msgstr ""
 

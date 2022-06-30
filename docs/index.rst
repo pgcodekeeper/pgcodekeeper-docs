@@ -46,7 +46,7 @@
    :maxdepth: 1
    :caption: Known Issues
 
-   data_migration
+   knows_issues
 
 .. toctree::
    :maxdepth: 1
