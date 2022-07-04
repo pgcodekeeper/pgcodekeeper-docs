@@ -33,20 +33,15 @@
 
    project_update
    db_update
-   object_search
-   refactoring
-   project_edit
-   feedback
-   sort
    db_store
+   sort
+   project_edit
+   formatting
+   refactoring
+   object_search
    diff
    mock_data
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Known Issues
-
-   knows_issues
+   feedback
 
 .. toctree::
    :maxdepth: 1
@@ -56,5 +51,6 @@
    white_black_list_schemas
    cli_version
    windowsauth
+   knows_issues
    contributors
    about

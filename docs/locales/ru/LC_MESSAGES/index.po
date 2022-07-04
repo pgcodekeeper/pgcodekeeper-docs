@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 16:32+0300\n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,7 @@ msgstr ""
 msgid "Задачи"
 msgstr ""
 
-#: ../../index.rst:45
-msgid "Known Issues"
-msgstr ""
-
-#: ../../index.rst:51
+#: ../../index.rst:46
 msgid "Дополнительная информация"
 msgstr ""
 
@@ -64,4 +60,7 @@ msgid ""
 "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
 "`GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr ""
+
+#~ msgid "Known Issues"
+#~ msgstr ""
 
