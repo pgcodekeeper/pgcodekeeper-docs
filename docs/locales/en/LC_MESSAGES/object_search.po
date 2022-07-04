@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2020-06-15 10:14\n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: 2022-07-04 12:05\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,84 +23,122 @@ msgid "Поиск объекта"
 msgstr "Object search"
 
 #: ../../object_search.rst:6
-msgid "Поиск объекта в таблице изменений"
-msgstr "Object search in the changes table"
+msgid "Поиск ссылок на объекты"
+msgstr ""
 
 #: ../../object_search.rst:8
-msgid "Для поиска объектов в таблице изменений удобно воспользоваться полем поиска над списком изменений."
-msgstr "The most convenient way of searching the objects in the changes table is the search box above the changes list."
-
-#: ../../object_search.rst:12
-msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
-msgstr "The search is conducted by the names of the objects. When **RegEx** is ticked off, the search is conducted with the use of regular expressions."
-
-#: ../../object_search.rst:14
-msgid "Для начала просто введите часть имени в поле поиска. В таблице изменений отобразятся объекты, соответствующие данному условию."
-msgstr "To start with, just enter a part of the name into the search box. The objects satisfying this condition will be displayed in the changes table."
-
-#: ../../object_search.rst:16
-msgid "Поле поиска хранит последние 200 запросов."
-msgstr "The search box stores the last 200 entries."
-
-#: ../../object_search.rst:19
-msgid "Фильтры объектов"
-msgstr "Object filters"
-
-#: ../../object_search.rst:21
-msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
-msgstr "To filter the objects, you can use the dialog window which will appear after you click |empty_filter| above the changes filter."
-
-#: ../../object_search.rst:25
-msgid "Список типов объектов позволяет отобразить только выбранные типы объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние объекты."
-msgstr "The object type list allows to display only selected types of objects. Selecting the TABLE or VIEW types will display all the descendant objects."
-
-#: ../../object_search.rst:27
-msgid "Список типов изменений позволяет отобразить только выбранные типы изменений."
-msgstr "The changes type list allows to display only the selected types of changes."
-
-#: ../../object_search.rst:29
-msgid "**Filter by object's SQL code / Фильтр по SQL коду объекта** ищет в совпадения коде генерации объектов."
-msgstr "**Filter by object's SQL code** searches for matches in the object generation code."
-
-#: ../../object_search.rst:31
-msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в схемах с подходящими именами. Также будут отображены и сами объекты схем."
-msgstr "**Search by container** searches for the objects located in the schemas with appropriate names. Schema objeсts will be displayed as well."
-
-#: ../../object_search.rst:33
-msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr "**Search by database user** searches for matches in the authors of object changes in the thirdparty database. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension is necessary for work."
-
-#: ../../object_search.rst:35
-msgid "**Search by git user / Поиск по пользователю git** ищет совпадения по авторам последного изменений объекта в локальном репозитории. Для использования проект должен находиться под системой контроля версий."
-msgstr "**Search by git user** searches for matches in the authors of the latest object change in local repository. This can be used if the project is under the version control system."
-
-#: ../../object_search.rst:37
-msgid "**Show only local changes / Показывать только локальные изменения** отображает изменения произошедшие в локальном репозитории, с момента последнего коммита. Для использования проект должен находиться под системой контроля версий."
-msgstr "**Show only local changes** displays the changes that took place in local repository after the last commit. This can be used if the project is under the version control system."
-
-#: ../../object_search.rst:39
-msgid "**Hide library objects / Скрывать библиотечные объекты** скрывает объекты загруженные из библиотек."
-msgstr "**Hide library objects** hides the objects downloaded from libraries."
-
-#: ../../object_search.rst:41
-msgid "Для применения фильтров нажмите кнопку **ОК**."
-msgstr "To apply the filters, click **ОK**."
-
-#: ../../object_search.rst:43
-msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
-msgstr "To cancel current changes, click **Cancel**."
-
-#: ../../object_search.rst:45
-msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
-msgstr "To reset all the filters, click **Reset**."
-
-#: ../../object_search.rst:47
-msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
-msgstr "When the filter is on, the button icon will change to |filter_tsk|."
+msgid "Для поиска всех ссылок на необходимый объект, необхоимо выделить этот объект и воспользоваться горячей клавишой Ctrl+Shift+G или в контекстном меню редактора SQL выбрать **Find references / Найти ссылки**"
+msgstr ""
 
 #~ msgid ""
 #~ "**Hide lbrary objects / Скрывать "
 #~ "библиотечные объекты** скрывает объекты "
 #~ "загруженные из библиотек."
+#~ msgstr ""
+
+#~ msgid "Поиск объекта в таблице изменений"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для поиска объектов в таблице изменений"
+#~ " удобно воспользоваться полем поиска над"
+#~ " списком изменений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Поиск происходит по именам объектов. При"
+#~ " установленном флажке **RegEx** поиск "
+#~ "осуществляется с использованием регулярных "
+#~ "выражений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала просто введите часть имени"
+#~ " в поле поиска. В таблице изменений"
+#~ " отобразятся объекты, соответствующие данному "
+#~ "условию."
+#~ msgstr ""
+
+#~ msgid "Поле поиска хранит последние 200 запросов."
+#~ msgstr ""
+
+#~ msgid "Фильтры объектов"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для фильтрации объектов можно использовать "
+#~ "диалоговое окно, которой отобразится при "
+#~ "нажатии кнопки |empty_filter| над списком "
+#~ "изменений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Список типов объектов позволяет отобразить "
+#~ "только выбранные типы объектов. Если "
+#~ "выбран тип TABLE или VIEW будут "
+#~ "отображены все дочерние объекты."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Список типов изменений позволяет отобразить"
+#~ " только выбранные типы изменений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Filter by object's SQL code / "
+#~ "Фильтр по SQL коду объекта** ищет "
+#~ "в совпадения коде генерации объектов."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Search by container / Поиск по "
+#~ "контейнеру** ищет объекты, находящиеся в "
+#~ "схемах с подходящими именами. Также "
+#~ "будут отображены и сами объекты схем."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Search by database user / Поиск "
+#~ "по пользователю БД** ищет совпадения по"
+#~ " авторам изменений объектов в сторонней "
+#~ "базе данных. Для использования необходимо "
+#~ "расширение `pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Search by git user / Поиск по"
+#~ " пользователю git** ищет совпадения по "
+#~ "авторам последного изменений объекта в "
+#~ "локальном репозитории. Для использования "
+#~ "проект должен находиться под системой "
+#~ "контроля версий."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Show only local changes / Показывать"
+#~ " только локальные изменения** отображает "
+#~ "изменения произошедшие в локальном "
+#~ "репозитории, с момента последнего коммита. "
+#~ "Для использования проект должен находиться "
+#~ "под системой контроля версий."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Hide library objects / Скрывать "
+#~ "библиотечные объекты** скрывает объекты "
+#~ "загруженные из библиотек."
+#~ msgstr ""
+
+#~ msgid "Для применения фильтров нажмите кнопку **ОК**."
+#~ msgstr ""
+
+#~ msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
+#~ msgstr ""
+
+#~ msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
+#~ msgstr ""
+
+#~ msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
 #~ msgstr ""
 
