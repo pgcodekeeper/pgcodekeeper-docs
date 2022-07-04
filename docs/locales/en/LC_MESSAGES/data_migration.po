@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pgcodekeeper-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-02 16:32+0300\n"
+"PO-Revision-Date: 2022-07-04 12:05\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/data_migration.po\n"
+"X-Crowdin-File-ID: 54\n"
+"Language: en_US\n"
+
+#: ../../data_migration.rst:3
+msgid "Миграция данных при пересоздании таблиц"
+msgstr ""
+
+#: ../../data_migration.rst:5
+msgid "Фича миграции изначально была сделана с поддержкой только IDENTITY SEQUENCE, для обычных SEQUENCE пока не реализовано."
+msgstr ""
+
+#: ../../data_migration.rst:7
+msgid "`t.me/pgcodekeeper/2840 <https://t.me/pgcodekeeper/2840>`_"
+msgstr ""
+
