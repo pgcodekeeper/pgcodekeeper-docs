@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-25 09:22+0300\n"
-"PO-Revision-Date: 2020-06-16 07:42\n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: 2022-07-04 12:05\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Language: en_US\n"
 
 #: ../../diff.rst:3
-msgid "Сравнение баз данных"
-msgstr "Database diff"
+msgid "Сравнение схем БД"
+msgstr ""
 
 #: ../../diff.rst:5
 msgid "Открываем мастер сравнения баз данных: **pgCodeKeeper - Diff Wizard / Мастер сравнения** или вызываем контекстное меню pgCodeKeeper проекта и выбираем **pgCodeKeeper - Diff... / Сравнить...**."
@@ -78,5 +78,8 @@ msgstr "After clicking **Finish**, SQL editor with migration script, generated f
 #~ msgstr ""
 
 #~ msgid "Выбираем кодировки источников и временную зона БД."
+#~ msgstr ""
+
+#~ msgid "Сравнение баз данных"
 #~ msgstr ""
 
