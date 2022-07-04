@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 16:25+0300\n"
-"PO-Revision-Date: 2021-08-12 06:29\n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: 2022-07-04 12:05\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -154,11 +154,19 @@ msgstr "If a library doesn't ignore privileges, they will be displayed regardles
 msgid "**Disallow overrides / Запретить переопределение.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включенной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
 msgstr "**Disallow overrides.** There might be a situation when a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow you to ignore the conflicts: the first loaded object will be used. Regardless of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
 
+#: ../../properties.rst:88
+msgid "**Load nested dependencies / Загружать вложенные зависимости** - настройка, позволяющая загружать библиотеки, на которые ссылаются другие библиотеки (рекурсивная загрузка библиотек). Библиотека с зависимостями должна быть в формате проекта (или архива проекта) и содержать файл .dependencies с зависимостями этой библиотеки."
+msgstr ""
+
 #: ../../properties.rst:90
+msgid "В общем случае, для загрузки зависимостей библиотеки, контейнер этой библиотеки должен иметь включенную настройку *loadNested* в файле *.dependencies*. Например, в цепочке зависимостей *project → lib1 → lib2 → lib3* для загрузки *lib2* настройка должна быть включена в project, а для загрузки *lib3* настройка должна быть включена в project и в *lib1*."
+msgstr ""
+
+#: ../../properties.rst:93
 msgid "Обновление БД"
 msgstr "DB update"
 
-#: ../../properties.rst:92
+#: ../../properties.rst:95
 msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`."
 msgstr "Database update managing settings, which allow enabling some of correlating settings from the :ref:`dbUpdate` page."
 
@@ -249,5 +257,19 @@ msgstr "Database update managing settings, which allow enabling some of correlat
 #~ "Настройки, регулирующие загрузку объектов из"
 #~ " базы данных. Подробное описание работы "
 #~ "находится в разделе :ref:`_ignoreSchemaList`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Load nested dependencies / Загружать "
+#~ "вложенные зависимости** - настройка, "
+#~ "позволяющая загружать библиотеки, на которые"
+#~ " ссылаются другие библиотеки(рекурсивная загрузка"
+#~ " библиотек). Библиотека с зависимостями "
+#~ "должна быть в формате проекта (или "
+#~ "архива проекта) и содержать файл "
+#~ ".dependencies с зависимостями этой библиотеки."
+#~ " Эта настройка выключена по-умолчанию, "
+#~ "поэтому поведение существующих проектов не "
+#~ "изменится."
 #~ msgstr ""
 
