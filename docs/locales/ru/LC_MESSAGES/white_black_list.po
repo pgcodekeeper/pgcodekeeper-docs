@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-16 10:31+0300\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
@@ -392,6 +392,10 @@ msgstr ""
 msgid "|hide_all|"
 msgstr ""
 
+#: ../../white_black_list.rst:249
+msgid "hide_all"
+msgstr ""
+
 #: ../../white_black_list.rst
 msgid "**SHOW REGEX K**"
 msgstr ""
@@ -416,6 +420,10 @@ msgstr ""
 msgid "|show_regex|"
 msgstr ""
 
+#: ../../white_black_list.rst:250
+msgid "show_regex"
+msgstr ""
+
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
 msgstr ""
@@ -426,6 +434,10 @@ msgstr ""
 
 #: ../../white_black_list.rst:164
 msgid "|show_content|"
+msgstr ""
+
+#: ../../white_black_list.rst:251
+msgid "show_content"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -444,6 +456,10 @@ msgstr ""
 msgid "|show_none|"
 msgstr ""
 
+#: ../../white_black_list.rst:252
+msgid "show_none"
+msgstr ""
+
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
 msgstr ""
@@ -458,6 +474,10 @@ msgstr ""
 
 #: ../../white_black_list.rst:203
 msgid "|show_all|"
+msgstr ""
+
+#: ../../white_black_list.rst:253
+msgid "show_all"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -480,6 +500,10 @@ msgstr ""
 msgid "|hide_regex|"
 msgstr ""
 
+#: ../../white_black_list.rst:254
+msgid "hide_regex"
+msgstr ""
+
 #: ../../white_black_list.rst
 msgid "все объекты)"
 msgstr ""
@@ -500,6 +524,10 @@ msgstr ""
 msgid "|hide_content|"
 msgstr ""
 
+#: ../../white_black_list.rst:255
+msgid "hide_content"
+msgstr ""
+
 #: ../../white_black_list.rst
 msgid "**HIDE QUALIFIED 'A.C.D'**"
 msgstr ""
@@ -510,6 +538,10 @@ msgstr ""
 
 #: ../../white_black_list.rst:229 ../../white_black_list.rst:239
 msgid "|hide_none|"
+msgstr ""
+
+#: ../../white_black_list.rst:256
+msgid "hide_none"
 msgstr ""
 
 #: ../../white_black_list.rst

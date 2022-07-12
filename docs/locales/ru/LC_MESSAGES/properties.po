@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../properties.rst:3
 msgid "Настройки проекта"
@@ -130,8 +130,16 @@ msgstr ""
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
 msgstr ""
 
+#: ../../properties.rst:101
+msgid "add_obj"
+msgstr ""
+
 #: ../../properties.rst:43
 msgid "Для удаления файла нажмите кнопку |delete|."
+msgstr ""
+
+#: ../../properties.rst:102
+msgid "delete"
 msgstr ""
 
 #: ../../properties.rst:45
@@ -141,10 +149,18 @@ msgid ""
 "настроек :ref:`ignoredObjects`."
 msgstr ""
 
+#: ../../properties.rst:100
+msgid "add_file"
+msgstr ""
+
 #: ../../properties.rst:49
 msgid ""
 "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт "
 "редактор списка правил из текущего файла."
+msgstr ""
+
+#: ../../properties.rst:103
+msgid "editor_area"
 msgstr ""
 
 #: ../../properties.rst:53
