@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-01 15:35+0300\n"
-"PO-Revision-Date: 2022-07-04 12:05\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
+"PO-Revision-Date: 2022-07-12 12:05\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.10.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -105,6 +105,14 @@ msgstr "**Type** - object type (\"ALL\" is used for specifying any object type).
 #: ../../preferences.rst:39
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и |delete| соответственно."
 msgstr "To add or remove an object to the list of excluded, use the |add_obj| and |delete| buttons respectively."
+
+#: ../../preferences.rst:208
+msgid "add_obj"
+msgstr ""
+
+#: ../../preferences.rst:207
+msgid "delete"
+msgstr ""
 
 #: ../../preferences.rst:41
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
@@ -358,9 +366,17 @@ msgstr "**Loader custom parameters** - utility activation custom parameters."
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To add a storage basing on data from an already created storage, you should highlight the database storage object and click|copy|. The **DB credentials** dialogue will appear, in which you can change the connection parameters."
 
+#: ../../preferences.rst:205
+msgid "copy"
+msgstr ""
+
 #: ../../preferences.rst:187
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list / Список источников из pgpass**:"
 msgstr "To add a storage basing on the data from the **.pgpass** file, click|pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list**  dialogue will open:"
+
+#: ../../preferences.rst:206
+msgid "pg_pass"
+msgstr ""
 
 #: ../../preferences.rst:191
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно подтвердить параметры подключения."
@@ -373,6 +389,10 @@ msgstr "After that, you can close the **Pgpass sources list** dialogue."
 #: ../../preferences.rst:197
 msgid "Для редактирования хранилища выделить объект хранилища баз данных, нажать кнопку |editor_area|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To edit a storage, highlight the database storage object and click |editor_area|. The **DB credentials** dialogue will appear in which you can change the connection parameters."
+
+#: ../../preferences.rst:209
+msgid "editor_area"
+msgstr ""
 
 #: ../../preferences.rst:199
 msgid "Для удаления хранилища выбрать необходимую запись и нажать кнопку |delete|."
