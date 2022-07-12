@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-30 14:20+0300\n"
-"PO-Revision-Date: 2022-07-04 12:05\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
+"PO-Revision-Date: 2022-07-12 12:05\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.10.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -25,6 +25,10 @@ msgstr "Selecting of the database source"
 #: ../../db_store.rst:5
 msgid "В редакторе проекта для выбора источника БД используется выпадающее меню **Get Changes / Получить изменения** |refresh|"
 msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down menu to select the DB source"
+
+#: ../../db_store.rst:25
+msgid "refresh"
+msgstr ""
 
 #: ../../db_store.rst:10
 msgid "или в контекстном меню выбранной БД."
