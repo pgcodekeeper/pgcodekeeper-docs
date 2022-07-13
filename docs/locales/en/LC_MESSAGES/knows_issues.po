@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-01 15:35+0300\n"
-"PO-Revision-Date: 2022-07-04 12:05\n"
+"PO-Revision-Date: 2022-07-13 12:42\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../knows_issues.rst:3
 msgid "Известные проблемы"
-msgstr ""
+msgstr "Known issues"
 
 #: ../../knows_issues.rst:5
 msgid "Миграция данных не работает для обычных SEQUENCE, поддерживается только IDENTITY SEQUENCE."
-msgstr ""
+msgstr "Data migration does not work for regular SEQUENCE, only IDENTITY SEQUENCE is supported."
 
 #~ msgid "Миграция данных при пересоздании таблиц"
 #~ msgstr ""
