@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-01 15:35+0300\n"
-"PO-Revision-Date: 2022-07-04 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgstr "Object search"
 
 #: ../../object_search.rst:6
 msgid "Поиск ссылок на объекты"
-msgstr ""
+msgstr "Search for links to objects"
 
 #: ../../object_search.rst:8
 msgid "Для поиска всех ссылок на необходимый объект, необхоимо выделить этот объект и воспользоваться горячей клавишой Ctrl+Shift+G или в контекстном меню редактора SQL выбрать **Find references / Найти ссылки**"
-msgstr ""
+msgstr "To find all the links to a required object, you should select this object and press Ctrl+Shift+G, or click **Find references** in the SQL editor's right-click menu"
 
 #~ msgid ""
 #~ "**Hide lbrary objects / Скрывать "
