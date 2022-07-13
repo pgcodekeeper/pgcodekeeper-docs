@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 10:28\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "On the project editor tool bar, open the set the **Get Changes** |refres
 
 #: ../../db_update.rst:27
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: ../../db_update.rst:7
 msgid "Нажимаем кнопку |refresh|. После недолгого ожидания на панели различий отобразится список объектов с указанием типа изменения."
@@ -40,11 +40,11 @@ msgstr "Open the **Apply** |save_edit| drop-down menu and select |database| **DB
 
 #: ../../db_update.rst:28
 msgid "save_edit"
-msgstr ""
+msgstr "save_edit"
 
 #: ../../db_update.rst:30
 msgid "database"
-msgstr ""
+msgstr "database"
 
 #: ../../db_update.rst:13
 msgid "После окончания генерации скрипта откроется SQL редактор. Проверяем сгенерированный скрипт, при необходимости вносим изменения самостоятельно."
@@ -64,7 +64,7 @@ msgstr "For bigger flexibility, there is an opportunity of migration of a select
 
 #: ../../db_update.rst:29
 msgid "app_icon"
-msgstr ""
+msgstr "app_icon"
 
 #~ msgid ""
 #~ "На **тулбаре** указываем параметры для "
