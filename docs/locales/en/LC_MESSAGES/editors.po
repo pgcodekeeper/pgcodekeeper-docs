@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 10:28\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "**Eclipse tool bar** contains tools for working with SQL editor. The |fi
 
 #: ../../editors.rst:63
 msgid "file"
-msgstr ""
+msgstr "file"
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
@@ -68,7 +68,7 @@ msgstr "|check_all| – select all objects."
 
 #: ../../editors.rst:57
 msgid "check_all"
-msgstr ""
+msgstr "check_all"
 
 #: ../../editors.rst:25
 msgid "|uncheck_all| – снять выбор со всех элементов."
@@ -76,7 +76,7 @@ msgstr "|uncheck_all| – deselect all the objects."
 
 #: ../../editors.rst:58
 msgid "uncheck_all"
-msgstr ""
+msgstr "uncheck_all"
 
 #: ../../editors.rst:26
 msgid "|loop_obj| – инвертировать выбор элементов."
@@ -84,7 +84,7 @@ msgstr "|loop_obj| – invert the selecting of objects."
 
 #: ../../editors.rst:59
 msgid "loop_obj"
-msgstr ""
+msgstr "loop_obj"
 
 #: ../../editors.rst:27
 msgid "|copy_edit| – копировать набор выбранных элементов в буфер обмена как регулярное выражение."
@@ -92,7 +92,7 @@ msgstr "|copy_edit| – copy the set of selected objects to the clipboard as a r
 
 #: ../../editors.rst:60
 msgid "copy_edit"
-msgstr ""
+msgstr "copy_edit"
 
 #: ../../editors.rst:28
 msgid "|empty_filter| – неактивный / |filter_tsk| – активный фильтр объектов."
@@ -100,11 +100,11 @@ msgstr "|empty_filter| – inactive / |filter_tsk| – active object filter."
 
 #: ../../editors.rst:61
 msgid "empty_filter"
-msgstr ""
+msgstr "empty_filter"
 
 #: ../../editors.rst:62
 msgid "filter_tsk"
-msgstr ""
+msgstr "filter_tsk"
 
 #: ../../editors.rst:29
 msgid "|search| – отфильтровать список объектов по имени или регулярному выражению."
@@ -112,7 +112,7 @@ msgstr "|search| – filter list of objects by name or regular expression."
 
 #: ../../editors.rst:65
 msgid "search"
-msgstr ""
+msgstr "search"
 
 #: ../../editors.rst:30
 msgid "|save_edit| – применить изменения"
@@ -120,11 +120,11 @@ msgstr "|save_edit| – apply changes"
 
 #: ../../editors.rst:64
 msgid "save_edit"
-msgstr ""
+msgstr "save_edit"
 
 #: ../../editors.rst:31
 msgid "⯆ – выпадающее меню с направлениями изменений. При клике по лейблу DB/БД также отображается меню с направлениями изменений."
-msgstr ""
+msgstr "⯆ – drop-down menu with the directions of changes. If you click the DB label, you will also see the menu with the directions of changes."
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
@@ -132,7 +132,7 @@ msgstr "|refresh| – get changes"
 
 #: ../../editors.rst:136
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: ../../editors.rst:33
 msgid "⯆ – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать в контекстном меню выбранной БД |source_name| на панели инструментов редактора (2)."
