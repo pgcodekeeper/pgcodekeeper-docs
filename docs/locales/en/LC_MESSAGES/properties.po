@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "To add an existing file, click |add_obj|."
 
 #: ../../properties.rst:101
 msgid "add_obj"
-msgstr ""
+msgstr "add_obj"
 
 #: ../../properties.rst:43
 msgid "Для удаления файла нажмите кнопку |delete|."
@@ -96,7 +96,7 @@ msgstr "To delete a file, click |delete|."
 
 #: ../../properties.rst:102
 msgid "delete"
-msgstr ""
+msgstr "delete"
 
 #: ../../properties.rst:45
 msgid "Для создания нового файла нажмите кнопку |add_file|. Будет открыт редактор списка правил, аналогичный редактору на странице глобальных настроек :ref:`ignoredObjects`."
@@ -104,7 +104,7 @@ msgstr "To create a new file, click |add_file|. The list of rules editor will op
 
 #: ../../properties.rst:100
 msgid "add_file"
-msgstr ""
+msgstr "add_file"
 
 #: ../../properties.rst:49
 msgid "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт редактор списка правил из текущего файла."
@@ -112,7 +112,7 @@ msgstr "To edit a file, click |editor_area|. The editor of list of rules from cu
 
 #: ../../properties.rst:103
 msgid "editor_area"
-msgstr ""
+msgstr "editor_area"
 
 #: ../../properties.rst:53
 msgid "Исключенные схемы"
