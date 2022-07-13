@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr "If you tick Pattern(REGEX) in the new rule creation window, objects will
 
 #: ../../white_black_list_schemas.rst:53
 msgid "ignore-schema"
-msgstr ""
+msgstr "ignore-schema"
 
 #: ../../white_black_list_schemas.rst:36
 msgid "Пример использования исключения схем при загрузке"
@@ -92,7 +92,7 @@ msgstr "|black_list_2|"
 
 #: ../../white_black_list_schemas.rst:55
 msgid "black_list_2"
-msgstr ""
+msgstr "black_list_2"
 
 #: ../../white_black_list_schemas.rst:42
 msgid "Нажимаем Apply and Close."
@@ -104,7 +104,7 @@ msgstr "In the project editor, click **Changes** |refresh|. There are no objects
 
 #: ../../white_black_list_schemas.rst:56
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: ../../white_black_list_schemas.rst:46
 msgid "|black_list_worker|"
@@ -112,7 +112,7 @@ msgstr "|black_list_worker|"
 
 #: ../../white_black_list_schemas.rst:57
 msgid "black_list_worker"
-msgstr ""
+msgstr "black_list_worker"
 
 #: ../../white_black_list_schemas.rst:48
 msgid "Если нам необходимо загрузить только объекты из схемы worker, то в интерфейсе исключаемых схем выбираем флаг White-list / Белый список. В результате на панели различий мы получим объекты только из схемы worker."
@@ -124,11 +124,11 @@ msgstr "|white_list_worker|"
 
 #: ../../white_black_list_schemas.rst:58
 msgid "white_list_worker"
-msgstr ""
+msgstr "white_list_worker"
 
 #: ../../white_black_list_schemas.rst:54
 msgid "example_black_list"
-msgstr ""
+msgstr "example_black_list"
 
 #~ msgid ""
 #~ "В pgCodeKeeper реализована возможность "
