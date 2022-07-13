@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-13 11:29\n"
+"PO-Revision-Date: 2022-07-13 12:42\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -172,11 +172,11 @@ msgstr "**Disallow overrides.** There might be a situation when a project and a 
 
 #: ../../properties.rst:88
 msgid "**Load nested dependencies / Загружать вложенные зависимости** - настройка, позволяющая загружать библиотеки, на которые ссылаются другие библиотеки (рекурсивная загрузка библиотек). Библиотека с зависимостями должна быть в формате проекта (или архива проекта) и содержать файл .dependencies с зависимостями этой библиотеки."
-msgstr ""
+msgstr "**Load nested dependencies** is a setting that allows loading libraries referred to by other libraries (recursive loading of libraries). The library containing dependencies should be in the form of a project (or project archive) and contain the .dependencies file, which contains the dependencies of this library."
 
 #: ../../properties.rst:90
 msgid "В общем случае, для загрузки зависимостей библиотеки, контейнер этой библиотеки должен иметь включенную настройку *loadNested* в файле *.dependencies*. Например, в цепочке зависимостей *project → lib1 → lib2 → lib3* для загрузки *lib2* настройка должна быть включена в project, а для загрузки *lib3* настройка должна быть включена в project и в *lib1*."
-msgstr ""
+msgstr "In general, to load the library dependencies, a container of this library should have the *loadNested* setting in the *.dependencies* file enabled. For example, in the following dependencies chain: *project → lib1 → lib2 → lib3*, to load *lib2*, the setting should be enabled in project, and to load *lib3*, the setting should be enabled both in project and *lib1*."
 
 #: ../../properties.rst:93
 msgid "Обновление БД"
