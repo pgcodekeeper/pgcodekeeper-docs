@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -336,7 +336,7 @@ msgstr "|hide_all|"
 
 #: ../../white_black_list.rst:249
 msgid "hide_all"
-msgstr ""
+msgstr "hide_all"
 
 #: ../../white_black_list.rst
 msgid "**SHOW REGEX K**"
@@ -364,7 +364,7 @@ msgstr "|show_regex|"
 
 #: ../../white_black_list.rst:250
 msgid "show_regex"
-msgstr ""
+msgstr "show_regex"
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
@@ -380,7 +380,7 @@ msgstr "|show_content|"
 
 #: ../../white_black_list.rst:251
 msgid "show_content"
-msgstr ""
+msgstr "show_content"
 
 #: ../../white_black_list.rst
 msgid "**SHOW QUALIFIED 'A.C.D'**"
@@ -400,7 +400,7 @@ msgstr "|show_none|"
 
 #: ../../white_black_list.rst:252
 msgid "show_none"
-msgstr ""
+msgstr "show_none"
 
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
@@ -420,7 +420,7 @@ msgstr "|show_all|"
 
 #: ../../white_black_list.rst:253
 msgid "show_all"
-msgstr ""
+msgstr "show_all"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX K**"
@@ -444,7 +444,7 @@ msgstr "|hide_regex|"
 
 #: ../../white_black_list.rst:254
 msgid "hide_regex"
-msgstr ""
+msgstr "hide_regex"
 
 #: ../../white_black_list.rst
 msgid "все объекты)"
@@ -468,7 +468,7 @@ msgstr "|hide_content|"
 
 #: ../../white_black_list.rst:255
 msgid "hide_content"
-msgstr ""
+msgstr "hide_content"
 
 #: ../../white_black_list.rst
 msgid "**HIDE QUALIFIED 'A.C.D'**"
@@ -484,7 +484,7 @@ msgstr "|hide_none|"
 
 #: ../../white_black_list.rst:256
 msgid "hide_none"
-msgstr ""
+msgstr "hide_none"
 
 #: ../../white_black_list.rst
 msgid "**HIDE NONE D**"
