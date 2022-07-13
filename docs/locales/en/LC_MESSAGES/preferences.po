@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -108,11 +108,11 @@ msgstr "To add or remove an object to the list of excluded, use the |add_obj| an
 
 #: ../../preferences.rst:208
 msgid "add_obj"
-msgstr ""
+msgstr "add_obj"
 
 #: ../../preferences.rst:207
 msgid "delete"
-msgstr ""
+msgstr "delete"
 
 #: ../../preferences.rst:41
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
@@ -368,7 +368,7 @@ msgstr "To add a storage basing on data from an already created storage, you sho
 
 #: ../../preferences.rst:205
 msgid "copy"
-msgstr ""
+msgstr "copy"
 
 #: ../../preferences.rst:187
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list / Список источников из pgpass**:"
@@ -376,7 +376,7 @@ msgstr "To add a storage basing on the data from the **.pgpass** file, click|pg_
 
 #: ../../preferences.rst:206
 msgid "pg_pass"
-msgstr ""
+msgstr "pg_pass"
 
 #: ../../preferences.rst:191
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно подтвердить параметры подключения."
@@ -392,7 +392,7 @@ msgstr "To edit a storage, highlight the database storage object and click |edit
 
 #: ../../preferences.rst:209
 msgid "editor_area"
-msgstr ""
+msgstr "editor_area"
 
 #: ../../preferences.rst:199
 msgid "Для удаления хранилища выбрать необходимую запись и нажать кнопку |delete|."
