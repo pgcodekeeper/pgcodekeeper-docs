@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-12 12:05\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "On the tool bar, open the **Get Changes** |refresh| drop-down list, and 
 
 #: ../../project_update.rst:23
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: ../../project_update.rst:7
 msgid "Нажимаем кнопку |refresh|. После недолгого ожидания на панели различий отобразится список различий с указанием типа изменения."
@@ -40,11 +40,11 @@ msgstr "Open the **Apply** |save_edit| drop-down menu and select |app_icon| ** P
 
 #: ../../project_update.rst:24
 msgid "save_edit"
-msgstr ""
+msgstr "save_edit"
 
 #: ../../project_update.rst:25
 msgid "app_icon"
-msgstr ""
+msgstr "app_icon"
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
