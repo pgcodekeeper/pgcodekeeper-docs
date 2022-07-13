@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-13 08:50\n"
+"PO-Revision-Date: 2022-07-13 10:28\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down me
 
 #: ../../db_store.rst:25
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: ../../db_store.rst:10
 msgid "или в контекстном меню выбранной БД."
@@ -64,7 +64,7 @@ msgstr "Password storage"
 
 #: ../../db_store.rst:40
 msgid "При нестабильной работе Eclipse можно отключить хранение паролей в безопасном хранилище Eclipse. В этом случае пароли БД будут храниться открытым текстом в рабочем пространстве Eclipse (workspace). Также, возможно использовать пароли из файла *.pgpass*. Для отключения сохранения паролей в безопасном хранилище Eclipse выключите флажок в настройке **Save password in Eclipse secure storage / Сохранять пароли в безопасном хранилище Eclipse**."
-msgstr ""
+msgstr "If Eclipse is unstable, you can disable storing passwords in the Eclipse secure storage. In this case, the DB passwords will be stored as plain text in the Eclipse workspace. You can also use passwords from the *.pgpass* file. To disable saving passwords in the Eclipse secure storage, uncheck **Save password in Eclipse secure storage**."
 
 #~ msgid ""
 #~ "Список баз данных находится в "
