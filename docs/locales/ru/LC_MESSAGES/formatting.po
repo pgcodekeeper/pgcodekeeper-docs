@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 5.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../formatting.rst:4
+msgid "Форматирование"
+msgstr ""
+
+#: ../../formatting.rst:6
+msgid ""
+"Форматирование автоматически применится к коду после использовании "
+"комбинации клавиш Shift+Ctrl+F, или в контекстном меню выбрать пункт "
+"**Format / Форматировать**."
+msgstr ""
+

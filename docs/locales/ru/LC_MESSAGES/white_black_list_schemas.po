@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 5.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 17:09+0300\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../white_black_list_schemas.rst:5
 msgid "Исключение схем при загрузке"
@@ -98,6 +98,10 @@ msgid ""
 " имени объекта. |ignore-schema|"
 msgstr ""
 
+#: ../../white_black_list_schemas.rst:53
+msgid "ignore-schema"
+msgstr ""
+
 #: ../../white_black_list_schemas.rst:36
 msgid "Пример использования исключения схем при загрузке"
 msgstr ""
@@ -113,6 +117,10 @@ msgstr ""
 msgid "|black_list_2|"
 msgstr ""
 
+#: ../../white_black_list_schemas.rst:55
+msgid "black_list_2"
+msgstr ""
+
 #: ../../white_black_list_schemas.rst:42
 msgid "Нажимаем Apply and Close."
 msgstr ""
@@ -123,8 +131,16 @@ msgid ""
 "|refresh|. На панели различий нет объектов из схемы worker!"
 msgstr ""
 
+#: ../../white_black_list_schemas.rst:56
+msgid "refresh"
+msgstr ""
+
 #: ../../white_black_list_schemas.rst:46
 msgid "|black_list_worker|"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:57
+msgid "black_list_worker"
 msgstr ""
 
 #: ../../white_black_list_schemas.rst:48
@@ -136,6 +152,14 @@ msgstr ""
 
 #: ../../white_black_list_schemas.rst:51
 msgid "|white_list_worker|"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:58
+msgid "white_list_worker"
+msgstr ""
+
+#: ../../white_black_list_schemas.rst:54
+msgid "example_black_list"
 msgstr ""
 
 #~ msgid ""

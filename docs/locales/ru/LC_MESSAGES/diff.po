@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-25 09:22+0300\n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../diff.rst:3
-msgid "Сравнение баз данных"
+msgid "Сравнение схем БД"
 msgstr ""
 
 #: ../../diff.rst:5
@@ -94,5 +94,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Выбираем кодировки источников и временную зона БД."
+#~ msgstr ""
+
+#~ msgid "Сравнение баз данных"
 #~ msgstr ""
 

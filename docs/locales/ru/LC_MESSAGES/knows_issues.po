@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 5.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../knows_issues.rst:3
+msgid "Известные проблемы"
+msgstr ""
+
+#: ../../knows_issues.rst:5
+msgid ""
+"Миграция данных не работает для обычных SEQUENCE, поддерживается только "
+"IDENTITY SEQUENCE."
+msgstr ""
+
+#~ msgid "Миграция данных при пересоздании таблиц"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Эта возможность позволяет сохранить данные "
+#~ "при пересоздании таблицы. При пересоздании "
+#~ "существующая таблица переименовывается и "
+#~ "создается новая, данные из исходной "
+#~ "переливаются в новую. Старая переименованная"
+#~ " таблица удаляется. Состоянии IDENTITY "
+#~ "SEQUENCE переносится из старой таблицы в"
+#~ " новую."
+#~ msgstr ""
+

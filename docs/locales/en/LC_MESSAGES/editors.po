@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 16:32+0300\n"
-"PO-Revision-Date: 2021-08-12 05:29\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.10.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -54,6 +54,10 @@ msgstr "Object counter"
 msgid "**Панель инструментов Eclipse** содержит инструменты для работы с редактором SQL. Кнопка |file| позволяет открыть новый :ref:`sqlEditor`."
 msgstr "**Eclipse tool bar** contains tools for working with SQL editor. The |file| button allows you to open a new :ref:`sqlEditor`."
 
+#: ../../editors.rst:63
+msgid "file"
+msgstr "file"
+
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
 msgstr "**Editor tool bar** is used for working with the object list. There are the following opportunities:"
@@ -62,41 +66,81 @@ msgstr "**Editor tool bar** is used for working with the object list. There are 
 msgid "|check_all| – выбрать все элементы."
 msgstr "|check_all| – select all objects."
 
+#: ../../editors.rst:57
+msgid "check_all"
+msgstr "check_all"
+
 #: ../../editors.rst:25
 msgid "|uncheck_all| – снять выбор со всех элементов."
 msgstr "|uncheck_all| – deselect all the objects."
+
+#: ../../editors.rst:58
+msgid "uncheck_all"
+msgstr "uncheck_all"
 
 #: ../../editors.rst:26
 msgid "|loop_obj| – инвертировать выбор элементов."
 msgstr "|loop_obj| – invert the selecting of objects."
 
+#: ../../editors.rst:59
+msgid "loop_obj"
+msgstr "loop_obj"
+
 #: ../../editors.rst:27
 msgid "|copy_edit| – копировать набор выбранных элементов в буфер обмена как регулярное выражение."
 msgstr "|copy_edit| – copy the set of selected objects to the clipboard as a regular expression."
+
+#: ../../editors.rst:60
+msgid "copy_edit"
+msgstr "copy_edit"
 
 #: ../../editors.rst:28
 msgid "|empty_filter| – неактивный / |filter_tsk| – активный фильтр объектов."
 msgstr "|empty_filter| – inactive / |filter_tsk| – active object filter."
 
+#: ../../editors.rst:61
+msgid "empty_filter"
+msgstr "empty_filter"
+
+#: ../../editors.rst:62
+msgid "filter_tsk"
+msgstr "filter_tsk"
+
 #: ../../editors.rst:29
 msgid "|search| – отфильтровать список объектов по имени или регулярному выражению."
 msgstr "|search| – filter list of objects by name or regular expression."
+
+#: ../../editors.rst:65
+msgid "search"
+msgstr "search"
 
 #: ../../editors.rst:30
 msgid "|save_edit| – применить изменения"
 msgstr "|save_edit| – apply changes"
 
+#: ../../editors.rst:64
+msgid "save_edit"
+msgstr "save_edit"
+
 #: ../../editors.rst:31
-msgid "⯆ – выпадающее меню с направлениями изменений. При клике по лейблу Project/ Проект также отображается меню с направлениями изменений."
-msgstr "⯆ – drop-down menu with the directions of changes. If you click the Project label, you will also see the menu with the directions of changes."
+msgid "⯆ – выпадающее меню с направлениями изменений. При клике по лейблу DB/БД также отображается меню с направлениями изменений."
+msgstr "⯆ – drop-down menu with the directions of changes. If you click the DB label, you will also see the menu with the directions of changes."
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
 msgstr "|refresh| – get changes"
 
+#: ../../editors.rst:136
+msgid "refresh"
+msgstr "refresh"
+
 #: ../../editors.rst:33
-msgid "⯆ – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать и в элементе комбобокс."
-msgstr "⯆ – drop-down menu with database sources. You can also select the database sources in the combo box element."
+msgid "⯆ – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать в контекстном меню выбранной БД |source_name| на панели инструментов редактора (2)."
+msgstr "⯆ – drop-down menu with the databases sources. You can select the databases sources from the right-click menu of the selected DB and on the editor tool bar (2)."
+
+#: ../../editors.rst:66
+msgid "source_name"
+msgstr "source_name"
 
 #: ../../editors.rst:35
 msgid "Выпадающие меню ⯆ позволяют запустить операции получения или применения изменений с переопределением некоторых настроек."
@@ -142,93 +186,189 @@ msgstr "**Comparison panel** shows changes which took place in SQL view of an ob
 msgid "**Счетчик объектов** отображает выбранное и общее количество объектов в таблице."
 msgstr "**Object counter** shows the selected and the total number of objects in the table."
 
-#: ../../editors.rst:71
+#: ../../editors.rst:70
+msgid "Поиск объекта в таблице различий"
+msgstr "Object search in the differences table"
+
+#: ../../editors.rst:72
+msgid "Для поиска объектов в таблице различий удобно воспользоваться полем поиска над списком изменений."
+msgstr "The most convenient way of searching for the objects in the differences table is the search box above the changes list."
+
+#: ../../editors.rst:76
+msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
+msgstr "The search is conducted by the names of the objects. When **RegEx** is ticked off, the search is conducted with the use of regular expressions."
+
+#: ../../editors.rst:78
+msgid "Для начала просто введите часть имени в поле поиска. В таблице различий отобразятся объекты, соответствующие данному условию."
+msgstr "To start with, just enter a part of the name into the search box. The objects satisfying this condition will be displayed in the differences table."
+
+#: ../../editors.rst:80
+msgid "Поле поиска хранит последние 200 запросов."
+msgstr "The search box stores the last 200 entries."
+
+#: ../../editors.rst:83
+msgid "Фильтры объектов"
+msgstr "Object filters"
+
+#: ../../editors.rst:85
+msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
+msgstr "To filter the objects, you can use the dialog window which will appear after you click |empty_filter| above the changes list."
+
+#: ../../editors.rst:89
+msgid "Список типов объектов позволяет отобразить только выбранные типы объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние объекты."
+msgstr "The object type list allows to display only the selected types of objects. Selecting the TABLE or VIEW types will display all the descendant objects."
+
+#: ../../editors.rst:91
+msgid "Список типов изменений позволяет отобразить только выбранные типы изменений."
+msgstr "The changes type list allows to display only the selected types of changes."
+
+#: ../../editors.rst:93
+msgid "**Filter by object's SQL code / Фильтр по SQL коду объекта** ищет в совпадения коде генерации объектов."
+msgstr "**Filter by object's SQL code** searches for matches in the object generation code."
+
+#: ../../editors.rst:95
+msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в схемах с подходящими именами. Также будут отображены и сами объекты схем."
+msgstr "**Search by container** searches for the objects located in the schemas with appropriate names. Schema objeсts will be displayed as well."
+
+#: ../../editors.rst:97
+msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
+msgstr "**Search by database user** searches for matches in the authors of object changes in the thirdparty database. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension is necessary for work."
+
+#: ../../editors.rst:99
+msgid "**Search by git user / Поиск по пользователю git** ищет совпадения по авторам последного изменений объекта в локальном репозитории. Для использования проект должен находиться под системой контроля версий."
+msgstr "**Search by git user** searches for matches in the authors of the latest object change in local repository. This can be used if the project is under the version control system."
+
+#: ../../editors.rst:101
+msgid "**Show only local changes / Показывать только локальные изменения** отображает изменения, произошедшие в локальном репозитории с момента последнего коммита. Для использования проект должен находиться под системой контроля версий."
+msgstr "**Show only local changes** displays the changes that took place in local repository after the last commit. This can be used if the project is under the version control system."
+
+#: ../../editors.rst:103
+msgid "**Hide library objects / Скрывать библиотечные объекты** скрывает объекты, загруженные из библиотек."
+msgstr "**Hide library objects** hides the objects downloaded from libraries."
+
+#: ../../editors.rst:105
+msgid "Для применения фильтров нажмите кнопку **ОК**."
+msgstr "To apply the filters, click **ОK**."
+
+#: ../../editors.rst:107
+msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
+msgstr "To cancel current changes, click **Cancel**."
+
+#: ../../editors.rst:109
+msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
+msgstr "To reset all the filters, click **Reset**."
+
+#: ../../editors.rst:111
+msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
+msgstr "When the filter is on, the button icon will change to |filter_tsk|."
+
+#: ../../editors.rst:117
 msgid "SQL редактор"
 msgstr "SQL editor"
 
-#: ../../editors.rst:73
-msgid "SQL редактор внешне не отличается от обычного текстового редактора Eclipse, но в нем имеется возможность подсветки синтаксиса SQL, автоподстановки шаблонов SQL запросов и навигации по объектам схемы базы данных."
-msgstr "SQL editor is not different from a regular Eclipse text editor appearance-wise, but it has functions of SQL syntax highlighting, SQL requests template autofilling and database schema objects navigation."
+#: ../../editors.rst:119
+msgid "SQL редактор внешне не отличается от обычного текстового редактора Eclipse, но в нем имеется возможность подсветки синтаксиса SQL, автоподстановки шаблонов SQL запросов, навигации по объектам схемы базы данных и форматирования кода."
+msgstr "SQL editor is not different from a regular Eclipse text editor appearance-wise, but it has functions of SQL syntax highlighting, SQL requests template autofilling, database schema objects navigation, and code formatting."
 
-#: ../../editors.rst:78
+#: ../../editors.rst:124
 msgid "При работе с SQL редактором в **панели инструментов Eclipse** доступны следующие возможности:"
 msgstr "When using SQL-editor on the **Eclipse tool bar**, you will have the following options:"
 
-#: ../../editors.rst:80
+#: ../../editors.rst:126
 msgid "|quick_update| - Quick update / Быстрое обновление. Исполнение скрипта миграции для **различий** между объектом в текущем файле проекта и соответствующим объектом в базе данных. Если изменения затрагивают объекты из других файлов или модифицируют данные (например удаление колонки), то обновление не произойдет."
 msgstr "|quick_update| - Quick update. Execution of the migration script for **differences** between the object in the current file of the project and the respective object in the database. If the changes concern objects from other files or modify the data (for example, delete a column), there will be no update."
 
-#: ../../editors.rst:81
+#: ../../editors.rst:133
+msgid "quick_update"
+msgstr "quick_update"
+
+#: ../../editors.rst:127
 msgid "|update_ddl| - Execute selection / Выполнить выбранное. Исполнение текущего скрипта миграции (или выделенного текста) в выбранной базе данных."
 msgstr "|update_ddl| - Execute selection. Execution of the current migration script (or the highlighted text) in the selected database."
 
-#: ../../editors.rst:82
+#: ../../editors.rst:134
+msgid "update_ddl"
+msgstr "update_ddl"
+
+#: ../../editors.rst:128
 msgid "|progress_stop| - Cancel execution / Отменить выполнение. Отмена исполнения текущего скрипта миграции."
 msgstr "|progress_stop| - Cancel execution. Cancel of execution of the current migration script."
 
-#: ../../editors.rst:83
+#: ../../editors.rst:135
+msgid "progress_stop"
+msgstr "progress_stop"
+
+#: ../../editors.rst:129
 msgid "|refresh| - Get changes / Получить изменения. Обновляет редактор проекта, в котором находится текущий файл. Применимо только к файлам проекта."
 msgstr "|refresh| - Get changes. Refreshes the editor of the project containing the current file. Applicable to project files only."
 
-#: ../../editors.rst:92
+#: ../../editors.rst:131
+msgid "Для форматирования выделенного участка кода нажмите горячую клавишу Shift + Ctrl + F или в контекстном меню выберите **Format / Форматировать**."
+msgstr "To format the highlighted piece of code, press Shift + Ctrl + F or select **Format** in the right-click menu."
+
+#: ../../editors.rst:140
 msgid "Просмотр зависимостей объекта БД"
 msgstr "Viewing the dependences of DB objects"
 
-#: ../../editors.rst:94
+#: ../../editors.rst:142
 msgid "Панель **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
 msgstr "The **pg Dependencies** view shows the dependencies containing the current object selected on the diff panel of the active project editor."
 
-#: ../../editors.rst:98
+#: ../../editors.rst:146
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
 msgstr "The arrows show the direction of connection of the dependant object towards its dependence."
 
-#: ../../editors.rst:100
+#: ../../editors.rst:148
 msgid "Переключатель **Project - Remote / Проект - БД** позволяет выбрать, для какой БД, участвующей в сравнении, показывать объекты и зависимости. После переключения необходимо повторно выбрать элемент в панели различий редактора."
 msgstr "The **Project - Remote** switch allows you to select the database under comparison for which you want to display objects and dependencies. After switching, you should select the element on the editor diff panel once again."
 
-#: ../../editors.rst:102
+#: ../../editors.rst:150
 msgid "Кнопка **Add depcy / Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
 msgstr "**Add depcy** allows you to open the dialog of manual adding of the dependencies."
 
-#: ../../editors.rst:106
+#: ../../editors.rst:154
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
 msgstr "In this window, you can directly set the dependences between the DB objects. This may prove useful, for example, in case if automated recognition won't work for certain complex dependences. The added differences will be taken into consideration during generating the expression sequences for the migration script."
 
-#: ../../editors.rst:108
+#: ../../editors.rst:156
 msgid "Окно состоит из двух частей, которые служат для добавления зависимостей к сравниваемым БД."
 msgstr "The window consists of two parts which serve for adding the dependences to the DB under comparison."
 
-#: ../../editors.rst:110
+#: ../../editors.rst:158
 msgid "Для добавления зависимостей между объектами, достаточно ввести начальные буквы из названия объекта и из выпадающего списка выбрать имена зависимых объектов и нажать на кнопку **Add / Добавить**. Зависимость отобразится в списке добавленных."
 msgstr "To add dependencies between objects, simply start entering the first letters of the object name, select the names of the dependent objects in the drop-down list and click **Add**. You'll see the dependency in the list of added."
 
-#: ../../editors.rst:112
+#: ../../editors.rst:160
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Remove / Удалить**."
 msgstr "To remove a chain of dependent objects, highlight it and click **Remove**."
 
-#: ../../editors.rst:117
+#: ../../editors.rst:165
 msgid "Переопределенные объекты"
 msgstr "Object overrides"
 
-#: ../../editors.rst:119
+#: ../../editors.rst:167
 msgid "Панель **Object overrides / Переопределенные объекты** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
 msgstr "The **Object overrides** view displays the list of overridden objects in libraries for the active project editor. This view is displayed automatically when receiving changes if there is at least one conflict present."
 
-#: ../../editors.rst:123
+#: ../../editors.rst:171
 msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
 msgstr "The |sync| button shows the notes concerning only the objects selected on the differences panel of the active project editor."
 
-#: ../../editors.rst:127
+#: ../../editors.rst:173
+msgid "sync"
+msgstr "sync"
+
+#: ../../editors.rst:175
 msgid "Контекстное меню позволяет открыть обе версии объекта, а также просмотреть различия в специальном редакторе сравнения."
 msgstr "Right-click menu allows you to open both versions of the object, as well as to view the differences in a dedicated comparison editor."
 
-#: ../../editors.rst:131
+#: ../../editors.rst:179
 msgid "Результат запроса"
 msgstr "Query result"
 
-#: ../../editors.rst:133
-msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой."
-msgstr "**Query result** view displays query results. Each query is displayed in a separate tab."
+#: ../../editors.rst:181
+msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой. Количество строк, получаемых в результатах запроса, можно ограничить в настройке **Limit SELECT rows / Лимит строк SELECT** в глобальных настройках pgCodeKeeper."
+msgstr "The **Query result** shows the result of the query. Each query is displayed on a separate tab. You can limit the number of rows displayed as a result of a query in the **Limit SELECT rows** setting, in pgCodeKeeper global settings."
 
 #~ msgid "Применить изменения к проекту"
 #~ msgstr ""
@@ -353,5 +493,68 @@ msgstr "**Query result** view displays query results. Each query is displayed in
 #~ "⯆ – выпадающее меню с источниками "
 #~ "баз данных. Источники баз данных можно"
 #~ " выбрать и в комбобоксе."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⯆ – выпадающее меню с направлениями "
+#~ "изменений. При клике по лейблу Project/"
+#~ " Проект также отображается меню с "
+#~ "направлениями изменений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⯆ – выпадающее меню с источниками "
+#~ "баз данных. Источники баз данных можно"
+#~ " выбрать и в элементе комбобокс."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "SQL редактор внешне не отличается от "
+#~ "обычного текстового редактора Eclipse, но "
+#~ "в нем имеется возможность подсветки "
+#~ "синтаксиса SQL, автоподстановки шаблонов SQL"
+#~ " запросов и навигации по объектам "
+#~ "схемы базы данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Панель **Query result / Результат "
+#~ "запроса** отображает результат запросов. "
+#~ "Каждый запрос отображается отдельной вкладкой."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⯆ – выпадающее меню с направлениями "
+#~ "изменений. При клике по лейблу DB/ "
+#~ "БД также отображается меню с "
+#~ "направлениями изменений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⯆ – выпадающее меню с источниками "
+#~ "баз данных. Источники баз данных можно"
+#~ " выбрать кликнув по ссылке |source_name|"
+#~ " на панели инструментов редактора (2), "
+#~ "и в появившемся меню выбрать необходимый"
+#~ " бд."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для применения форматирования к коду "
+#~ "нажмите горячую клавишу Shift + Ctrl "
+#~ "+ F или в контекстном меню "
+#~ "**Format / Форматировать**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Панель **Query result / Результат "
+#~ "запроса** отображает результат запросов. "
+#~ "Каждый запрос отображается отдельной вкладкой."
+#~ " Количество строк, получаемых в результатах"
+#~ " запроса, можно ограничить в настройке "
+#~ "**Limit SELECT rows (0 to disable) "
+#~ "/ Лимит строк SELECT (0 чтобы "
+#~ "выключить)** в глобальных настройках "
+#~ "pgCodeKeeper."
 #~ msgstr ""
 
