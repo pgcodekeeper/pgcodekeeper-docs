@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pgcodekeeper-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"PO-Revision-Date: 2022-07-13 12:42\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/knows_issues.po\n"
+"X-Crowdin-File-ID: 58\n"
+"Language: en_US\n"
+
+#: ../../knows_issues.rst:3
+msgid "Известные проблемы"
+msgstr "Known issues"
+
+#: ../../knows_issues.rst:5
+msgid "Миграция данных не работает для обычных SEQUENCE, поддерживается только IDENTITY SEQUENCE."
+msgstr "Data migration does not work for regular SEQUENCE, only IDENTITY SEQUENCE is supported."
+
+#~ msgid "Миграция данных при пересоздании таблиц"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Эта возможность позволяет сохранить данные "
+#~ "при пересоздании таблицы. При пересоздании "
+#~ "существующая таблица переименовывается и "
+#~ "создается новая, данные из исходной "
+#~ "переливаются в новую. Старая переименованная"
+#~ " таблица удаляется. Состоянии IDENTITY "
+#~ "SEQUENCE переносится из старой таблицы в"
+#~ " новую."
+#~ msgstr ""
+

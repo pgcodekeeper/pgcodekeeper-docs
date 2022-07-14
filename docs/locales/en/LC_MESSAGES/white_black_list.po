@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-16 10:31+0300\n"
-"PO-Revision-Date: 2021-08-12 06:29\n"
+"POT-Creation-Date: 2022-07-12 13:57+0300\n"
+"PO-Revision-Date: 2022-07-13 11:29\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.10.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -334,6 +334,10 @@ msgstr "all the objects"
 msgid "|hide_all|"
 msgstr "|hide_all|"
 
+#: ../../white_black_list.rst:249
+msgid "hide_all"
+msgstr "hide_all"
+
 #: ../../white_black_list.rst
 msgid "**SHOW REGEX K**"
 msgstr "**SHOW REGEX K**"
@@ -358,6 +362,10 @@ msgstr "expression \"K\""
 msgid "|show_regex|"
 msgstr "|show_regex|"
 
+#: ../../white_black_list.rst:250
+msgid "show_regex"
+msgstr "show_regex"
+
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
 msgstr "**SHOW CONTENT D**"
@@ -369,6 +377,10 @@ msgstr "object D and its content"
 #: ../../white_black_list.rst:164
 msgid "|show_content|"
 msgstr "|show_content|"
+
+#: ../../white_black_list.rst:251
+msgid "show_content"
+msgstr "show_content"
 
 #: ../../white_black_list.rst
 msgid "**SHOW QUALIFIED 'A.C.D'**"
@@ -386,6 +398,10 @@ msgstr "with parent A.C"
 msgid "|show_none|"
 msgstr "|show_none|"
 
+#: ../../white_black_list.rst:252
+msgid "show_none"
+msgstr "show_none"
+
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
 msgstr "**SHOW NONE D**"
@@ -401,6 +417,10 @@ msgstr "**SHOW ALL**"
 #: ../../white_black_list.rst:203
 msgid "|show_all|"
 msgstr "|show_all|"
+
+#: ../../white_black_list.rst:253
+msgid "show_all"
+msgstr "show_all"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX K**"
@@ -422,6 +442,10 @@ msgstr "regular expression \"K\""
 msgid "|hide_regex|"
 msgstr "|hide_regex|"
 
+#: ../../white_black_list.rst:254
+msgid "hide_regex"
+msgstr "hide_regex"
+
 #: ../../white_black_list.rst
 msgid "все объекты)"
 msgstr "all the objects)"
@@ -442,6 +466,10 @@ msgstr "and its content"
 msgid "|hide_content|"
 msgstr "|hide_content|"
 
+#: ../../white_black_list.rst:255
+msgid "hide_content"
+msgstr "hide_content"
+
 #: ../../white_black_list.rst
 msgid "**HIDE QUALIFIED 'A.C.D'**"
 msgstr "**HIDE QUALIFIED 'A.C.D'**"
@@ -453,6 +481,10 @@ msgstr "excludes object D only"
 #: ../../white_black_list.rst:229 ../../white_black_list.rst:239
 msgid "|hide_none|"
 msgstr "|hide_none|"
+
+#: ../../white_black_list.rst:256
+msgid "hide_none"
+msgstr "hide_none"
 
 #: ../../white_black_list.rst
 msgid "**HIDE NONE D**"
