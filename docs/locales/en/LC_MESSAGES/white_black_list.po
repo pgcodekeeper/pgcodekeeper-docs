@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 14:20+0300\n"
-"PO-Revision-Date: 2022-07-27 11:34\n"
+"POT-Creation-Date: 2022-07-27 14:38+0300\n"
+"PO-Revision-Date: 2022-07-27 13:07\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgid "идентификаторы для поиска объекта, анал
 msgstr ""
 
 #: ../../white_black_list.rst
-msgid "для использования специальных символов идентификатор должен быть заключен в кавычки"
+msgid "для использования специальных символов (например, в регулярных выражениях) идентификатор должен быть заключен в кавычки"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -856,5 +856,11 @@ msgstr "Interaction between the rules of different lists which regulate the disp
 #~ "идентификаторы для поиска объекта имеющие "
 #~ "общее синтаксическое правило написания "
 #~ "описанное в **identifier**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "для использования специальных символов "
+#~ "идентификатор должен быть заключен в "
+#~ "кавычки"
 #~ msgstr ""
 
