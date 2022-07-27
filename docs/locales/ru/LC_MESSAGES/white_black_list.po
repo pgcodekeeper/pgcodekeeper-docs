@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 14:20+0300\n"
+"POT-Creation-Date: 2022-07-27 14:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -207,8 +207,8 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid ""
-"для использования специальных символов идентификатор должен быть заключен"
-" в кавычки"
+"для использования специальных символов (например, в регулярных "
+"выражениях) идентификатор должен быть заключен в кавычки"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -970,5 +970,11 @@ msgstr ""
 #~ "идентификаторы для поиска объекта имеющие "
 #~ "общее синтаксическое правило написания "
 #~ "описанное в **identifier**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "для использования специальных символов "
+#~ "идентификатор должен быть заключен в "
+#~ "кавычки"
 #~ msgstr ""
 
