@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 14:38+0300\n"
-"PO-Revision-Date: 2022-07-27 13:07\n"
+"PO-Revision-Date: 2022-08-10 08:07\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -172,15 +172,15 @@ msgstr "objectName, dbName, objectType"
 
 #: ../../white_black_list.rst
 msgid "идентификаторы для поиска объекта, аналогичные идентификаторам PostgreSQL"
-msgstr ""
+msgstr "identifiers for object search identical to the PostgreSQL identifiers"
 
 #: ../../white_black_list.rst
 msgid "для использования специальных символов (например, в регулярных выражениях) идентификатор должен быть заключен в кавычки"
-msgstr ""
+msgstr "to use special characters (for example, in regular expressions), the identifier should be put in quotation marks"
 
 #: ../../white_black_list.rst
 msgid "подробнее см. правило **identifier** ниже"
-msgstr ""
+msgstr "see the **identifier** rule below for more info"
 
 #: ../../white_black_list.rst:98
 msgid "**objectName**"
