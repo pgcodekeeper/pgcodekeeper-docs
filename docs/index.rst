@@ -41,7 +41,6 @@
    object_search
    diff
    mock_data
-   feedback
 
 .. toctree::
    :maxdepth: 1
