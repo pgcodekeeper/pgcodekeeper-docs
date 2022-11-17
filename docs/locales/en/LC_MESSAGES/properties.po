@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-13 12:42\n"
+"POT-Creation-Date: 2022-11-16 14:36+0300\n"
+"PO-Revision-Date: 2022-11-17 12:30\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,122 +67,126 @@ msgid "**Simple formatting for VIEVs when reading via JDBC (not recommended by P
 msgstr "**Simple formatting for VIEVs when reading via JDBC (not recommended by PostgreSQL)** - allows using simplified view editing, where all unnecessary brackets are removed from the expression. This format might not be supported in the further PostgeSQL versions."
 
 #: ../../properties.rst:30
+msgid "**Format object code automatically / Форматировать код объектов автоматически** - позволяет отображать и сохранять отформатированный код функций на языках plpgsql и sql согласно настройкам форматирования **SQL Editor/Редактор SQL**. Подробнее про настройки форматирования кода в :ref:`format`."
+msgstr ""
+
+#: ../../properties.rst:32
 msgid "**Use global ignore list / Использовать глобальный список игнорирования** - позволяет включить или отключить использование глобального списка различий со страницы настроек :ref:`ignoredObjects`."
 msgstr "**Use global ignore list** - allows enabling/disabling the usage of a global list of differences from the settings page :ref:`ignoredObjects`."
 
-#: ../../properties.rst:33
+#: ../../properties.rst:35
 msgid "Списки исключений"
 msgstr "Ignore Lists"
 
-#: ../../properties.rst:35
+#: ../../properties.rst:37
 msgid "Настройки, управляющие списками игнор файлов для данного проекта. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
 msgstr "Settings managing the lists of ignored files for current project. A detailed description of work with the lists see in :ref:`ignoreList`."
 
-#: ../../properties.rst:39
+#: ../../properties.rst:41
 msgid "Кнопка **Edit .pgcodekeeperignore / Редактировать .pgcodekeeperignore** позволяет изменить стандартный игнор файл, находящийся в корне проекта."
 msgstr "**Edit .pgcodekeeperignore** allows changing the default ignored file located in the project's root."
 
-#: ../../properties.rst:41
+#: ../../properties.rst:43
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
 msgstr "To add an existing file, click |add_obj|."
 
-#: ../../properties.rst:101
+#: ../../properties.rst:103
 msgid "add_obj"
 msgstr "add_obj"
 
-#: ../../properties.rst:43
+#: ../../properties.rst:45
 msgid "Для удаления файла нажмите кнопку |delete|."
 msgstr "To delete a file, click |delete|."
 
-#: ../../properties.rst:102
+#: ../../properties.rst:104
 msgid "delete"
 msgstr "delete"
 
-#: ../../properties.rst:45
+#: ../../properties.rst:47
 msgid "Для создания нового файла нажмите кнопку |add_file|. Будет открыт редактор списка правил, аналогичный редактору на странице глобальных настроек :ref:`ignoredObjects`."
 msgstr "To create a new file, click |add_file|. The list of rules editor will open, similar to the one on the :ref:`ignoredObjects` global settings page."
 
-#: ../../properties.rst:100
+#: ../../properties.rst:102
 msgid "add_file"
 msgstr "add_file"
 
-#: ../../properties.rst:49
+#: ../../properties.rst:51
 msgid "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт редактор списка правил из текущего файла."
 msgstr "To edit a file, click |editor_area|. The editor of list of rules from current file will open."
 
-#: ../../properties.rst:103
+#: ../../properties.rst:105
 msgid "editor_area"
 msgstr "editor_area"
 
-#: ../../properties.rst:53
+#: ../../properties.rst:55
 msgid "Исключенные схемы"
 msgstr "Ignored schemas"
 
-#: ../../properties.rst:55
+#: ../../properties.rst:57
 msgid "Настройки, регулирующие загрузку объектов из базы данных. Подробное описание работы находится в разделе :ref:`ignoreSchemaList`."
 msgstr "Settings that regulate the uploading of objects from the database. See the :ref:`ignoreSchemaList` section for more details."
 
-#: ../../properties.rst:59
+#: ../../properties.rst:61
 msgid "Для добавления объекта нажмите кнопку |add_obj| - откроется редактор добавления нового объекта."
 msgstr "Click |add_obj| to add a new object. A new object editor will open."
 
-#: ../../properties.rst:61
+#: ../../properties.rst:63
 msgid "Для удаления объекта нажмите кнопку |delete|."
 msgstr "To delete an object, click |delete|."
 
-#: ../../properties.rst:63
+#: ../../properties.rst:65
 msgid "Если возникла необходимость изменить название объекта, надо кликнуть по имени объекта и ввести новое имя."
 msgstr "If you need to change an object's name, click the name and enter a new one."
 
-#: ../../properties.rst:67
+#: ../../properties.rst:69
 msgid "Библиотечные зависимости"
 msgstr "Library dependences"
 
-#: ../../properties.rst:69
+#: ../../properties.rst:71
 msgid "Настройки, управляющие библиотеками проекта."
 msgstr "Settings managing project libraries."
 
-#: ../../properties.rst:73
+#: ../../properties.rst:75
 msgid "**Библиотеки** - это подключаемые наборы данных объектов, которые \"*склеиваются*\" с объектами проекта при сравнении с удаленной базой данных. В качестве библиотек можно использовать директории (это может быть как другой pgCodeKeeper проект, так и обычная директория с файлами), дампы или же удаленная база данных. Кроме того, библиотеки возможно упаковать в zip-архив, загрузить на сервер, и подключить, указав URL архива. Для добавления библиотек воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr "**Libraries** are plugged-in sets of object data which are \"*glued*\" with project objects during the comparison with the remote database. Directories (a regular directory with files as well as another pgCodeKeeper project), dumps or remote databases can serve as libraries. Besides, you can compress libraries into a zip-archive, upload them to a server and connect them by specifying the archive's URL. To add libraries, use corresponding buttons on the side panel."
 
-#: ../../properties.rst:76
+#: ../../properties.rst:78
 msgid "Библиотеки загружаются в порядке, в котором они указаны в списке (самая верхняя библиотека будет загружена первой). Для изменения порядка воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr "The libraries are loaded in order, in which they are indicated in the list (the topmost library will be loaded first). To change the order, use corresponding buttons on the side panel."
 
-#: ../../properties.rst:78
+#: ../../properties.rst:80
 msgid "Столбец **Owner / Владелец** позволяет установить нового владельца для всех объектов библиотеки."
 msgstr "The **Owner** column allows setting a new owner for all the objects in the library."
 
-#: ../../properties.rst:80
+#: ../../properties.rst:82
 msgid "Если у библиотеки заполнен владелец, он будет отображен вне зависимости от прочих настроек pgCodeKeeper."
 msgstr "If a library already has an owner, this information will be displayed regardless of other pgCodeKeeper settings."
 
-#: ../../properties.rst:82
+#: ../../properties.rst:84
 msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges/owners / Игнорировать привилегии/владельцев**."
 msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges/owners** column."
 
-#: ../../properties.rst:84
+#: ../../properties.rst:86
 msgid "Если у библиотеки не игнорируются привилегии, они будут отображены вне зависимости от прочих настроек pgCodeKeeper."
 msgstr "If a library doesn't ignore privileges, they will be displayed regardless of other pgCodeKeeper settings."
 
-#: ../../properties.rst:86
+#: ../../properties.rst:88
 msgid "**Disallow overrides / Запретить переопределение.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включенной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
 msgstr "**Disallow overrides.** There might be a situation when a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow you to ignore the conflicts: the first loaded object will be used. Regardless of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
 
-#: ../../properties.rst:88
+#: ../../properties.rst:90
 msgid "**Load nested dependencies / Загружать вложенные зависимости** - настройка, позволяющая загружать библиотеки, на которые ссылаются другие библиотеки (рекурсивная загрузка библиотек). Библиотека с зависимостями должна быть в формате проекта (или архива проекта) и содержать файл .dependencies с зависимостями этой библиотеки."
 msgstr "**Load nested dependencies** is a setting that allows loading libraries referred to by other libraries (recursive loading of libraries). The library containing dependencies should be in the form of a project (or project archive) and contain the .dependencies file, which contains the dependencies of this library."
 
-#: ../../properties.rst:90
+#: ../../properties.rst:92
 msgid "В общем случае, для загрузки зависимостей библиотеки, контейнер этой библиотеки должен иметь включенную настройку *loadNested* в файле *.dependencies*. Например, в цепочке зависимостей *project → lib1 → lib2 → lib3* для загрузки *lib2* настройка должна быть включена в project, а для загрузки *lib3* настройка должна быть включена в project и в *lib1*."
 msgstr "In general, to load the library dependencies, a container of this library should have the *loadNested* setting in the *.dependencies* file enabled. For example, in the following dependencies chain: *project → lib1 → lib2 → lib3*, to load *lib2*, the setting should be enabled in project, and to load *lib3*, the setting should be enabled both in project and *lib1*."
 
-#: ../../properties.rst:93
+#: ../../properties.rst:95
 msgid "Обновление БД"
 msgstr "DB update"
 
-#: ../../properties.rst:95
+#: ../../properties.rst:97
 msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`."
 msgstr "Database update managing settings, which allow enabling some of correlating settings from the :ref:`dbUpdate` page."
 
