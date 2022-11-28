@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-01 15:35+0300\n"
-"PO-Revision-Date: 2022-07-13 12:42\n"
+"PO-Revision-Date: 2022-11-28 07:16\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Refactoring"
 
 #: ../../refactoring.rst:5
 msgid "В pgCodeKeeper реализована возможность рефакторинга SQL кода. Объекты в SQL коде можно переименовывать вместе со ссылками на них. Чтобы переименовать объекты  выберите в контекстном меню редактора SQL пункт **Переименовать / Rename**  или нажмите горячую клавишу Alt+Shift+R."
-msgstr "It is possible to refactor the SQL code in pgCodeKeeper. Objects within the SQL code can be renamed along with the links to them. To rename an object, select **Переименовать** in the SQL editor's right-click menu or press Alt+Shift+R."
+msgstr "It is possible to refactor the SQL code in pgCodeKeeper. Objects within the SQL code can be renamed along with the links to them. To rename an object, select **Rename** in the SQL editor's right-click menu or press Alt+Shift+R."
 
 #: ../../refactoring.rst:11
 msgid "Быстрые исправления"

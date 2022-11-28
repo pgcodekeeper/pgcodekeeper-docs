@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 13:57+0300\n"
+"POT-Creation-Date: 2022-11-16 14:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,100 +104,109 @@ msgstr ""
 
 #: ../../properties.rst:30
 msgid ""
+"**Format object code automatically / Форматировать код объектов "
+"автоматически** - позволяет отображать и сохранять отформатированный код "
+"функций на языках plpgsql и sql согласно настройкам форматирования **SQL "
+"Editor/Редактор SQL**. Подробнее про настройки форматирования кода в "
+":ref:`format`."
+msgstr ""
+
+#: ../../properties.rst:32
+msgid ""
 "**Use global ignore list / Использовать глобальный список игнорирования**"
 " - позволяет включить или отключить использование глобального списка "
 "различий со страницы настроек :ref:`ignoredObjects`."
 msgstr ""
 
-#: ../../properties.rst:33
+#: ../../properties.rst:35
 msgid "Списки исключений"
 msgstr ""
 
-#: ../../properties.rst:35
+#: ../../properties.rst:37
 msgid ""
 "Настройки, управляющие списками игнор файлов для данного проекта. "
 "Подробное описание работы со списками находится в разделе "
 ":ref:`ignoreList`."
 msgstr ""
 
-#: ../../properties.rst:39
+#: ../../properties.rst:41
 msgid ""
 "Кнопка **Edit .pgcodekeeperignore / Редактировать .pgcodekeeperignore** "
 "позволяет изменить стандартный игнор файл, находящийся в корне проекта."
 msgstr ""
 
-#: ../../properties.rst:41
+#: ../../properties.rst:43
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
 msgstr ""
 
-#: ../../properties.rst:101
+#: ../../properties.rst:103
 msgid "add_obj"
 msgstr ""
 
-#: ../../properties.rst:43
+#: ../../properties.rst:45
 msgid "Для удаления файла нажмите кнопку |delete|."
 msgstr ""
 
-#: ../../properties.rst:102
+#: ../../properties.rst:104
 msgid "delete"
 msgstr ""
 
-#: ../../properties.rst:45
+#: ../../properties.rst:47
 msgid ""
 "Для создания нового файла нажмите кнопку |add_file|. Будет открыт "
 "редактор списка правил, аналогичный редактору на странице глобальных "
 "настроек :ref:`ignoredObjects`."
 msgstr ""
 
-#: ../../properties.rst:100
+#: ../../properties.rst:102
 msgid "add_file"
 msgstr ""
 
-#: ../../properties.rst:49
+#: ../../properties.rst:51
 msgid ""
 "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт "
 "редактор списка правил из текущего файла."
 msgstr ""
 
-#: ../../properties.rst:103
+#: ../../properties.rst:105
 msgid "editor_area"
 msgstr ""
 
-#: ../../properties.rst:53
+#: ../../properties.rst:55
 msgid "Исключенные схемы"
 msgstr ""
 
-#: ../../properties.rst:55
+#: ../../properties.rst:57
 msgid ""
 "Настройки, регулирующие загрузку объектов из базы данных. Подробное "
 "описание работы находится в разделе :ref:`ignoreSchemaList`."
 msgstr ""
 
-#: ../../properties.rst:59
+#: ../../properties.rst:61
 msgid ""
 "Для добавления объекта нажмите кнопку |add_obj| - откроется редактор "
 "добавления нового объекта."
 msgstr ""
 
-#: ../../properties.rst:61
+#: ../../properties.rst:63
 msgid "Для удаления объекта нажмите кнопку |delete|."
 msgstr ""
 
-#: ../../properties.rst:63
+#: ../../properties.rst:65
 msgid ""
 "Если возникла необходимость изменить название объекта, надо кликнуть по "
 "имени объекта и ввести новое имя."
 msgstr ""
 
-#: ../../properties.rst:67
+#: ../../properties.rst:69
 msgid "Библиотечные зависимости"
 msgstr ""
 
-#: ../../properties.rst:69
+#: ../../properties.rst:71
 msgid "Настройки, управляющие библиотеками проекта."
 msgstr ""
 
-#: ../../properties.rst:73
+#: ../../properties.rst:75
 msgid ""
 "**Библиотеки** - это подключаемые наборы данных объектов, которые "
 "\"*склеиваются*\" с объектами проекта при сравнении с удаленной базой "
@@ -209,39 +218,39 @@ msgid ""
 " на боковой панели."
 msgstr ""
 
-#: ../../properties.rst:76
+#: ../../properties.rst:78
 msgid ""
 "Библиотеки загружаются в порядке, в котором они указаны в списке (самая "
 "верхняя библиотека будет загружена первой). Для изменения порядка "
 "воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr ""
 
-#: ../../properties.rst:78
+#: ../../properties.rst:80
 msgid ""
 "Столбец **Owner / Владелец** позволяет установить нового владельца для "
 "всех объектов библиотеки."
 msgstr ""
 
-#: ../../properties.rst:80
+#: ../../properties.rst:82
 msgid ""
 "Если у библиотеки заполнен владелец, он будет отображен вне зависимости "
 "от прочих настроек pgCodeKeeper."
 msgstr ""
 
-#: ../../properties.rst:82
+#: ../../properties.rst:84
 msgid ""
 "Если вы не хотите использовать привилегии и владельцев объектов "
 "библиотеки, вы можете отключить их в столбце **Ignore privileges/owners /"
 " Игнорировать привилегии/владельцев**."
 msgstr ""
 
-#: ../../properties.rst:84
+#: ../../properties.rst:86
 msgid ""
 "Если у библиотеки не игнорируются привилегии, они будут отображены вне "
 "зависимости от прочих настроек pgCodeKeeper."
 msgstr ""
 
-#: ../../properties.rst:86
+#: ../../properties.rst:88
 msgid ""
 "**Disallow overrides / Запретить переопределение.** Не исключена "
 "ситуация, когда проект и библиотека (или две библиотеки) содержат объекты"
@@ -253,7 +262,7 @@ msgid ""
 "конфликты."
 msgstr ""
 
-#: ../../properties.rst:88
+#: ../../properties.rst:90
 msgid ""
 "**Load nested dependencies / Загружать вложенные зависимости** - "
 "настройка, позволяющая загружать библиотеки, на которые ссылаются другие "
@@ -262,7 +271,7 @@ msgid ""
 ".dependencies с зависимостями этой библиотеки."
 msgstr ""
 
-#: ../../properties.rst:90
+#: ../../properties.rst:92
 msgid ""
 "В общем случае, для загрузки зависимостей библиотеки, контейнер этой "
 "библиотеки должен иметь включенную настройку *loadNested* в файле "
@@ -271,11 +280,11 @@ msgid ""
 "для загрузки *lib3* настройка должна быть включена в project и в *lib1*."
 msgstr ""
 
-#: ../../properties.rst:93
+#: ../../properties.rst:95
 msgid "Обновление БД"
 msgstr ""
 
-#: ../../properties.rst:95
+#: ../../properties.rst:97
 msgid ""
 "Настройки, управляющие обновлением базы данных, которые позволяют "
 "переопределить некоторые соответствующие настройки со страницы "
