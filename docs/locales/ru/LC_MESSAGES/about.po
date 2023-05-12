@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, pgCodeKeeper
+# Copyright (C) 2022, pgCodeKeeper
 # This file is distributed under the same license as the pgCodeKeeper
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.5\n"
+"Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-10 14:05+0300\n"
+"POT-Creation-Date: 2023-05-12 10:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,112 +98,68 @@ msgstr ""
 msgid "+7 (3522) 60-14-09"
 msgstr ""
 
-#: ../../about.rst:19 ../../about.rst:24
-msgid "Наименование банка"
-msgstr ""
-
 #: ../../about.rst:19
-msgid "ОАО АКИБ «КУРГАН»"
-msgstr ""
-
-#: ../../about.rst:20 ../../about.rst:25
-msgid "Местонахождение банка"
-msgstr ""
-
-#: ../../about.rst:20
-msgid "г. Курган"
-msgstr ""
-
-#: ../../about.rst:21 ../../about.rst:26
-msgid "Расчетный счет"
-msgstr ""
-
-#: ../../about.rst:21
-msgid "40702810100000001924"
-msgstr ""
-
-#: ../../about.rst:22 ../../about.rst:27
-msgid "БИК"
-msgstr ""
-
-#: ../../about.rst:22
-msgid "043735830"
-msgstr ""
-
-#: ../../about.rst:23 ../../about.rst:28
-msgid "Корреспондирующий счет"
-msgstr ""
-
-#: ../../about.rst:23
-msgid "30101810700000000830"
-msgstr ""
-
-#: ../../about.rst:24
-msgid "ООО КБ \"КЕТОВСКИЙ\""
-msgstr ""
-
-#: ../../about.rst:25
-msgid "с. Кетово"
-msgstr ""
-
-#: ../../about.rst:26
-msgid "40702810200010000350"
-msgstr ""
-
-#: ../../about.rst:27
-msgid "043735821"
-msgstr ""
-
-#: ../../about.rst:28
-msgid "30101810900000000821"
-msgstr ""
-
-#: ../../about.rst:29
 msgid "ОКПО"
 msgstr ""
 
-#: ../../about.rst:29
+#: ../../about.rst:19
 msgid "87299772"
 msgstr ""
 
-#: ../../about.rst:30
+#: ../../about.rst:20
 msgid "Директор"
 msgstr ""
 
-#: ../../about.rst:30
+#: ../../about.rst:20
 msgid "Татаринцев Игорь Витальевич"
 msgstr ""
 
-#: ../../about.rst:34
+#: ../../about.rst:24
 msgid "Свидетельство о регистрации"
 msgstr ""
 
-#~ msgid "Программа pgCodeKeeper разработана и поддерживается ООО «Технология»."
+#~ msgid "Наименование банка"
 #~ msgstr ""
 
-#~ msgid "Общество с ограниченной ответственностью «Технология»"
+#~ msgid "ОАО АКИБ «КУРГАН»"
 #~ msgstr ""
 
-#~ msgid "ООО «Технология»"
+#~ msgid "Местонахождение банка"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "1124501001580 выдан ИФНС по г. Кургану"
-#~ " 16.02.2012 , св-во 45 № 001022113"
+#~ msgid "г. Курган"
 #~ msgstr ""
 
-#~ msgid "4501173509/450101001"
+#~ msgid "Расчетный счет"
 #~ msgstr ""
 
-#~ msgid "640000, Курганская область, город Курган, ул. Коли Мяготина, 117/V"
+#~ msgid "40702810100000001924"
 #~ msgstr ""
 
-#~ msgid "640003, Курганская область, город Курган, ул. Радионова, 17"
+#~ msgid "БИК"
 #~ msgstr ""
 
-#~ msgid "Телефон/факс"
+#~ msgid "043735830"
 #~ msgstr ""
 
-#~ msgid "\\(3522) 608294 / (3522) 601409"
+#~ msgid "Корреспондирующий счет"
+#~ msgstr ""
+
+#~ msgid "30101810700000000830"
+#~ msgstr ""
+
+#~ msgid "ООО КБ \"КЕТОВСКИЙ\""
+#~ msgstr ""
+
+#~ msgid "с. Кетово"
+#~ msgstr ""
+
+#~ msgid "40702810200010000350"
+#~ msgstr ""
+
+#~ msgid "043735821"
+#~ msgstr ""
+
+#~ msgid "30101810900000000821"
 #~ msgstr ""
 

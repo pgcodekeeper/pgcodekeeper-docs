@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, pgCodeKeeper
+# Copyright (C) 2022, pgCodeKeeper
 # This file is distributed under the same license as the pgCodeKeeper
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 5.10\n"
+"Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"POT-Creation-Date: 2023-05-12 10:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../refactoring.rst:3
 msgid "Рефакторинг"
@@ -43,29 +43,4 @@ msgid ""
 "**Переименовать файл / Rename file**. Файл объекта будет перемещен на "
 "ожидаемое для него место в проекте."
 msgstr ""
-
-#~ msgid ""
-#~ "В pgCodeKeeperе реализована возможность "
-#~ "рефакторинга SQL кода. Объекты в SQL "
-#~ "коде можно переименовывать вместе со "
-#~ "ссылками на них. Чтобы переименовать "
-#~ "объекты  выберите в контекстном меню "
-#~ "редактора SQL пункт **Переименовать / "
-#~ "Rename**  или нажмите горячую клавишу "
-#~ "Alt+Shift+R."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Также в pgCodeKeeperе есть возможность "
-#~ "быстрого исправления ошибок некорректного "
-#~ "расположения объектов. Для того, чтобы "
-#~ "исправить эту ошибку, наведите курсор "
-#~ "мыши на ошибку (в имени файла) и"
-#~ " во всплывающей подсказке или в "
-#~ "контекстном меню Quick Fix редактора SQL"
-#~ " выберите пункт **Переименовать файл в "
-#~ "/ Rename file to** . Файл объекта"
-#~ " будет перемещен на ожидаемое для "
-#~ "него место в проекте."
-#~ msgstr ""
 

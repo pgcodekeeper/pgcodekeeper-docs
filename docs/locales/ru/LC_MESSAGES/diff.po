@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, pgCodeKeeper
+# Copyright (C) 2022, pgCodeKeeper
 # This file is distributed under the same license as the pgCodeKeeper
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.5\n"
+"Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-01 15:35+0300\n"
+"POT-Creation-Date: 2023-05-12 10:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../diff.rst:3
 msgid "Сравнение схем БД"
@@ -69,33 +69,4 @@ msgid ""
 "При нажатии кнопки **Finish** откроется SQL редактор со скриптом "
 "миграции, сгенерированным для выбранных изменений."
 msgstr ""
-
-#~ msgid ""
-#~ "Открываем мастер сравнения баз данных: "
-#~ "**pgCodeKeeper - Мастер сравнения** или "
-#~ "вызываем контекстное меню pgCodeKeeper проекта"
-#~ " и выбираем **pgCodeKeeper - Сравнить...**."
-#~ " Выбираем источник исходной схемы базы "
-#~ "данных, которую нужно обновить, и "
-#~ "целевой схемы базы данных, на основании"
-#~ " которой обновляем исходную базу данных."
-#~ " Выбираем дополнительные параметры: кодировки "
-#~ "источников и временную зона БД. Нажимаем"
-#~ " кнопку **Next** и переходим к "
-#~ "**таблице сравнения**."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Выбираем дополнительные параметры: кодировки "
-#~ "источников и временную зона БД."
-#~ msgstr ""
-
-#~ msgid "При использовании MS SQL дампа, выбираем соответствующую опцию."
-#~ msgstr ""
-
-#~ msgid "Выбираем кодировки источников и временную зона БД."
-#~ msgstr ""
-
-#~ msgid "Сравнение баз данных"
-#~ msgstr ""
 
