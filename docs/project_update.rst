@@ -21,6 +21,8 @@
 **Обновление файлов проекта приводит к сбросу списка различий.**
 
 .. |refresh| image:: ../images/pgcodekeeper_project_view/refresh.png
+   :height: 16px
+   :width: 16 px
 .. |save_edit| image:: ../images/pgcodekeeper_project_view/save_edit.png
 .. |app_icon| image:: ../images/pgcodekeeper_project_view/app_icon16.png
 

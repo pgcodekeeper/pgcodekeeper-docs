@@ -54,5 +54,7 @@
 .. |example_black_list| image:: ../images/example_black_list.png
 .. |black_list_2| image:: ../images/black_list_2.png
 .. |refresh| image:: ../images/pgcodekeeper_project_view/refresh.png
+   :height: 16px
+   :width: 16 px
 .. |black_list_worker| image:: ../images/black_list_worker.png
 .. |white_list_worker| image:: ../images/white_list_worker.png
