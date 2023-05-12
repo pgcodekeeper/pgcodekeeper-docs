@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2020-06-15 10:14\n"
+"POT-Creation-Date: 2023-05-12 10:57+0300\n"
+"PO-Revision-Date: 2023-05-12 08:44\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.8.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,8 +23,8 @@ msgid "О pgCodeKeeper"
 msgstr "About pgCodeKeeper"
 
 #: ../../about.rst:5
-msgid "Программа pgCodeKeeper разработана и поддерживается ООО «Технология»."
-msgstr "The pgCodeKeeper program is developed and maintained by OOO Technology."
+msgid "Программа pgCodeKeeper разработана и поддерживается ООО \"Такстелеком\" (ранее ООО \"Технология\")."
+msgstr ""
 
 #: ../../about.rst:8
 msgid "Карточка организации"
@@ -35,134 +35,127 @@ msgid "Полное наименование"
 msgstr "Full name"
 
 #: ../../about.rst:11
-msgid "Общество с ограниченной ответственностью «Технология»"
-msgstr "Limited liaibility company Technology"
+msgid "Общество с ограниченной ответственностью «Такстелеком»"
+msgstr ""
 
 #: ../../about.rst:12
 msgid "Сокращенное наименование"
 msgstr "Abbreviated name"
 
 #: ../../about.rst:12
-msgid "ООО «Технология»"
-msgstr "LLC Technology"
+msgid "ООО «Такстелеком»"
+msgstr ""
 
 #: ../../about.rst:13
 msgid "ОГРН"
 msgstr "Primary State Registration Number"
 
 #: ../../about.rst:13
-msgid "1124501001580 выдан ИФНС по г. Кургану 16.02.2012 , св-во 45 № 001022113"
-msgstr "1124501001580 issued by \tFederal Tax Agency's inspectorate in Kurgan on 16.02.2012, certificate 45 № 001022113"
+msgid "1114501006652"
+msgstr ""
 
 #: ../../about.rst:14
 msgid "ИНН/КПП"
 msgstr "TIN/RRC"
 
 #: ../../about.rst:14
-msgid "4501173509/450101001"
-msgstr "4501173509/450101001"
+msgid "4501170000/720301001"
+msgstr ""
 
 #: ../../about.rst:15
 msgid "Юридический адрес"
 msgstr "Legal address"
 
 #: ../../about.rst:15
-msgid "640000, Курганская область, город Курган, ул. Коли Мяготина, 117/V"
-msgstr "640000, Kurgan oblast, Kurgan, Koli Myagotina str, 117/V"
+msgid "625000, Тюменская обл, Городской округ город Тюмень, Тюмень г, Герцена ул, дом 72, строение 1, офис 301"
+msgstr ""
 
 #: ../../about.rst:16
 msgid "Почтовый адрес"
 msgstr "Mailing Address"
 
 #: ../../about.rst:16
-msgid "640003, Курганская область, город Курган, ул. Радионова, 17"
-msgstr "640003, Kurgan oblast, Kurgan, Radionova str, 17"
+msgid "640003, Курганская обл, Курган г, Радионова ул, дом № 17"
+msgstr ""
 
 #: ../../about.rst:17
-msgid "Телефон/факс"
-msgstr "Phone/Fax"
+msgid "Телефон"
+msgstr ""
 
 #: ../../about.rst:17
-msgid "\\(3522) 608294 / (3522) 601409"
-msgstr "\\(3522) 608294 / (3522) 601409"
-
-#: ../../about.rst:18 ../../about.rst:23
-msgid "Наименование банка"
-msgstr "Bank Name"
+msgid "+7 (3522) 63-03-40"
+msgstr ""
 
 #: ../../about.rst:18
-msgid "ОАО АКИБ «КУРГАН»"
-msgstr "OAO AKIB «KURGAN»"
+msgid "Факс"
+msgstr ""
 
-#: ../../about.rst:19 ../../about.rst:24
-msgid "Местонахождение банка"
-msgstr "Bank location"
+#: ../../about.rst:18
+msgid "+7 (3522) 60-14-09"
+msgstr ""
 
 #: ../../about.rst:19
-msgid "г. Курган"
-msgstr "Kurgan"
-
-#: ../../about.rst:20 ../../about.rst:25
-msgid "Расчетный счет"
-msgstr "Corporate bank account"
-
-#: ../../about.rst:20
-msgid "40702810100000001924"
-msgstr "40702810100000001924"
-
-#: ../../about.rst:21 ../../about.rst:26
-msgid "БИК"
-msgstr "BIC"
-
-#: ../../about.rst:21
-msgid "043735830"
-msgstr "043735830"
-
-#: ../../about.rst:22 ../../about.rst:27
-msgid "Корреспондирующий счет"
-msgstr "Corresponding account"
-
-#: ../../about.rst:22
-msgid "30101810700000000830"
-msgstr "30101810700000000830"
-
-#: ../../about.rst:23
-msgid "ООО КБ \"КЕТОВСКИЙ\""
-msgstr "OOO KB \"KETOVSKIY\""
-
-#: ../../about.rst:24
-msgid "с. Кетово"
-msgstr "Ketovo"
-
-#: ../../about.rst:25
-msgid "40702810200010000350"
-msgstr "40702810200010000350"
-
-#: ../../about.rst:26
-msgid "043735821"
-msgstr "043735821"
-
-#: ../../about.rst:27
-msgid "30101810900000000821"
-msgstr "30101810900000000821"
-
-#: ../../about.rst:28
 msgid "ОКПО"
 msgstr "OKPO"
 
-#: ../../about.rst:28
+#: ../../about.rst:19
 msgid "87299772"
 msgstr "87299772"
 
-#: ../../about.rst:29
+#: ../../about.rst:20
 msgid "Директор"
 msgstr "Director"
 
-#: ../../about.rst:29
+#: ../../about.rst:20
 msgid "Татаринцев Игорь Витальевич"
 msgstr "Tatarintsev Igor Vitalyevich"
 
-#: ../../about.rst:33
+#: ../../about.rst:24
 msgid "Свидетельство о регистрации"
 msgstr "Registration certificate"
+
+#~ msgid "Наименование банка"
+#~ msgstr ""
+
+#~ msgid "ОАО АКИБ «КУРГАН»"
+#~ msgstr ""
+
+#~ msgid "Местонахождение банка"
+#~ msgstr ""
+
+#~ msgid "г. Курган"
+#~ msgstr ""
+
+#~ msgid "Расчетный счет"
+#~ msgstr ""
+
+#~ msgid "40702810100000001924"
+#~ msgstr ""
+
+#~ msgid "БИК"
+#~ msgstr ""
+
+#~ msgid "043735830"
+#~ msgstr ""
+
+#~ msgid "Корреспондирующий счет"
+#~ msgstr ""
+
+#~ msgid "30101810700000000830"
+#~ msgstr ""
+
+#~ msgid "ООО КБ \"КЕТОВСКИЙ\""
+#~ msgstr ""
+
+#~ msgid "с. Кетово"
+#~ msgstr ""
+
+#~ msgid "40702810200010000350"
+#~ msgstr ""
+
+#~ msgid "043735821"
+#~ msgstr ""
+
+#~ msgid "30101810900000000821"
+#~ msgstr ""
 
