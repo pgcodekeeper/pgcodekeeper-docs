@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-13 10:28\n"
+"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"PO-Revision-Date: 2023-05-12 08:44\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.8.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -26,138 +26,43 @@ msgstr "Selecting of the database source"
 msgid "В редакторе проекта для выбора источника БД используется выпадающее меню **Get Changes / Получить изменения** |refresh|"
 msgstr "In the project editor, we use the **Get Changes** |refresh| drop-down menu to select the DB source"
 
-#: ../../db_store.rst:25
+#: ../../db_store.rst:24
 msgid "refresh"
 msgstr "refresh"
 
-#: ../../db_store.rst:10
+#: ../../db_store.rst:9
 msgid "или в контекстном меню выбранной БД."
 msgstr "or from the right-click menu of the selected DB."
 
-#: ../../db_store.rst:15
+#: ../../db_store.rst:14
 msgid "В редакторе SQL выбор источника БД происходит в контекстном меню выбранной БД на панели инструментов Eclipse."
 msgstr "In the SQL editor, the DB source is selected from the right-click menu on the Eclipse tool bar."
 
-#: ../../db_store.rst:19
+#: ../../db_store.rst:18
 msgid "В списках источников БД показаны доступные подключения к БД, объединенные по группам, и последние три дамп-файла."
 msgstr "The DB sources lists display the available DB connections merged in groups, as well as the three latest dump files."
 
-#: ../../db_store.rst:21
+#: ../../db_store.rst:20
 msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по пункту **Add DB connection / Добавить подключение к БД** в выпадающем меню кнопки **Get Changes / Получить изменения** |refresh| или комбобокса."
 msgstr "You can find the databases list in :ref:`dbStore`, which can be accessed from the **Add DB connection** item in the **Get Changes** |refresh| drop-down list or combo box."
 
-#: ../../db_store.rst:23
+#: ../../db_store.rst:22
 msgid "Для выбора файл-дампа необходимо выбрать элемент списка **Load from file... / Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
 msgstr "To select a dump file, you should select the item from the **Load from file...** list. In the appeared dialog window select the required file and click **OK**. The selected file is added to the database source list."
 
-#: ../../db_store.rst:29
+#: ../../db_store.rst:30
 msgid "Группировка источников базы данных"
 msgstr "Database sources grouping"
 
-#: ../../db_store.rst:31
+#: ../../db_store.rst:32
 msgid "Для объединения баз данных в группы, выберите **DB Store / Хранилище БД** в глобальных настройках pgCodeKeeper и нажмите кнопку **Edit / Редактировать**. В поле **Group / Группа** задайте группу или выберите существующую."
 msgstr "To merge databases into groups, select **DB Store** in the pgCodeKeeper global settings and click **Edit**. In the **Group** field, specify a group, or select an existing one."
 
-#: ../../db_store.rst:38
+#: ../../db_store.rst:39
 msgid "Хранение паролей"
 msgstr "Password storage"
 
-#: ../../db_store.rst:40
+#: ../../db_store.rst:41
 msgid "При нестабильной работе Eclipse можно отключить хранение паролей в безопасном хранилище Eclipse. В этом случае пароли БД будут храниться открытым текстом в рабочем пространстве Eclipse (workspace). Также, возможно использовать пароли из файла *.pgpass*. Для отключения сохранения паролей в безопасном хранилище Eclipse выключите флажок в настройке **Save password in Eclipse secure storage / Сохранять пароли в безопасном хранилище Eclipse**."
 msgstr "If Eclipse is unstable, you can disable storing passwords in the Eclipse secure storage. In this case, the DB passwords will be stored as plain text in the Eclipse workspace. You can also use passwords from the *.pgpass* file. To disable saving passwords in the Eclipse secure storage, uncheck **Save password in Eclipse secure storage**."
-
-#~ msgid ""
-#~ "Список баз данных находится в "
-#~ ":ref:`dbStore`, в которое можно перейти "
-#~ "по кнопке **Редактировать**, находящейся слева"
-#~ " от списка."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для выбора файл-дампа необходима выбрать "
-#~ "элемент списка **Загрузить из файла...**. "
-#~ "В открывшемся диалоговом окне выбираем "
-#~ "нужный нам файл и нажимаем кнопку "
-#~ "**OK**. Выбранный файл добавлен в список"
-#~ " источников баз данных."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для удобства выбора источника базы "
-#~ "данных в различных частях плагина "
-#~ "используется выпадающий список, который "
-#~ "состоит из списка баз данных и 3-х"
-#~ " последних дамп-файлов."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Список баз данных находится в "
-#~ ":ref:`dbStore`, в которое можно перейти "
-#~ "по кнопке **Open DB store / "
-#~ "Открыть хранилище БД**, находящейся слева "
-#~ "от списка."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для выбора файл-дампа необходима выбрать "
-#~ "элемент списка **Load from file... / "
-#~ "Загрузить из файла...**. В открывшемся "
-#~ "диалоговом окне выбираем нужный нам файл"
-#~ " и нажимаем кнопку **OK**. Выбранный "
-#~ "файл добавлен в список источников баз"
-#~ " данных."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В редакторе проекта для выбора источника"
-#~ " БД используется выпадающее меню **Get "
-#~ "Changes / Получить изменения** |refresh|."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Список баз данных находится в "
-#~ ":ref:`dbStore`, в которое можно перейти "
-#~ "по пункту **Add DB connection / "
-#~ "Добавить подключение к БД** в выпадающем"
-#~ " меню кнопки **Get Changes / Получить"
-#~ " изменения** |refresh|."
-#~ msgstr ""
-
-#~ msgid "или комбобокс."
-#~ msgstr ""
-
-#~ msgid "или выпдающий список."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В редакторе SQL выбор источника БД "
-#~ "происходит в выпадающем списке на панели"
-#~ " инструментов Eclipse."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В списках источников БД показаны "
-#~ "доступные подключения к БД и последние"
-#~ " три дамп-файла."
-#~ msgstr ""
-
-#~ msgid "или ссылка с выпадающим меню."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В редакторе SQL выбор источника БД "
-#~ "происходит в ссылке с выпадающим меню"
-#~ " на панели инструментов Eclipse."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для объединения баз данных в группы "
-#~ "выберите **DB Store / Хранилище бд** "
-#~ "в глобальных настройках pgCodeKeeper и "
-#~ "нажмите на кнопку **Edit / "
-#~ "Редактировать**. В поле **Choice DB "
-#~ "group / Выберите группу БД** задайте "
-#~ "пользовательскую группу или выберите из "
-#~ "существующих групп."
-#~ msgstr ""
 
