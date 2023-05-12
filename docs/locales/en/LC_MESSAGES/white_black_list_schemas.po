@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 13:57+0300\n"
-"PO-Revision-Date: 2022-07-13 11:29\n"
+"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"PO-Revision-Date: 2023-05-12 08:44\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.8.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -110,7 +110,7 @@ msgstr "refresh"
 msgid "|black_list_worker|"
 msgstr "|black_list_worker|"
 
-#: ../../white_black_list_schemas.rst:57
+#: ../../white_black_list_schemas.rst:59
 msgid "black_list_worker"
 msgstr "black_list_worker"
 
@@ -122,33 +122,11 @@ msgstr "If you need to download the objects from the worker schema only, tick Wh
 msgid "|white_list_worker|"
 msgstr "|white_list_worker|"
 
-#: ../../white_black_list_schemas.rst:58
+#: ../../white_black_list_schemas.rst:60
 msgid "white_list_worker"
 msgstr "white_list_worker"
 
 #: ../../white_black_list_schemas.rst:54
 msgid "example_black_list"
 msgstr "example_black_list"
-
-#~ msgid ""
-#~ "В pgCodeKeeper реализована возможность "
-#~ "выборочной загрузки объектов из базы "
-#~ "данных. Для того, чтобы загрузить только"
-#~ " определенные объекты, их нужно указать "
-#~ "в списке исключаемых схем."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Схемы и их содержимое, отфильтрованные "
-#~ "данными списками, участвуют в сравнении "
-#~ "и могут попасть в итоговый скрипт "
-#~ "миграции по зависимости."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В редакторе проекта  кликаем по Changes"
-#~ " / Получить изменения** |refresh|. На "
-#~ "панели различий нет объектов из схемы"
-#~ " worker!"
-#~ msgstr ""
 
