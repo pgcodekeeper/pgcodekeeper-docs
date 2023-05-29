@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 11:17+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"PO-Revision-Date: 2023-05-29 10:52\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Development"
 
 #: ../../contributors.rst:22
 msgid "Левша Александр"
-msgstr ""
+msgstr "Alexander Levsha"
 
 #: ../../contributors.rst:23
 msgid "Галиев Мансур"
@@ -88,11 +88,11 @@ msgstr "Ildar Shaydullin"
 
 #: ../../contributors.rst:31
 msgid "Сикорский Данил"
-msgstr ""
+msgstr "Danil Sikorsky"
 
 #: ../../contributors.rst:32
 msgid "Шамсутдинов Эльмир"
-msgstr ""
+msgstr "Elmir Shamsutdinov"
 
 #: ../../contributors.rst:35
 msgid "Дизайн и вёрстка сайта"
