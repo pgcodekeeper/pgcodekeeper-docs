@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 10:57+0300\n"
-"PO-Revision-Date: 2023-05-29 08:59\n"
+"PO-Revision-Date: 2023-05-29 10:52\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Full name"
 
 #: ../../about.rst:11
 msgid "Общество с ограниченной ответственностью «Такстелеком»"
-msgstr "Limited liaibility company Taxtelecom"
+msgstr "Limited liability company Taxtelecom"
 
 #: ../../about.rst:12
 msgid "Сокращенное наименование"
