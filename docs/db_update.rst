@@ -25,6 +25,8 @@
 Для большей гибкости имеется возможность наката выделенного фрагмента кода.
 
 .. |refresh| image:: ../images/pgcodekeeper_project_view/refresh.png
+   :height: 16px
+   :width: 16 px
 .. |save_edit| image:: ../images/pgcodekeeper_project_view/save_edit.png
 .. |app_icon| image:: ../images/pgcodekeeper_project_view/app_icon16.png
 .. |database| image:: ../images/pgcodekeeper_project_view/database.png

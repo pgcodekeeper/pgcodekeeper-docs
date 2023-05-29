@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-17 16:21+0300\n"
-"PO-Revision-Date: 2021-03-18 04:46\n"
+"POT-Creation-Date: 2023-05-12 11:17+0300\n"
+"PO-Revision-Date: 2023-05-29 10:52\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -51,8 +51,8 @@ msgid "Разработка"
 msgstr "Development"
 
 #: ../../contributors.rst:22
-msgid "Левша Александр - ведущий программист"
-msgstr "Alexander Levsha - lead developer"
+msgid "Левша Александр"
+msgstr "Alexander Levsha"
 
 #: ../../contributors.rst:23
 msgid "Галиев Мансур"
@@ -74,7 +74,7 @@ msgstr "Anton Ryabinin"
 msgid "Акифьев Антон"
 msgstr "Anton Akifiev"
 
-#: ../../contributors.rst:28 ../../contributors.rst:35
+#: ../../contributors.rst:28 ../../contributors.rst:37
 msgid "Хазиева Гульназ"
 msgstr "Gulnaz Khazieva"
 
@@ -86,23 +86,34 @@ msgstr "Mikhail Tavturin"
 msgid "Шайдуллин Ильдар"
 msgstr "Ildar Shaydullin"
 
-#: ../../contributors.rst:33
+#: ../../contributors.rst:31
+msgid "Сикорский Данил"
+msgstr "Danil Sikorsky"
+
+#: ../../contributors.rst:32
+msgid "Шамсутдинов Эльмир"
+msgstr "Elmir Shamsutdinov"
+
+#: ../../contributors.rst:35
 msgid "Дизайн и вёрстка сайта"
 msgstr "Website design and layout"
 
-#: ../../contributors.rst:36
+#: ../../contributors.rst:38
 msgid "Демаков Василий"
 msgstr "Vasily Demakov"
 
-#: ../../contributors.rst:39
+#: ../../contributors.rst:41
 msgid "Перевод документации"
 msgstr "Documentation Translation"
 
-#: ../../contributors.rst:41
+#: ../../contributors.rst:43
 msgid "Пигин Кирилл"
 msgstr "Kirill Pigin"
 
-#: ../../contributors.rst:42
+#: ../../contributors.rst:44
 msgid "Мы ищем контрибьюторов для выполнения перевода документации."
 msgstr "We are in search of contributors who would translate the documentation."
+
+#~ msgid "Левша Александр - ведущий программист"
+#~ msgstr ""
 

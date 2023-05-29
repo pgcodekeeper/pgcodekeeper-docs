@@ -209,8 +209,8 @@
 
 .. |copy| image:: ../images/pgcodekeeper_project_view/copy_edit.png
 .. |pg_pass| image:: ../images/pgcodekeeper_project_view/pg_pass.png
-.. |delete| image:: ../images/pgcodekeeper_project_view/delete_obj.gif
-.. |add_obj| image:: ../images/pgcodekeeper_project_view/add_obj.gif
-.. |editor_area| image:: ../images/pgcodekeeper_project_view/editor_area.gif
+.. |delete| image:: ../images/pgcodekeeper_project_view/delete_obj.png
+.. |add_obj| image:: ../images/pgcodekeeper_project_view/add_obj.png
+.. |editor_area| image:: ../images/pgcodekeeper_project_view/editor_area.png
 .. |import_db| image:: ../images/pgcodekeeper_project_view/import_wiz.png
 .. |export_db| image:: ../images/pgcodekeeper_project_view/export_wiz.png
