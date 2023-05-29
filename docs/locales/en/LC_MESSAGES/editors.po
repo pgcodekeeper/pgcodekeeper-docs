@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"PO-Revision-Date: 2023-05-29 10:10\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "save_edit"
 
 #: ../../editors.rst:31
 msgid "– выпадающее меню с направлениями изменений. При клике по лейблу DB/БД также отображается меню с направлениями изменений."
-msgstr ""
+msgstr "– drop-down menu with the directions of changes. If you click the DB label, you will also see the menu with the directions of changes."
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
@@ -136,7 +136,7 @@ msgstr "refresh"
 
 #: ../../editors.rst:33
 msgid "– выпадающее меню с источниками баз данных. Источники баз данных можно выбрать в контекстном меню выбранной БД |source_name| на панели инструментов редактора (2)."
-msgstr ""
+msgstr "– drop-down menu with the databases sources. You can select the database sources from the right-click menu of the selected DB |source_name| on the editor tool bar (2)."
 
 #: ../../editors.rst:66
 msgid "source_name"
@@ -144,7 +144,7 @@ msgstr "source_name"
 
 #: ../../editors.rst:35
 msgid "Выпадающие меню позволяют запустить операции получения или применения изменений с переопределением некоторых настроек."
-msgstr ""
+msgstr "The drop-down menus allow us to launch the operations of receiving and applying changes with overriding some settings."
 
 #: ../../editors.rst:37
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
