@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 10:57+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"PO-Revision-Date: 2023-05-29 08:59\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "About pgCodeKeeper"
 
 #: ../../about.rst:5
 msgid "Программа pgCodeKeeper разработана и поддерживается ООО \"Такстелеком\" (ранее ООО \"Технология\")."
-msgstr ""
+msgstr "The pgCodeKeeper program is developed and maintained by Taxtelecom LLC (formerly Technology LLC)."
 
 #: ../../about.rst:8
 msgid "Карточка организации"
@@ -36,7 +36,7 @@ msgstr "Full name"
 
 #: ../../about.rst:11
 msgid "Общество с ограниченной ответственностью «Такстелеком»"
-msgstr ""
+msgstr "Limited liaibility company Taxtelecom"
 
 #: ../../about.rst:12
 msgid "Сокращенное наименование"
@@ -44,7 +44,7 @@ msgstr "Abbreviated name"
 
 #: ../../about.rst:12
 msgid "ООО «Такстелеком»"
-msgstr ""
+msgstr "Taxtelecom LLC"
 
 #: ../../about.rst:13
 msgid "ОГРН"
@@ -52,7 +52,7 @@ msgstr "Primary State Registration Number"
 
 #: ../../about.rst:13
 msgid "1114501006652"
-msgstr ""
+msgstr "1114501006652"
 
 #: ../../about.rst:14
 msgid "ИНН/КПП"
@@ -60,7 +60,7 @@ msgstr "TIN/RRC"
 
 #: ../../about.rst:14
 msgid "4501170000/720301001"
-msgstr ""
+msgstr "4501170000/720301001"
 
 #: ../../about.rst:15
 msgid "Юридический адрес"
@@ -68,7 +68,7 @@ msgstr "Legal address"
 
 #: ../../about.rst:15
 msgid "625000, Тюменская обл, Городской округ город Тюмень, Тюмень г, Герцена ул, дом 72, строение 1, офис 301"
-msgstr ""
+msgstr "Office 301, building 1, 72, Gertsena street, Tyumen city, Tyumen city district, Tyumen region, 625000"
 
 #: ../../about.rst:16
 msgid "Почтовый адрес"
@@ -76,23 +76,23 @@ msgstr "Mailing Address"
 
 #: ../../about.rst:16
 msgid "640003, Курганская обл, Курган г, Радионова ул, дом № 17"
-msgstr ""
+msgstr "Radionova st., 17, city of Kurgan, Kurganskaya oblast, 640003"
 
 #: ../../about.rst:17
 msgid "Телефон"
-msgstr ""
+msgstr "Phone"
 
 #: ../../about.rst:17
 msgid "+7 (3522) 63-03-40"
-msgstr ""
+msgstr "+7 (3522) 63-03-40"
 
 #: ../../about.rst:18
 msgid "Факс"
-msgstr ""
+msgstr "Fax"
 
 #: ../../about.rst:18
 msgid "+7 (3522) 60-14-09"
-msgstr ""
+msgstr "+7 (3522) 60-14-09"
 
 #: ../../about.rst:19
 msgid "ОКПО"
