@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:57+0300\n"
-"PO-Revision-Date: 2023-05-29 10:52\n"
+"POT-Creation-Date: 2023-06-22 14:50+0300\n"
+"PO-Revision-Date: 2023-06-22 13:32\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,8 +67,8 @@ msgid "Юридический адрес"
 msgstr "Legal address"
 
 #: ../../about.rst:15
-msgid "625000, Тюменская обл, Городской округ город Тюмень, Тюмень г, Герцена ул, дом 72, строение 1, офис 301"
-msgstr "Office 301, building 1, 72, Gertsena street, Tyumen city, Tyumen city district, Tyumen region, 625000"
+msgid "640018, Курганская область, г.о. город Курган, г Курган, ул Пролетарская, д. 39, кв. 43"
+msgstr ""
 
 #: ../../about.rst:16
 msgid "Почтовый адрес"
@@ -157,5 +157,11 @@ msgstr "Registration certificate"
 #~ msgstr ""
 
 #~ msgid "30101810900000000821"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "625000, Тюменская обл, Городской округ "
+#~ "город Тюмень, Тюмень г, Герцена ул, "
+#~ "дом 72, строение 1, офис 301"
 #~ msgstr ""
 
