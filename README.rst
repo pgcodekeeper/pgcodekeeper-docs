@@ -13,7 +13,7 @@
 4. Пушим изменения в github. Если изменения были запушены в мастер, то документация на русском языке будет обновлена автоматически и будет доступна по адресу: https://pgcodekeeper.readthedocs.io/ru/latest/index.html
 5.	Для того, чтобы внесенные изменения стали видны на сайте переводчиков crowdin, необходимо выполнить синхронизацию документации. Для этого необходимо перейти по адресу: https://crowdin.com/project/pgcodekeeper-docs/settings#integration – настройки интеграций. Выбрать интеграцию с гитхабом и нажать кнопку “Sync now” для присоединённого репозитория.
 
-Note: Для выполнения скрипта update_message.sh необходимо предварительно на локальной машине установить пакет sphinx-intl, установить который можно  командой **pip install sphinx-intl**, см. также: https://pypi.python.org/pypi/sphinx-intl/
+Note: Для выполнения скрипта update_message.sh необходимо предварительно на локальной машине установить пакет sphinx-intl, установить который можно  командой **pip install sphinx-intl** (или командой **apt-get install python3-sphinx** для новой версии python, затем **apt-get install sphinx-intl**), см. также: https://pypi.python.org/pypi/sphinx-intl/
 
 Для выполнения перевода
 ~~~~~~~~~~~~~~~~~~~~~~~
