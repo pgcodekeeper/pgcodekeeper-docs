@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-17 17:34+0300\n"
+"POT-Creation-Date: 2023-10-20 10:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 
 #: ../../code_verification.rst:18
-msgid "**check_space_after_comma** = проверка наличия пробела после запятой."
+msgid "**check_space_after_comma** - проверка наличия пробела после запятой."
 msgstr ""
 
 #: ../../code_verification.rst:21
@@ -137,11 +137,21 @@ msgstr ""
 
 #: ../../code_verification.rst:41
 msgid ""
-"где **{ruleset}** - путь к файлу с правилами, **{source}** - путь к "
+"где **{ruleset}** - путь к файлу с правилами, **{sources}** - путь к "
 "директории или файлу с исходниками для проверки."
 msgstr ""
 
 #: ../../code_verification.rst:43
 msgid "Пример:"
 msgstr ""
+
+#~ msgid "**check_space_after_comma** = проверка наличия пробела после запятой."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "где **{ruleset}** - путь к файлу с"
+#~ " правилами, **{source}** - путь к "
+#~ "директории или файлу с исходниками для"
+#~ " проверки."
+#~ msgstr ""
 
