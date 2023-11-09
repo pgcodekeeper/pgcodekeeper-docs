@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2023-11-08 14:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: ../../db_store.rst:18
 msgid ""
 "В списках источников БД показаны доступные подключения к БД, объединенные"
-" по группам, и последние три дамп-файла."
+" по группам."
 msgstr ""
 
 #: ../../db_store.rst:20
@@ -90,4 +90,10 @@ msgid ""
 "настройке **Save password in Eclipse secure storage / Сохранять пароли в "
 "безопасном хранилище Eclipse**."
 msgstr ""
+
+#~ msgid ""
+#~ "В списках источников БД показаны "
+#~ "доступные подключения к БД, объединенные "
+#~ "по группам, и последние три дамп-файла."
+#~ msgstr ""
 

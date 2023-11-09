@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2023-11-08 16:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,5 +26,19 @@ msgstr ""
 msgid ""
 "Миграция данных не работает для обычных SEQUENCE, поддерживается только "
 "IDENTITY SEQUENCE."
+msgstr ""
+
+#: ../../knows_issues.rst:6
+msgid "Индексы зависимы от регистра написания опций."
+msgstr ""
+
+#: ../../knows_issues.rst:7
+msgid ""
+"UI зависает при получении большого количества строк при использовании "
+"SELECT * FROM table.name."
+msgstr ""
+
+#: ../../knows_issues.rst:8
+msgid "Файлы в кодировке 1251 могут вызывать ложные срабатывания"
 msgstr ""
 
