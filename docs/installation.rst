@@ -2,6 +2,8 @@
 Установка
 =========
 
+Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ версии 11+ для вашей платформы. Последние версии Eclipse требуют для работы вкрсию 17+
+
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
@@ -39,6 +41,4 @@ Eclipse Marketplace
 Самостоятельная сборка pgCodeKeeper
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы.
-
-Последнюю версию сборки pgCodeKeeper можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
+Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, которую можно скачать здесь `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.

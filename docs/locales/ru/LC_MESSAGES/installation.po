@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 13:39+0300\n"
+"POT-Creation-Date: 2023-11-10 16:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,41 +22,48 @@ msgstr ""
 msgid "Установка"
 msgstr ""
 
-#: ../../installation.rst:6
-msgid "Eclipse Marketplace"
+#: ../../installation.rst:5
+msgid ""
+"Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ версии "
+"11+ для вашей платформы. Последние версии Eclipse требуют для работы "
+"вкрсию 17+"
 msgstr ""
 
 #: ../../installation.rst:8
+msgid "Eclipse Marketplace"
+msgstr ""
+
+#: ../../installation.rst:10
 msgid ""
 "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в "
 "запущенном экземпляре Eclipse версии 4.6 или выше с установленным Eclipse"
 " Marketplace, выбрать **Help > Eclipse Markeplace...**."
 msgstr ""
 
-#: ../../installation.rst:10
+#: ../../installation.rst:12
 msgid "В поле поиска ввести: pgCodeKeeper."
 msgstr ""
 
-#: ../../installation.rst:12
+#: ../../installation.rst:14
 msgid ""
 "Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением,"
 " нажмите кнопку Finish, и начнется установка последней версии "
 "pgCodeKeeper."
 msgstr ""
 
-#: ../../installation.rst:16 ../../installation.rst:35
+#: ../../installation.rst:18 ../../installation.rst:37
 msgid ""
 "По завершению установки для применения изменений необходимо перезапустить"
 " Eclipse."
 msgstr ""
 
-#: ../../installation.rst:18 ../../installation.rst:37
+#: ../../installation.rst:20 ../../installation.rst:39
 msgid ""
 "Запустите Eclipse и выберите **Window > Perspective > Open Perspective > "
 "Other > pgCodeKeeper**."
 msgstr ""
 
-#: ../../installation.rst:20
+#: ../../installation.rst:22
 msgid ""
 "Для установки предыдущих версий pgCodeKeeper перейдите по ссылке "
 "https://github.com/pgcodekeeper/pgcodekeeper/releases и скачайте нужную "
@@ -64,11 +71,11 @@ msgid ""
 "релизов версии 5.10.5 и выше."
 msgstr ""
 
-#: ../../installation.rst:23
+#: ../../installation.rst:25
 msgid "Сайт обновления"
 msgstr ""
 
-#: ../../installation.rst:25
+#: ../../installation.rst:27
 msgid ""
 "Альтернативный путь установки pgCodeKeeper – сайт обновлений: в "
 "запущенном экземпляре Eclipse версии 4.6 или выше, выбрать **Help > "
@@ -76,38 +83,33 @@ msgid ""
 "сайта обновлений."
 msgstr ""
 
-#: ../../installation.rst:27
+#: ../../installation.rst:29
 msgid ""
 "В поле **Work With** ввести путь к сайту обновлений: "
 "http://pgcodekeeper.org/update/."
 msgstr ""
 
-#: ../../installation.rst:29
+#: ../../installation.rst:31
 msgid ""
 "После нажатия **Enter** в списке ниже появятся доступные для установки "
 "плагины."
 msgstr ""
 
-#: ../../installation.rst:31
+#: ../../installation.rst:33
 msgid ""
 "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с "
 "пользовательским соглашением, нажмите кнопку **Finish** и начнется "
 "установка."
 msgstr ""
 
-#: ../../installation.rst:40
-msgid "Самостоятельная сборка pgCodeKeeper"
-msgstr ""
-
 #: ../../installation.rst:42
-msgid ""
-"Вы можете установить pgCodeKeeper отдельной сборкой. Для начала "
-"необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы."
+msgid "Самостоятельная сборка pgCodeKeeper"
 msgstr ""
 
 #: ../../installation.rst:44
 msgid ""
-"Последнюю версию сборки pgCodeKeeper можно скачать `здесь "
+"Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, "
+"которую можно скачать здесь `здесь "
 "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
 msgstr ""
 
@@ -115,5 +117,21 @@ msgstr ""
 #~ "Кроме обычной установки вы можете "
 #~ "поставить pgCodeKeeper в ваш Eclipse "
 #~ "IDE."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вы можете установить pgCodeKeeper отдельной"
+#~ " сборкой. Для начала необходимо установить"
+#~ " `Java SDK <https://jdk.dev/>`_ для вашей"
+#~ " платформы."
+#~ msgstr ""
+
+#~ msgid "Вы можете установить pgCodeKeeper отдельной сборкой."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Последнюю версию сборки pgCodeKeeper можно "
+#~ "скачать `здесь "
+#~ "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
 #~ msgstr ""
 
