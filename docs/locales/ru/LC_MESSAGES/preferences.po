@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 16:53+0300\n"
+"POT-Creation-Date: 2023-11-10 17:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,11 +153,11 @@ msgid ""
 "кнопки |add_obj| и |delete| соответственно."
 msgstr ""
 
-#: ../../preferences.rst:231
+#: ../../preferences.rst:229
 msgid "add_obj"
 msgstr ""
 
-#: ../../preferences.rst:230
+#: ../../preferences.rst:228
 msgid "delete"
 msgstr ""
 
@@ -507,11 +507,11 @@ msgid ""
 "**Export connection list / Экспортировать список подключений**."
 msgstr ""
 
-#: ../../preferences.rst:233
+#: ../../preferences.rst:231
 msgid "import_db"
 msgstr ""
 
-#: ../../preferences.rst:234
+#: ../../preferences.rst:232
 msgid "export_db"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgid ""
 "можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:228
+#: ../../preferences.rst:226
 msgid "copy"
 msgstr ""
 
@@ -594,7 +594,7 @@ msgid ""
 "источников из pgpass**:"
 msgstr ""
 
-#: ../../preferences.rst:229
+#: ../../preferences.rst:227
 msgid "pg_pass"
 msgstr ""
 
@@ -618,7 +618,7 @@ msgid ""
 "подключения к БД** в котором можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:232
+#: ../../preferences.rst:230
 msgid "editor_area"
 msgstr ""
 
@@ -650,32 +650,32 @@ msgstr ""
 msgid "Настройки управляющие типом соединения."
 msgstr ""
 
-#: ../../preferences.rst:214
+#: ../../preferences.rst:213
 msgid ""
 "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД -> "
 "Connection type / Тип соединения** находится список типов соединения."
 msgstr ""
 
-#: ../../preferences.rst:218
+#: ../../preferences.rst:217
 msgid ""
 "Для загрузки списка из файла нажмите по кнопке |import_db| **Import / "
 "Импортировать** и выберите необходимый файл. Также вы можете сохранить "
 "список в отдельный файл, для этого нажмите по кнопке |export_db| **Export"
-" / Экспортировать**. Для добавления типа соединения нажмите на кнопку "
+" / Экспортировать**. Для добавления типа соединения нажмите по кнопке "
 "|add_obj|. Откроется диалог **Create new connection type**"
+msgstr ""
+
+#: ../../preferences.rst:221
+msgid ""
+"**Name / Имя** этот имя будет отображаться в списке данной настройки и в "
+"выпадающем меню в диалогового окна **DB credentials** **DB Store / "
+"Хранилище БД**."
 msgstr ""
 
 #: ../../preferences.rst:222
 msgid ""
-"**Name / Имя** этот параметр будет использоваться в списке данной "
-"настройки и в выпадающем меню в диалогового окна **DB credentials** **DB "
-"Store / Хранилище БД**."
-msgstr ""
-
-#: ../../preferences.rst:223
-msgid ""
 "**Color / Цвет** этим цветом будут выделены подключения к БД, у которых "
-"выставлен тип соединения. Это выделение отрабатывает в списке "
+"выставлен тип соединения. Данная подсветка отрабатывает в списке "
 ":ref:`dbStore`, а так же в панели инструментов и SQL редакторе"
 msgstr ""
 
@@ -913,5 +913,35 @@ msgstr ""
 #~ " Это выделение отрабатывает в списке "
 #~ ":ref:`dbStore`, а так же в панели "
 #~ "инструментов и SQL редакторе"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для загрузки списка из файла нажмите "
+#~ "по кнопке |import_db| **Import / "
+#~ "Импортировать** и выберите необходимый файл."
+#~ " Также вы можете сохранить список в"
+#~ " отдельный файл, для этого нажмите по"
+#~ " кнопке |export_db| **Export / "
+#~ "Экспортировать**. Для добавления типа "
+#~ "соединения нажмите на кнопку |add_obj|. "
+#~ "Откроется диалог **Create new connection "
+#~ "type**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Name / Имя** этот параметр будет "
+#~ "использоваться в списке данной настройки "
+#~ "и в выпадающем меню в диалогового "
+#~ "окна **DB credentials** **DB Store / "
+#~ "Хранилище БД**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Color / Цвет** этим цветом будут "
+#~ "выделены подключения к БД, у которых "
+#~ "выставлен тип соединения. Это выделение "
+#~ "отрабатывает в списке :ref:`dbStore`, а "
+#~ "так же в панели инструментов и SQL"
+#~ " редакторе"
 #~ msgstr ""
 
