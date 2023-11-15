@@ -50,6 +50,5 @@
    white_black_list_schemas
    cli_version
    windowsauth
-   knows_issues
    contributors
    about
