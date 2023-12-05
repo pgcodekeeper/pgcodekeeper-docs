@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2023-12-05 10:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,8 +80,8 @@ msgstr ""
 
 #: ../../import_project.rst:21
 msgid ""
-"Если импортируемый проект для MS SQL, то необходимо выбрать "
-"соответствующую опцию."
+"Выбираем тип базы данных для импортируемого проекта **Database type / Тип"
+" базы данных**."
 msgstr ""
 
 #: ../../import_project.rst:22
@@ -100,4 +100,10 @@ msgid ""
 "корне директории. Мастер импорта проекта автоматически создаст данный "
 "файл при его отсутствии."
 msgstr ""
+
+#~ msgid ""
+#~ "Если импортируемый проект для MS SQL,"
+#~ " то необходимо выбрать соответствующую "
+#~ "опцию."
+#~ msgstr ""
 
