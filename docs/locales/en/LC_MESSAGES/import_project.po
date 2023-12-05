@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2023-12-05 10:33+0300\n"
+"PO-Revision-Date: 2023-12-05 12:20\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -63,8 +63,8 @@ msgid "Укажите путь до директории со структуро
 msgstr "Specify path to the directory containing the pgCodeKeeper project structure, enter the project's name and select its encoding."
 
 #: ../../import_project.rst:21
-msgid "Если импортируемый проект для MS SQL, то необходимо выбрать соответствующую опцию."
-msgstr "If you import a project for MS SQL, you'll need to select the corresponding option."
+msgid "Выбираем тип базы данных для импортируемого проекта **Database type / Тип базы данных**."
+msgstr ""
 
 #: ../../import_project.rst:22
 msgid "Для добавления проекта в рабочую область, можно выбрать соответствующую опцию."
@@ -77,4 +77,10 @@ msgstr "Click **Finish**."
 #: ../../import_project.rst:25
 msgid "Для корректной работы проект должен содержать файл '.pgcodekeeper' в корне директории. Мастер импорта проекта автоматически создаст данный файл при его отсутствии."
 msgstr "For the correct work, the project should contain the '.pgcodekeeper' file in the root directory. If this file doesn't exist, project Import Wizard will automatically create it."
+
+#~ msgid ""
+#~ "Если импортируемый проект для MS SQL,"
+#~ " то необходимо выбрать соответствующую "
+#~ "опцию."
+#~ msgstr ""
 
