@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 10:37+0300\n"
-"PO-Revision-Date: 2023-12-05 12:20\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Select source encodings and DB timezone."
 
 #: ../../diff.rst:11
 msgid "Выбираем тип БД **Database type / Тип базы данных**."
-msgstr ""
+msgstr "Select the **Database type**."
 
 #: ../../diff.rst:12
 msgid "При необходимости переопределить глобальные настройки можно воспользоваться опцией **Show advanced options / Показать дополнительные опции**."
