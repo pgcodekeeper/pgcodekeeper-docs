@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 14:18+0300\n"
-"PO-Revision-Date: 2023-11-15 12:36\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "**Enable full dependencies from bodies of functions and procedures (expe
 
 #: ../../preferences.rst:15
 msgid "**Simple formatting for VIEWs when reading via JDBC (not recommended by PostgreSQL) / Упрощенное форматирование представлений при чтении через JDBC (не рекомендовано PostgreSQL)** - позволяет использовать упрощенное форматирование представлений, убирая лишние скобки в выражениях. Данный формат может не поддерживаться в будущих версиях PostgeSQL."
-msgstr ""
+msgstr "**Simple formatting for VIEWs when reading via JDBC (not recommended by PostgreSQL)** - allows using simplified view editing, where all unnecessary brackets are removed from the expression. This format might not be supported in the further PostgeSQL versions."
 
 #: ../../preferences.rst:16
 msgid "**Ignore concurrent modification errors when reading DB / Игнорировать ошибки конкурентной модификации объектов при чтении БД** - позволяет игнорировать ошибки, возникающие при модификации объекта БД во время его чтения."
@@ -88,7 +88,7 @@ msgstr "**Pattern** – consider the name of the object as regular expression."
 
 #: ../../preferences.rst:34
 msgid "**Apply to contents / Применить к содержимому** – применять правило для совпавшего объекта и всего его содержимого."
-msgstr ""
+msgstr "**Apply to contents** – apply the rule for the matched object and all of its content."
 
 #: ../../preferences.rst:35
 msgid "**Qualification / Квалификация** – искать объекты по квалифицированному имени."
@@ -96,7 +96,7 @@ msgstr "**Qualification** – search objects by qualified name."
 
 #: ../../preferences.rst:36
 msgid "**Type / Тип** – тип объекта (\"ANY\" предназначен для указания любого типа объекта)."
-msgstr ""
+msgstr "**Type** - object type (\"ANY\" is used for specifying any object type)."
 
 #: ../../preferences.rst:38
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и |delete| соответственно."
@@ -232,7 +232,7 @@ msgstr "**Show errors while getting changes** allows displaying the list of erro
 
 #: ../../preferences.rst:98
 msgid "**Show code of all child objects when comparing / Показывать код всех дочерних объектов при сравнении** - позволяет отображать в панели сравнения код всех дочерних объектов даже если в них нет различий."
-msgstr ""
+msgstr "**Show code of all child objects when comparing** - allows to display the code of all child objects on the comparison panel, even if there are no differences."
 
 #: ../../preferences.rst:101
 msgid "Редактор SQL"
@@ -344,7 +344,7 @@ msgstr "export_db"
 
 #: ../../preferences.rst:165
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, группа БД, тип соединения, а также включить запрет на запись в БД и выбрать тип БД (PostgreSQL или MS SQL). Для MS SQL можно указать домен. Если выбран тип бд MS SQL, то по умолчанию выставлен параметр **trust MS SQL сertificate / доверять сертификату MS SQL**, который можно отключить. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
-msgstr ""
+msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear, in which you should specify the parameters of the connection data: host, port, DB name, user, password, DB group, connection type, as well as forbid recording to DB and select the DB type (PostgreSQL or MS SQL). For MS SQL, you can specify a domain. If the MS SQL database type is selected, the **trust MS SQL certificate**, parameter will be set by default. This parameter can be disabled. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
 #: ../../preferences.rst:167
 msgid "pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым."
@@ -424,27 +424,27 @@ msgstr "To save the changes, you should click **Apply** or **Apply and Close** i
 
 #: ../../preferences.rst:210
 msgid "Тип соединения"
-msgstr ""
+msgstr "Connection type"
 
 #: ../../preferences.rst:211
 msgid "Настройки управляющие типом соединения."
-msgstr ""
+msgstr "Settings configuring the connection type."
 
 #: ../../preferences.rst:213
 msgid "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД -> Connection type / Тип соединения** находится список типов соединения."
-msgstr ""
+msgstr "You can find the connection types list in **pgCodeKeeper -> DB Store -> Connection type**."
 
 #: ../../preferences.rst:217
 msgid "Для загрузки списка из файла нажмите по кнопке |import_db| **Import / Импортировать** и выберите необходимый файл. Также вы можете сохранить список в отдельный файл, для этого нажмите по кнопке |export_db| **Export / Экспортировать**. Для добавления типа соединения нажмите по кнопке |add_obj|. Откроется диалог **Create new connection type**"
-msgstr ""
+msgstr "To upload the list from a file, click |import_db| **Import** and select the required file. You can also export the list to a separate file by clicking |export_db| **Export**. To add a connection type, click |add_obj|. The **Create new connection type** dialog window will appear"
 
 #: ../../preferences.rst:221
 msgid "**Name / Имя** - имя типа соединения, отображаемое в списке и в выпадающем меню диалогового окна **DB credentials** **DB Store / Хранилище БД**."
-msgstr ""
+msgstr "**Name** is the name of a connection type displayed on the list in the drop-down list of the **DB credentials** dialog window **DB Store**."
 
 #: ../../preferences.rst:222
 msgid "**Color / Цвет** - цвет, используемый для заливки имени соединения в в списке :ref:`dbStore`, в панели инструментов и SQL редакторе"
-msgstr ""
+msgstr "**Color** is the color used to highlight the connection type on the :ref:`dbStore` list, on the toolbar and in the SQL editor"
 
 #~ msgid ""
 #~ "**Simple formatting for VIEVs when "
