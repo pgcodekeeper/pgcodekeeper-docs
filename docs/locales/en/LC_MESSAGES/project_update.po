@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 16:48+0300\n"
-"PO-Revision-Date: 2023-11-15 12:36\n"
+"PO-Revision-Date: 2023-12-06 13:13\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "app_icon"
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. .. important:: Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
-msgstr ""
+msgstr "Check the list of objects selected by the user and the list of dependent objects. .. important:: Be careful! Excluding dependence objects from the update can lead to errors and unexpected results."
 
 #: ../../project_update.rst:18
 msgid "Если вместо изменения самих объектов необходимо сохранить переопределения их свойств (например, привилегии), то выбираем соответствующую опцию. Выполняется только для объектов с типом изменения **edit**."
@@ -60,7 +60,7 @@ msgstr "Click **OK** to confirm the applying of changes to the project. If succe
 
 #: ../../project_update.rst:22
 msgid "Обновление файлов проекта приводит к сбросу списка различий."
-msgstr ""
+msgstr "Project file update resets the differences list."
 
 #~ msgid "**Обновление файлов проекта приводит к сбросу списка различий.**"
 #~ msgstr ""
