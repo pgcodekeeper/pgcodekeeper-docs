@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 13:35+0300\n"
-"PO-Revision-Date: 2023-11-15 12:35\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -124,11 +124,11 @@ msgstr "save_edit"
 
 #: ../../editors.rst:31
 msgid "|triangle| – выпадающее меню с направлениями изменений. При клике по лейблу DB/БД также отображается меню с направлениями изменений."
-msgstr ""
+msgstr "|triangle| – drop-down menu with the directions of changes. If you click the DB label, you will also see the menu with the directions of changes."
 
 #: ../../editors.rst:69
 msgid "triangle"
-msgstr ""
+msgstr "triangle"
 
 #: ../../editors.rst:32
 msgid "|refresh| – получить изменения"
@@ -140,7 +140,7 @@ msgstr "refresh"
 
 #: ../../editors.rst:33
 msgid "|triangle| – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать в контекстном меню выбранной БД |source_name| на панели инструментов редактора (2)."
-msgstr ""
+msgstr "|triangle| – drop-down menu with the databases sources. You can select the database sources from the right-click menu of the selected DB |source_name| on the editor tool bar (2)."
 
 #: ../../editors.rst:68
 msgid "source_name"
@@ -148,7 +148,7 @@ msgstr "source_name"
 
 #: ../../editors.rst:35
 msgid "Выпадающие меню |triangle| позволяют запустить операции получения или применения изменений с переопределением некоторых настроек."
-msgstr ""
+msgstr "The |triangle| drop-down menus allow us to launch the operations of receiving and applying changes with overriding some settings."
 
 #: ../../editors.rst:37
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
@@ -160,7 +160,7 @@ msgstr "Object type - the following object types are supported: SCHEMA, TYPE, SE
 
 #: ../../editors.rst:41
 msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER."
-msgstr ""
+msgstr "CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER are supported additionally for **PostgreSQL**."
 
 #: ../../editors.rst:43
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
@@ -200,7 +200,7 @@ msgstr "The most convenient way of searching for the objects in the differences 
 
 #: ../../editors.rst:81
 msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
-msgstr ""
+msgstr "The search is conducted by the names of the objects. When **RegEx** is ticked off, the search is conducted with the use of regular expressions."
 
 #: ../../editors.rst:83
 msgid "Для начала просто введите часть имени в поле поиска. В таблице различий отобразятся объекты, соответствующие данному условию."
@@ -348,11 +348,11 @@ msgstr "show_col"
 
 #: ../../editors.rst:168
 msgid "Кнопка |add_dep| **Add depcy / Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
-msgstr ""
+msgstr "|add_dep| **Add depcy** allows you to open the dialog of manual adding of the dependencies."
 
 #: ../../editors.rst:181
 msgid "add_dep"
-msgstr ""
+msgstr "add_dep"
 
 #: ../../editors.rst:172
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
@@ -396,11 +396,11 @@ msgstr "Query result"
 
 #: ../../editors.rst:204
 msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой."
-msgstr ""
+msgstr "**Query result** view displays query results. Each query is displayed in a separate tab."
 
 #: ../../editors.rst:206
 msgid "Большие выборки могут вызывать \"подвисания\" графического интерфейса."
-msgstr ""
+msgstr "Large samples may cause the graphical interface to \"freeze\"."
 
 #~ msgid ""
 #~ "– выпадающее меню с направлениями "
