@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 10:33+0300\n"
-"PO-Revision-Date: 2023-12-05 12:20\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "Specify path to the directory containing the pgCodeKeeper project struct
 
 #: ../../import_project.rst:21
 msgid "Выбираем тип базы данных для импортируемого проекта **Database type / Тип базы данных**."
-msgstr ""
+msgstr "Select the **Database type** for the imported project."
 
 #: ../../import_project.rst:22
 msgid "Для добавления проекта в рабочую область, можно выбрать соответствующую опцию."
