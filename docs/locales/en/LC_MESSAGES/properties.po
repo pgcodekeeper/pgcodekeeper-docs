@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-06 15:56+0300\n"
-"PO-Revision-Date: 2023-12-06 13:13\n"
+"PO-Revision-Date: 2023-12-06 14:40\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "The libraries are loaded in the order in which they are indicated on the
 
 #: ../../properties.rst:80
 msgid "**Disallow overrides / Запретить переопределение.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включенной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Независимо от состояния настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
-msgstr ""
+msgstr "**Disallow overrides.** There might be a situation when a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow you to ignore the conflicts: the first loaded object will be used. Regardless of the state of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
 
 #: ../../properties.rst:82
 msgid "**Load nested dependencies / Загружать вложенные зависимости** - настройка, позволяющая загружать библиотеки, на которые ссылаются другие библиотеки (рекурсивная загрузка библиотек). Библиотека с зависимостями должна быть в формате проекта (или архива проекта) и содержать файл .dependencies с зависимостями этой библиотеки."
@@ -168,7 +168,7 @@ msgstr "In general, to load the library dependencies, a container of this librar
 
 #: ../../properties.rst:86
 msgid "**Clear libraries cache / Очистить кэш библиотек** - позволяет удалить скачанные архивы из кэша ."
-msgstr ""
+msgstr "**Clear libraries cache** - allows to delete the downloaded archives from the cache."
 
 #: ../../properties.rst:88
 msgid "Диалоговое окно создания/редактирования/копирования библиотечной зависимости выглядит следующим образом."
