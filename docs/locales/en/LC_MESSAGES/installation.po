@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 12:59+0300\n"
-"PO-Revision-Date: 2023-11-15 12:36\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Installation"
 
 #: ../../installation.rst:5
 msgid "Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ версии 11+ для вашей платформы. Последние версии Eclipse требуют для работы версию 17+"
-msgstr ""
+msgstr "First, install `Java SDK <https://jdk.dev/>`_ version 11+ for your platform. The latest Eclipse versions require the 17+ for proper functioning"
 
 #: ../../installation.rst:8
 msgid "Eclipse Marketplace"
@@ -76,11 +76,11 @@ msgstr "Select the pgCodeKeeper package, agree to the installation, review the T
 
 #: ../../installation.rst:42
 msgid "Самостоятельная сборка pgCodeKeeper"
-msgstr ""
+msgstr "pgCodeKeeper standalone build"
 
 #: ../../installation.rst:44
 msgid "Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, которую можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
-msgstr ""
+msgstr "Another alternative is pgCodeKeeper standalone build that you can download `here <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
 
 #~ msgid ""
 #~ "Кроме обычной установки вы можете "
