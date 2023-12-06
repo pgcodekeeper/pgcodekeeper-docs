@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 14:18+0300\n"
-"PO-Revision-Date: 2023-12-06 12:02\n"
+"POT-Creation-Date: 2023-12-06 15:56+0300\n"
+"PO-Revision-Date: 2023-12-06 13:13\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -443,8 +443,8 @@ msgid "**Name / Имя** - имя типа соединения, отображ�
 msgstr "**Name** is the name of a connection type displayed on the list in the drop-down list of the **DB credentials** dialog window **DB Store**."
 
 #: ../../preferences.rst:222
-msgid "**Color / Цвет** - цвет, используемый для заливки имени соединения в в списке :ref:`dbStore`, в панели инструментов и SQL редакторе"
-msgstr "**Color** is the color used to highlight the connection type on the :ref:`dbStore` list, on the toolbar and in the SQL editor"
+msgid "**Color / Цвет** - цвет, используемый для заливки имени соединения в списке :ref:`dbStore`, в панели инструментов и SQL редакторе"
+msgstr ""
 
 #~ msgid ""
 #~ "**Simple formatting for VIEVs when "
@@ -766,5 +766,12 @@ msgstr "**Color** is the color used to highlight the connection type on the :ref
 #~ " заливки имени соединения в в списке"
 #~ " :ref:`dbStore`, в панели инструментов и"
 #~ " SQL редакторе"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Color / Цвет** - цвет, используемый"
+#~ " для заливки имени соединения в в "
+#~ "списке :ref:`dbStore`, в панели инструментов"
+#~ " и SQL редакторе"
 #~ msgstr ""
 
