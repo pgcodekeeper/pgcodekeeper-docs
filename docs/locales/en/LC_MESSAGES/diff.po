@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2023-12-05 10:37+0300\n"
+"PO-Revision-Date: 2023-12-06 12:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,8 +35,8 @@ msgid "Выбираем кодировки источников и времен�
 msgstr "Select source encodings and DB timezone."
 
 #: ../../diff.rst:11
-msgid "При использовании проекта или дампа MS SQL, выбираем соответствующую опцию."
-msgstr "If you use MS SQL project or dump, select the corresponding option."
+msgid "Выбираем тип БД **Database type / Тип базы данных**."
+msgstr "Select the **Database type**."
 
 #: ../../diff.rst:12
 msgid "При необходимости переопределить глобальные настройки можно воспользоваться опцией **Show advanced options / Показать дополнительные опции**."
@@ -53,4 +53,9 @@ msgstr "In the comparison table, select the differences that should be applied. 
 #: ../../diff.rst:20
 msgid "При нажатии кнопки **Finish** откроется SQL редактор со скриптом миграции, сгенерированным для выбранных изменений."
 msgstr "After clicking **Finish**, SQL editor with migration script, generated for the selected changes, will open."
+
+#~ msgid ""
+#~ "При использовании проекта или дампа MS"
+#~ " SQL, выбираем соответствующую опцию."
+#~ msgstr ""
 
