@@ -34,13 +34,23 @@
 
 Выпадающие меню |triangle| позволяют запустить операции получения или применения изменений с переопределением некоторых настроек.
 
+Переопределяемые настройки для получения изменений
+
+.. image:: ../images/changes_with_presents.png
+
+Переопределяемые настройки для применения изменений
+
+.. image:: ../images/apply_with_presents.png
+
 **Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных.
 
 Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER.
 
-Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER.
+Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER, STATICTICS.
 
 Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY.
+
+Для **ClickHouse** вместо SCHEMA используется объект DATABASE, нет объектов SEQUENCE, TYPE, PROCEDURE, TRIGGER, дополнительно поддерживается DICTIONARY, USER, ROLE.
 
 Тип изменения - объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния и направления изменений, объекты в списке изменений помечаются как delete, add и edit или CREATE, DROP и ALTER соответственно.
 

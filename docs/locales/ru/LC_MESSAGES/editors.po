@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 13:35+0300\n"
+"POT-Creation-Date: 2024-07-03 13:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 
 #: ../../editors.rst:3
 msgid "Редакторы и панели"
@@ -58,7 +58,7 @@ msgid ""
 "редактором SQL. Кнопка |file| позволяет открыть новый :ref:`sqlEditor`."
 msgstr ""
 
-#: ../../editors.rst:63
+#: ../../editors.rst:73
 msgid "file"
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 msgid "|check_all| – выбрать все элементы."
 msgstr ""
 
-#: ../../editors.rst:57
+#: ../../editors.rst:67
 msgid "check_all"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "|uncheck_all| – снять выбор со всех элементов."
 msgstr ""
 
-#: ../../editors.rst:58
+#: ../../editors.rst:68
 msgid "uncheck_all"
 msgstr ""
 
@@ -88,7 +88,7 @@ msgstr ""
 msgid "|loop_obj| – инвертировать выбор элементов."
 msgstr ""
 
-#: ../../editors.rst:59
+#: ../../editors.rst:69
 msgid "loop_obj"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid ""
 "регулярное выражение."
 msgstr ""
 
-#: ../../editors.rst:60
+#: ../../editors.rst:70
 msgid "copy_edit"
 msgstr ""
 
@@ -106,11 +106,11 @@ msgstr ""
 msgid "|empty_filter| – неактивный / |filter_tsk| – активный фильтр объектов."
 msgstr ""
 
-#: ../../editors.rst:61
+#: ../../editors.rst:71
 msgid "empty_filter"
 msgstr ""
 
-#: ../../editors.rst:62
+#: ../../editors.rst:72
 msgid "filter_tsk"
 msgstr ""
 
@@ -120,7 +120,7 @@ msgid ""
 "выражению."
 msgstr ""
 
-#: ../../editors.rst:65
+#: ../../editors.rst:75
 msgid "search"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "|save_edit| – применить изменения"
 msgstr ""
 
-#: ../../editors.rst:64
+#: ../../editors.rst:74
 msgid "save_edit"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgid ""
 "лейблу DB/БД также отображается меню с направлениями изменений."
 msgstr ""
 
-#: ../../editors.rst:69
+#: ../../editors.rst:79
 msgid "triangle"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 msgid "|refresh| – получить изменения"
 msgstr ""
 
-#: ../../editors.rst:150
+#: ../../editors.rst:160
 msgid "refresh"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgid ""
 "панели инструментов редактора (2)."
 msgstr ""
 
-#: ../../editors.rst:68
+#: ../../editors.rst:78
 msgid "source_name"
 msgstr ""
 
@@ -168,6 +168,14 @@ msgid ""
 msgstr ""
 
 #: ../../editors.rst:37
+msgid "Переопределяемые настройки для получения изменений"
+msgstr ""
+
+#: ../../editors.rst:41
+msgid "Переопределяемые настройки для применения изменений"
+msgstr ""
+
+#: ../../editors.rst:45
 msgid ""
 "**Таблица различий** отображает список объектов, которые различаются в "
 "сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип "
@@ -175,26 +183,33 @@ msgid ""
 "данных."
 msgstr ""
 
-#: ../../editors.rst:39
+#: ../../editors.rst:47
 msgid ""
 "Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, "
 "SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER."
 msgstr ""
 
-#: ../../editors.rst:41
+#: ../../editors.rst:49
 msgid ""
 "Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, "
 "EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, "
-"FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER."
+"FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER, STATICTICS."
 msgstr ""
 
-#: ../../editors.rst:43
+#: ../../editors.rst:51
 msgid ""
 "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, "
 "ASSEMBLY."
 msgstr ""
 
-#: ../../editors.rst:45
+#: ../../editors.rst:53
+msgid ""
+"Для **ClickHouse** вместо SCHEMA используется объект DATABASE, нет "
+"объектов SEQUENCE, TYPE, PROCEDURE, TRIGGER, дополнительно поддерживается"
+" DICTIONARY, USER, ROLE."
+msgstr ""
+
+#: ../../editors.rst:55
 msgid ""
 "Тип изменения - объект может находиться в трех состояниях: существовать "
 "только в базе данных, только в проекте или и в проекте и в базе данных. В"
@@ -203,13 +218,13 @@ msgid ""
 "соответственно."
 msgstr ""
 
-#: ../../editors.rst:47
+#: ../../editors.rst:57
 msgid ""
 "Контейнер - имя родительского объекта, например для индекса - это имя "
 "таблицы или представления, которому он принадлежит."
 msgstr ""
 
-#: ../../editors.rst:49
+#: ../../editors.rst:59
 msgid ""
 "Пользователь git - имя пользователя, который последним изменил файл "
 "проекта для данного объекта. В том случае, если файлы были изменены "
@@ -219,7 +234,7 @@ msgid ""
 "настроек :ref:`projEditorPref`."
 msgstr ""
 
-#: ../../editors.rst:51
+#: ../../editors.rst:61
 msgid ""
 "Пользователь базы данных - имя пользователя базы данных, который "
 "последним изменил объект в базе данных. Для отображения данного столбца "
@@ -227,97 +242,97 @@ msgid ""
 "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
 msgstr ""
 
-#: ../../editors.rst:53
+#: ../../editors.rst:63
 msgid ""
 "**Панель сравнения** показывает изменения, произошедшие в SQL "
 "представлении объекта."
 msgstr ""
 
-#: ../../editors.rst:55
+#: ../../editors.rst:65
 msgid ""
 "**Счетчик объектов** отображает выбранное и общее количество объектов в "
 "таблице."
 msgstr ""
 
-#: ../../editors.rst:75
+#: ../../editors.rst:85
 msgid "Поиск объекта в таблице различий"
 msgstr ""
 
-#: ../../editors.rst:77
+#: ../../editors.rst:87
 msgid ""
 "Для поиска объектов в таблице различий удобно воспользоваться полем "
 "поиска над списком изменений."
 msgstr ""
 
-#: ../../editors.rst:81
+#: ../../editors.rst:91
 msgid ""
 "Поиск происходит по именам объектов. При установленном флажке **RegEx** "
 "поиск осуществляется с использованием регулярных выражений."
 msgstr ""
 
-#: ../../editors.rst:83
+#: ../../editors.rst:93
 msgid ""
 "Для начала просто введите часть имени в поле поиска. В таблице различий "
 "отобразятся объекты, соответствующие данному условию."
 msgstr ""
 
-#: ../../editors.rst:85
+#: ../../editors.rst:95
 msgid "Поле поиска хранит последние 200 запросов."
 msgstr ""
 
-#: ../../editors.rst:87
+#: ../../editors.rst:97
 msgid ""
 "Для поиска по квалифицированному имени объекта введите в поле поиска имя "
 "схемы с ``.``."
 msgstr ""
 
-#: ../../editors.rst:91
+#: ../../editors.rst:101
 msgid ""
 "В результате в таблице различий отобразятся все объекты из этой схемы, "
 "кроме самой схемы."
 msgstr ""
 
-#: ../../editors.rst:93
+#: ../../editors.rst:103
 msgid "Для отображения только схемы введите его имя."
 msgstr ""
 
-#: ../../editors.rst:97
+#: ../../editors.rst:107
 msgid "Фильтры объектов"
 msgstr ""
 
-#: ../../editors.rst:99
+#: ../../editors.rst:109
 msgid ""
 "Для фильтрации объектов можно использовать диалоговое окно, которой "
 "отобразится при нажатии кнопки |empty_filter| над списком изменений."
 msgstr ""
 
-#: ../../editors.rst:103
+#: ../../editors.rst:113
 msgid ""
 "Список типов объектов позволяет отобразить только выбранные типы "
 "объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние "
 "объекты."
 msgstr ""
 
-#: ../../editors.rst:105
+#: ../../editors.rst:115
 msgid ""
 "Список типов изменений позволяет отобразить только выбранные типы "
 "изменений."
 msgstr ""
 
-#: ../../editors.rst:107
+#: ../../editors.rst:117
 msgid ""
 "**Filter by object's SQL code / Фильтр по SQL коду объекта** ищет в "
 "совпадения коде генерации объектов."
 msgstr ""
 
-#: ../../editors.rst:109
+#: ../../editors.rst:119
 msgid ""
 "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в"
 " схемах с подходящими именами. Также будут отображены и сами объекты "
 "схем."
 msgstr ""
 
-#: ../../editors.rst:111
+#: ../../editors.rst:121
 msgid ""
 "**Search by database user / Поиск по пользователю БД** ищет совпадения по"
 " авторам изменений объектов в сторонней базе данных. Для использования "
@@ -325,14 +340,14 @@ msgid ""
 "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
 msgstr ""
 
-#: ../../editors.rst:113
+#: ../../editors.rst:123
 msgid ""
 "**Search by git user / Поиск по пользователю git** ищет совпадения по "
 "авторам последного изменений объекта в локальном репозитории. Для "
 "использования проект должен находиться под системой контроля версий."
 msgstr ""
 
-#: ../../editors.rst:115
+#: ../../editors.rst:125
 msgid ""
 "**Show only local changes / Показывать только локальные изменения** "
 "отображает изменения, произошедшие в локальном репозитории с момента "
@@ -340,33 +355,33 @@ msgid ""
 "системой контроля версий."
 msgstr ""
 
-#: ../../editors.rst:117
+#: ../../editors.rst:127
 msgid ""
 "**Hide library objects / Скрывать библиотечные объекты** скрывает "
 "объекты, загруженные из библиотек."
 msgstr ""
 
-#: ../../editors.rst:119
+#: ../../editors.rst:129
 msgid "Для применения фильтров нажмите кнопку **ОК**."
 msgstr ""
 
-#: ../../editors.rst:121
+#: ../../editors.rst:131
 msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
 msgstr ""
 
-#: ../../editors.rst:123
+#: ../../editors.rst:133
 msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
 msgstr ""
 
-#: ../../editors.rst:125
+#: ../../editors.rst:135
 msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
 msgstr ""
 
-#: ../../editors.rst:131
+#: ../../editors.rst:141
 msgid "SQL редактор"
 msgstr ""
 
-#: ../../editors.rst:133
+#: ../../editors.rst:143
 msgid ""
 "SQL редактор внешне не отличается от обычного текстового редактора "
 "Eclipse, но в нем имеется возможность подсветки синтаксиса SQL, "
@@ -374,13 +389,13 @@ msgid ""
 "данных и форматирования кода."
 msgstr ""
 
-#: ../../editors.rst:138
+#: ../../editors.rst:148
 msgid ""
 "При работе с SQL редактором в **панели инструментов Eclipse** доступны "
 "следующие возможности:"
 msgstr ""
 
-#: ../../editors.rst:140
+#: ../../editors.rst:150
 msgid ""
 "|quick_update| - Quick update / Быстрое обновление. Исполнение скрипта "
 "миграции для **различий** между объектом в текущем файле проекта и "
@@ -389,61 +404,61 @@ msgid ""
 "колонки), то обновление не произойдет."
 msgstr ""
 
-#: ../../editors.rst:147
+#: ../../editors.rst:157
 msgid "quick_update"
 msgstr ""
 
-#: ../../editors.rst:141
+#: ../../editors.rst:151
 msgid ""
 "|update_ddl| - Execute selection / Выполнить выбранное. Исполнение "
 "текущего скрипта миграции (или выделенного текста) в выбранной базе "
 "данных."
 msgstr ""
 
-#: ../../editors.rst:148
+#: ../../editors.rst:158
 msgid "update_ddl"
 msgstr ""
 
-#: ../../editors.rst:142
+#: ../../editors.rst:152
 msgid ""
 "|progress_stop| - Cancel execution / Отменить выполнение. Отмена "
 "исполнения текущего скрипта миграции."
 msgstr ""
 
-#: ../../editors.rst:149
+#: ../../editors.rst:159
 msgid "progress_stop"
 msgstr ""
 
-#: ../../editors.rst:143
+#: ../../editors.rst:153
 msgid ""
 "|refresh| - Get changes / Получить изменения. Обновляет редактор проекта,"
 " в котором находится текущий файл. Применимо только к файлам проекта."
 msgstr ""
 
-#: ../../editors.rst:145
+#: ../../editors.rst:155
 msgid ""
 "Для форматирования выделенного участка кода нажмите горячую клавишу Shift"
 " + Ctrl + F или в контекстном меню выберите **Format / Форматировать**."
 msgstr ""
 
-#: ../../editors.rst:156
+#: ../../editors.rst:166
 msgid "Просмотр зависимостей объекта БД"
 msgstr ""
 
-#: ../../editors.rst:158
+#: ../../editors.rst:168
 msgid ""
 "Панель **pg Dependencies / pg Зависимости** показывает зависимости, в "
 "которых участвует текущий объект, выбранный в панели различий активного "
 "редактора проекта."
 msgstr ""
 
-#: ../../editors.rst:162
+#: ../../editors.rst:172
 msgid ""
 "Стрелки указывают на направление связи от зависящего объекта к его "
 "зависимости."
 msgstr ""
 
-#: ../../editors.rst:164
+#: ../../editors.rst:174
 msgid ""
 "Переключатель **Project - Remote / Проект - БД** позволяет выбрать, для "
 "какой БД, участвующей в сравнении, показывать объекты и зависимости. "
@@ -451,27 +466,27 @@ msgid ""
 "редактора."
 msgstr ""
 
-#: ../../editors.rst:166
+#: ../../editors.rst:176
 msgid ""
 "Кнопка |show_col| **Show columns / Показать колонки** позволяет "
 "отобразить колонки таблиц текущего объекта и его зависимостей."
 msgstr ""
 
-#: ../../editors.rst:182
+#: ../../editors.rst:192
 msgid "show_col"
 msgstr ""
 
-#: ../../editors.rst:168
+#: ../../editors.rst:178
 msgid ""
 "Кнопка |add_dep| **Add depcy / Добавить зависимости** позволяет открыть "
 "диалог ручного добавления зависимостей."
 msgstr ""
 
-#: ../../editors.rst:181
+#: ../../editors.rst:191
 msgid "add_dep"
 msgstr ""
 
-#: ../../editors.rst:172
+#: ../../editors.rst:182
 msgid ""
 "В этом диалоге можно явно задать зависимости между объектами БД. Это "
 "может понадобиться, например, в случае если автоматическое распознавание "
@@ -480,13 +495,13 @@ msgid ""
 "скрипта наката."
 msgstr ""
 
-#: ../../editors.rst:174
+#: ../../editors.rst:184
 msgid ""
 "Окно состоит из двух частей, которые служат для добавления зависимостей к"
 " сравниваемым БД."
 msgstr ""
 
-#: ../../editors.rst:176
+#: ../../editors.rst:186
 msgid ""
 "Для добавления зависимостей между объектами, достаточно ввести начальные "
 "буквы из названия объекта и из выпадающего списка выбрать имена зависимых"
@@ -494,17 +509,17 @@ msgid ""
 "в списке добавленных."
 msgstr ""
 
-#: ../../editors.rst:178
+#: ../../editors.rst:188
 msgid ""
 "Для удаления выделите связку зависимых объектов и нажмите **Remove / "
 "Удалить**."
 msgstr ""
 
-#: ../../editors.rst:188
+#: ../../editors.rst:198
 msgid "Переопределенные объекты"
 msgstr ""
 
-#: ../../editors.rst:190
+#: ../../editors.rst:200
 msgid ""
 "Панель **Object overrides / Переопределенные объекты** отображает список "
 "переопределенных объектов в библиотеках для активного редактора проекта. "
@@ -512,33 +527,33 @@ msgid ""
 "присутствуют хотя бы один конфликт."
 msgstr ""
 
-#: ../../editors.rst:194
+#: ../../editors.rst:204
 msgid ""
 "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным"
 " в панели различий активного редактора проекта."
 msgstr ""
 
-#: ../../editors.rst:196
+#: ../../editors.rst:206
 msgid "sync"
 msgstr ""
 
-#: ../../editors.rst:198
+#: ../../editors.rst:208
 msgid ""
 "Контекстное меню позволяет открыть обе версии объекта, а также "
 "просмотреть различия в специальном редакторе сравнения."
 msgstr ""
 
-#: ../../editors.rst:202
+#: ../../editors.rst:212
 msgid "Результат запроса"
 msgstr ""
 
-#: ../../editors.rst:204
+#: ../../editors.rst:214
 msgid ""
 "Панель **Query result / Результат запроса** отображает результат "
 "запросов. Каждый запрос отображается отдельной вкладкой."
 msgstr ""
 
-#: ../../editors.rst:206
+#: ../../editors.rst:216
 msgid "Большие выборки могут вызывать \"подвисания\" графического интерфейса."
 msgstr ""
 
@@ -653,5 +668,13 @@ msgstr ""
 #~ "Каждый запрос отображается отдельной вкладкой."
 #~ " Количество строк, получаемых в результатах"
 #~ " запроса не ограничено."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для **PostgreSQL** дополнительно поддерживаются "
+#~ "следующие типы: CAST, EXTENSION, DOMAIN, "
+#~ "OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY,"
+#~ " FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, "
+#~ "EVENT TRIGER."
 #~ msgstr ""
 
