@@ -4,14 +4,9 @@
 CLI версия
 ==========
 
+.. important:: Если вы впервые работаете с консольным pgCodeKeeper настоятельно рекомендуем ознакомиться с данной главой полностью и в прямом порядке.
+
 В качестве альтернативы плагина для Eclipse IDE предоставляется возможность сравнения схем баз данных через командную строку. Для этого необходимо скачать pgCodeKeeper-cli приложение, которое работает автономно.
-
-Консольная сборка программы может быть использована для:
-
-- создания из дампа файловой структуры "проекта" pgCodeKeeper (без проекта Eclipse)
-- создания скриптов наката с использованием дампов и файловых структур pgCodeKeeper
-- создания скриптов наката с использованием соединений к базам данных
-- просмотра зависимостей объектов
 
 Начало работы
 ~~~~~~~~~~~~~
@@ -20,47 +15,193 @@ CLI версия
 
 Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
 
-Набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:
+Режимы работы
+~~~~~~~~~~~~~
 
+Консольная сборка программы имеет следующие режимы работы:
+ - :ref:`diffMode`
+ - :ref:`parseMode`
+ - :ref:`graphMode`
+ - :ref:`insertMode`
+
+Полный набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:
 ::
 
  ./pgcodekeeper-cli.sh --help
 
-Примеры
-~~~~~~~
 
-Запись в файл diff.sql скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432:
+.. _diffMode :
+
+diff
+""""
+
+.. important:: Данный режим основной и отрабатывает по умолчанию в отличии от остальных.
+
+Данный режим сравнивает два источника данных(источник и цель) и формирует скрипт миграции. Под источником данных понимиается файл с расширеним **sql** (далее дамп), проект pgCodeKeeper(далее проект) или база данных. Далее рассмотрим работу режима сравнения.
+
+Для базового применения режима **diff** можно использовать следующую команду
+::
+
+ ./pgcodekeeper-cli.sh                                             \
+ --db-type PG                                                      \ # тип БД
+ -s 'jdbc:postgresql://0.0.0.0:55001/test?user=test&password=test' \ # источник
+ -t 'jdbc:postgresql://0.0.0.0:55002/test?user=test&password=test' \ # цель
+ -o /home/shamsutdinov_er/temp/testDump_3.sql                        # путь до дампа
+
+- **--db-type <type>** - обязательный параметр в который устанавливается тип БД. PG - PostgreSQL b Greenplum, MS - MS SQL или CH - ClickHouse. Этот параметр имеет значение по умолчания PG, что значит при работе с PostgreSQL и Greenplum его можно опустить.
+- **-s / --source <path/url>** и **-t / --target <path/url>** - обязательные параметры указывают путь до источников данных если это дамп или проект или же url базы данных как в примере. Сами указатели `-s / --source` и `-t / --target` могут быть опущены тогда приложение возмет за источник первый источник данных а за цель второй источник данных без указателей. Рекомендуем оборачивать в одинарные ковычки url баз данных как в примере.
+- **- o / --output <path>** - устанавливается путь и имя до файла дампа. Дамп будет сохранен в том расширениив котором вы это укажите, настоятельно рекомендуем указывать расширение `*.sql`. Вы можите не указывать этот параметр тогда скрипт миграции отобразится в консоли
+
+Источник имеет одну таблицу, цель пустая. Ниже приведен скрипт который был сгенерирован pgCodeKeeper
 
 ::
 
- ./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql 'jdbc:postgresql://localhost:5432/testdb1?user=user&password=password' /home/codekeeper/projects/test1/
+    SET search_path = pg_catalog;
 
-Вывод в консоль скрипт миграции из файла backup в проект в директории test1:
+    ALTER SCHEMA public OWNER TO pg_database_owner;
+    REVOKE ALL ON SCHEMA public FROM PUBLIC;
+    REVOKE ALL ON SCHEMA public FROM pg_database_owner;
+    GRANT ALL ON SCHEMA public TO pg_database_owner;
+
+    GRANT USAGE ON SCHEMA public TO PUBLIC;
+
+    CREATE EXTENSION plpgsql SCHEMA pg_catalog;
+
+    COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+    CREATE TABLE public.t2 (
+        id integer NOT NULL,
+        c2 integer NOT NULL,
+        c3 integer NOT NULL
+    );
+
+    ALTER TABLE public.t2 OWNER TO test;
+
+Часто используемые парметры с режимом сравнение:
+
+- **-r / --run-on-target** - данный параметр применяет скрипт миграции к источнику данных цель. Может применяться одновременно с параметром **-o /--output**.
+- **-R / --run-on <url>** - этот параметр нужно использовать когда мы хотим приминить полученный скрипт миграции к какой-нибудь другой базе данных которая не участвовала в сравнении.
+
+.. _parseMode :
+
+parse
+"""""
+
+.. important:: Что бы работать в это режиме обязателено указывать параметры **--parse** и **-o / --output <path>**
+
+Данный режим имеет всего две основные команды ниже приведена комманда которая создает проект pgCodeKeeper в указанной директории с полным соотвествием схеме бд источника.
 
 ::
 
- ./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/
+  ./pgcodekeeper-cli.sh                                           /
+  --db-type PG                                                    / # тип БД
+  --parse                                                         /
+  -o /home/shamsutdinov_er/temp/codeKeeperProjs/test/             / # путь
+  'jdbc:postgresql://0.0.0.0:55001/test?user=test&password=test'    # бд источник
 
-Создание проекта в директорию test1 на основе базы данных testdb1 на сервере localhost:5432:
+Если добавить к команде выше параметр **--update-project** то мы актализируем проект в соотвествие с схемой бд источника.
+
+.. _graphMode :
+
+graph
+"""""
+
+.. important:: Что бы работать в этом режиме обязаетльно указывать параметр **--graph** и **--graph-name**
+
+Режим для поиска зависимостей объекта. Команды доступные в этом режиме:
+
+- **--graph-name <object_name>**  - имя искомого объекта, поддерживает регулярные выражения, при отсутствии параметра, будут показаны зависимости всех объектов. Для функций сигнатура является частью имени.
+- **--graph-reverse**  - обратное направление поиска зависимостей, с данным параметров выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск все объектов, которые зависят от искомого.
+- **--graph-depth <n>** - глубина поиска зависимостей, по-умолчанию 10.
+- **--graph-filter-object <OBJECT_TYPE>** - фильтрация зависимых объектов по типу, отображаются только выбранные типы объектов.
+- **--graph-invert-filter** - изменение поведения параметра graph-filter-object, выбранные типы объектов будут скрываться.
+
+Пример команды для поиска зависимостей в локальном проекте:
+::
+
+
+ ./pgcodekeeper-cli.sh
+ --db-type PG                               \
+ --graph                                    \
+ --graph-name public.t1                     \
+ --graph-name public.t2                     \
+ --graph-name public.t3                     \
+ --graph-name public.t4                     \
+ --graph-name public.t5                     \
+ --graph-name public.t6                     \
+ --graph-name 'public\.f1\(.*'              \
+ --graph-depth 2                            \
+ --graph-filter-object FUNCTION             \
+ --enable-function-bodies-dependencies      \
+ --src-lib-xml /path/to/rep/.dependencies   \
+ /path/to/rep/
+
+где
+
+- **--src-lib-xml**  - используется для загрузки библиотек.
+- **--enable-function-bodies-dependencies** - поиск зависимостей в телах функций.
+- **-o <path>** - файл, куда запишется результат, без этого параметра вывод отобразится в консоли.
+- **/path/to/rep/** - путь до проекта или можно указать url базы данных.
+
+Пример вывода результата:
+::
+
+    TABLE public.t1
+        COLUMN public.t1.id
+            FUNCTION public.f1(bigint)
+                VIEW public.v1
+                VIEW public.v2
+                    VIEW public.v3
+                    VIEW public.v4
+                        VIEW public.v5
+        FUNCTION public.f2()
+        VIEW public.v6
+        VIEW public.v7
+    TABLE public.t2
+        VIEW public.v8
+
+.. _insertMode :
+
+insert
+""""""
+
+.. important:: Что бы работать в этом режиме обязаетльно указывать параметр **--insert**.
+
+Этот режим собирает данные из базы источника с учетом всех зависимостей из искомой таблицы и вставляет все собранные данные во необходимые таблицы в базу цель.
+
+.. important:: Данный режим корректно работает при услоиях что схемы обеих баз идентичны и в базе цель отсутствуют данные
+
+Пример команды для работы алгоритма:
 
 ::
 
- ./pgcodekeeper-cli.sh --parse -o /home/codekeeper/projects/test1/ 'jdbc:postgresql://localhost:5432/testdb1?user=user&password=password'
+  ./pgcodekeeper-cli.sh                                             /
+  --db-type PG                                                      /
+  --insert                                                          /
+  --insert-name public.t1                                           /
+  --insert-filter 'id=15'                                           /
+  'jdbc:postgresql://0.0.0.0:55001/test?user=test&password=test'    / # источник
+  -R 'jdbc:postgresql://0.0.0.0:55002/test?user=test&password=test' /
+  -X
 
-Отображение дерева зависимостей базы данных testdb1 на сервере localhost:5432:
+- **--insert-name <table_name>** - в этом параметре указывается таблица данные которой нам необходимы.
+- **--insert-filter <filter>** - указывается параметр который будет установлен в часть WHERE выражения SELECT.
+- **-R / --run-on <url>** - в этом параметре указывается путь до базы данных в которую мы хотим вставить данные. Вместо **-R / --run-on** можно использовать **-o / --output <path>** для сохранения скрипта вставки в файл или же не использовать ни чего тогда скрипт отобразится в консоли.
+- **-X / --add-transaction** - оборачивает сгенерированный скрипт в транзакцию. Настоятельно рекомендуем применять этот режим только с этим параметром.
 
-::
+Принцип работы insert
+'''''''''''''''''''''
 
- ./pgcodekeeper-cli.sh --graph 'jdbc:postgresql://localhost:5432/testdb1?user=user&password=password'
+1) pgCodeKeeper считывает схему источника и собирает все нобходимые данные для последующего анализа.
+2) Формирует скрипт SELECT и отправляет его источник. В нашем примере для первой итерации это будет выгляеть примерно так `SELECT col1, col2... from public.t1 where id=15;`.
+3) Обрабатывет и кеширует полученные данные.
+4) Анализирует есть ли у текущей строки данных зависимость от данных по внешним ключам, если зависимости есть повторяются шаги 2, 3 и 4 для всех необходимых таблиц.
+5) После того как все необходимые данные со всех таблиц собранны формируется скрипт вставки
+6) Финальная часть зависит от пожелания пользователя это может быть приминения скрипта вставки в в целевую базу данных, сохранение в файл или вывод в консоль.
 
-Отображение дерева объектов, от которых зависят объекты с именами t1 и t2 в базе данных testdb1 на сервере localhost:5432:
-
-::
-
- ./pgcodekeeper-cli.sh --graph --graph-reverse --graph-name t1 --graph-name t2 'jdbc:postgresql://localhost:5432/testdb1?user=user&password=password'
-
-
-Все параметры после специального параметра *-vmargs* будут переданы VM.
+vmargs
+~~~~~~
+Все параметры после специального параметра **-vmargs** будут переданы VM.
 
 Использование с ограничениями потребляемой памяти:
 
@@ -73,3 +214,16 @@ CLI версия
 ::
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
+
+Windows аутентификация
+~~~~~~~~~~~~~~~~~~~~~~
+
+При работе с базами данных MS SQL есть возможность использовать аутентификацию Windows, для это в url вместо пароля нужно прописывать **integratedSecurity=true**. Ниже приведен пример команды:
+
+::
+
+    pgcodekeeper-cli.bat                                                          \
+    --db-type MS                                                                  \
+    --graph                                                                       \
+    --graph-name \\[dbo\\].\\[TABLE_1\\]                                          \
+    "jdbc:sqlserver://localhost:1433;DatabaseName=testdb;integratedSecurity=true"
