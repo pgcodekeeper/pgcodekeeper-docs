@@ -61,6 +61,7 @@
 
 Проект **ClickHouse** содержит следующую структуру:
 ::
+
 	.
 	├─ DATABASE
 	│   └─ database_name
