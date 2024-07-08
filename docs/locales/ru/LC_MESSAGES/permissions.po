@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 9.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 16:49+0300\n"
+"POT-Creation-Date: 2024-07-08 17:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,50 +19,43 @@ msgstr ""
 "Generated-By: Babel 2.15.0\n"
 
 #: ../../permissions.rst:3
-msgid "Разрешения"
+msgid "Привилегии"
 msgstr ""
 
 #: ../../permissions.rst:5
 msgid ""
-"Для корректной работы pgCodeKeeper пользователю, который был задан в "
-"настройках соединения :ref:`dbStore`, должны быть выданы соответствующие "
-"права."
-msgstr ""
-
-#: ../../permissions.rst:7
-msgid ""
-"Для пользователей в PostgreSQL и Greenplum не требуются дополнительные "
-"права доступа. Eсли вы пользуетесь расширением `pg_dbo_timestamp "
-"<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ то у пользователя "
-"должно быть соответствующее разрешение."
+"Для корректной работы pgCodeKeeper, пользователю, который был использован"
+" в настройках соединения :ref:`dbStore`, в зависимости от типа базы "
+"данных, могут потребоваться дополнительные привилегии."
 msgstr ""
 
 #: ../../permissions.rst:9
-msgid "для MS SQL:"
+msgid "PosrgreSQL"
 msgstr ""
 
 #: ../../permissions.rst:11
-msgid "для ClickHouse:"
-msgstr ""
-
-#: ../../permissions.rst:18
-msgid "Более подробно ознакомиться с видами привилегий можно:"
-msgstr ""
-
-#: ../../permissions.rst:19
-msgid "**PostgreSQL** - https://www.postgresql.org/docs/15/sql-grant.html"
-msgstr ""
-
-#: ../../permissions.rst:20
 msgid ""
-"**Greenplum** - https://docs.vmware.com/en/VMware-Greenplum/7/greenplum-"
-"database/ref_guide-sql_commands-GRANT.html"
+"Для пользователей в PostgreSQL и Greenplum не требуются дополнительные "
+"привилегии."
 msgstr ""
 
-#: ../../permissions.rst:22
+#: ../../permissions.rst:13
 msgid ""
-"**ClickHouse** - https://clickhouse.com/docs/en/sql-"
-"reference/statements/grant"
+"При использовании расширения `pg_dbo_timestamp "
+"<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен"
+" иметь доступ на чтение соотвествующих объектов."
+msgstr ""
+
+#: ../../permissions.rst:16
+msgid "MS SQL"
+msgstr ""
+
+#: ../../permissions.rst:21
+msgid "ClickHouse"
+msgstr ""
+
+#: ../../permissions.rst:23
+msgid "Для получения метаданных читаемых объектов требуются следующие привилегии:"
 msgstr ""
 
 #~ msgid ""
@@ -117,5 +110,41 @@ msgstr ""
 #~ "`pg_dbo_timestamp "
 #~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ то у"
 #~ " пользователя должно быть разрешение."
+#~ msgstr ""
+
+#~ msgid "Разрешения"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для пользователей в PostgreSQL и "
+#~ "Greenplum не требуются дополнительные права"
+#~ " доступа. Eсли вы пользуетесь расширением"
+#~ " `pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ то у"
+#~ " пользователя должно быть соответствующее "
+#~ "разрешение."
+#~ msgstr ""
+
+#~ msgid "для MS SQL:"
+#~ msgstr ""
+
+#~ msgid "для ClickHouse:"
+#~ msgstr ""
+
+#~ msgid "Более подробно ознакомиться с видами привилегий можно:"
+#~ msgstr ""
+
+#~ msgid "**PostgreSQL** - https://www.postgresql.org/docs/15/sql-grant.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Greenplum** - https://docs.vmware.com/en/VMware-"
+#~ "Greenplum/7/greenplum-database/ref_guide-sql_commands-"
+#~ "GRANT.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ClickHouse** - https://clickhouse.com/docs/en/sql-"
+#~ "reference/statements/grant"
 #~ msgstr ""
 
