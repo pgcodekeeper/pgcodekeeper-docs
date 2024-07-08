@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 17:47+0300\n"
+"POT-Creation-Date: 2024-07-08 08:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,127 +226,109 @@ msgstr ""
 msgid "Пример команды для поиска зависимостей в локальном проекте: ::"
 msgstr ""
 
-#: ../../cli_version.rst:132 ../../cli_version.rst:192
-#: ../../cli_version.rst:209
+#: ../../cli_version.rst:133 ../../cli_version.rst:196
+#: ../../cli_version.rst:214
 msgid "где"
 msgstr ""
 
-#: ../../cli_version.rst:134 ../../cli_version.rst:194
+#: ../../cli_version.rst:135 ../../cli_version.rst:198
 msgid "**--db-type** - тип БД."
 msgstr ""
 
-#: ../../cli_version.rst:135
+#: ../../cli_version.rst:136
 msgid ""
 "**--enable-function-bodies-dependencies** - поиск зависимостей в телах "
 "функций."
 msgstr ""
 
-#: ../../cli_version.rst:136
+#: ../../cli_version.rst:137
 msgid "**--src-lib-xml <path>** - файл библиотек для проекта."
 msgstr ""
 
-#: ../../cli_version.rst:137 ../../cli_version.rst:196
+#: ../../cli_version.rst:138 ../../cli_version.rst:200
 msgid ""
 "**-o <path>** - файл, куда запишется результат, без этого параметра вывод"
 " отобразится в консоли."
 msgstr ""
 
-#: ../../cli_version.rst:138
+#: ../../cli_version.rst:139
 msgid "**/path/to/rep/** - путь до проекта или можно указать url базы данных."
 msgstr ""
 
-#: ../../cli_version.rst:140
+#: ../../cli_version.rst:141
 msgid "Пример команды для поиска зависимостей в MS SQL базе: ::"
 msgstr ""
 
-#: ../../cli_version.rst:155
+#: ../../cli_version.rst:157
 msgid "Пример вывода результата: ::"
 msgstr ""
 
-#: ../../cli_version.rst:174
+#: ../../cli_version.rst:177
 msgid "insert"
 msgstr ""
 
-#: ../../cli_version.rst:176
+#: ../../cli_version.rst:179
 msgid ""
 "Команда **--insert** позволяет переключить работу в режим сбора данных из"
 " базы источника с учетом зависимостей по FK. Команды, доступные в этом "
 "режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:178
+#: ../../cli_version.rst:181
 msgid ""
 "**--insert-name <table_name>** - имя таблицы, для который собираются "
 "данные."
 msgstr ""
 
-#: ../../cli_version.rst:179
+#: ../../cli_version.rst:182
 msgid ""
 "**--insert-filter <filter>** - условие по которому будут собираться "
 "данные из первоначальной таблицы."
 msgstr ""
 
-#: ../../cli_version.rst:181
+#: ../../cli_version.rst:184
 msgid "Пример команды для сбора данных в локальный файл: ::"
 msgstr ""
 
-#: ../../cli_version.rst:195
+#: ../../cli_version.rst:199
 msgid "**-X** - оборачивает сгенерированный скрипт в транзакцию."
 msgstr ""
 
-#: ../../cli_version.rst:198
+#: ../../cli_version.rst:202
 msgid "Пример команды для сбора данных и выполнения скрипта в БД: ::"
 msgstr ""
 
-#: ../../cli_version.rst:211
+#: ../../cli_version.rst:216
 msgid "**-R <url>** - база данных, в которой будет выполнен полученный скрипт."
 msgstr ""
 
-#: ../../cli_version.rst:213
+#: ../../cli_version.rst:218
 msgid "Пример вывода результата:"
 msgstr ""
 
-#: ../../cli_version.rst:229
-msgid "::"
-msgstr ""
-
-#: ../../cli_version.rst:216
-msgid "START TRANSACTION;"
-msgstr ""
-
-#: ../../cli_version.rst:218
+#: ../../cli_version.rst:236
 msgid ""
-"INSERT INTO public.t2 (id, c2, c3) VALUES (1, NULL, 1) ON CONFLICT DO "
-"NOTHING;"
+"При работе режима **insert** с типами данных **[geometry]** и "
+"**[geography]** в MS SQL и **postgis.geometry** в PostgreSQL данные "
+"оборачиваются в соответсвующие функции, где второй аргумент константа "
+"**4326**. Данный режим может отрабатывать не корректно если для сбора "
+"данных требуется оборачивать вывоз столбца в функцию и/или вставка данных"
+" требует оборачивания данных в функцию."
 msgstr ""
 
-#: ../../cli_version.rst:222
-msgid ""
-"INSERT INTO public.t1 (id, c2, c3) VALUES (1, 1, 1) ON CONFLICT DO "
-"NOTHING;"
-msgstr ""
-
-#: ../../cli_version.rst:226
-msgid "UPDATE public.t2 SET c2 = 1 WHERE id = 1;"
-msgstr ""
-
-#: ../../cli_version.rst:228
-msgid "COMMIT TRANSACTION;"
-msgstr ""
-
-#: ../../cli_version.rst:232
+#: ../../cli_version.rst:239
 msgid "vmargs"
 msgstr ""
 
-#: ../../cli_version.rst:233
+#: ../../cli_version.rst:240
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr ""
 
-#: ../../cli_version.rst:235
+#: ../../cli_version.rst:242
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:241
+#: ../../cli_version.rst:248
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
@@ -1380,5 +1362,52 @@ msgstr ""
 #~ "скрипта вставки в в целевую базу "
 #~ "данных, сохранение в файл или вывод "
 #~ "в консоль."
+#~ msgstr ""
+
+#~ msgid "START TRANSACTION;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "INSERT INTO public.t2 (id, c2, c3) "
+#~ "VALUES (1, NULL, 1) ON CONFLICT DO"
+#~ " NOTHING;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "INSERT INTO public.t1 (id, c2, c3) "
+#~ "VALUES (1, 1, 1) ON CONFLICT DO"
+#~ " NOTHING;"
+#~ msgstr ""
+
+#~ msgid "UPDATE public.t2 SET c2 = 1 WHERE id = 1;"
+#~ msgstr ""
+
+#~ msgid "COMMIT TRANSACTION;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При работе режима **insert** с типами"
+#~ " данных **[geometry]** и **[geography]** в"
+#~ " MS SQL и **postgis.geometry** в "
+#~ "PoatgreSQL данные оборачиваются в "
+#~ "соответсвующие функции, где второй аргумент"
+#~ " константа **4326**. Данный режим может "
+#~ "отрабатывать не корректно если для сбора"
+#~ " данных требуется оборачивать вывоз столца"
+#~ " в функцию и/или вставка данных "
+#~ "требует оборачивания данных в функцию."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При работе режима **insert** с типами"
+#~ " данных **[geometry]** и **[geography]** в"
+#~ " MS SQL и **postgis.geometry** в "
+#~ "PostgreSQL данные оборачиваются в "
+#~ "соответсвующие функции, где второй аргумент"
+#~ " константа **4326**. Данный режим может "
+#~ "отрабатывать не корректно если для сбора"
+#~ " данных требуется оборачивать вывоз столца"
+#~ " в функцию и/или вставка данных "
+#~ "требует оборачивания данных в функцию."
 #~ msgstr ""
 
