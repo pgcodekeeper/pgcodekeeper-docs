@@ -31,9 +31,10 @@
    :maxdepth: 1
    :caption: Задачи
 
+   db_store
+   permissions
    project_update
    db_update
-   db_store
    sort
    project_edit
    formatting
