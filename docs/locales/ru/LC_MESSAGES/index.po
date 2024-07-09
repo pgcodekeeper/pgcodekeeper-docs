@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2024-07-03 13:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 
 #: ../../index.rst:17
 msgid "Начало работы"
@@ -36,9 +36,9 @@ msgstr ""
 
 #: ../../index.rst:5
 msgid ""
-"Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и "
-"выборочного применения различий, с учетом возможных зависимостей между "
-"объектами схемы."
+"Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL, MS SQL"
+" Server, Greenplum, ClickHouse и выборочного применения различий, с "
+"учетом возможных зависимостей между объектами схемы."
 msgstr ""
 
 #: ../../index.rst:7
@@ -60,4 +60,11 @@ msgid ""
 "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
 "`GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr ""
+
+#~ msgid ""
+#~ "Плагин pgCodeKeeper предназначен для сравнения"
+#~ " схем БД PostgreSQL и выборочного "
+#~ "применения различий, с учетом возможных "
+#~ "зависимостей между объектами схемы."
+#~ msgstr ""
 
