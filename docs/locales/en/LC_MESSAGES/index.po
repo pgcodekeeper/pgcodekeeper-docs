@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2024-07-03 13:45+0300\n"
+"PO-Revision-Date: 2024-07-09 06:52\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -35,8 +35,8 @@ msgid "Руководство пользователя pgCodeKeeper"
 msgstr "pgCodeKeeper User Guide"
 
 #: ../../index.rst:5
-msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
-msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL DB schemas and selective applying the differences, considering possible dependences between the schema objects."
+msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL, MS SQL Server, Greenplum, ClickHouse и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
+msgstr ""
 
 #: ../../index.rst:7
 msgid "Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре."
@@ -49,4 +49,11 @@ msgstr "Using the project, it is possible to view the structure of files-objects
 #: ../../index.rst:11
 msgid "Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr "pgCodeKeeper source code is available at `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_ for free."
+
+#~ msgid ""
+#~ "Плагин pgCodeKeeper предназначен для сравнения"
+#~ " схем БД PostgreSQL и выборочного "
+#~ "применения различий, с учетом возможных "
+#~ "зависимостей между объектами схемы."
+#~ msgstr ""
 
