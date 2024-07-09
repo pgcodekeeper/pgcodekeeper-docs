@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pgcodekeeper-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-09 09:40+0300\n"
+"PO-Revision-Date: 2024-07-09 06:52\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/permissions.po\n"
+"X-Crowdin-File-ID: 62\n"
+"Language: en_US\n"
+
+#: ../../permissions.rst:3
+msgid "Привилегии"
+msgstr ""
+
+#: ../../permissions.rst:5
+msgid "Для корректной работы pgCodeKeeper, пользователю, который был использован в настройках соединения :ref:`dbStore`, в зависимости от типа базы данных, могут потребоваться дополнительные привилегии."
+msgstr ""
+
+#: ../../permissions.rst:8
+msgid "PosrgreSQL"
+msgstr ""
+
+#: ../../permissions.rst:10
+msgid "Для пользователей в PostgreSQL и Greenplum не требуются дополнительные привилегии."
+msgstr ""
+
+#: ../../permissions.rst:12
+msgid "При использовании расширения `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен иметь доступ на чтение объектов:"
+msgstr ""
+
+#: ../../permissions.rst:19
+msgid "где **schema_name** - схема, в которой находится расширение"
+msgstr ""
+
+#: ../../permissions.rst:21
+msgid "MS SQL"
+msgstr ""
+
+#: ../../permissions.rst:23 ../../permissions.rst:32
+msgid "Для получения метаданных читаемых объектов требуются следующие привилегии:"
+msgstr ""
+
+#: ../../permissions.rst:30
+msgid "ClickHouse"
+msgstr ""
+
+#~ msgid ""
+#~ "Для корректной работы pgCodeKeeper "
+#~ "пользователю, еоторый был установлен в "
+#~ "настройках соединения :ref:`dbStore`, должны "
+#~ "быть выданы соответствующие права"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для корректной работы pgCodeKeeper "
+#~ "пользователю, который был задан в "
+#~ "настройках соединения :ref:`dbStore`, должны "
+#~ "быть выданы соответствующие права."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для корректной работы pgCodeKeeper "
+#~ "пользователю, который был задан в "
+#~ "настройках соединения :ref:`dbStore`, должны "
+#~ "быть выданы соответствующие права. Для "
+#~ "PostgreSQL и Grennplum:"
+#~ msgstr ""
+
+#~ msgid "Для PostgreSQL и Grennplum:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Более подробно ознакомиться с видами "
+#~ "привилегий можно: - - - **ClickHouse**"
+#~ " - `https://clickhouse.com/docs/en/sql-"
+#~ "reference/statements/grant`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ClickHouse** - `https://clickhouse.com/docs/en/sql-"
+#~ "reference/statements/grant`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ClickHouse** - | https://clickhouse.com/docs/en"
+#~ "/sql-reference/statements/grant"
+#~ msgstr ""
+
+#~ msgid "Для PostgreSQL и Greenplum:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для пользователей в PostgreSQL и "
+#~ "Greenplum не требуются дополнительные права"
+#~ " доступа. Eсли имеется расширение "
+#~ "`pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ то у"
+#~ " пользователя должно быть разрешение."
+#~ msgstr ""
+
+#~ msgid "Разрешения"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для пользователей в PostgreSQL и "
+#~ "Greenplum не требуются дополнительные права"
+#~ " доступа. Eсли вы пользуетесь расширением"
+#~ " `pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ то у"
+#~ " пользователя должно быть соответствующее "
+#~ "разрешение."
+#~ msgstr ""
+
+#~ msgid "для MS SQL:"
+#~ msgstr ""
+
+#~ msgid "для ClickHouse:"
+#~ msgstr ""
+
+#~ msgid "Более подробно ознакомиться с видами привилегий можно:"
+#~ msgstr ""
+
+#~ msgid "**PostgreSQL** - https://www.postgresql.org/docs/15/sql-grant.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Greenplum** - https://docs.vmware.com/en/VMware-"
+#~ "Greenplum/7/greenplum-database/ref_guide-sql_commands-"
+#~ "GRANT.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ClickHouse** - https://clickhouse.com/docs/en/sql-"
+#~ "reference/statements/grant"
+#~ msgstr ""
+
+#~ msgid ":"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "USE <MY_DATABASE>; GRANT VIEW DEFINITION "
+#~ "ON DATABASE :: <MY_DATABASE> TO "
+#~ "<MY_USER>;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения методанных читаемых объектов "
+#~ "требуются следующие привилегии:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения метаданных читаемых объектов "
+#~ "требуются следующие привилегии:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения методанных читаемых объектов "
+#~ "требуются следующие привилегии: ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения метаданных читаемых объектов "
+#~ "требуются следующие привилегии: ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При использовании расширения `pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ "
+#~ "пользователь должен иметь доступ на "
+#~ "чтение соотвествующих объектов."
+#~ msgstr ""
+
+#~ msgid "::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GRANT USAGE ON SCHEMA schema_name TO "
+#~ "user_name; GRANT SELECT ON "
+#~ "[schema_name.]dbots_object_timestamps TO user_name;"
+#~ msgstr ""
+
