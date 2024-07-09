@@ -15,7 +15,12 @@ PosrgreSQL
 MS SQL
 ~~~~~~
 
+Для получения методанных читаемых объектов требуются следующие привилегии:
 
+::
+
+ USE <DATABASE_NAME>;
+ GRANT VIEW DEFINITION ON DATABASE :: <DATABASE_NAME> TO <USER_NAME>;
 
 ClickHouse
 ~~~~~~~~~~

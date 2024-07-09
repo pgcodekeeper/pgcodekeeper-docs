@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 9.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 17:39+0300\n"
+"POT-Creation-Date: 2024-07-09 08:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,11 +50,15 @@ msgstr ""
 msgid "MS SQL"
 msgstr ""
 
-#: ../../permissions.rst:21
+#: ../../permissions.rst:18
+msgid "Для получения методанных читаемых объектов требуются следующие привилегии:"
+msgstr ""
+
+#: ../../permissions.rst:26
 msgid "ClickHouse"
 msgstr ""
 
-#: ../../permissions.rst:23
+#: ../../permissions.rst:28
 msgid "Для получения метаданных читаемых объектов требуются следующие привилегии:"
 msgstr ""
 
@@ -146,5 +150,14 @@ msgstr ""
 #~ msgid ""
 #~ "**ClickHouse** - https://clickhouse.com/docs/en/sql-"
 #~ "reference/statements/grant"
+#~ msgstr ""
+
+#~ msgid ":"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "USE <MY_DATABASE>; GRANT VIEW DEFINITION "
+#~ "ON DATABASE :: <MY_DATABASE> TO "
+#~ "<MY_USER>;"
 #~ msgstr ""
 
