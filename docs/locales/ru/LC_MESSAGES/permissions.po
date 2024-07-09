@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 9.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 09:12+0300\n"
+"POT-Creation-Date: 2024-07-09 09:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,23 +43,33 @@ msgstr ""
 msgid ""
 "При использовании расширения `pg_dbo_timestamp "
 "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен"
-" иметь доступ на чтение соотвествующих объектов."
-msgstr ""
-
-#: ../../permissions.rst:14
-msgid "MS SQL"
+" иметь доступ на чтение объектов:"
 msgstr ""
 
 #: ../../permissions.rst:16
-msgid "Для получения методанных читаемых объектов требуются следующие привилегии:"
+msgid "::"
 msgstr ""
 
-#: ../../permissions.rst:23
-msgid "ClickHouse"
+#: ../../permissions.rst:15
+msgid ""
+"GRANT USAGE ON SCHEMA schema_name TO user_name; GRANT SELECT ON "
+"[schema_name.]dbots_object_timestamps TO user_name;"
 msgstr ""
 
-#: ../../permissions.rst:25
+#: ../../permissions.rst:18
+msgid "где **schema_name** - схема, в которой находится расширение"
+msgstr ""
+
+#: ../../permissions.rst:20
+msgid "MS SQL"
+msgstr ""
+
+#: ../../permissions.rst:22 ../../permissions.rst:31
 msgid "Для получения метаданных читаемых объектов требуются следующие привилегии:"
+msgstr ""
+
+#: ../../permissions.rst:29
+msgid "ClickHouse"
 msgstr ""
 
 #~ msgid ""
@@ -179,5 +189,12 @@ msgstr ""
 #~ msgid ""
 #~ "Для получения метаданных читаемых объектов "
 #~ "требуются следующие привилегии: ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При использовании расширения `pg_dbo_timestamp "
+#~ "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ "
+#~ "пользователь должен иметь доступ на "
+#~ "чтение соотвествующих объектов."
 #~ msgstr ""
 
