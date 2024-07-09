@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 9.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 08:08+0300\n"
+"POT-Creation-Date: 2024-07-09 09:12+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,36 +29,36 @@ msgid ""
 "данных, могут потребоваться дополнительные привилегии."
 msgstr ""
 
-#: ../../permissions.rst:9
+#: ../../permissions.rst:8
 msgid "PosrgreSQL"
 msgstr ""
 
-#: ../../permissions.rst:11
+#: ../../permissions.rst:10
 msgid ""
 "Для пользователей в PostgreSQL и Greenplum не требуются дополнительные "
 "привилегии."
 msgstr ""
 
-#: ../../permissions.rst:13
+#: ../../permissions.rst:12
 msgid ""
 "При использовании расширения `pg_dbo_timestamp "
 "<https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен"
 " иметь доступ на чтение соотвествующих объектов."
 msgstr ""
 
-#: ../../permissions.rst:16
+#: ../../permissions.rst:14
 msgid "MS SQL"
 msgstr ""
 
-#: ../../permissions.rst:18
+#: ../../permissions.rst:16
 msgid "Для получения методанных читаемых объектов требуются следующие привилегии:"
 msgstr ""
 
-#: ../../permissions.rst:26
+#: ../../permissions.rst:23
 msgid "ClickHouse"
 msgstr ""
 
-#: ../../permissions.rst:28
+#: ../../permissions.rst:25
 msgid "Для получения метаданных читаемых объектов требуются следующие привилегии:"
 msgstr ""
 
@@ -159,5 +159,25 @@ msgstr ""
 #~ "USE <MY_DATABASE>; GRANT VIEW DEFINITION "
 #~ "ON DATABASE :: <MY_DATABASE> TO "
 #~ "<MY_USER>;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения методанных читаемых объектов "
+#~ "требуются следующие привилегии:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения метаданных читаемых объектов "
+#~ "требуются следующие привилегии:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения методанных читаемых объектов "
+#~ "требуются следующие привилегии: ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для получения метаданных читаемых объектов "
+#~ "требуются следующие привилегии: ::"
 #~ msgstr ""
 

@@ -6,14 +6,12 @@
 
 
 PosrgreSQL
-~~~~~~~~~~
 
 Для пользователей в PostgreSQL и Greenplum не требуются дополнительные привилегии. 
 
 При использовании расширения `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен иметь доступ на чтение соотвествующих объектов.
 
 MS SQL
-~~~~~~
 
 Для получения методанных читаемых объектов требуются следующие привилегии:
 
@@ -23,7 +21,6 @@ MS SQL
  GRANT VIEW DEFINITION ON DATABASE :: <DATABASE_NAME> TO <USER_NAME>;
 
 ClickHouse
-~~~~~~~~~~
 
 Для получения метаданных читаемых объектов требуются следующие привилегии:
 
