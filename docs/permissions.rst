@@ -12,6 +12,7 @@ PosrgreSQL
 При использовании расширения `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен иметь доступ на чтение объектов:
 
 ::
+
  GRANT USAGE ON SCHEMA schema_name TO user_name;
  GRANT SELECT ON [schema_name.]dbots_object_timestamps TO user_name;
 
