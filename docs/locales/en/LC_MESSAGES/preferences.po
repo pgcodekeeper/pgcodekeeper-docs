@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-05 11:22+0300\n"
-"PO-Revision-Date: 2024-07-09 06:52\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "**Ignore concurrent modification errors when reading DB** - allows you t
 
 #: ../../preferences.rst:17
 msgid "**Format object code automatically / Форматировать код объектов автоматически** - позволяет отображать и сохранять отформатированный код объектов согласно настройкам форматирования **SQL Editor/Редактор SQL**. Подробнее про настройки форматирования кода в :ref:`format`."
-msgstr ""
+msgstr "**Format object code automatically** allows display and save the formatted objects code according to the **SQL Editor** formatting settings. For more info about the code formatting settings, see :ref:`format`."
 
 #: ../../preferences.rst:18
 msgid "**Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяет автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение."
@@ -168,7 +168,7 @@ msgstr "**Print CREATE IF NOT EXISTS/DROP IF EXISTS** allows to add the ``IF NOT
 
 #: ../../preferences.rst:62
 msgid "**Print creation of CONSTRAINT and IDENTITY in DO block (PostgreSQL only) / Печатать создание CONSTRAINT и IDENTITY в DO блоке (только для PostgreSQL)** - позволяет обернуть создание CONSTARAINT и IDENTITY в блок DO (только для PostgreSQL)"
-msgstr ""
+msgstr "**Print creation of CONSTRAINT and IDENTITY in DO block (PostgreSQL only)** - allows you to wrap the creation of CONSTARAINT and IDENTITY into the DO block (for PostgreSQL only)"
 
 #: ../../preferences.rst:63
 msgid "**Print DROP before CREATE statement / Печатать DROP перед CREATE конструкцией** – позволяет добавить конструкцию DROP перед CREATE конструкцией в скрипте миграции."
@@ -180,7 +180,7 @@ msgstr "**Create a script only from objects selected in the comparison panel** �
 
 #: ../../preferences.rst:65
 msgid "**Print comments at the end of the script / Печатать комментарии в конце скрипта** - переносит добавление всех комментариев в конец скрипта миграции."
-msgstr ""
+msgstr "**Print comments at the end of the script** - moves the adding of all comments to the end of the migration script."
 
 #: ../../preferences.rst:66
 msgid "**Migrate data when re-creating tables / Мигрировать данные при пересоздании таблиц** - позволяет сохранить данные при пересоздании таблицы. При пересоздании существующая таблица переименовывается и создается новая, данные из исходной переливаются в новую. Старая переименованная таблица удаляется. Состояние IDENTITY SEQUENCE переносится из старой таблицы в новую. Обычные SEQUENCE не поддерживаются."
@@ -352,7 +352,7 @@ msgstr "export_db"
 
 #: ../../preferences.rst:167
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, группа БД, тип соединения, а также включить запрет на запись в БД и выбрать тип БД PostgreSQL (для PostgreSQL или Greenplum), MS SQL или ClickHouse. Для MS SQL можно указать домен. Если выбран тип бд MS SQL, то по умолчанию выставлен параметр **trust MS SQL сertificate / доверять сертификату MS SQL**, который можно отключить. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
-msgstr ""
+msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear, where you should specify the parameters of the connection data: host, port, database name, user, password, database group, connection type, as well as forbid recording to DB and select the PostgreSQL (for PostgreSQL or Greenplum), MS SQL or ClickHouse database type. For MS SQL, you can specify a domain. If the MS SQL database type is selected, the **trust MS SQL certificate**, parameter will be set by default. This parameter can be disabled. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
 #: ../../preferences.rst:169
 msgid "pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым."
@@ -368,7 +368,7 @@ msgstr "You can extend connection properties with the settings specified at:"
 
 #: ../../preferences.rst:179
 msgid "https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL и Greenplum)"
-msgstr ""
+msgstr "https://jdbc.postgresql.org/documentation/head/connect.html (For PostgreSQL and Greenplum)"
 
 #: ../../preferences.rst:180
 msgid "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)"
@@ -376,7 +376,7 @@ msgstr "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection
 
 #: ../../preferences.rst:181
 msgid "https://clickhouse.com/docs/en/integrations/java#jdbc-driver (Для ClickHouse)"
-msgstr ""
+msgstr "https://clickhouse.com/docs/en/integrations/java#jdbc-driver (For ClickHouse)"
 
 #: ../../preferences.rst:186
 msgid "**Use external DB loader instead of JDBC / Использовать внешний загрузчик pg_dump** - позволяет использовать внешний загрузчик для базы данных вместо JDBC."
