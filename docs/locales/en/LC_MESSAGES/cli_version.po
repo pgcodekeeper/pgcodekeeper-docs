@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 11:21+0300\n"
-"PO-Revision-Date: 2024-07-10 04:16\n"
+"PO-Revision-Date: 2024-07-10 05:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -72,81 +72,81 @@ msgstr "diff"
 
 #: ../../cli_version.rst:35
 msgid "Режим по-умолчанию. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных."
-msgstr ""
+msgstr "This is the default mode. It compares the two sources and generates a migration script. A dump, a pgCodeKeeper project, or a database can be used as a data source."
 
 #: ../../cli_version.rst:37
 msgid "Пример команды для сравнения двух баз данных PostgreSQL и сохранения скрипта миграции в файл. ::"
-msgstr ""
+msgstr "Example of a command for comparing two PostgreSQL databases and saving the migration script to the file. ::"
 
 #: ../../cli_version.rst:46
 msgid "**--db-type PG** - тип БД."
-msgstr ""
+msgstr "**--db-type PG** - database type."
 
 #: ../../cli_version.rst:47
 msgid "**-s <url>** - путь до источника изменений."
-msgstr ""
+msgstr "**-s <url>** - path to the source of changes."
 
 #: ../../cli_version.rst:48
 msgid "**-t <url>** - путь до приемника изменений."
-msgstr ""
+msgstr "**-t <url>** - path to the recipient of changes."
 
 #: ../../cli_version.rst:49
 msgid "**- o <path>** - путь до файла, куда будет сохранен скрипт миграции. Без этого параметра результат отобразится в консоли."
-msgstr ""
+msgstr "**- o <path>** - path to the file the migration script is going to be saved to. If you don't specify this parameter, the result will be displayed in the console."
 
 #: ../../cli_version.rst:51
 msgid "Сами указатели `-s / --source` и `-t / --target` (не <url>) могут быть опущены, тогда первые два аргумента без указателя будут использоваться в качестве источника и приемника соответственно."
-msgstr ""
+msgstr "You can omit the `-s / --source` and `-t / --target` indices (not <url>). If you do that, the first two arguments without an index will be used as a source and a recipient respectively."
 
 #: ../../cli_version.rst:53
 msgid "Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль. ::"
-msgstr ""
+msgstr "Example of a command for comparing an MS SQL project and a database and displaying the result in the console. ::"
 
 #: ../../cli_version.rst:62
 msgid "Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных. ::"
-msgstr ""
+msgstr "Example of a command for comparing a ClickHouse dump and a database and executing the scrip in the same database. ::"
 
 #: ../../cli_version.rst:72 ../../cli_version.rst:171
 msgid "Пример вывода результата: ::"
-msgstr ""
+msgstr "Example of a result output: ::"
 
 #: ../../cli_version.rst:88
 msgid "parse"
-msgstr ""
+msgstr "parse"
 
 #: ../../cli_version.rst:90
 msgid "Команда **--parse** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:"
-msgstr ""
+msgstr "**--parse** is a command that allows you to enable saving the database as a project. In this mode, the following commands are available:"
 
 #: ../../cli_version.rst:92
 msgid "**--update-project** - обновление существующего проекта."
-msgstr ""
+msgstr "**--update-project** - update of an existing project."
 
 #: ../../cli_version.rst:94
 msgid "Пример команды для создания нового проекта на основе данной БД. ::"
-msgstr ""
+msgstr "Example of a command for creating a new project based on this database. ::"
 
 #: ../../cli_version.rst:103 ../../cli_version.rst:147
 #: ../../cli_version.rst:212 ../../cli_version.rst:230
 msgid "где"
-msgstr ""
+msgstr "where"
 
 #: ../../cli_version.rst:105 ../../cli_version.rst:149
 #: ../../cli_version.rst:214
 msgid "**--db-type <type>** - тип БД."
-msgstr ""
+msgstr "**--db-type <type>** - database type."
 
 #: ../../cli_version.rst:106
 msgid "**-o <path>** - указание пути, куда будет сохранен проект."
-msgstr ""
+msgstr "**-o <path>** - path the project is going to be saved to."
 
 #: ../../cli_version.rst:108
 msgid "Пример команды для обновления существующего проекта на основе данной БД. ::"
-msgstr ""
+msgstr "Example of a command for updating an existing project based on this database. ::"
 
 #: ../../cli_version.rst:121
 msgid "graph"
-msgstr ""
+msgstr "graph"
 
 #: ../../cli_version.rst:123
 msgid "Команда **--graph** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:"
