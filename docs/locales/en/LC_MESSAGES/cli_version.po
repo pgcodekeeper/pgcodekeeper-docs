@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 11:21+0300\n"
-"PO-Revision-Date: 2024-07-10 06:36\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -186,63 +186,63 @@ msgstr "**--src-lib-xml <path>** - file with libraries for the project."
 
 #: ../../cli_version.rst:152 ../../cli_version.rst:216
 msgid "**-o <path>** - файл, куда запишется результат, без этого параметра вывод отобразится в консоли."
-msgstr ""
+msgstr "**-o <path>** - file the result is going to be recorded to. If you don't specifiy this parameter, the output will be displayed in the console."
 
 #: ../../cli_version.rst:153
 msgid "**/path/to/rep/** - путь до проекта или url базы данных."
-msgstr ""
+msgstr "**/path/to/rep/** - path to project or database url."
 
 #: ../../cli_version.rst:155
 msgid "Пример команды для поиска зависимостей в MS SQL базе: ::"
-msgstr ""
+msgstr "Example of a command for searching for dependencies in an MS SQL database: ::"
 
 #: ../../cli_version.rst:191
 msgid "insert"
-msgstr ""
+msgstr "insert"
 
 #: ../../cli_version.rst:193
 msgid "Команда **--insert** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:"
-msgstr ""
+msgstr "**--insert** is a command that allows you to enable gathering data from the source database taking into account the FK dependencies. In this mode, the following commands are available:"
 
 #: ../../cli_version.rst:195
 msgid "**--insert-name <table_name>** - имя таблицы, для который собираются данные."
-msgstr ""
+msgstr "**--insert-name <table_name>** - name of the table the data is gathered for."
 
 #: ../../cli_version.rst:196
 msgid "**--insert-filter <filter>** - условие по которому будут собираться данные из первоначальной таблицы."
-msgstr ""
+msgstr "**--insert-filter <filter>** - condition under which the data will be gathered from the initial table."
 
 #: ../../cli_version.rst:198
 msgid "В данном режиме геометрические типы оборачиваются в специальные функции с указанием типа геометрии **4326**."
-msgstr ""
+msgstr "In this mode, geometric types are wrapped in special functions with specifying the geometry type **4326**."
 
 #: ../../cli_version.rst:200
 msgid "Пример команды для сбора данных в локальный файл: ::"
-msgstr ""
+msgstr "Example of a command for gathering the data into a local file: ::"
 
 #: ../../cli_version.rst:215
 msgid "**-X** - оборачивает сгенерированный скрипт в транзакцию."
-msgstr ""
+msgstr "**-X** - wraps the generated script into a transaction."
 
 #: ../../cli_version.rst:218
 msgid "Пример команды для сбора данных и выполнения скрипта в БД: ::"
-msgstr ""
+msgstr "Example of a command for gathering the data and executing a script in the database: ::"
 
 #: ../../cli_version.rst:232
 msgid "**-R <url>** - база данных, в которой будет выполнен полученный скрипт."
-msgstr ""
+msgstr "**-R <url>** - database where the resulting scrip is going to be executed."
 
 #: ../../cli_version.rst:234
 msgid "Пример вывода результата:"
-msgstr ""
+msgstr "Example of a result output:"
 
 #: ../../cli_version.rst:254
 msgid "vmargs"
-msgstr ""
+msgstr "vmargs"
 
 #: ../../cli_version.rst:255
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
-msgstr ""
+msgstr "All parameters after **-vmargs** will be transferred to VM."
 
 #: ../../cli_version.rst:257
 msgid "Использование с ограничениями потребляемой памяти:"
