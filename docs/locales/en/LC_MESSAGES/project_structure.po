@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-03 13:58+0300\n"
-"PO-Revision-Date: 2024-07-09 06:52\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "schema_name ... another_schema_name - schema names."
 
 #: ../../project_structure.rst:33
 msgid "another_schema_name.sql - обязательный файл с определением схемы, имя должно совпадать с именем директории."
-msgstr ""
+msgstr "another_schema_name.sql - an obligatory file with schema definition, the name should be identical to the directory name."
 
 #: ../../project_structure.rst:34
 msgid "table_name.sql, type_name.sql, view_name.sql - файлы с определениями объектов. Имена указываются без имени схем."
@@ -52,7 +52,7 @@ msgstr "The **MS SQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:58
 msgid "schema_name.sql - обязательный файл с определением схемы."
-msgstr ""
+msgstr "schema_name.sql - an obligatory file with schema definition."
 
 #: ../../project_structure.rst:59
 msgid "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_name.sql - файлы с определениями объектов. Имена указываются с именем схемы."
@@ -64,23 +64,23 @@ msgstr "definitions of indexes, constraints, triggers are located in the files o
 
 #: ../../project_structure.rst:62
 msgid "Проект **ClickHouse** содержит следующую структуру: ::"
-msgstr ""
+msgstr "The **ClickHouse** project has the following structure: ::"
 
 #: ../../project_structure.rst:83
 msgid "database_name.sql - обязательный файл с определением схемы, имя должно совпадать с именем директории."
-msgstr ""
+msgstr "database_name.sql - an obligatory file with schema definition, the name should be identical to the directory name."
 
 #: ../../project_structure.rst:84
 msgid "table_name.sql, dictionary_name.sql, view_name.sql - файлы с определениями объектов. Имена указываются без имени базы данных в директории соответствующей базы данных."
-msgstr ""
+msgstr "table_name.sql, dictionary_name.sql, view_name.sql - files with objects' definition. The names are specified without schema names in the directory of a corresponding database."
 
 #: ../../project_structure.rst:85
 msgid "function_name.sql, policy_name.sql, user_name.sql, role_name.sql - файлы с определением объектов."
-msgstr ""
+msgstr "function_name.sql, policy_name.sql, user_name.sql, role_name.sql - files with objects' definition."
 
 #: ../../project_structure.rst:86
 msgid "определение индексов и ограничений расположены в файлах родительских объектов. Например ограничение **check_t1** для таблицы **default.t1** будет рассположен в **DATABASE/default/TABLE/t1.sql**"
-msgstr ""
+msgstr "definitions of indices and constraints are located in the files of parent objects. For example, the **check_t1** constrain for the **default.t1** table will be located in **DATABASE/default/TABLE/t1.sql**"
 
 #: ../../project_structure.rst:89
 msgid "Кроме этого в проекте могут содержаться следующие директории:"
