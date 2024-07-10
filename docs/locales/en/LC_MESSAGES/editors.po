@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-03 13:45+0300\n"
-"PO-Revision-Date: 2024-07-09 06:52\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -152,11 +152,11 @@ msgstr "The |triangle| drop-down menus allow us to launch the operations of rece
 
 #: ../../editors.rst:37
 msgid "Переопределяемые настройки для получения изменений"
-msgstr ""
+msgstr "Overridable settings for getting changes"
 
 #: ../../editors.rst:41
 msgid "Переопределяемые настройки для применения изменений"
-msgstr ""
+msgstr "Overridable settings for applying changes"
 
 #: ../../editors.rst:45
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
@@ -168,7 +168,7 @@ msgstr "Object type - the following object types are supported: SCHEMA, TYPE, SE
 
 #: ../../editors.rst:49
 msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER, STATICTICS."
-msgstr ""
+msgstr "**PostgreSQL** additionally supports the following types: CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY, EVENT TRIGER, STATICTICS."
 
 #: ../../editors.rst:51
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
@@ -176,7 +176,7 @@ msgstr "USER, ROLE, ASSEMBLY are supported additionally for **MS SQL**."
 
 #: ../../editors.rst:53
 msgid "Для **ClickHouse** вместо SCHEMA используется объект DATABASE, нет объектов SEQUENCE, TYPE, PROCEDURE, TRIGGER, дополнительно поддерживается DICTIONARY, USER, ROLE."
-msgstr ""
+msgstr "For **ClickHouse**, the DATABASE object is used instead of SCHEMA; there are no SEQUENCE, TYPE, PROCEDURE and TRIGGER objects; additionally, the DICTIONARY, USER and ROLE objects are supported."
 
 #: ../../editors.rst:55
 msgid "Тип изменения - объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния и направления изменений, объекты в списке изменений помечаются как delete, add и edit или CREATE, DROP и ALTER соответственно."
