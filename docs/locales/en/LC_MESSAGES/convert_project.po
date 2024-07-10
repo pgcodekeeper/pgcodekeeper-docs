@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2024-07-03 14:07+0300\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -27,10 +27,22 @@ msgid "Любой проект можно сконвертировать в пр
 msgstr "Every project can be converted into a pgCodeKeeper project. To do this, select **Configure -> Convert to pgCodeKeeper project.** in the project menu."
 
 #: ../../convert_project.rst:9
-msgid "В некоторых случаях может потребоваться выбрать тип проекта: PostgreSQL или MS SQL."
-msgstr "In some cases, you'll need to select the type of project: PostgreSQL or MS SQL."
+msgid "Затем необходимо выбрать тип проекта: PostgreSQL(для PostgreSQL и Greenplum), MS SQL или ClickHouse."
+msgstr "After that, you should select the project type: PostgreSQL(for PostgreSQL and Greenplum), MS SQL or ClickHouse."
 
 #: ../../convert_project.rst:13
 msgid "Если структура проекта не соответствует стандарту, будет показано предупреждение."
 msgstr "If the structure is not up to standard, a notification will appear."
+
+#~ msgid ""
+#~ "В некоторых случаях может потребоваться "
+#~ "выбрать тип проекта: PostgreSQL или MS"
+#~ " SQL."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Затем необходимо выбрать тип проекта: "
+#~ "PstgreSQL(для PostgreSQL и Greenplum), MS "
+#~ "SQL или ClickHouse."
+#~ msgstr ""
 
