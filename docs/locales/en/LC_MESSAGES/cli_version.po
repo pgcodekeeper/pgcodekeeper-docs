@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 11:21+0300\n"
-"PO-Revision-Date: 2024-07-10 09:02\n"
+"POT-Creation-Date: 2024-07-10 13:05+0300\n"
+"PO-Revision-Date: 2024-07-10 10:07\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -157,8 +157,8 @@ msgid "**--graph-name <object_name>**  - имя искомого объекта,
 msgstr "**--graph-name <object_name>**  - name of the target object, it supports regular expressions. If this parameter is not specified, the dependencies of all objects will be displayed. For functions, the signature is part of the name."
 
 #: ../../cli_version.rst:126
-msgid "**--graph-reverse**  - обратное направление поиска зависимостей, с данным параметров выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск все объектов, которые зависят от искомого."
-msgstr "**--graph-reverse**  - reverse direction of search for dependencies. If this parameter is enabled, the system is searching for objects the target object depends on. If it's disabled, the system is searching for all the objects that depend on the target one."
+msgid "**--graph-reverse**  - обратное направление поиска зависимостей, с данным параметром выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск всех объектов, которые зависят от искомого."
+msgstr ""
 
 #: ../../cli_version.rst:127
 msgid "**--graph-depth <n>** - глубина поиска зависимостей, по-умолчанию 10."
@@ -1471,5 +1471,14 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 #~ "Пример команды для сравнения MS SQL "
 #~ "проекта и базы данных и вывода "
 #~ "результата в console. ::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**--graph-reverse**  - обратное направление"
+#~ " поиска зависимостей, с данным параметров"
+#~ " выполняется поиск объектов, от которых "
+#~ "зависит искомый объект. Без этого "
+#~ "параметра выполняется поиск все объектов, "
+#~ "которые зависят от искомого."
 #~ msgstr ""
 
