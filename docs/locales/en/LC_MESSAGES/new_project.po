@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-03 14:07+0300\n"
-"PO-Revision-Date: 2024-07-09 06:52\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Creating a new project"
 
 #: ../../new_project.rst:5
 msgid "Открываем мастер создания нового проекта: **File -> New -> pgCodeKeeper Project**"
-msgstr ""
+msgstr "Start the new project creation wizard: **File -> New -> pgCodeKeeper Project**"
 
 #: ../../new_project.rst:6
 msgid "Указываем имя проекта."
@@ -40,7 +40,7 @@ msgstr "Click **Next**."
 
 #: ../../new_project.rst:12
 msgid "Выбираем тип базы данных **Select database type / Выберите тип базы данных** PostgreSQL(для PostgreSQL и Greenplum), MS SQL или ClickHouse"
-msgstr ""
+msgstr "Select the database type **Select database type** PostgreSQL (for PostgreSQL and Greenplum), MS SQL or ClickHouse"
 
 #: ../../new_project.rst:13
 msgid "Выбираем источник базы данных или отключаем параметр **Initialize project using database / Инициализировать проект базой данных**."
