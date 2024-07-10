@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 11:21+0300\n"
-"PO-Revision-Date: 2024-07-09 08:22\n"
+"PO-Revision-Date: 2024-07-10 04:16\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -40,35 +40,35 @@ msgstr "The latest version of cli build can be downloaded `here <https://github.
 
 #: ../../cli_version.rst:17
 msgid "Режимы работы"
-msgstr ""
+msgstr "Operation modes"
 
 #: ../../cli_version.rst:19
 msgid "Полный набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду: ::"
-msgstr ""
+msgstr "You can view the full set of parameters available for working with the program by executing the command: ::"
 
 #: ../../cli_version.rst:28
 msgid "Консольная версия имеет следующие режимы работы:"
-msgstr ""
+msgstr "The console version has the following operation modes:"
 
 #: ../../cli_version.rst:25
 msgid ":ref:`diffMode`"
-msgstr ""
+msgstr ":ref:`diffMode`"
 
 #: ../../cli_version.rst:26
 msgid ":ref:`parseMode`"
-msgstr ""
+msgstr ":ref:`parseMode`"
 
 #: ../../cli_version.rst:27
 msgid ":ref:`graphMode`"
-msgstr ""
+msgstr ":ref:`graphMode`"
 
 #: ../../cli_version.rst:28
 msgid ":ref:`insertMode`"
-msgstr ""
+msgstr ":ref:`insertMode`"
 
 #: ../../cli_version.rst:33
 msgid "diff"
-msgstr ""
+msgstr "diff"
 
 #: ../../cli_version.rst:35
 msgid "Режим по-умолчанию. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных."
