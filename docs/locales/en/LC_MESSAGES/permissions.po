@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 09:40+0300\n"
-"PO-Revision-Date: 2024-07-10 09:02\n"
+"PO-Revision-Date: 2024-07-12 09:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Privileges"
 
 #: ../../permissions.rst:5
 msgid "Для корректной работы pgCodeKeeper, пользователю, который был использован в настройках соединения :ref:`dbStore`, в зависимости от типа базы данных, могут потребоваться дополнительные привилегии."
-msgstr "For some database types, for pgCodeKeeper to work correctly, the user specified in the :ref:`dbStore` connection settings might need some extra privileges."
+msgstr "For some database types, for pgCodeKeeper to work correctly, the user who is specified in the :ref:`dbStore` connection settings might need some extra privileges."
 
 #: ../../permissions.rst:8
 msgid "PosrgreSQL"
@@ -36,7 +36,7 @@ msgstr "PostgreSQL and Greenplum users don't need any extra privileges."
 
 #: ../../permissions.rst:12
 msgid "При использовании расширения `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ пользователь должен иметь доступ на чтение объектов:"
-msgstr "When using the `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension, a user mush have access to read the following objects:"
+msgstr "When using the `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension, a user must have access to read the following objects:"
 
 #: ../../permissions.rst:19
 msgid "где **schema_name** - схема, в которой находится расширение"
