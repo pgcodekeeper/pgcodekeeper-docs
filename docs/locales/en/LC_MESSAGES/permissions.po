@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 09:40+0300\n"
-"PO-Revision-Date: 2024-07-10 11:45\n"
+"PO-Revision-Date: 2024-07-12 09:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Privileges"
 
 #: ../../permissions.rst:5
 msgid "Для корректной работы pgCodeKeeper, пользователю, который был использован в настройках соединения :ref:`dbStore`, в зависимости от типа базы данных, могут потребоваться дополнительные привилегии."
-msgstr "For some database types, for pgCodeKeeper to work correctly, the user specified in the :ref:`dbStore` connection settings might need some extra privileges."
+msgstr "For some database types, for pgCodeKeeper to work correctly, the user who is specified in the :ref:`dbStore` connection settings might need some extra privileges."
 
 #: ../../permissions.rst:8
 msgid "PosrgreSQL"
