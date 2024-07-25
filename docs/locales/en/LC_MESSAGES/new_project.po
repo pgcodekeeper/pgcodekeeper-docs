@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2024-07-03 14:07+0300\n"
+"PO-Revision-Date: 2024-07-10 09:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,24 +23,24 @@ msgid "Создание нового проекта"
 msgstr "Creating a new project"
 
 #: ../../new_project.rst:5
-msgid "Открываем мастер создания нового проекта: **File -> New -> Project...**"
-msgstr "Start the new project creation wizard: **File-> New-> Project...**"
+msgid "Открываем мастер создания нового проекта: **File -> New -> pgCodeKeeper Project**"
+msgstr "Start the new project creation wizard: **File -> New -> pgCodeKeeper Project**"
 
 #: ../../new_project.rst:6
-msgid "Выбираем **pgCodeKeeper Project** для работы с PostgreSQL или **pgCodeKeeper MS SQL Project** для работы с MS SQL в категории **pgCodeKeeper**. Нажимаем кнопку **Next**."
-msgstr "In the **pgCodeKeeper** category, select **pgCodeKeeper Project** to work with PostgreSQL or **pgCodeKeeper MS SQL Project** to work with MS SQL. Click **Next**."
-
-#: ../../new_project.rst:7
 msgid "Указываем имя проекта."
 msgstr "Enter the project name."
 
-#: ../../new_project.rst:8
+#: ../../new_project.rst:7
 msgid "При необходимости изменяем местоположение и рабочую область проекта."
 msgstr "Change the location and workspace of the project, if necessary."
 
-#: ../../new_project.rst:9
+#: ../../new_project.rst:8
 msgid "Нажимаем кнопку **Next**."
 msgstr "Click **Next**."
+
+#: ../../new_project.rst:12
+msgid "Выбираем тип базы данных **Select database type / Выберите тип базы данных** PostgreSQL(для PostgreSQL и Greenplum), MS SQL или ClickHouse"
+msgstr "Select the database type **Select database type** PostgreSQL (for PostgreSQL and Greenplum), MS SQL or ClickHouse"
 
 #: ../../new_project.rst:13
 msgid "Выбираем источник базы данных или отключаем параметр **Initialize project using database / Инициализировать проект базой данных**."
@@ -62,7 +62,25 @@ msgstr "Select the timezone of the DB connection (you can get it from the curren
 msgid "Нажимаем кнопку **Finish**."
 msgstr "Click **Finish**."
 
-#: ../../new_project.rst:19
+#: ../../new_project.rst:21
 msgid "После короткого ожидания получаем новый проект и будет автоматически открыт :ref:`projEditor`."
 msgstr "After a short wait, a new project appears and :ref:`projEditor` opens automatically."
+
+#~ msgid "Открываем мастер создания нового проекта: **File -> New -> Project...**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем **pgCodeKeeper Project** для работы"
+#~ " с PostgreSQL или **pgCodeKeeper MS "
+#~ "SQL Project** для работы с MS SQL"
+#~ " в категории **pgCodeKeeper**. Нажимаем "
+#~ "кнопку **Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем тип базы данных **Select "
+#~ "database type / Выберите тип базы "
+#~ "данных** (PostgreSQL для PostgreSQL и "
+#~ "Greenplum)"
+#~ msgstr ""
 

@@ -14,7 +14,7 @@
 - **Enable full dependencies from bodies of functions and procedures (experimental) / Учитывать все зависимости из тел функций и процедур (экспериментально)** - позволяет искать внутри тел функций и процедур зависимости к другим функциям и процедурам.
 - **Simple formatting for VIEWs when reading via JDBC (not recommended by PostgreSQL) / Упрощенное форматирование представлений при чтении через JDBC (не рекомендовано PostgreSQL)** - позволяет использовать упрощенное форматирование представлений, убирая лишние скобки в выражениях. Данный формат может не поддерживаться в будущих версиях PostgeSQL.
 - **Ignore concurrent modification errors when reading DB / Игнорировать ошибки конкурентной модификации объектов при чтении БД** - позволяет игнорировать ошибки, возникающие при модификации объекта БД во время его чтения.
-- **Format object code automatically / Форматировать код объектов автоматически** - позволяет отображать и сохранять отформатированный код функций на языках plpgsql и sql согласно настройкам форматирования **SQL Editor/Редактор SQL**. Подробнее про настройки форматирования кода в :ref:`format`.
+- **Format object code automatically / Форматировать код объектов автоматически** - позволяет отображать и сохранять отформатированный код объектов согласно настройкам форматирования **SQL Editor/Редактор SQL**. Подробнее про настройки форматирования кода в :ref:`format`.
 - **Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяет автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение.
 - **Clear parser cache / Очистить кэш парсера** - позволяет очистить кэш парсера.
 
@@ -59,8 +59,10 @@
 - **Print CREATE INDEX CONCURRENTLY (without locks) / Печатать CREATE INDEX CONCURRENTLY (без блокировок)** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY.
 - **Print CONSTRAINT NOT VALID / Печатать CONSTRAINT NOT VALID** - позволяет добавлять в скрипт миграции конструкцию ``NOT VALID`` для констрейнтов.
 - **Print CREATE IF NOT EXISTS/DROP IF EXISTS / Печатать CREATE IF NOT EXISTS/DROP IF EXISTS** – позволяет добавить конструкцию ``IF NOT EXISTS/IF EXISTS`` в скрипте миграции в конструкции CREATE / DROP объекта.
+- **Print creation of CONSTRAINT and IDENTITY in DO block (PostgreSQL only) / Печатать создание CONSTRAINT и IDENTITY в DO блоке (только для PostgreSQL)** - позволяет обернуть создание CONSTARAINT и IDENTITY в блок DO (только для PostgreSQL)
 - **Print DROP before CREATE statement / Печатать DROP перед CREATE конструкцией** – позволяет добавить конструкцию DROP перед CREATE конструкцией в скрипте миграции.
 - **Create a script only from objects selected in the comparison panel / Создавать скрипт только из объектов, выбранных в панели сравнения** – позволяет исключить из скрипта объекты, которые не были выбраны явно.
+- **Print comments at the end of the script / Печатать комментарии в конце скрипта** - переносит добавление всех комментариев в конец скрипта миграции.
 - **Migrate data when re-creating tables / Мигрировать данные при пересоздании таблиц** - позволяет сохранить данные при пересоздании таблицы. При пересоздании существующая таблица переименовывается и создается новая, данные из исходной переливаются в новую. Старая переименованная таблица удаляется. Состояние IDENTITY SEQUENCE переносится из старой таблицы в новую. Обычные SEQUENCE не поддерживаются.
 - **Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных.
 
@@ -162,7 +164,7 @@
 
 .. image:: ../images/db_store.png
 
-Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, группа БД, тип соединения, а также включить запрет на запись в БД и выбрать тип БД (PostgreSQL или MS SQL). Для MS SQL можно указать домен. Если выбран тип бд MS SQL, то по умолчанию выставлен параметр **trust MS SQL сertificate / доверять сертификату MS SQL**, который можно отключить. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**.
+Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, группа БД, тип соединения, а также включить запрет на запись в БД и выбрать тип БД PostgreSQL (для PostgreSQL или Greenplum), MS SQL или ClickHouse. Для MS SQL можно указать домен. Если выбран тип бд MS SQL, то по умолчанию выставлен параметр **trust MS SQL сertificate / доверять сертификату MS SQL**, который можно отключить. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**.
 
 .. note:: pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым.
 
@@ -174,8 +176,9 @@
 .. image:: ../images/new_connection_ignore_list.png
 
 | Свойства соединения можно дополнить параметрами указанными по адресу:
-| https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL)
+| https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL и Greenplum)
 | https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)
+| https://clickhouse.com/docs/en/integrations/java#jdbc-driver (Для ClickHouse)
 
 .. image:: ../images/new_connection_properties.png
 
