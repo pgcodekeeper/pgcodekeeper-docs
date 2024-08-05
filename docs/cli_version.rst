@@ -32,7 +32,7 @@ CLI версия
 diff
 """"
 
-Режим по-умолчанию. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных.
+Режим по-умолчанию, комманда для вызыва **--mode DIFF**. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных.
 
 Пример команды для сравнения двух баз данных PostgreSQL и сохранения скрипта миграции в файл.
 ::
@@ -54,6 +54,7 @@ diff
 ::
 
  ./pgcodekeeper-cli.sh                                                \
+ --mode DIFF                                                          \
  --db-type MS                                                         \
  /path/to/project/                                                    \
  'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
@@ -63,6 +64,7 @@ diff
 ::
 
  ./pgcodekeeper-cli.sh                                                \
+ --mode DIFF                                                          \
  --db-type CH                                                         \
  -r                                                                   \
  path/to/file/ch_dumpl.sql                                            \
@@ -87,7 +89,7 @@ diff
 parse
 """""
 
-Команда **--parse** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:
+Команда **--mode PARSE** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:
 
 - **--update-project** - обновление существующего проекта.
 
@@ -96,7 +98,7 @@ parse
 
   ./pgcodekeeper-cli.sh                                         /
   --db-type PG                                                  /
-  --parse                                                       /
+  --mode PARSE                                                  /
   -o /path/to/empty_rep/                                        /
   'jdbc:postgresql://127.0.0.0:1/test?user=test&password=test'
 
@@ -110,7 +112,7 @@ parse
 
   ./pgcodekeeper-cli.sh                                           /
   --db-type PG                                                    /
-  --parse                                                         /
+  --mode PARSE                                                    /
   --update-project                                                /
   -o /path/to/existing_rep/                                       /
   'jdbc:postgresql://0.0.0.0:55001/test?user=test&password=test'
@@ -120,7 +122,7 @@ parse
 graph
 """""
 
-Команда **--graph** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:
+Команда **--mode GRAPH** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:
 
 - **--graph-name <object_name>**  - имя искомого объекта, поддерживает регулярные выражения, при отсутствии параметра, будут показаны зависимости всех объектов. Для функций сигнатура является частью имени.
 - **--graph-reverse**  - обратное направление поиска зависимостей, с данным параметром выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск всех объектов, которые зависят от искомого.
@@ -133,7 +135,7 @@ graph
 
  ./pgcodekeeper-cli.sh
  --db-type PG                               \
- --graph                                    \
+ --mode GRAPH                               \
  --graph-name public.t1                     \
  --graph-name public.t2                     \
  --graph-name 'public\.f1\(.*'              \
@@ -157,7 +159,7 @@ graph
 
  pgcodekeeper-cli.bat                       \
  --db-type MS                               \
- --graph                                    \
+ --mode GRAPH                               \
  --graph-name \\[dbo\\].\\[TABLE_1\\]       \
  --graph-name \\[dbo\\].\\[TABLE_2\\]       \
  --graph-name '.*TABLE_3.*'                 \
@@ -190,7 +192,7 @@ graph
 insert
 """"""
 
-Команда **--insert** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:
+Команда **--mode INSERT** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:
 
 - **--insert-name <table_name>** - имя таблицы, для который собираются данные.
 - **--insert-filter <filter>** - условие по которому будут собираться данные из первоначальной таблицы.
@@ -202,7 +204,7 @@ insert
 
   ./pgcodekeeper-cli.sh                                              /
   --db-type PG                                                       /
-  --insert                                                           /
+  --mode INSERT                                                      /
   --insert-name public.t1                                            /
   --insert-filter 'id = 1'                                           /
   -X                                                                 /
@@ -220,7 +222,7 @@ insert
 
   ./pgcodekeeper-cli.sh                                                        /
   --db-type MS                                                                 /
-  --insert                                                                     /
+  --mode INSERT                                                                /
   --insert-name '[dbo].[TABLE_1]'                                              /
   --insert-filter 'id = 1'                                                     /
   -X                                                                           /
