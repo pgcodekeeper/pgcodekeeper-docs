@@ -53,7 +53,7 @@
 - **Delete migration script files when closing migration editor / Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта.
 - **Warn about dangerous scripts containing: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения.
 - **Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката.
-- **Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION; / Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit.
+- **Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION;  (Not supported together with CONCURRENTLY in PostgreSQL) / Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION; (Не поддерживается вместе с CONCURRENTLY в PostgreSQL)** – позволяет дополнять генерируемые скрипты парой start ... commit.
 - **Allow PostgreSQL to validate function bodies in DDL update script / Разрешить PostgreSQL проверять тела функций в скрипте наката** – позволяет при генерации скрипта добавлять проверку ``SET check_function_bodies = true;`` в начало скрипта.
 - **Print ALTER COLUMN ... TYPE with USING expression / Печатать ALTER COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт выражение, позволяющее изменить тип данных, при изменении типа столбца
 - **Print CREATE INDEX CONCURRENTLY (without locks) / Печатать CREATE INDEX CONCURRENTLY (без блокировок)** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY.
@@ -65,6 +65,9 @@
 - **Print comments at the end of the script / Печатать комментарии в конце скрипта** - переносит добавление всех комментариев в конец скрипта миграции.
 - **Migrate data when re-creating tables / Мигрировать данные при пересоздании таблиц** - позволяет сохранить данные при пересоздании таблицы. При пересоздании существующая таблица переименовывается и создается новая, данные из исходной переливаются в новую. Старая переименованная таблица удаляется. Состояние IDENTITY SEQUENCE переносится из старой таблицы в новую. Обычные SEQUENCE не поддерживаются.
 - **Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных.
+
+.. warning:: Если при работе с проектом PostgreSQL одновременно включены параметры указанные на скриншоте ниже то параметр **Print CREATE INDEX CONCURRENTLY (without locks) / Печатать CREATE INDEX CONCURRENTLY (без блокировок)** будет игнорироваться.
+.. image:: ../images/db_update_spec_case.png
 
 Во вкладке **Update DB / Обновление БД -> PRE/POST script** есть настройки для добавления PRE/POST скриптов для миграций. В проекте возможно создать директории PRE и POST, содержимое которых будет добавлено в начало и конец основного скрипта. Также доступны PRE/POST скрипты в глобальных настройках и в опциях CLI.
 Для редактирования содержимого скриптов PRE/POST выберите соответствующие кнопки.
