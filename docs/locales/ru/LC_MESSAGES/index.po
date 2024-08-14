@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 13:18+0300\n"
+"POT-Creation-Date: 2024-08-14 15:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "PostgreSQL 9.4+"
 msgstr ""
 
 #: ../../index.rst:16
-msgid "MsSQl 2017+"
+msgid "MS SQL 2012+"
 msgstr ""
 
 #: ../../index.rst:17
@@ -104,5 +104,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Greenplum 6+."
+#~ msgstr ""
+
+#~ msgid "MsSQl 2017+"
 #~ msgstr ""
 

@@ -13,7 +13,7 @@
 Поддерживаемые версии баз данных:
 
 - PostgreSQL 9.4+
-- MsSQl 2017+
+- MS SQL 2012+
 - ClickHouse 23+
 - Greenplum 6+
 
