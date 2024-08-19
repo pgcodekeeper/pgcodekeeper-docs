@@ -10,6 +10,13 @@
 
 Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_.
 
+Поддерживаемые версии баз данных:
+
+- PostgreSQL 9.4+
+- MS SQL 2012+
+- ClickHouse 23+
+- Greenplum 6+
+
 .. toctree::
 
    preface
