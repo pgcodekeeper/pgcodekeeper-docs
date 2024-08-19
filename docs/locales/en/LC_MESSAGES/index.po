@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 15:47+0300\n"
-"PO-Revision-Date: 2024-08-19 11:41\n"
+"PO-Revision-Date: 2024-08-19 11:55\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -52,23 +52,23 @@ msgstr "pgCodeKeeper source code is available at `GitHub <https://github.com/pgc
 
 #: ../../index.rst:13
 msgid "Поддерживаемые версии баз данных:"
-msgstr ""
+msgstr "Supported database versions:"
 
 #: ../../index.rst:15
 msgid "PostgreSQL 9.4+"
-msgstr ""
+msgstr "PostgreSQL 9.4+"
 
 #: ../../index.rst:16
 msgid "MS SQL 2012+"
-msgstr ""
+msgstr "MS SQL 2012+"
 
 #: ../../index.rst:17
 msgid "ClickHouse 23+"
-msgstr ""
+msgstr "ClickHouse 23+"
 
 #: ../../index.rst:18
 msgid "Greenplum 6+"
-msgstr ""
+msgstr "Greenplum 6+"
 
 #~ msgid ""
 #~ "Плагин pgCodeKeeper предназначен для сравнения"
