@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 13:05+0300\n"
-"PO-Revision-Date: 2024-07-12 09:15\n"
+"POT-Creation-Date: 2024-08-14 15:47+0300\n"
+"PO-Revision-Date: 2024-08-19 11:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,8 +71,8 @@ msgid "diff"
 msgstr "diff"
 
 #: ../../cli_version.rst:35
-msgid "Режим по-умолчанию. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных."
-msgstr "This is the default mode. It compares the two sources and generates a migration script. A dump, a pgCodeKeeper project, or a database can be used as a data source."
+msgid "Режим по-умолчанию, команда для вызова **--mode DIFF**. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных."
+msgstr "This is the default mode, **--mode DIFF** command to call. It compares the two sources and generates a migration script. A dump, a pgCodeKeeper project, or a database can be used as a data source."
 
 #: ../../cli_version.rst:37
 msgid "Пример команды для сравнения двух баз данных PostgreSQL и сохранения скрипта миграции в файл. ::"
@@ -102,153 +102,153 @@ msgstr "You can omit the `-s / --source` and `-t / --target` indices (not <url>)
 msgid "Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль. ::"
 msgstr "Example of a command for comparing an MS SQL project and a database and displaying the result in the console. ::"
 
-#: ../../cli_version.rst:62
+#: ../../cli_version.rst:63
 msgid "Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных. ::"
 msgstr "Example of a command for comparing a ClickHouse dump and a database and executing the script in the same database. ::"
 
-#: ../../cli_version.rst:72 ../../cli_version.rst:171
+#: ../../cli_version.rst:74 ../../cli_version.rst:173
 msgid "Пример вывода результата: ::"
 msgstr "Example of a result output: ::"
 
-#: ../../cli_version.rst:88
+#: ../../cli_version.rst:90
 msgid "parse"
 msgstr "parse"
 
-#: ../../cli_version.rst:90
-msgid "Команда **--parse** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:"
-msgstr "**--parse** is a command that allows you to enable saving the database as a project. In this mode, the following commands are available:"
-
 #: ../../cli_version.rst:92
+msgid "Команда **--mode PARSE** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:"
+msgstr "**--mode PARSE** is a command that allows you to enable saving the database as a project. In this mode, the following commands are available:"
+
+#: ../../cli_version.rst:94
 msgid "**--update-project** - обновление существующего проекта."
 msgstr "**--update-project** - update of an existing project."
 
-#: ../../cli_version.rst:94
+#: ../../cli_version.rst:96
 msgid "Пример команды для создания нового проекта на основе данной БД. ::"
 msgstr "Example of a command for creating a new project based on this database. ::"
 
-#: ../../cli_version.rst:103 ../../cli_version.rst:147
-#: ../../cli_version.rst:212 ../../cli_version.rst:230
+#: ../../cli_version.rst:105 ../../cli_version.rst:149
+#: ../../cli_version.rst:214 ../../cli_version.rst:232
 msgid "где"
 msgstr "where"
 
-#: ../../cli_version.rst:105 ../../cli_version.rst:149
-#: ../../cli_version.rst:214
+#: ../../cli_version.rst:107 ../../cli_version.rst:151
+#: ../../cli_version.rst:216
 msgid "**--db-type <type>** - тип БД."
 msgstr "**--db-type <type>** - database type."
 
-#: ../../cli_version.rst:106
+#: ../../cli_version.rst:108
 msgid "**-o <path>** - указание пути, куда будет сохранен проект."
 msgstr "**-o <path>** - path the project is going to be saved to."
 
-#: ../../cli_version.rst:108
+#: ../../cli_version.rst:110
 msgid "Пример команды для обновления существующего проекта на основе данной БД. ::"
 msgstr "Example of a command for updating an existing project based on this database. ::"
 
-#: ../../cli_version.rst:121
+#: ../../cli_version.rst:123
 msgid "graph"
 msgstr "graph"
 
-#: ../../cli_version.rst:123
-msgid "Команда **--graph** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:"
-msgstr "**--parse** is a command that allows you to enable search for dependencies of an object. In this mode, the following commands are available:"
-
 #: ../../cli_version.rst:125
+msgid "Команда **--mode GRAPH** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:"
+msgstr "**--mode GRAPH** is a command that allows you to enable search for dependencies of an object. In this mode, the following commands are available:"
+
+#: ../../cli_version.rst:127
 msgid "**--graph-name <object_name>**  - имя искомого объекта, поддерживает регулярные выражения, при отсутствии параметра, будут показаны зависимости всех объектов. Для функций сигнатура является частью имени."
 msgstr "**--graph-name <object_name>**  - name of the target object, it supports regular expressions. If this parameter is not specified, the dependencies of all objects will be displayed. For functions, the signature is part of the name."
 
-#: ../../cli_version.rst:126
+#: ../../cli_version.rst:128
 msgid "**--graph-reverse**  - обратное направление поиска зависимостей, с данным параметром выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск всех объектов, которые зависят от искомого."
 msgstr "**--graph-reverse**  - reverse direction of search for dependencies. If this parameter is enabled, the system is searching for objects that the target object depends on. If it's disabled, the system is searching for all the objects that depend on the target one."
 
-#: ../../cli_version.rst:127
+#: ../../cli_version.rst:129
 msgid "**--graph-depth <n>** - глубина поиска зависимостей, по-умолчанию 10."
 msgstr "**--graph-depth <n>** - dependencies search depth. By default, it's 10."
 
-#: ../../cli_version.rst:128
+#: ../../cli_version.rst:130
 msgid "**--graph-filter-object <OBJECT_TYPE>** - фильтрация зависимых объектов по типу, отображаются только выбранные типы объектов."
 msgstr "**--graph-filter-object <OBJECT_TYPE>** - filtering of dependent objects by type, with displaying only the selected object types."
 
-#: ../../cli_version.rst:129
+#: ../../cli_version.rst:131
 msgid "**--graph-invert-filter** - изменение поведения параметра **--graph-filter-object**, выбранные типы объектов скрываются."
 msgstr "**--graph-invert-filter** - changing the **--graph-filter-object** parameter operations. The object types you select will be hidden."
 
-#: ../../cli_version.rst:131
+#: ../../cli_version.rst:133
 msgid "Пример команды для поиска зависимостей в локальном проекте: ::"
 msgstr "Example of a command for searching for dependencies in a local project: ::"
 
-#: ../../cli_version.rst:150
+#: ../../cli_version.rst:152
 msgid "**--enable-function-bodies-dependencies** - поиск зависимостей в телах функций."
 msgstr "**--enable-function-bodies-dependencies** - search for dependencies in function bodies."
 
-#: ../../cli_version.rst:151
+#: ../../cli_version.rst:153
 msgid "**--src-lib-xml <path>** - файл библиотек для проекта."
 msgstr "**--src-lib-xml <path>** - file with libraries for the project."
 
-#: ../../cli_version.rst:152 ../../cli_version.rst:216
+#: ../../cli_version.rst:154 ../../cli_version.rst:218
 msgid "**-o <path>** - файл, куда запишется результат, без этого параметра вывод отобразится в консоли."
 msgstr "**-o <path>** - file the result is going to be recorded to. If you don't specifiy this parameter, the output will be displayed in the console."
 
-#: ../../cli_version.rst:153
+#: ../../cli_version.rst:155
 msgid "**/path/to/rep/** - путь до проекта или url базы данных."
 msgstr "**/path/to/rep/** - path to project or database url."
 
-#: ../../cli_version.rst:155
+#: ../../cli_version.rst:157
 msgid "Пример команды для поиска зависимостей в MS SQL базе: ::"
 msgstr "Example of a command for searching for dependencies in an MS SQL database: ::"
 
-#: ../../cli_version.rst:191
+#: ../../cli_version.rst:193
 msgid "insert"
 msgstr "insert"
 
-#: ../../cli_version.rst:193
-msgid "Команда **--insert** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:"
-msgstr "**--insert** is a command that allows you to enable gathering data from the source database taking into account the FK dependencies. In this mode, the following commands are available:"
-
 #: ../../cli_version.rst:195
+msgid "Команда **--mode INSERT** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:"
+msgstr "**--mode INSERT** is a command that allows you to enable gathering data from the source database taking into account the FK dependencies. In this mode, the following commands are available:"
+
+#: ../../cli_version.rst:197
 msgid "**--insert-name <table_name>** - имя таблицы, для который собираются данные."
 msgstr "**--insert-name <table_name>** - name of the table the data is gathered for."
 
-#: ../../cli_version.rst:196
+#: ../../cli_version.rst:198
 msgid "**--insert-filter <filter>** - условие по которому будут собираться данные из первоначальной таблицы."
 msgstr "**--insert-filter <filter>** - condition under which the data will be gathered from the initial table."
 
-#: ../../cli_version.rst:198
+#: ../../cli_version.rst:200
 msgid "В данном режиме геометрические типы оборачиваются в специальные функции с указанием типа геометрии **4326**."
 msgstr "In this mode, geometric types are wrapped in special functions with specifying the geometry type **4326**."
 
-#: ../../cli_version.rst:200
+#: ../../cli_version.rst:202
 msgid "Пример команды для сбора данных в локальный файл: ::"
 msgstr "Example of a command for gathering the data into a local file: ::"
 
-#: ../../cli_version.rst:215
+#: ../../cli_version.rst:217
 msgid "**-X** - оборачивает сгенерированный скрипт в транзакцию."
 msgstr "**-X** - wraps the generated script into a transaction."
 
-#: ../../cli_version.rst:218
+#: ../../cli_version.rst:220
 msgid "Пример команды для сбора данных и выполнения скрипта в БД: ::"
 msgstr "Example of a command for gathering the data and executing a script in the database: ::"
 
-#: ../../cli_version.rst:232
+#: ../../cli_version.rst:234
 msgid "**-R <url>** - база данных, в которой будет выполнен полученный скрипт."
 msgstr "**-R <url>** - database where the resulting scrip is going to be executed."
 
-#: ../../cli_version.rst:234
+#: ../../cli_version.rst:236
 msgid "Пример вывода результата:"
 msgstr "Example of a result output:"
 
-#: ../../cli_version.rst:254
+#: ../../cli_version.rst:256
 msgid "vmargs"
 msgstr "vmargs"
 
-#: ../../cli_version.rst:255
+#: ../../cli_version.rst:257
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr "All parameters after **-vmargs** will be transferred to VM."
 
-#: ../../cli_version.rst:257
+#: ../../cli_version.rst:259
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr "Usage with restrictions of the memory used:"
 
-#: ../../cli_version.rst:263
+#: ../../cli_version.rst:265
 msgid "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать количество потоков парсера:"
 msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to specify the number of parser threads:"
 
@@ -1480,5 +1480,53 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 #~ "зависит искомый объект. Без этого "
 #~ "параметра выполняется поиск все объектов, "
 #~ "которые зависят от искомого."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Режим по-умолчанию. Сравнивает два источника"
+#~ " данных и формирует скрипт миграции. "
+#~ "В качестве источника данных может "
+#~ "использоваться дамп, проект pgCodeKeeper или"
+#~ " база данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--parse** позволяет переключить "
+#~ "работу в режим сохранения базы данных"
+#~ " в виде проекта. Команды, доступные в"
+#~ " этом режиме:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--graph** позволяет переключить "
+#~ "работу в режим поиска зависимостей "
+#~ "объекта. Команды, доступные в этом "
+#~ "режиме:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--insert** позволяет переключить "
+#~ "работу в режим сбора данных из "
+#~ "базы источника с учетом зависимостей по"
+#~ " FK. Команды, доступные в этом "
+#~ "режиме:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Режим по-умолчанию, комманда для вызыва "
+#~ "**--mode DIFF**. Сравнивает два источника "
+#~ "данных и формирует скрипт миграции. В"
+#~ " качестве источника данных может "
+#~ "использоваться дамп, проект pgCodeKeeper или"
+#~ " база данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Режим по-умолчанию, команда для вызыва "
+#~ "**--mode DIFF**. Сравнивает два источника "
+#~ "данных и формирует скрипт миграции. В"
+#~ " качестве источника данных может "
+#~ "использоваться дамп, проект pgCodeKeeper или"
+#~ " база данных."
 #~ msgstr ""
 
