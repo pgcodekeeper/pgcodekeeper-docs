@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 15:47+0300\n"
-"PO-Revision-Date: 2024-08-19 11:41\n"
+"PO-Revision-Date: 2024-08-19 11:55\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to 
 
 #: ../../preferences.rst:59
 msgid "**Print CREATE INDEX CONCURRENTLY (without locks. Not supported with transactions in PostgreSQL) / Печатать CREATE INDEX CONCURRENTLY (без блокировок. Не поддерживается вместе с транзакциями в PostgreSQL)** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY."
-msgstr ""
+msgstr "**Print CREATE INDEX CONCURRENTLY (without locks. Not supported with transactions in PostgreSQL)** – allows creating indexes in the CONCURRENTLY mode in scripts."
 
 #: ../../preferences.rst:60
 msgid "**Print CONSTRAINT NOT VALID / Печатать CONSTRAINT NOT VALID** - позволяет добавлять в скрипт миграции конструкцию ``NOT VALID`` для констрейнтов."
