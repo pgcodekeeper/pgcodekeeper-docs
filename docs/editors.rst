@@ -12,6 +12,7 @@
 #. Панель инструментов Eclipse
 #. Панель инструментов редактора
 #. Таблица различий
+#. Панель инструментов cравнения
 #. Панель сравнения
 #. Счетчик объектов
 
@@ -33,6 +34,11 @@
 - |triangle| – выпадающее меню с источниками баз данных. Источники баз данных можно выбрать в контекстном меню выбранной БД |source_name| на панели инструментов редактора (2).
 
 Выпадающие меню |triangle| позволяют запустить операции получения или применения изменений с переопределением некоторых настроек.
+
+**Панель инструментов сравнения** предназначена для работы с панелью сравнения. Существуют следующие возможности:
+
+- |switch| - поменять местами вид следа и вид справа.
+- |show_children| - отображать все дочерние объекты или только те в которых есть различия.
 
 Переопределяемые настройки для получения изменений
 
@@ -75,12 +81,16 @@
 .. |file| image:: ../images/pgcodekeeper_project_view/add_file.png
 .. |save_edit| image:: ../images/pgcodekeeper_project_view/save_edit.png
 .. |search| image:: ../images/pgcodekeeper_project_view/search.png
-   :height: 16px
+   :height: 16 px
    :width: 16 px
 .. |source_name| image:: ../images/pgcodekeeper_project_view/source_name.png
 .. |triangle| image:: ../images/triangle.png
-   :height: 8px
+   :height: 8 px
    :width: 8 px
+.. |switch| image:: ../images/pgcodekeeper_project_view/switch.png
+.. |show_children| image:: ../images/pgcodekeeper_project_view/show_children.png
+   :height: 16 px
+   :width: 16 px
 
 
 Поиск объекта в таблице различий
