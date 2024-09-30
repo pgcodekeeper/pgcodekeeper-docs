@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 15:47+0300\n"
+"POT-Creation-Date: 2024-09-30 10:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,8 +36,8 @@ msgstr ""
 
 #: ../../cli_version.rst:12
 msgid ""
-"Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей"
-" платформы."
+"Для начала необходимо установить `Java SDK "
+"<https://adoptium.net/temurin/releases/>`_ для вашей платформы."
 msgstr ""
 
 #: ../../cli_version.rst:14
@@ -1587,5 +1587,10 @@ msgstr ""
 #~ " качестве источника данных может "
 #~ "использоваться дамп, проект pgCodeKeeper или"
 #~ " база данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://jdk.dev/>`_ для вашей платформы."
 #~ msgstr ""
 

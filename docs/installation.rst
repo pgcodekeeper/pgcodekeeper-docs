@@ -2,12 +2,12 @@
 Установка
 =========
 
-Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ версии 11+ для вашей платформы. Последние версии Eclipse требуют для работы версию 17+
+Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы. Последние версии Eclipse требуют для работы версию 17+
 
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
-Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.6 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**. 
+Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.19 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**.
 
 В поле поиска ввести: pgCodeKeeper.
 
@@ -24,7 +24,7 @@ Eclipse Marketplace
 Сайт обновления
 ~~~~~~~~~~~~~~~
 
-Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.6 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений.
+Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.19 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений.
 
 В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/.
 
