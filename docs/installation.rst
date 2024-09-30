@@ -2,7 +2,7 @@
 Установка
 =========
 
-Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы. Последние версии Eclipse требуют для работы версию 17+
+Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы.
 
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
