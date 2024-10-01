@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-01 13:36+0300\n"
-"PO-Revision-Date: 2024-10-01 10:50\n"
+"PO-Revision-Date: 2024-10-01 12:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -172,15 +172,15 @@ msgstr ""
 
 #: ../../editors.rst:50
 msgid "**PostgreSQL** - AGGREGATE, CAST, CONSTRAINT, DOMAIN, EVENT EXTENSION, FTS_CONFIGURATION, FTS_DICTIONARY, FTS_PARSER, FTS_TEMPLATE, FUNCTION, INDEX, OPERATOR, POLICY, PROCEDURE, RULE, SCHEMA, SEQUENCE, STATICTICS, TABLE, TRIGER, TRIGGER, TYPE, VIEW."
-msgstr ""
+msgstr "**PostgreSQL** - AGGREGATE, CAST, CONSTRAINT, DOMAIN, EVENT EXTENSION, FTS_CONFIGURATION, FTS_DICTIONARY, FTS_PARSER, FTS_TEMPLATE, FUNCTION, INDEX, OPERATOR, POLICY, PROCEDURE, RULE, SCHEMA, SEQUENCE, STATICTICS, TABLE, TRIGER, TRIGGER, TYPE, VIEW."
 
 #: ../../editors.rst:52
 msgid "**MS SQL** - ASSEMBLY, CONSTRAINT, FUNCTION, INDEX, PROCEDURE, ROLE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, USER, VIEW."
-msgstr ""
+msgstr "**MS SQL** - ASSEMBLY, CONSTRAINT, FUNCTION, INDEX, PROCEDURE, ROLE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, USER, VIEW."
 
 #: ../../editors.rst:54
 msgid "**ClickHouse** - CONSTRAINT, DICTIONARY, FUNCTION, INDEX, ROLE, SCHEMA(DATABASE), TABLE, USER, VIEW."
-msgstr ""
+msgstr "**ClickHouse** - CONSTRAINT, DICTIONARY, FUNCTION, INDEX, ROLE, SCHEMA(DATABASE), TABLE, USER, VIEW."
 
 #: ../../editors.rst:56
 msgid "Тип изменения - объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния и направления изменений, объекты в списке изменений помечаются как delete, add и edit или CREATE, DROP и ALTER соответственно."
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../../editors.rst:90
 msgid "switch"
-msgstr ""
+msgstr "switch"
 
 #: ../../editors.rst:69
 msgid "|show_children| - отобразить в панели сравнения код всех дочерних объектов даже если в них нет различий."
@@ -216,7 +216,7 @@ msgstr ""
 
 #: ../../editors.rst:91
 msgid "show_children"
-msgstr ""
+msgstr "show_children"
 
 #: ../../editors.rst:71
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
