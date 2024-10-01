@@ -177,7 +177,7 @@
 
 | Свойства соединения можно дополнить параметрами указанными по адресу:
 | https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL и Greenplum)
-| https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)
+| https://docs.microsoft.com/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)
 | https://clickhouse.com/docs/en/integrations/java#jdbc-driver (Для ClickHouse)
 
 .. image:: ../images/new_connection_properties.png

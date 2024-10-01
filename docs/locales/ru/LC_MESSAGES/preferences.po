@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 15:47+0300\n"
+"POT-Creation-Date: 2024-09-30 10:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -566,7 +566,7 @@ msgstr ""
 
 #: ../../preferences.rst:180
 msgid ""
-"https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-"
+"https://docs.microsoft.com/sql/connect/jdbc/setting-the-connection-"
 "properties (Для MS SQL)"
 msgstr ""
 
@@ -1192,5 +1192,15 @@ msgstr ""
 #~ "Отключена генерация кода для создания "
 #~ "индекса без блокировок при использовании "
 #~ "транзакций для PostgreSQL."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-"
+#~ "the-connection-properties (Для MS SQL)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://docs.microsoft.com/en-us/sql/connect/jdbc/setting-"
+#~ "the-connection-properties (Для MS SQL)"
 #~ msgstr ""
 
