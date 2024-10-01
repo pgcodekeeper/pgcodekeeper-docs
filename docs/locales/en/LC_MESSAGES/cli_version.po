@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-30 10:16+0300\n"
-"PO-Revision-Date: 2024-10-01 10:50\n"
+"PO-Revision-Date: 2024-10-01 12:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Getting Started"
 
 #: ../../cli_version.rst:12
 msgid "Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ для вашей платформы."
-msgstr ""
+msgstr "First off, install `Java SDK <https://adoptium.net/temurin/releases/>`_ for your platform."
 
 #: ../../cli_version.rst:14
 msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
