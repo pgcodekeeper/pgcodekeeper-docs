@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-30 10:41+0300\n"
-"PO-Revision-Date: 2024-10-01 10:50\n"
+"PO-Revision-Date: 2024-10-01 12:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Installation"
 
 #: ../../installation.rst:5
 msgid "Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы."
-msgstr ""
+msgstr "First, install `Java SDK <https://adoptium.net/temurin/releases/>`_ version 17+ for your platform."
 
 #: ../../installation.rst:8
 msgid "Eclipse Marketplace"
@@ -32,7 +32,7 @@ msgstr "Eclipse Marketplace"
 
 #: ../../installation.rst:10
 msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.19 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
-msgstr ""
+msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.19 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Marketplace…**."
 
 #: ../../installation.rst:12
 msgid "В поле поиска ввести: pgCodeKeeper."
@@ -60,7 +60,7 @@ msgstr "Update website"
 
 #: ../../installation.rst:27
 msgid "Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.19 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr ""
+msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.19 or higher, select **Help > Install New Software…** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
 
 #: ../../installation.rst:29
 msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/."
