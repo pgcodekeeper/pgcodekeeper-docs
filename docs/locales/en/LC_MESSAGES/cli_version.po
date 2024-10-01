@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 15:47+0300\n"
-"PO-Revision-Date: 2024-08-19 11:54\n"
+"POT-Creation-Date: 2024-09-30 10:16+0300\n"
+"PO-Revision-Date: 2024-10-01 10:50\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,8 @@ msgid "Начало работы"
 msgstr "Getting Started"
 
 #: ../../cli_version.rst:12
-msgid "Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы."
-msgstr "First off, install `Java SDK <https://jdk.dev/>`_ for your platform."
+msgid "Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ для вашей платформы."
+msgstr ""
 
 #: ../../cli_version.rst:14
 msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
@@ -1528,5 +1528,10 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 #~ " качестве источника данных может "
 #~ "использоваться дамп, проект pgCodeKeeper или"
 #~ " база данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://jdk.dev/>`_ для вашей платформы."
 #~ msgstr ""
 
