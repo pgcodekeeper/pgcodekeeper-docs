@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-30 10:29+0300\n"
-"PO-Revision-Date: 2024-10-01 10:50\n"
+"PO-Revision-Date: 2024-10-01 12:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -372,7 +372,7 @@ msgstr "https://jdbc.postgresql.org/documentation/head/connect.html (For Postgre
 
 #: ../../preferences.rst:180
 msgid "https://docs.microsoft.com/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)"
-msgstr ""
+msgstr "https://docs.microsoft.com/sql/connect/jdbc/setting-the-connection-properties (For MS SQL)"
 
 #: ../../preferences.rst:181
 msgid "https://clickhouse.com/docs/en/integrations/java#jdbc-driver (Для ClickHouse)"
