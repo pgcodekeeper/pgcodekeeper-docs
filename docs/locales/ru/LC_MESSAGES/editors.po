@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 13:36+0300\n"
+"POT-Creation-Date: 2024-10-03 09:37+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -472,13 +472,13 @@ msgid "Просмотр зависимостей объекта БД"
 msgstr ""
 
 #: ../../editors.rst:176
-msgid "Панель pg Зависимости"
+msgid "Панель Граф зависимостей"
 msgstr ""
 
 #: ../../editors.rst:178
 msgid ""
-"Панель **pg Dependencies / pg Зависимости** показывает зависимости, в "
-"которых участвует текущий объект, выбранный в панели различий активного "
+"Панель **Dependency graph / Граф зависимостей** показывает зависимости, в"
+" которых участвует текущий объект, выбранный в панели различий активного "
 "редактора проекта."
 msgstr ""
 
@@ -1031,5 +1031,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Ниже приведен пример."
+#~ msgstr ""
+
+#~ msgid "Панель pg Зависимости"
 #~ msgstr ""
 
