@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 13:36+0300\n"
-"PO-Revision-Date: 2024-10-01 12:15\n"
+"POT-Creation-Date: 2024-10-03 09:37+0300\n"
+"PO-Revision-Date: 2024-10-03 07:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -363,12 +363,12 @@ msgid "Просмотр зависимостей объекта БД"
 msgstr "Viewing the dependences of DB objects"
 
 #: ../../editors.rst:176
-msgid "Панель pg Зависимости"
+msgid "Панель Граф зависимостей"
 msgstr ""
 
 #: ../../editors.rst:178
-msgid "Панель **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
-msgstr "The **pg Dependencies** view shows the dependencies containing the current object selected on the diff panel of the active project editor."
+msgid "Панель **Dependency graph / Граф зависимостей** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
+msgstr ""
 
 #: ../../editors.rst:182
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
@@ -875,5 +875,8 @@ msgstr "Large samples may cause the graphical interface to \"freeze\"."
 #~ msgstr ""
 
 #~ msgid "Ниже приведен пример."
+#~ msgstr ""
+
+#~ msgid "Панель pg Зависимости"
 #~ msgstr ""
 
