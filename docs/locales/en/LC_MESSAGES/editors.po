@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-03 09:37+0300\n"
-"PO-Revision-Date: 2024-10-09 05:47\n"
+"PO-Revision-Date: 2024-10-09 07:30\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "file"
 
 #: ../../editors.rst:23
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
-msgstr "**Editor tool bar** is used for working with the object list. There are the following opportunities:"
+msgstr "**Editor tool bar** is used for working with the object list. It has the following features:"
 
 #: ../../editors.rst:25
 msgid "|check_all| – выбрать все элементы."
@@ -200,11 +200,11 @@ msgstr "Database user - name of the database user who was the last one to change
 
 #: ../../editors.rst:66
 msgid "**Панель инструментов сравнения** предназначена для работы с панелью сравнения. Существуют следующие возможности:"
-msgstr ""
+msgstr "**Comparison tool bar** is used for working with object list. It has the following features:"
 
 #: ../../editors.rst:68
 msgid "|switch| - поменять местами код объектов в панели сравнения."
-msgstr ""
+msgstr "|switch| - swap the code of the objects on the comparison panel."
 
 #: ../../editors.rst:90
 msgid "switch"
@@ -212,7 +212,7 @@ msgstr "switch"
 
 #: ../../editors.rst:69
 msgid "|show_children| - отобразить в панели сравнения код всех дочерних объектов даже если в них нет различий."
-msgstr ""
+msgstr "|show_children| - display the code of all child objects on the comparison panel, even if they are identical."
 
 #: ../../editors.rst:91
 msgid "show_children"
@@ -280,7 +280,7 @@ msgstr "**Filter by object's SQL code** searches for matches in the object gener
 
 #: ../../editors.rst:129
 msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в :ref:`контейнерах <container>` с подходящими именами. Также будут отображены и сами объекты контейнеры."
-msgstr ""
+msgstr "**Search by container** searches for the objects located in the :ref:`<container> containers` with appropriate names. Container objects will be displayed as well."
 
 #: ../../editors.rst:131
 msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
@@ -364,11 +364,11 @@ msgstr "Viewing the dependences of DB objects"
 
 #: ../../editors.rst:176
 msgid "Панель Граф зависимостей"
-msgstr ""
+msgstr "Dependency graph panel"
 
 #: ../../editors.rst:178
 msgid "Панель **Dependency graph / Граф зависимостей** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
-msgstr ""
+msgstr "The **Dependency graph** panel shows the dependencies containing the current object selected on the differences panel of the active project editor."
 
 #: ../../editors.rst:182
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
@@ -412,35 +412,35 @@ msgstr "To remove a chain of dependent objects, highlight it and click **Remove*
 
 #: ../../editors.rst:206
 msgid "Дерево зависимостей объекта"
-msgstr ""
+msgstr "Object's dependency tree"
 
 #: ../../editors.rst:208
 msgid "Также существует возможность вывести зависимости объекта в виде текста."
-msgstr ""
+msgstr "You can also view an object's dependencies as text."
 
 #: ../../editors.rst:212
 msgid "Для этого в контекстном меню нужного объекта в таблице различий выберите пункт **Build a dependency graph / Построить граф зависимостей**"
-msgstr ""
+msgstr "To do that, click **Build a dependency graph** in the right-click menu of the required object in the differences table"
 
 #: ../../editors.rst:217
 msgid "В открывшемся диалоговом окне доступны следующие настройки:"
-msgstr ""
+msgstr "The following settings are available in the dialog box that opens:"
 
 #: ../../editors.rst:222
 msgid "**Schema source: / Источник схемы:** - источник данных для поиска зависимостей."
-msgstr ""
+msgstr "**Schema source:** - data source for searching for dependencies."
 
 #: ../../editors.rst:223
 msgid "**Show: / Показать:** - направление поиска, зависимые объекты (**Calls / Вызовы**) или объекты, от которых зависит объект (**Dependencies / Зависимости**)."
-msgstr ""
+msgstr "**Show:** - direction of search: it's either dependent objects (**Calls**) or objects on which the object depends (**Dependencies**)."
 
 #: ../../editors.rst:224
 msgid "**Graph search depth / Глубина поиска** - глубина поиска зависимостей, по умолчанию 10."
-msgstr ""
+msgstr "**Graph search depth** - depth of search for dependencies. By default, this value equals 10."
 
 #: ../../editors.rst:225
 msgid "**Object Type / Тип объекта** - типы отображаемых объектов, по умолчанию отображаются все типы."
-msgstr ""
+msgstr "**Object Type** - types of displayed objects. By default, all types of objects are displayed."
 
 #: ../../editors.rst:229
 msgid "Переопределенные объекты"
