@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 12:59+0300\n"
-"PO-Revision-Date: 2023-12-06 12:02\n"
+"POT-Creation-Date: 2024-09-30 10:41+0300\n"
+"PO-Revision-Date: 2024-10-01 12:15\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,16 +23,16 @@ msgid "Установка"
 msgstr "Installation"
 
 #: ../../installation.rst:5
-msgid "Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ версии 11+ для вашей платформы. Последние версии Eclipse требуют для работы версию 17+"
-msgstr "First, install `Java SDK <https://jdk.dev/>`_ version 11+ for your platform. The latest Eclipse versions require the 17+ for proper functioning"
+msgid "Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы."
+msgstr "First, install `Java SDK <https://adoptium.net/temurin/releases/>`_ version 17+ for your platform."
 
 #: ../../installation.rst:8
 msgid "Eclipse Marketplace"
 msgstr "Eclipse Marketplace"
 
 #: ../../installation.rst:10
-msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.6 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
-msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.6 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Markeplace...**."
+msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.19 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
+msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.19 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Marketplace…**."
 
 #: ../../installation.rst:12
 msgid "В поле поиска ввести: pgCodeKeeper."
@@ -59,8 +59,8 @@ msgid "Сайт обновления"
 msgstr "Update website"
 
 #: ../../installation.rst:27
-msgid "Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.6 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.6 or higher, select **Help > Install New Software...** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
+msgid "Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.19 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
+msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.19 or higher, select **Help > Install New Software…** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
 
 #: ../../installation.rst:29
 msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/."
@@ -116,5 +116,44 @@ msgstr "Another alternative is pgCodeKeeper standalone build that you can downlo
 #~ "самостоятельная сборка pgCodeKeeper, которую "
 #~ "можно скачать здесь `здесь "
 #~ "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://jdk.dev/>`_ версии 11+ для "
+#~ "вашей платформы. Последние версии Eclipse "
+#~ "требуют для работы версию 17+"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://jdk.dev/>`_ версии 17+ для "
+#~ "вашей платформы. Последние версии Eclipse "
+#~ "требуют для работы версию 17+"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Альтернативный путь установки pgCodeKeeper –"
+#~ " сайт обновлений: в запущенном экземпляре"
+#~ " Eclipse версии 4.6 или выше, выбрать"
+#~ " **Help > Install New Software...** "
+#~ "Откроется мастер установки плагинов средствами"
+#~ " сайта обновлений."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Самый простой путь установить pgCodeKeeper "
+#~ "- Eclipse Marketplace : в запущенном "
+#~ "экземпляре Eclipse версии 4.6 или выше"
+#~ " с установленным Eclipse Marketplace, "
+#~ "выбрать **Help > Eclipse Markeplace...**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://adoptium.net/temurin/releases/>`_ версии "
+#~ "17+ для вашей платформы. Последние "
+#~ "версии Eclipse требуют для работы версию"
+#~ " 17+"
 #~ msgstr ""
 
