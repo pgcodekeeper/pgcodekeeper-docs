@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 17:05+0300\n"
+"POT-Creation-Date: 2024-10-14 17:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -298,7 +298,7 @@ msgid "Пример вывода результата:"
 msgstr ""
 
 #: ../../cli_version.rst:259
-msgid "verify"
+msgid "verify (beta)"
 msgstr ""
 
 #: ../../cli_version.rst:261
@@ -2079,5 +2079,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Пример:"
+#~ msgstr ""
+
+#~ msgid "verify"
 #~ msgstr ""
 
