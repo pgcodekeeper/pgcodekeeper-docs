@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 17:08+0300\n"
+"POT-Creation-Date: 2024-10-14 17:42+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,8 +304,8 @@ msgstr ""
 #: ../../cli_version.rst:261
 msgid ""
 "Команда **--mode VERIFY** позволяет переключить работу в режим проверки "
-"качества SQL кода, которая позволяет верифицировать код по стилистическим"
-" и базовыми правилам. Команды, доступные в этом режиме:"
+"качества SQL кода для верификации по набору правил. Команды, доступные в "
+"этом режиме:"
 msgstr ""
 
 #: ../../cli_version.rst:263
@@ -329,7 +329,7 @@ msgid "Правило"
 msgstr ""
 
 #: ../../cli_version.rst:273
-msgid "Тип"
+msgid "Тип значения"
 msgstr ""
 
 #: ../../cli_version.rst:274
@@ -367,7 +367,7 @@ msgid "check_semicolon_after_simple_sql"
 msgstr ""
 
 #: ../../cli_version.rst:283
-msgid "проверка символа ; после простого sql-выражения"
+msgid "проверка символа ; после простого sql-выражения в теле функции"
 msgstr ""
 
 #: ../../cli_version.rst:284
@@ -375,7 +375,7 @@ msgid "check_space_after_if"
 msgstr ""
 
 #: ../../cli_version.rst:287
-msgid "проверка наличия пробела после if"
+msgid "проверка наличия пробела после if в теле функции"
 msgstr ""
 
 #: ../../cli_version.rst:288
@@ -383,7 +383,9 @@ msgid "check_space_on_math"
 msgstr ""
 
 #: ../../cli_version.rst:291
-msgid "проверка наличия пробелов до и после математических выражений"
+msgid ""
+"проверка наличия пробелов до и после математических выражений в теле "
+"функции"
 msgstr ""
 
 #: ../../cli_version.rst:292
@@ -391,7 +393,7 @@ msgid "check_space_after_comma"
 msgstr ""
 
 #: ../../cli_version.rst:295
-msgid "проверка наличия пробела после запятой"
+msgid "проверка наличия пробела после запятой в теле функции"
 msgstr ""
 
 #: ../../cli_version.rst:296
@@ -399,7 +401,7 @@ msgid "check_temp_table"
 msgstr ""
 
 #: ../../cli_version.rst:299
-msgid "проверка наличия созданий не temp таблицы"
+msgid "проверка наличия созданий не temp таблицы в теле функции"
 msgstr ""
 
 #: ../../cli_version.rst:300
@@ -407,7 +409,7 @@ msgid "check_indents"
 msgstr ""
 
 #: ../../cli_version.rst:303
-msgid "проверка отступов (в разработке)"
+msgid "проверка отступов в теле функции (в разработке)"
 msgstr ""
 
 #: ../../cli_version.rst:304
@@ -425,7 +427,9 @@ msgid "2"
 msgstr ""
 
 #: ../../cli_version.rst:307
-msgid "значение отступа, используется с check_indents (в разработке)"
+msgid ""
+"значение отступа в теле функции, используется с check_indents (в "
+"разработке)"
 msgstr ""
 
 #: ../../cli_version.rst:308
@@ -438,7 +442,7 @@ msgid "-1"
 msgstr ""
 
 #: ../../cli_version.rst:311
-msgid "максимально допустимая вложенность кода"
+msgid "максимально допустимая вложенность кода в теле функции"
 msgstr ""
 
 #: ../../cli_version.rst:312
@@ -446,7 +450,7 @@ msgid "max_function_length"
 msgstr ""
 
 #: ../../cli_version.rst:315
-msgid "максимальная длина функции (в строках)"
+msgid "максимальная длина тела функции (в строках)"
 msgstr ""
 
 #: ../../cli_version.rst:316
@@ -454,7 +458,9 @@ msgid "max_function_params"
 msgstr ""
 
 #: ../../cli_version.rst:319
-msgid "максимальное количество входных параметров (без учета OUT параметров)"
+msgid ""
+"максимальное количество входных параметров функции (без учета OUT "
+"параметров)"
 msgstr ""
 
 #: ../../cli_version.rst:320
@@ -496,26 +502,26 @@ msgid "Пример файла с настройками"
 msgstr ""
 
 #: ../../cli_version.rst:351
-msgid "Пример команды для поиска зависимостей в локальном проекте:"
+msgid "Пример команды для верификации кода:"
 msgstr ""
 
-#: ../../cli_version.rst:361
+#: ../../cli_version.rst:362
 msgid "Пример вывода результата"
 msgstr ""
 
-#: ../../cli_version.rst:384
+#: ../../cli_version.rst:385
 msgid "vmargs"
 msgstr ""
 
-#: ../../cli_version.rst:385
+#: ../../cli_version.rst:386
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr ""
 
-#: ../../cli_version.rst:387
+#: ../../cli_version.rst:388
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:393
+#: ../../cli_version.rst:394
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
@@ -2082,5 +2088,38 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "verify"
+#~ msgstr ""
+
+#~ msgid "Тип"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--mode VERIFY** позволяет "
+#~ "переключить работу в режим проверки "
+#~ "качества SQL кода, которая позволяет "
+#~ "верифицировать код по стилистическим и "
+#~ "базовыми правилам. Команды, доступные в "
+#~ "этом режиме:"
+#~ msgstr ""
+
+#~ msgid "Пример команды для поиска зависимостей в локальном проекте:"
+#~ msgstr ""
+
+#~ msgid "boolean"
+#~ msgstr ""
+
+#~ msgid "integer"
+#~ msgstr ""
+
+#~ msgid "list"
+#~ msgstr ""
+
+#~ msgid "для функций"
+#~ msgstr ""
+
+#~ msgid "**для функций**"
+#~ msgstr ""
+
+#~ msgid "**общие параметры**"
 #~ msgstr ""
 
