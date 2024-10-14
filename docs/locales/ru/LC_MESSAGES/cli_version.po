@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 15:32+0300\n"
+"POT-Creation-Date: 2024-10-14 17:05+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,117 +319,203 @@ msgid "**--verify-rule-set <path>** - путь к файлу с правилам
 msgstr ""
 
 #: ../../cli_version.rst:266
-msgid "Список правил для проверки хранится в файле rules.properties."
-msgstr ""
-
-#: ../../cli_version.rst:268
 msgid ""
-"Стилистические правила. Могут принимать значение true - включить проверку"
-" или false - выключить проверку (дефолтное значение)."
-msgstr ""
-
-#: ../../cli_version.rst:270
-msgid "**check_indents** - проверка отступов. (в разработке)"
-msgstr ""
-
-#: ../../cli_version.rst:271
-msgid ""
-"**check_quotes_in_table_column** - проверка наличия кавычек в имени "
-"столбца таблицы."
+"Правила настраиваются с помощью файла с расширением properties, который "
+"представляет собой список пар ключ-значение. Список доступных ключей:"
 msgstr ""
 
 #: ../../cli_version.rst:272
-msgid ""
-"**check_semicolon_after_simple_sql** - проверка символа ; после простого "
-"sql-выражения."
+msgid "Правило"
 msgstr ""
 
 #: ../../cli_version.rst:273
-msgid "**check_space_after_if**  - проверка наличия пробела после if."
+msgid "Тип"
 msgstr ""
 
 #: ../../cli_version.rst:274
-msgid ""
-"**check_space_on_math** - проверка наличия пробелов до и после "
-"математических выражений."
+msgid "Значение по умолчанию"
 msgstr ""
 
 #: ../../cli_version.rst:275
-msgid "**check_space_after_comma** - проверка наличия пробела после запятой."
+msgid "Описание"
 msgstr ""
 
-#: ../../cli_version.rst:277
-msgid "Базовые правила."
+#: ../../cli_version.rst:276
+msgid "check_quotes_in_table_column"
+msgstr ""
+
+#: ../../cli_version.rst:277 ../../cli_version.rst:281
+#: ../../cli_version.rst:285 ../../cli_version.rst:289
+#: ../../cli_version.rst:293 ../../cli_version.rst:297
+#: ../../cli_version.rst:301
+msgid "boolean"
+msgstr ""
+
+#: ../../cli_version.rst:278 ../../cli_version.rst:282
+#: ../../cli_version.rst:286 ../../cli_version.rst:290
+#: ../../cli_version.rst:294 ../../cli_version.rst:298
+#: ../../cli_version.rst:302
+msgid "false"
 msgstr ""
 
 #: ../../cli_version.rst:279
-msgid "**deny_grant** - проверка на группу, которой выдаются права."
+msgid "проверка отсутствия кавычек в имени столбца таблицы"
 msgstr ""
 
 #: ../../cli_version.rst:280
-msgid ""
-"**check_case_without_else** - проверка использования else в блоке case. "
-"Может быть значение true или false (дефолтное значение)."
-msgstr ""
-
-#: ../../cli_version.rst:281
-msgid ""
-"**check_temp_table** - проверка создания таблицы. Допустимо создание "
-"только временной таблицы."
-msgstr ""
-
-#: ../../cli_version.rst:282
-msgid ""
-"**cyclomatic_complexity** - проверка сложности кода. Код считается "
-"сложным если в нем вложенность больше указанного значения."
+msgid "check_semicolon_after_simple_sql"
 msgstr ""
 
 #: ../../cli_version.rst:283
-msgid "**indent_size** - дефолтное значение отступа."
+msgid "проверка символа ; после простого sql-выражения"
 msgstr ""
 
 #: ../../cli_version.rst:284
-msgid ""
-"**allowed_function_start** - проверка первых символов тела функции. Тело "
-"функции должно начинаться с этих символов. Например: $$, $_$, $BODY$."
-msgstr ""
-
-#: ../../cli_version.rst:285
-msgid ""
-"**max_function_length** - проверка на длину функции. Размер функции не "
-"должен быть больше указанного значения (количества строк)."
-msgstr ""
-
-#: ../../cli_version.rst:286
-msgid ""
-"**max_function_params** - проверка количества входных параметров. Число "
-"параметров не должно быть больше указанного значения. Параметры с "
-"ключевым словом OUT при подсчете не учитываются."
+msgid "check_space_after_if"
 msgstr ""
 
 #: ../../cli_version.rst:287
-msgid ""
-"**method_count** - проверка количества выражений в функции. Количество "
-"выражений не должно быть больше указанного значения."
+msgid "проверка наличия пробела после if"
 msgstr ""
 
-#: ../../cli_version.rst:289
-msgid "Пример:"
+#: ../../cli_version.rst:288
+msgid "check_space_on_math"
+msgstr ""
+
+#: ../../cli_version.rst:291
+msgid "проверка наличия пробелов до и после математических выражений"
+msgstr ""
+
+#: ../../cli_version.rst:292
+msgid "check_space_after_comma"
+msgstr ""
+
+#: ../../cli_version.rst:295
+msgid "проверка наличия пробела после запятой"
 msgstr ""
 
 #: ../../cli_version.rst:296
-msgid "vmargs"
-msgstr ""
-
-#: ../../cli_version.rst:297
-msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
+msgid "check_temp_table"
 msgstr ""
 
 #: ../../cli_version.rst:299
+msgid "проверка наличия созданий не temp таблицы"
+msgstr ""
+
+#: ../../cli_version.rst:300
+msgid "check_indents"
+msgstr ""
+
+#: ../../cli_version.rst:303
+msgid "проверка отступов (в разработке)"
+msgstr ""
+
+#: ../../cli_version.rst:304
+msgid "indent_size"
+msgstr ""
+
+#: ../../cli_version.rst:305 ../../cli_version.rst:309
+#: ../../cli_version.rst:313 ../../cli_version.rst:317
+#: ../../cli_version.rst:321
+msgid "integer"
+msgstr ""
+
+#: ../../cli_version.rst:306
+msgid "2"
+msgstr ""
+
+#: ../../cli_version.rst:307
+msgid "значение отступа, используется с check_indents (в разработке)"
+msgstr ""
+
+#: ../../cli_version.rst:308
+msgid "cyclomatic_complexity"
+msgstr ""
+
+#: ../../cli_version.rst:310 ../../cli_version.rst:314
+#: ../../cli_version.rst:318 ../../cli_version.rst:322
+msgid "-1"
+msgstr ""
+
+#: ../../cli_version.rst:311
+msgid "максимально допустимая вложенность кода"
+msgstr ""
+
+#: ../../cli_version.rst:312
+msgid "max_function_length"
+msgstr ""
+
+#: ../../cli_version.rst:315
+msgid "максимальная длина функции (в строках)"
+msgstr ""
+
+#: ../../cli_version.rst:316
+msgid "max_function_params"
+msgstr ""
+
+#: ../../cli_version.rst:319
+msgid "максимальное количество входных параметров (без учета OUT параметров)"
+msgstr ""
+
+#: ../../cli_version.rst:320
+msgid "method_count"
+msgstr ""
+
+#: ../../cli_version.rst:323
+msgid "максимально допустимое количество выражений в функции"
+msgstr ""
+
+#: ../../cli_version.rst:324
+msgid "deny_grant"
+msgstr ""
+
+#: ../../cli_version.rst:325 ../../cli_version.rst:329
+msgid "list"
+msgstr ""
+
+#: ../../cli_version.rst:326 ../../cli_version.rst:330
+msgid "`-`"
+msgstr ""
+
+#: ../../cli_version.rst:327
+msgid "список пользователей, которым запрещено выдавать права"
+msgstr ""
+
+#: ../../cli_version.rst:328
+msgid "allowed_function_start"
+msgstr ""
+
+#: ../../cli_version.rst:331
+msgid ""
+"список допустимых значений, с которых может начинаться функция и проверка"
+" наличия переноса в начале функции"
+msgstr ""
+
+#: ../../cli_version.rst:333
+msgid "Пример файла с настройками"
+msgstr ""
+
+#: ../../cli_version.rst:351
+msgid "Пример команды для поиска зависимостей в локальном проекте:"
+msgstr ""
+
+#: ../../cli_version.rst:361
+msgid "Пример вывода результата"
+msgstr ""
+
+#: ../../cli_version.rst:384
+msgid "vmargs"
+msgstr ""
+
+#: ../../cli_version.rst:385
+msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
+msgstr ""
+
+#: ../../cli_version.rst:387
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:305
+#: ../../cli_version.rst:393
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
@@ -1737,5 +1823,261 @@ msgstr ""
 #~ " Могут принимать значение true - "
 #~ "включить проверку или false - выключить"
 #~ " проверку (дефолтное значение)."
+#~ msgstr ""
+
+#~ msgid "**check_indents** - проверка отступов. (в разработке)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_quotes_in_table_column** - проверка наличия"
+#~ " кавычек в имени столбца таблицы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_semicolon_after_simple_sql** - проверка "
+#~ "символа ; после простого sql-выражения."
+#~ msgstr ""
+
+#~ msgid "**check_space_after_if**  - проверка наличия пробела после if."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_space_on_math** - проверка наличия "
+#~ "пробелов до и после математических "
+#~ "выражений."
+#~ msgstr ""
+
+#~ msgid "**check_space_after_comma** - проверка наличия пробела после запятой."
+#~ msgstr ""
+
+#~ msgid "Базовые правила."
+#~ msgstr ""
+
+#~ msgid "**deny_grant** - проверка на группу, которой выдаются права."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_case_without_else** - проверка использования"
+#~ " else в блоке case. Может быть "
+#~ "значение true или false (дефолтное "
+#~ "значение)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_temp_table** - проверка создания "
+#~ "таблицы. Допустимо создание только временной"
+#~ " таблицы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**cyclomatic_complexity** - проверка сложности "
+#~ "кода. Код считается сложным если в "
+#~ "нем вложенность больше указанного значения."
+#~ msgstr ""
+
+#~ msgid "**indent_size** - дефолтное значение отступа."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**allowed_function_start** - проверка первых "
+#~ "символов тела функции. Тело функции "
+#~ "должно начинаться с этих символов. "
+#~ "Например: $$, $_$, $BODY$."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**max_function_length** - проверка на длину"
+#~ " функции. Размер функции не должен "
+#~ "быть больше указанного значения (количества"
+#~ " строк)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**max_function_params** - проверка количества "
+#~ "входных параметров. Число параметров не "
+#~ "должно быть больше указанного значения. "
+#~ "Параметры с ключевым словом OUT при "
+#~ "подсчете не учитываются."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**method_count** - проверка количества "
+#~ "выражений в функции. Количество выражений "
+#~ "не должно быть больше указанного "
+#~ "значения."
+#~ msgstr ""
+
+#~ msgid ":scale:50%"
+#~ msgstr ""
+
+#~ msgid "Правило"
+#~ msgstr ""
+
+#~ msgid "Тип Значения"
+#~ msgstr ""
+
+#~ msgid "Значение по умолчанию"
+#~ msgstr ""
+
+#~ msgid "Описание"
+#~ msgstr ""
+
+#~ msgid "check_quotes_in_table_column"
+#~ msgstr ""
+
+#~ msgid "true / false"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "проверка отсутствия кавычек в имени столбца таблицы"
+#~ msgstr ""
+
+#~ msgid "check_semicolon_after_simple_sql"
+#~ msgstr ""
+
+#~ msgid "проверка символа ; после простого sql-выражения"
+#~ msgstr ""
+
+#~ msgid "check_space_after_if"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробела после if"
+#~ msgstr ""
+
+#~ msgid "check_space_on_math"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробелов до и после математических выражений"
+#~ msgstr ""
+
+#~ msgid "check_space_after_comma"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробела после запятой"
+#~ msgstr ""
+
+#~ msgid "check_temp_table"
+#~ msgstr ""
+
+#~ msgid "проверка наличия созданий не temp таблицы"
+#~ msgstr ""
+
+#~ msgid "check_indents"
+#~ msgstr ""
+
+#~ msgid "проверка отступов (в разработке)"
+#~ msgstr ""
+
+#~ msgid "indent_size"
+#~ msgstr ""
+
+#~ msgid "число"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "значение отступа, используется с check_indents (в разработке)"
+#~ msgstr ""
+
+#~ msgid "cyclomatic_complexity"
+#~ msgstr ""
+
+#~ msgid "-1"
+#~ msgstr ""
+
+#~ msgid "максимально допустимая вложенность кода"
+#~ msgstr ""
+
+#~ msgid "max_function_length"
+#~ msgstr ""
+
+#~ msgid "максимальная длина функции (в строках)"
+#~ msgstr ""
+
+#~ msgid "max_function_params"
+#~ msgstr ""
+
+#~ msgid "максимальное количество входных параметров (без учета OUT параметров)"
+#~ msgstr ""
+
+#~ msgid "method_count"
+#~ msgstr ""
+
+#~ msgid "максимально допустимое количество выражений в функции"
+#~ msgstr ""
+
+#~ msgid "deny_grant"
+#~ msgstr ""
+
+#~ msgid "список"
+#~ msgstr ""
+
+#~ msgid "список пользователей, которым запрещено выдавать права"
+#~ msgstr ""
+
+#~ msgid "allowed_function_start"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "список допустимых значений, с которых "
+#~ "может начинаться функция и проверка "
+#~ "наличия переноса в начале функции"
+#~ msgstr ""
+
+#~ msgid "'-'"
+#~ msgstr ""
+
+#~ msgid "\"-\""
+#~ msgstr ""
+
+#~ msgid "Тип значения"
+#~ msgstr ""
+
+#~ msgid "`-`"
+#~ msgstr ""
+
+#~ msgid "**check_semicolon_after_simple_sql**"
+#~ msgstr ""
+
+#~ msgid "true/false"
+#~ msgstr ""
+
+#~ msgid "*check_semicolon_after_simple_sql*"
+#~ msgstr ""
+
+#~ msgid "`check_semicolon_after_simple_sql`"
+#~ msgstr ""
+
+#~ msgid "'check_semicolon_after_simple_sql'"
+#~ msgstr ""
+
+#~ msgid "\"check_space_after_if\""
+#~ msgstr ""
+
+#~ msgid "_check_semicolon_after_simple_sql:"
+#~ msgstr ""
+
+#~ msgid "::check_space_after_if"
+#~ msgstr ""
+
+#~ msgid "code"
+#~ msgstr ""
+
+#~ msgid "`check_quotes_in_table_column`"
+#~ msgstr ""
+
+#~ msgid ":code:`check_quotes_in_table_column`"
+#~ msgstr ""
+
+#~ msgid ":code:`check_semicolon_after_simple_sql`"
+#~ msgstr ""
+
+#~ msgid ":code:`boolean`"
+#~ msgstr ""
+
+#~ msgid "Пример:"
 #~ msgstr ""
 
