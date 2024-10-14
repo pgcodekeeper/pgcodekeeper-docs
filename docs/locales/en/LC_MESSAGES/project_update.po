@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2023-11-08 16:48+0300\n"
+"PO-Revision-Date: 2023-12-06 13:13\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Project update"
 msgid "На панели инструментов открываем выпадающее меню кнопки **Get Changes / Получить изменения** |refresh| и выбираем источник базы данных, на основании которого будет обновляться проект pgCodeKeeper."
 msgstr "On the tool bar, open the **Get Changes** |refresh| drop-down list, and select the database source based on which the pgCodeKeeper project will be updated."
 
-#: ../../project_update.rst:23
+#: ../../project_update.rst:24
 msgid "refresh"
 msgstr "refresh"
 
@@ -38,27 +38,39 @@ msgstr "Click |refresh|. After a short wait, the list of differences with the in
 msgid "Открываем выпадающее меню кнопки **Применить / Apply** |save_edit| и выбираем |app_icon| **Проект / Project**. Отмечаем флажками необходимые изменения, нажимаем на кнопку |save_edit|, и открывается диалог **Подтвердите обновление проекта / Confirm Project Update**."
 msgstr "Open the **Apply** |save_edit| drop-down menu and select |app_icon| ** Project**. Tick the required changes, click |save_edit|, and the **Confirm Project Update** dialog window will appear."
 
-#: ../../project_update.rst:26
+#: ../../project_update.rst:27
 msgid "save_edit"
 msgstr "save_edit"
 
-#: ../../project_update.rst:27
+#: ../../project_update.rst:28
 msgid "app_icon"
 msgstr "app_icon"
 
 #: ../../project_update.rst:15
-msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
-msgstr "Check the list of objects selected by the user and the list of dependent objects. Be careful! Excluding dependence objects from the update can lead to errors and unexpected results."
+msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. .. important:: Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
+msgstr "Check the list of objects selected by the user and the list of dependent objects. .. important:: Be careful! Excluding dependence objects from the update can lead to errors and unexpected results."
 
-#: ../../project_update.rst:17
+#: ../../project_update.rst:18
 msgid "Если вместо изменения самих объектов необходимо сохранить переопределения их свойств (например, привилегии), то выбираем соответствующую опцию. Выполняется только для объектов с типом изменения **edit**."
 msgstr "If instead of changing the objects themselves you need to save overrides of their properties (for example privileges), select the corresponding option. This can be done only for the objects with the **edit** change type."
 
-#: ../../project_update.rst:19
+#: ../../project_update.rst:20
 msgid "Для подтверждения применения изменений к проекту нажать кнопку **OK**. В случае успешного применения изменений в **консоли pgCodeKeeper** появится соответствующее сообщение."
 msgstr "Click **OK** to confirm the applying of changes to the project. If successful, **pgCodeKeeper console** will display a corresponding message."
 
-#: ../../project_update.rst:21
-msgid "**Обновление файлов проекта приводит к сбросу списка различий.**"
-msgstr "**Project file update resets the differences list.**"
+#: ../../project_update.rst:22
+msgid "Обновление файлов проекта приводит к сбросу списка различий."
+msgstr "Project file update resets the differences list."
+
+#~ msgid "**Обновление файлов проекта приводит к сбросу списка различий.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Проверяем список объектов, выбранных "
+#~ "пользователем, и список зависимых объектов."
+#~ " Будьте внимательны! Исключение "
+#~ "объектов-зависимостей из обновления может "
+#~ "привести к ошибкам или неожиданным "
+#~ "результатам."
+#~ msgstr ""
 

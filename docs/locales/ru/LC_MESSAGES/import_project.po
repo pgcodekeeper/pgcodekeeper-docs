@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2024-07-03 14:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 
 #: ../../import_project.rst:3
 msgid "Импорт проекта"
@@ -80,8 +80,9 @@ msgstr ""
 
 #: ../../import_project.rst:21
 msgid ""
-"Если импортируемый проект для MS SQL, то необходимо выбрать "
-"соответствующую опцию."
+"Выбираем тип базы данных для импортируемого проекта **Database type / Тип"
+" базы данных** PostgreSQL(для PostgreSQL и Greenplum), MS SQL, "
+"ClickHouse."
 msgstr ""
 
 #: ../../import_project.rst:22
@@ -100,4 +101,23 @@ msgid ""
 "корне директории. Мастер импорта проекта автоматически создаст данный "
 "файл при его отсутствии."
 msgstr ""
+
+#~ msgid ""
+#~ "Если импортируемый проект для MS SQL,"
+#~ " то необходимо выбрать соответствующую "
+#~ "опцию."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем тип базы данных для "
+#~ "импортируемого проекта **Database type / "
+#~ "Тип базы данных**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем тип базы данных для "
+#~ "импортируемого проекта **Database type / "
+#~ "Тип базы данных** (PostgreSQL для "
+#~ "PostgreSQL и Greenplum)."
+#~ msgstr ""
 

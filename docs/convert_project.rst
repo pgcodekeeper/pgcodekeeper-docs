@@ -6,7 +6,7 @@
 
 .. image:: ../images/convert_project_menu.png
 
-В некоторых случаях может потребоваться выбрать тип проекта: PostgreSQL или MS SQL.
+Затем необходимо выбрать тип проекта: PostgreSQL(для PostgreSQL и Greenplum), MS SQL или ClickHouse.
 
 .. image:: ../images/convert_project_choice.png
 

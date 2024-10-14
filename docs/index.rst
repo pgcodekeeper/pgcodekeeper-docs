@@ -2,13 +2,20 @@
 Руководство пользователя pgCodeKeeper
 =====================================
 
-Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы.
+Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL, MS SQL Server, Greenplum, ClickHouse и выборочного применения различий, с учетом возможных зависимостей между объектами схемы.
 
 Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре.
 
 С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД.
 
 Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_.
+
+Поддерживаемые версии баз данных:
+
+- PostgreSQL 9.4+
+- MS SQL 2012+
+- ClickHouse 23+
+- Greenplum 6+
 
 .. toctree::
 
@@ -31,9 +38,10 @@
    :maxdepth: 1
    :caption: Задачи
 
+   db_store
+   permissions
    project_update
    db_update
-   db_store
    sort
    project_edit
    formatting
@@ -52,6 +60,5 @@
    white_black_list_schemas
    cli_version
    windowsauth
-   knows_issues
    contributors
    about

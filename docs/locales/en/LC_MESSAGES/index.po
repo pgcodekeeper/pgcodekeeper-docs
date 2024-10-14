@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2024-08-14 15:47+0300\n"
+"PO-Revision-Date: 2024-08-19 11:55\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -18,15 +18,15 @@ msgstr ""
 "X-Crowdin-File-ID: 37\n"
 "Language: en_US\n"
 
-#: ../../index.rst:17
+#: ../../index.rst:24
 msgid "Начало работы"
 msgstr "Getting Started"
 
-#: ../../index.rst:30
+#: ../../index.rst:37
 msgid "Задачи"
 msgstr "Tasks"
 
-#: ../../index.rst:45
+#: ../../index.rst:53
 msgid "Дополнительная информация"
 msgstr "Additional Information"
 
@@ -35,8 +35,8 @@ msgid "Руководство пользователя pgCodeKeeper"
 msgstr "pgCodeKeeper User Guide"
 
 #: ../../index.rst:5
-msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
-msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL DB schemas and selective applying the differences, considering possible dependences between the schema objects."
+msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL, MS SQL Server, Greenplum, ClickHouse и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
+msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL, MS SQL Server, Greenplum, Clickhouse database schemas and selective applying the differences, considering possible dependencies between the schema objects."
 
 #: ../../index.rst:7
 msgid "Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре."
@@ -49,4 +49,52 @@ msgstr "Using the project, it is possible to view the structure of files-objects
 #: ../../index.rst:11
 msgid "Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr "pgCodeKeeper source code is available at `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_ for free."
+
+#: ../../index.rst:13
+msgid "Поддерживаемые версии баз данных:"
+msgstr "Supported database versions:"
+
+#: ../../index.rst:15
+msgid "PostgreSQL 9.4+"
+msgstr "PostgreSQL 9.4+"
+
+#: ../../index.rst:16
+msgid "MS SQL 2012+"
+msgstr "MS SQL 2012+"
+
+#: ../../index.rst:17
+msgid "ClickHouse 23+"
+msgstr "ClickHouse 23+"
+
+#: ../../index.rst:18
+msgid "Greenplum 6+"
+msgstr "Greenplum 6+"
+
+#~ msgid ""
+#~ "Плагин pgCodeKeeper предназначен для сравнения"
+#~ " схем БД PostgreSQL и выборочного "
+#~ "применения различий, с учетом возможных "
+#~ "зависимостей между объектами схемы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Поддерживаемые версии баз данных: - "
+#~ "PostgreSQL 9.4+ - MsSQl 2017+ - "
+#~ "ClickHouse 23+ - Greenplum 6+"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL 9.4+."
+#~ msgstr ""
+
+#~ msgid "MsSQl 2017+."
+#~ msgstr ""
+
+#~ msgid "ClickHouse 23+."
+#~ msgstr ""
+
+#~ msgid "Greenplum 6+."
+#~ msgstr ""
+
+#~ msgid "MsSQl 2017+"
+#~ msgstr ""
 

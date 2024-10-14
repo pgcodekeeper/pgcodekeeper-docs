@@ -1,16 +1,13 @@
 =========
 Установка
 =========
-Вы можете установить pgCodeKeeper отдельной сборкой. Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы.
 
-Последнюю версию сборки pgCodeKeeper можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
-
-Кроме обычной установки вы можете поставить pgCodeKeeper в ваш Eclipse IDE.
+Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ версии 17+ для вашей платформы.
 
 Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
-Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.6 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**. 
+Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.19 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**.
 
 В поле поиска ввести: pgCodeKeeper.
 
@@ -27,7 +24,7 @@ Eclipse Marketplace
 Сайт обновления
 ~~~~~~~~~~~~~~~
 
-Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.6 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений.
+Альтернативный путь установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.19 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений.
 
 В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/.
 
@@ -40,3 +37,8 @@ Eclipse Marketplace
 По завершению установки для применения изменений необходимо перезапустить Eclipse.
 
 Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**.
+
+Самостоятельная сборка pgCodeKeeper
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, которую можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.

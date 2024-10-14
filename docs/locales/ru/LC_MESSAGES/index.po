@@ -9,24 +9,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
+"POT-Creation-Date: 2024-08-14 15:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 
-#: ../../index.rst:17
+#: ../../index.rst:24
 msgid "Начало работы"
 msgstr ""
 
-#: ../../index.rst:30
+#: ../../index.rst:37
 msgid "Задачи"
 msgstr ""
 
-#: ../../index.rst:45
+#: ../../index.rst:53
 msgid "Дополнительная информация"
 msgstr ""
 
@@ -36,9 +36,9 @@ msgstr ""
 
 #: ../../index.rst:5
 msgid ""
-"Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и "
-"выборочного применения различий, с учетом возможных зависимостей между "
-"объектами схемы."
+"Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL, MS SQL"
+" Server, Greenplum, ClickHouse и выборочного применения различий, с "
+"учетом возможных зависимостей между объектами схемы."
 msgstr ""
 
 #: ../../index.rst:7
@@ -60,4 +60,52 @@ msgid ""
 "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
 "`GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr ""
+
+#: ../../index.rst:13
+msgid "Поддерживаемые версии баз данных:"
+msgstr ""
+
+#: ../../index.rst:15
+msgid "PostgreSQL 9.4+"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "MS SQL 2012+"
+msgstr ""
+
+#: ../../index.rst:17
+msgid "ClickHouse 23+"
+msgstr ""
+
+#: ../../index.rst:18
+msgid "Greenplum 6+"
+msgstr ""
+
+#~ msgid ""
+#~ "Плагин pgCodeKeeper предназначен для сравнения"
+#~ " схем БД PostgreSQL и выборочного "
+#~ "применения различий, с учетом возможных "
+#~ "зависимостей между объектами схемы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Поддерживаемые версии баз данных: - "
+#~ "PostgreSQL 9.4+ - MsSQl 2017+ - "
+#~ "ClickHouse 23+ - Greenplum 6+"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL 9.4+."
+#~ msgstr ""
+
+#~ msgid "MsSQl 2017+."
+#~ msgstr ""
+
+#~ msgid "ClickHouse 23+."
+#~ msgstr ""
+
+#~ msgid "Greenplum 6+."
+#~ msgstr ""
+
+#~ msgid "MsSQl 2017+"
+#~ msgstr ""
 
