@@ -49,8 +49,6 @@
    object_search
    diff
    mock_data
-   code_verification
-
 
 .. toctree::
    :maxdepth: 1
