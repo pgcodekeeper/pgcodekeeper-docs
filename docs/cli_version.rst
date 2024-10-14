@@ -26,6 +26,7 @@ CLI версия
  - :ref:`parseMode`
  - :ref:`graphMode`
  - :ref:`insertMode`
+ - :ref:`verifyMode`
 
 .. _diffMode :
 
@@ -251,6 +252,134 @@ insert
 
    COMMIT TRANSACTION;
 
+
+.. _verifyMode :
+
+verify (beta)
+"""""""""""""
+
+Команда **--mode VERIFY** позволяет переключить работу в режим верификации SQL кода по набору правил. Команды, доступные в этом режиме:
+
+- **--verify-source <path>** - путь к директории или файлу с исходниками для проверки.
+- **--verify-rule-set <path>** - путь к файлу с правилами.
+
+Правила настраиваются с помощью файла с расширением properties, который представляет собой список пар ключ-значение. Список доступных ключей:
+
+.. list-table::
+   :widths: 35 10 12 43
+   :header-rows: 1
+
+   * - Правило
+     - Тип значения
+     - Значение по умолчанию
+     - Описание
+   * - check_quotes_in_table_column
+     - boolean
+     - false
+     - проверка отсутствия кавычек в имени столбца таблицы
+   * - check_semicolon_after_simple_sql
+     - boolean
+     - false
+     - проверка символа ; после простого sql-выражения в теле функции
+   * - check_space_after_if
+     - boolean
+     - false
+     - проверка наличия пробела после if в теле функции
+   * - check_space_on_math
+     - boolean
+     - false
+     - проверка наличия пробелов до и после математических выражений в теле функции
+   * - check_space_after_comma
+     - boolean
+     - false
+     - проверка наличия пробела после запятой в теле функции
+   * - check_temp_table
+     - boolean
+     - false
+     - проверка наличия созданий не temp таблицы в теле функции
+   * - check_indents
+     - boolean
+     - false
+     - проверка отступов в теле функции (в разработке)
+   * - indent_size
+     - integer
+     - 2
+     - значение отступа в теле функции, используется с check_indents (в разработке)
+   * - cyclomatic_complexity
+     - integer
+     - -1
+     - максимально допустимая вложенность кода в теле функции
+   * - max_function_length
+     - integer
+     - -1
+     - максимальная длина тела функции (в строках)
+   * - max_function_params
+     - integer
+     - -1
+     - максимальное количество входных параметров функции (без учета OUT параметров)
+   * - method_count
+     - integer
+     - -1
+     - максимально допустимое количество выражений в функции
+   * - deny_grant
+     - list
+     - `-`
+     - список пользователей, которым запрещено выдавать права
+   * - allowed_function_start
+     - list
+     - `-`
+     - список допустимых значений, с которых может начинаться функция и проверка наличия переноса в начале функции
+
+Пример файла с настройками
+
+::
+
+  check_case_without_else = true
+  check_quotes_in_table_column = true
+  check_semicolon_after_simple_sql = true
+  check_space_after_if = true
+  check_space_on_math = true
+  check_space_after_comma = true
+  check_temp_table = true
+  cyclomatic_complexity = 5
+  max_function_length = 150
+  max_function_params = 4
+  method_count = 40
+  allowed_function_start = $$, $_$, $BODY$
+  deny_grant = Public, user0
+
+Пример команды для верификации кода:
+
+::
+
+  ./pgcodekeeper-cli.sh                      \
+  --mode verify                              \
+  --verify-rule-set rules.properties         \
+  --verify-source file1.sql                  \
+  --verify-source file2.sql                  \
+  --verify-source dir
+
+Пример вывода результата
+
+::
+
+  file1.sql line 1:1 A function have 7 parameters. There should be no more than 4 input parameters.
+  file1.sql line 20:5 Using the case block without the else block is not allowed.
+  file1.sql line 39:12 Creating only a temporary table is allowed.
+  file1.sql line 48:9 There should be no quotation marks in the table column name.
+  file1.sql line 49:9 There should be no quotation marks in the table column name.
+  file1.sql line 34:7 Warning: Not space after 'if' keyword.
+  file1.sql line 42:6 There must be spaces between math expressions.
+  file1.sql line 42:7 There must be spaces between math expressions.
+  file1.sql line 43:6 There must be spaces between math expressions.
+  file1.sql line 43:7 There must be spaces between math expressions.
+  file1.sql line 43:8 There must be spaces between math expressions.
+  file1.sql line 43:11 There must be spaces between math expressions.
+  file1.sql line 43:12 There must be spaces between math expressions.
+  file1.sql line 43:16 There must be spaces between math expressions.
+  file1.sql line 50:48 Warning: Not space after comma.
+  file1.sql line 12:12 Warning: Function body must be start on: [$$, $_$, $body$].
+  file1.sql line 1:1 The method has an NCSS line count 47 expressions. There should be no more than 40 expressions.
 
 vmargs
 ~~~~~~
