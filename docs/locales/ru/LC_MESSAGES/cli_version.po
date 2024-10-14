@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 17:42+0300\n"
+"POT-Creation-Date: 2024-10-14 18:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,9 +303,8 @@ msgstr ""
 
 #: ../../cli_version.rst:261
 msgid ""
-"Команда **--mode VERIFY** позволяет переключить работу в режим проверки "
-"качества SQL кода для верификации по набору правил. Команды, доступные в "
-"этом режиме:"
+"Команда **--mode VERIFY** позволяет переключить работу в режим "
+"верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
 msgstr ""
 
 #: ../../cli_version.rst:263
@@ -2121,5 +2120,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**общие параметры**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--mode VERIFY** позволяет "
+#~ "переключить работу в режим проверки "
+#~ "качества SQL кода для верификации по "
+#~ "набору правил. Команды, доступные в этом"
+#~ " режиме:"
 #~ msgstr ""
 
