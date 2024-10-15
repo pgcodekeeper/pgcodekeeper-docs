@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 18:15+0300\n"
+"POT-Creation-Date: 2024-10-15 08:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,230 +297,274 @@ msgstr ""
 msgid "Пример вывода результата:"
 msgstr ""
 
-#: ../../cli_version.rst:259
-msgid "verify (beta)"
+#: ../../cli_version.rst:256
+msgid "Манифест зависимостей"
+msgstr ""
+
+#: ../../cli_version.rst:258
+msgid "Манифест добавляется следующими командами."
+msgstr ""
+
+#: ../../cli_version.rst:260
+msgid "**--src-dep-xml** - для источника"
 msgstr ""
 
 #: ../../cli_version.rst:261
+msgid "**--tgt-dep-xml** - для цели(применим только в режиме `DIFF`)"
+msgstr ""
+
+#: ../../cli_version.rst:263
+msgid ""
+"Данный функционал позволяет указывать не янвые зависимости между "
+"объектами(те которые не предусмотренны логикой БД и pgCodeKeeper) в "
+"режима `DIFF`, `INSERT` и `GRAPH`. Манифест представляет собой файл в "
+"фолмате xml и имеет следующий вид."
+msgstr ""
+
+#: ../../cli_version.rst:279
+msgid ""
+"**reference** - одна зависимость, текущая реализация предпологает "
+"отношения один к одному."
+msgstr ""
+
+#: ../../cli_version.rst:280
+msgid "**source** - объект который зависит."
+msgstr ""
+
+#: ../../cli_version.rst:281
+msgid "**target** - объект от которого зависят."
+msgstr ""
+
+#: ../../cli_version.rst:283
+msgid ""
+"В описании объектов заполняйте только необходимые атррибуты на место "
+"отсутствующих проставте пустые ковычки, как это сделано в примере выше."
+msgstr ""
+
+#: ../../cli_version.rst:288
+msgid "verify (beta)"
+msgstr ""
+
+#: ../../cli_version.rst:290
 msgid ""
 "Команда **--mode VERIFY** позволяет переключить работу в режим "
 "верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:263
+#: ../../cli_version.rst:292
 msgid ""
 "**--verify-source <path>** - путь к директории или файлу с исходниками "
 "для проверки."
 msgstr ""
 
-#: ../../cli_version.rst:264
+#: ../../cli_version.rst:293
 msgid "**--verify-rule-set <path>** - путь к файлу с правилами."
 msgstr ""
 
-#: ../../cli_version.rst:266
+#: ../../cli_version.rst:295
 msgid ""
 "Правила настраиваются с помощью файла с расширением properties, который "
 "представляет собой список пар ключ-значение. Список доступных ключей:"
 msgstr ""
 
-#: ../../cli_version.rst:272
+#: ../../cli_version.rst:301
 msgid "Правило"
 msgstr ""
 
-#: ../../cli_version.rst:273
+#: ../../cli_version.rst:302
 msgid "Тип значения"
 msgstr ""
 
-#: ../../cli_version.rst:274
+#: ../../cli_version.rst:303
 msgid "Значение по умолчанию"
 msgstr ""
 
-#: ../../cli_version.rst:275
+#: ../../cli_version.rst:304
 msgid "Описание"
 msgstr ""
 
-#: ../../cli_version.rst:276
+#: ../../cli_version.rst:305
 msgid "check_quotes_in_table_column"
 msgstr ""
 
-#: ../../cli_version.rst:277 ../../cli_version.rst:281
-#: ../../cli_version.rst:285 ../../cli_version.rst:289
-#: ../../cli_version.rst:293 ../../cli_version.rst:297
-#: ../../cli_version.rst:301
+#: ../../cli_version.rst:306 ../../cli_version.rst:310
+#: ../../cli_version.rst:314 ../../cli_version.rst:318
+#: ../../cli_version.rst:322 ../../cli_version.rst:326
+#: ../../cli_version.rst:330
 msgid "boolean"
 msgstr ""
 
-#: ../../cli_version.rst:278 ../../cli_version.rst:282
-#: ../../cli_version.rst:286 ../../cli_version.rst:290
-#: ../../cli_version.rst:294 ../../cli_version.rst:298
-#: ../../cli_version.rst:302
+#: ../../cli_version.rst:307 ../../cli_version.rst:311
+#: ../../cli_version.rst:315 ../../cli_version.rst:319
+#: ../../cli_version.rst:323 ../../cli_version.rst:327
+#: ../../cli_version.rst:331
 msgid "false"
 msgstr ""
 
-#: ../../cli_version.rst:279
+#: ../../cli_version.rst:308
 msgid "проверка отсутствия кавычек в имени столбца таблицы"
 msgstr ""
 
-#: ../../cli_version.rst:280
+#: ../../cli_version.rst:309
 msgid "check_semicolon_after_simple_sql"
 msgstr ""
 
-#: ../../cli_version.rst:283
+#: ../../cli_version.rst:312
 msgid "проверка символа ; после простого sql-выражения в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:284
+#: ../../cli_version.rst:313
 msgid "check_space_after_if"
 msgstr ""
 
-#: ../../cli_version.rst:287
+#: ../../cli_version.rst:316
 msgid "проверка наличия пробела после if в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:288
+#: ../../cli_version.rst:317
 msgid "check_space_on_math"
 msgstr ""
 
-#: ../../cli_version.rst:291
+#: ../../cli_version.rst:320
 msgid ""
 "проверка наличия пробелов до и после математических выражений в теле "
 "функции"
 msgstr ""
 
-#: ../../cli_version.rst:292
+#: ../../cli_version.rst:321
 msgid "check_space_after_comma"
 msgstr ""
 
-#: ../../cli_version.rst:295
+#: ../../cli_version.rst:324
 msgid "проверка наличия пробела после запятой в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:296
+#: ../../cli_version.rst:325
 msgid "check_temp_table"
 msgstr ""
 
-#: ../../cli_version.rst:299
+#: ../../cli_version.rst:328
 msgid "проверка наличия созданий не temp таблицы в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:300
+#: ../../cli_version.rst:329
 msgid "check_indents"
 msgstr ""
 
-#: ../../cli_version.rst:303
+#: ../../cli_version.rst:332
 msgid "проверка отступов в теле функции (в разработке)"
 msgstr ""
 
-#: ../../cli_version.rst:304
+#: ../../cli_version.rst:333
 msgid "indent_size"
 msgstr ""
 
-#: ../../cli_version.rst:305 ../../cli_version.rst:309
-#: ../../cli_version.rst:313 ../../cli_version.rst:317
-#: ../../cli_version.rst:321
+#: ../../cli_version.rst:334 ../../cli_version.rst:338
+#: ../../cli_version.rst:342 ../../cli_version.rst:346
+#: ../../cli_version.rst:350
 msgid "integer"
 msgstr ""
 
-#: ../../cli_version.rst:306
+#: ../../cli_version.rst:335
 msgid "2"
 msgstr ""
 
-#: ../../cli_version.rst:307
+#: ../../cli_version.rst:336
 msgid ""
 "значение отступа в теле функции, используется с check_indents (в "
 "разработке)"
 msgstr ""
 
-#: ../../cli_version.rst:308
+#: ../../cli_version.rst:337
 msgid "cyclomatic_complexity"
 msgstr ""
 
-#: ../../cli_version.rst:310 ../../cli_version.rst:314
-#: ../../cli_version.rst:318 ../../cli_version.rst:322
+#: ../../cli_version.rst:339 ../../cli_version.rst:343
+#: ../../cli_version.rst:347 ../../cli_version.rst:351
 msgid "-1"
 msgstr ""
 
-#: ../../cli_version.rst:311
+#: ../../cli_version.rst:340
 msgid "максимально допустимая вложенность кода в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:312
+#: ../../cli_version.rst:341
 msgid "max_function_length"
 msgstr ""
 
-#: ../../cli_version.rst:315
+#: ../../cli_version.rst:344
 msgid "максимальная длина тела функции (в строках)"
 msgstr ""
 
-#: ../../cli_version.rst:316
+#: ../../cli_version.rst:345
 msgid "max_function_params"
 msgstr ""
 
-#: ../../cli_version.rst:319
+#: ../../cli_version.rst:348
 msgid ""
 "максимальное количество входных параметров функции (без учета OUT "
 "параметров)"
 msgstr ""
 
-#: ../../cli_version.rst:320
+#: ../../cli_version.rst:349
 msgid "method_count"
 msgstr ""
 
-#: ../../cli_version.rst:323
+#: ../../cli_version.rst:352
 msgid "максимально допустимое количество выражений в функции"
 msgstr ""
 
-#: ../../cli_version.rst:324
+#: ../../cli_version.rst:353
 msgid "deny_grant"
 msgstr ""
 
-#: ../../cli_version.rst:325 ../../cli_version.rst:329
+#: ../../cli_version.rst:354 ../../cli_version.rst:358
 msgid "list"
 msgstr ""
 
-#: ../../cli_version.rst:326 ../../cli_version.rst:330
+#: ../../cli_version.rst:355 ../../cli_version.rst:359
 msgid "`-`"
 msgstr ""
 
-#: ../../cli_version.rst:327
+#: ../../cli_version.rst:356
 msgid "список пользователей, которым запрещено выдавать права"
 msgstr ""
 
-#: ../../cli_version.rst:328
+#: ../../cli_version.rst:357
 msgid "allowed_function_start"
 msgstr ""
 
-#: ../../cli_version.rst:331
+#: ../../cli_version.rst:360
 msgid ""
 "список допустимых значений, с которых может начинаться функция и проверка"
 " наличия переноса в начале функции"
 msgstr ""
 
-#: ../../cli_version.rst:333
+#: ../../cli_version.rst:362
 msgid "Пример файла с настройками"
 msgstr ""
 
-#: ../../cli_version.rst:351
+#: ../../cli_version.rst:380
 msgid "Пример команды для верификации кода:"
 msgstr ""
 
-#: ../../cli_version.rst:362
+#: ../../cli_version.rst:391
 msgid "Пример вывода результата"
 msgstr ""
 
-#: ../../cli_version.rst:385
+#: ../../cli_version.rst:414
 msgid "vmargs"
 msgstr ""
 
-#: ../../cli_version.rst:386
+#: ../../cli_version.rst:415
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr ""
 
-#: ../../cli_version.rst:388
+#: ../../cli_version.rst:417
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:394
+#: ../../cli_version.rst:423
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"

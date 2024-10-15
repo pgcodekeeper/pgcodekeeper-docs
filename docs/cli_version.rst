@@ -252,36 +252,6 @@ insert
 
    COMMIT TRANSACTION;
 
-Манифест зависимостей
-~~~~~~~~~~~~~~~~~~~~~
-
-Манифест добавляется следующими командами.
-
-- **--src-dep-xml** - для источника
-- **--tgt-dep-xml** - для цели(применим только в режиме `DIFF`)
-
-Данный функционал позволяет указывать не янвые зависимости между объектами(те которые не предусмотренны логикой БД и pgCodeKeeper) в режима `DIFF`, `INSERT` и `GRAPH`. Манифест представляет собой файл в фолмате xml и имеет следующий вид.
-
-::
-
-    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-    <root>
-        <reference>
-            <source schema="sourceSchema1" table="sourceTable1" column="sourceColumn1" type="COLUMN"/>
-            <target schema="targetSchema1" table="targetTable1" column="targetColumn1" type="COLUMN"/>
-        </reference>
-        <reference>
-            <source schema="sourceSchema2" table="sourceTable2" column="" type="TABLE"/>
-            <target schema="targetSchema2" table="" column="" type="SCHEMA"/>
-        </reference>
-    </root>
-
-- **reference** - одна зависимость, текущая реализация предпологает отношения один к одному.
-- **source** - объект который зависит.
-- **target** - объект от которого зависят.
-
-В описании объектов заполняйте только необходимые атррибуты на место отсутствующих проставте пустые ковычки, как это сделано в примере выше.
-
 .. _verifyMode :
 
 verify (beta)
@@ -409,6 +379,36 @@ verify (beta)
   file1.sql line 50:48 Warning: Not space after comma.
   file1.sql line 12:12 Warning: Function body must be start on: [$$, $_$, $body$].
   file1.sql line 1:1 The method has an NCSS line count 47 expressions. There should be no more than 40 expressions.
+
+Манифест зависимостей
+~~~~~~~~~~~~~~~~~~~~~
+
+Манифест добавляется следующими командами.
+
+- **--src-dep-xml** - для источника
+- **--tgt-dep-xml** - для цели(применим только в режиме `DIFF`)
+
+Данный функционал позволяет указывать не янвые зависимости между объектами(те которые не предусмотренны логикой БД и pgCodeKeeper) в режима `DIFF`, `INSERT` и `GRAPH`. Манифест представляет собой файл в фолмате xml и имеет следующий вид.
+
+::
+
+    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <root>
+        <reference>
+            <source schema="sourceSchema1" table="sourceTable1" column="sourceColumn1" type="COLUMN"/>
+            <target schema="targetSchema1" table="targetTable1" column="targetColumn1" type="COLUMN"/>
+        </reference>
+        <reference>
+            <source schema="sourceSchema2" table="sourceTable2" column="" type="TABLE"/>
+            <target schema="targetSchema2" table="" column="" type="SCHEMA"/>
+        </reference>
+    </root>
+
+- **reference** - одна зависимость, текущая реализация предпологает отношения один к одному.
+- **source** - объект который зависит.
+- **target** - объект от которого зависят.
+
+В описании объектов заполняйте только необходимые атррибуты на место отсутствующих проставте пустые ковычки, как это сделано в примере выше.
 
 vmargs
 ~~~~~~
