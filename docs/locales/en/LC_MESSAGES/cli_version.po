@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 15:47+0300\n"
-"PO-Revision-Date: 2024-08-19 11:54\n"
+"POT-Creation-Date: 2024-10-14 18:15+0300\n"
+"PO-Revision-Date: 2024-10-15 05:58\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,8 @@ msgid "Начало работы"
 msgstr "Getting Started"
 
 #: ../../cli_version.rst:12
-msgid "Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы."
-msgstr "First off, install `Java SDK <https://jdk.dev/>`_ for your platform."
+msgid "Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ для вашей платформы."
+msgstr "First off, install `Java SDK <https://adoptium.net/temurin/releases/>`_ for your platform."
 
 #: ../../cli_version.rst:14
 msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
@@ -46,7 +46,7 @@ msgstr "Operation modes"
 msgid "Полный набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду: ::"
 msgstr "You can view the full set of parameters available for working with the program by executing the command: ::"
 
-#: ../../cli_version.rst:28
+#: ../../cli_version.rst:29
 msgid "Консольная версия имеет следующие режимы работы:"
 msgstr "The console version has the following operation modes:"
 
@@ -66,189 +66,390 @@ msgstr ":ref:`graphMode`"
 msgid ":ref:`insertMode`"
 msgstr ":ref:`insertMode`"
 
-#: ../../cli_version.rst:33
+#: ../../cli_version.rst:29
+msgid ":ref:`verifyMode`"
+msgstr ":ref:`verifyMode`"
+
+#: ../../cli_version.rst:34
 msgid "diff"
 msgstr "diff"
 
-#: ../../cli_version.rst:35
+#: ../../cli_version.rst:36
 msgid "Режим по-умолчанию, команда для вызова **--mode DIFF**. Сравнивает два источника данных и формирует скрипт миграции. В качестве источника данных может использоваться дамп, проект pgCodeKeeper или база данных."
 msgstr "This is the default mode, **--mode DIFF** command to call. It compares the two sources and generates a migration script. A dump, a pgCodeKeeper project, or a database can be used as a data source."
 
-#: ../../cli_version.rst:37
+#: ../../cli_version.rst:38
 msgid "Пример команды для сравнения двух баз данных PostgreSQL и сохранения скрипта миграции в файл. ::"
 msgstr "Example of a command for comparing two PostgreSQL databases and saving the migration script to the file. ::"
 
-#: ../../cli_version.rst:46
+#: ../../cli_version.rst:47
 msgid "**--db-type PG** - тип БД."
 msgstr "**--db-type PG** - database type."
 
-#: ../../cli_version.rst:47
+#: ../../cli_version.rst:48
 msgid "**-s <url>** - путь до источника изменений."
 msgstr "**-s <url>** - path to the source of changes."
 
-#: ../../cli_version.rst:48
+#: ../../cli_version.rst:49
 msgid "**-t <url>** - путь до приемника изменений."
 msgstr "**-t <url>** - path to the recipient of changes."
 
-#: ../../cli_version.rst:49
+#: ../../cli_version.rst:50
 msgid "**- o <path>** - путь до файла, куда будет сохранен скрипт миграции. Без этого параметра результат отобразится в консоли."
 msgstr "**- o <path>** - path to the file the migration script is going to be saved to. If you don't specify this parameter, the result will be displayed in the console."
 
-#: ../../cli_version.rst:51
+#: ../../cli_version.rst:52
 msgid "Сами указатели `-s / --source` и `-t / --target` (не <url>) могут быть опущены, тогда первые два аргумента без указателя будут использоваться в качестве источника и приемника соответственно."
 msgstr "You can omit the `-s / --source` and `-t / --target` indices (not <url>). If you do that, the first two arguments without an index will be used as a source and a recipient respectively."
 
-#: ../../cli_version.rst:53
+#: ../../cli_version.rst:54
 msgid "Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль. ::"
 msgstr "Example of a command for comparing an MS SQL project and a database and displaying the result in the console. ::"
 
-#: ../../cli_version.rst:63
+#: ../../cli_version.rst:64
 msgid "Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных. ::"
 msgstr "Example of a command for comparing a ClickHouse dump and a database and executing the script in the same database. ::"
 
-#: ../../cli_version.rst:74 ../../cli_version.rst:173
+#: ../../cli_version.rst:75 ../../cli_version.rst:174
 msgid "Пример вывода результата: ::"
 msgstr "Example of a result output: ::"
 
-#: ../../cli_version.rst:90
+#: ../../cli_version.rst:91
 msgid "parse"
 msgstr "parse"
 
-#: ../../cli_version.rst:92
+#: ../../cli_version.rst:93
 msgid "Команда **--mode PARSE** позволяет переключить работу в режим сохранения базы данных в виде проекта. Команды, доступные в этом режиме:"
 msgstr "**--mode PARSE** is a command that allows you to enable saving the database as a project. In this mode, the following commands are available:"
 
-#: ../../cli_version.rst:94
+#: ../../cli_version.rst:95
 msgid "**--update-project** - обновление существующего проекта."
 msgstr "**--update-project** - update of an existing project."
 
-#: ../../cli_version.rst:96
+#: ../../cli_version.rst:97
 msgid "Пример команды для создания нового проекта на основе данной БД. ::"
 msgstr "Example of a command for creating a new project based on this database. ::"
 
-#: ../../cli_version.rst:105 ../../cli_version.rst:149
-#: ../../cli_version.rst:214 ../../cli_version.rst:232
+#: ../../cli_version.rst:106 ../../cli_version.rst:150
+#: ../../cli_version.rst:215 ../../cli_version.rst:233
 msgid "где"
 msgstr "where"
 
-#: ../../cli_version.rst:107 ../../cli_version.rst:151
-#: ../../cli_version.rst:216
+#: ../../cli_version.rst:108 ../../cli_version.rst:152
+#: ../../cli_version.rst:217
 msgid "**--db-type <type>** - тип БД."
 msgstr "**--db-type <type>** - database type."
 
-#: ../../cli_version.rst:108
+#: ../../cli_version.rst:109
 msgid "**-o <path>** - указание пути, куда будет сохранен проект."
 msgstr "**-o <path>** - path the project is going to be saved to."
 
-#: ../../cli_version.rst:110
+#: ../../cli_version.rst:111
 msgid "Пример команды для обновления существующего проекта на основе данной БД. ::"
 msgstr "Example of a command for updating an existing project based on this database. ::"
 
-#: ../../cli_version.rst:123
+#: ../../cli_version.rst:124
 msgid "graph"
 msgstr "graph"
 
-#: ../../cli_version.rst:125
+#: ../../cli_version.rst:126
 msgid "Команда **--mode GRAPH** позволяет переключить работу в режим поиска зависимостей объекта. Команды, доступные в этом режиме:"
 msgstr "**--mode GRAPH** is a command that allows you to enable search for dependencies of an object. In this mode, the following commands are available:"
 
-#: ../../cli_version.rst:127
+#: ../../cli_version.rst:128
 msgid "**--graph-name <object_name>**  - имя искомого объекта, поддерживает регулярные выражения, при отсутствии параметра, будут показаны зависимости всех объектов. Для функций сигнатура является частью имени."
 msgstr "**--graph-name <object_name>**  - name of the target object, it supports regular expressions. If this parameter is not specified, the dependencies of all objects will be displayed. For functions, the signature is part of the name."
 
-#: ../../cli_version.rst:128
+#: ../../cli_version.rst:129
 msgid "**--graph-reverse**  - обратное направление поиска зависимостей, с данным параметром выполняется поиск объектов, от которых зависит искомый объект. Без этого параметра выполняется поиск всех объектов, которые зависят от искомого."
 msgstr "**--graph-reverse**  - reverse direction of search for dependencies. If this parameter is enabled, the system is searching for objects that the target object depends on. If it's disabled, the system is searching for all the objects that depend on the target one."
 
-#: ../../cli_version.rst:129
+#: ../../cli_version.rst:130
 msgid "**--graph-depth <n>** - глубина поиска зависимостей, по-умолчанию 10."
 msgstr "**--graph-depth <n>** - dependencies search depth. By default, it's 10."
 
-#: ../../cli_version.rst:130
+#: ../../cli_version.rst:131
 msgid "**--graph-filter-object <OBJECT_TYPE>** - фильтрация зависимых объектов по типу, отображаются только выбранные типы объектов."
 msgstr "**--graph-filter-object <OBJECT_TYPE>** - filtering of dependent objects by type, with displaying only the selected object types."
 
-#: ../../cli_version.rst:131
+#: ../../cli_version.rst:132
 msgid "**--graph-invert-filter** - изменение поведения параметра **--graph-filter-object**, выбранные типы объектов скрываются."
 msgstr "**--graph-invert-filter** - changing the **--graph-filter-object** parameter operations. The object types you select will be hidden."
 
-#: ../../cli_version.rst:133
+#: ../../cli_version.rst:134
 msgid "Пример команды для поиска зависимостей в локальном проекте: ::"
 msgstr "Example of a command for searching for dependencies in a local project: ::"
 
-#: ../../cli_version.rst:152
+#: ../../cli_version.rst:153
 msgid "**--enable-function-bodies-dependencies** - поиск зависимостей в телах функций."
 msgstr "**--enable-function-bodies-dependencies** - search for dependencies in function bodies."
 
-#: ../../cli_version.rst:153
+#: ../../cli_version.rst:154
 msgid "**--src-lib-xml <path>** - файл библиотек для проекта."
 msgstr "**--src-lib-xml <path>** - file with libraries for the project."
 
-#: ../../cli_version.rst:154 ../../cli_version.rst:218
+#: ../../cli_version.rst:155 ../../cli_version.rst:219
 msgid "**-o <path>** - файл, куда запишется результат, без этого параметра вывод отобразится в консоли."
 msgstr "**-o <path>** - file the result is going to be recorded to. If you don't specifiy this parameter, the output will be displayed in the console."
 
-#: ../../cli_version.rst:155
+#: ../../cli_version.rst:156
 msgid "**/path/to/rep/** - путь до проекта или url базы данных."
 msgstr "**/path/to/rep/** - path to project or database url."
 
-#: ../../cli_version.rst:157
+#: ../../cli_version.rst:158
 msgid "Пример команды для поиска зависимостей в MS SQL базе: ::"
 msgstr "Example of a command for searching for dependencies in an MS SQL database: ::"
 
-#: ../../cli_version.rst:193
+#: ../../cli_version.rst:194
 msgid "insert"
 msgstr "insert"
 
-#: ../../cli_version.rst:195
+#: ../../cli_version.rst:196
 msgid "Команда **--mode INSERT** позволяет переключить работу в режим сбора данных из базы источника с учетом зависимостей по FK. Команды, доступные в этом режиме:"
 msgstr "**--mode INSERT** is a command that allows you to enable gathering data from the source database taking into account the FK dependencies. In this mode, the following commands are available:"
 
-#: ../../cli_version.rst:197
+#: ../../cli_version.rst:198
 msgid "**--insert-name <table_name>** - имя таблицы, для который собираются данные."
 msgstr "**--insert-name <table_name>** - name of the table the data is gathered for."
 
-#: ../../cli_version.rst:198
+#: ../../cli_version.rst:199
 msgid "**--insert-filter <filter>** - условие по которому будут собираться данные из первоначальной таблицы."
 msgstr "**--insert-filter <filter>** - condition under which the data will be gathered from the initial table."
 
-#: ../../cli_version.rst:200
+#: ../../cli_version.rst:201
 msgid "В данном режиме геометрические типы оборачиваются в специальные функции с указанием типа геометрии **4326**."
 msgstr "In this mode, geometric types are wrapped in special functions with specifying the geometry type **4326**."
 
-#: ../../cli_version.rst:202
+#: ../../cli_version.rst:203
 msgid "Пример команды для сбора данных в локальный файл: ::"
 msgstr "Example of a command for gathering the data into a local file: ::"
 
-#: ../../cli_version.rst:217
+#: ../../cli_version.rst:218
 msgid "**-X** - оборачивает сгенерированный скрипт в транзакцию."
 msgstr "**-X** - wraps the generated script into a transaction."
 
-#: ../../cli_version.rst:220
+#: ../../cli_version.rst:221
 msgid "Пример команды для сбора данных и выполнения скрипта в БД: ::"
 msgstr "Example of a command for gathering the data and executing a script in the database: ::"
 
-#: ../../cli_version.rst:234
+#: ../../cli_version.rst:235
 msgid "**-R <url>** - база данных, в которой будет выполнен полученный скрипт."
 msgstr "**-R <url>** - database where the resulting scrip is going to be executed."
 
-#: ../../cli_version.rst:236
+#: ../../cli_version.rst:237
 msgid "Пример вывода результата:"
 msgstr "Example of a result output:"
 
-#: ../../cli_version.rst:256
+#: ../../cli_version.rst:259
+msgid "verify (beta)"
+msgstr "verify (beta)"
+
+#: ../../cli_version.rst:261
+msgid "Команда **--mode VERIFY** позволяет переключить работу в режим верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
+msgstr ""
+
+#: ../../cli_version.rst:263
+msgid "**--verify-source <path>** - путь к директории или файлу с исходниками для проверки."
+msgstr ""
+
+#: ../../cli_version.rst:264
+msgid "**--verify-rule-set <path>** - путь к файлу с правилами."
+msgstr ""
+
+#: ../../cli_version.rst:266
+msgid "Правила настраиваются с помощью файла с расширением properties, который представляет собой список пар ключ-значение. Список доступных ключей:"
+msgstr ""
+
+#: ../../cli_version.rst:272
+msgid "Правило"
+msgstr ""
+
+#: ../../cli_version.rst:273
+msgid "Тип значения"
+msgstr ""
+
+#: ../../cli_version.rst:274
+msgid "Значение по умолчанию"
+msgstr ""
+
+#: ../../cli_version.rst:275
+msgid "Описание"
+msgstr ""
+
+#: ../../cli_version.rst:276
+msgid "check_quotes_in_table_column"
+msgstr ""
+
+#: ../../cli_version.rst:277 ../../cli_version.rst:281
+#: ../../cli_version.rst:285 ../../cli_version.rst:289
+#: ../../cli_version.rst:293 ../../cli_version.rst:297
+#: ../../cli_version.rst:301
+msgid "boolean"
+msgstr "boolean"
+
+#: ../../cli_version.rst:278 ../../cli_version.rst:282
+#: ../../cli_version.rst:286 ../../cli_version.rst:290
+#: ../../cli_version.rst:294 ../../cli_version.rst:298
+#: ../../cli_version.rst:302
+msgid "false"
+msgstr "false"
+
+#: ../../cli_version.rst:279
+msgid "проверка отсутствия кавычек в имени столбца таблицы"
+msgstr ""
+
+#: ../../cli_version.rst:280
+msgid "check_semicolon_after_simple_sql"
+msgstr "check_semicolon_after_simple_sql"
+
+#: ../../cli_version.rst:283
+msgid "проверка символа ; после простого sql-выражения в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:284
+msgid "check_space_after_if"
+msgstr "check_space_after_if"
+
+#: ../../cli_version.rst:287
+msgid "проверка наличия пробела после if в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:288
+msgid "check_space_on_math"
+msgstr "check_space_on_math"
+
+#: ../../cli_version.rst:291
+msgid "проверка наличия пробелов до и после математических выражений в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:292
+msgid "check_space_after_comma"
+msgstr "check_space_after_comma"
+
+#: ../../cli_version.rst:295
+msgid "проверка наличия пробела после запятой в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:296
+msgid "check_temp_table"
+msgstr "check_temp_table"
+
+#: ../../cli_version.rst:299
+msgid "проверка наличия созданий не temp таблицы в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:300
+msgid "check_indents"
+msgstr "check_indents"
+
+#: ../../cli_version.rst:303
+msgid "проверка отступов в теле функции (в разработке)"
+msgstr ""
+
+#: ../../cli_version.rst:304
+msgid "indent_size"
+msgstr "indent_size"
+
+#: ../../cli_version.rst:305 ../../cli_version.rst:309
+#: ../../cli_version.rst:313 ../../cli_version.rst:317
+#: ../../cli_version.rst:321
+msgid "integer"
+msgstr "integer"
+
+#: ../../cli_version.rst:306
+msgid "2"
+msgstr "2"
+
+#: ../../cli_version.rst:307
+msgid "значение отступа в теле функции, используется с check_indents (в разработке)"
+msgstr ""
+
+#: ../../cli_version.rst:308
+msgid "cyclomatic_complexity"
+msgstr "cyclomatic_complexity"
+
+#: ../../cli_version.rst:310 ../../cli_version.rst:314
+#: ../../cli_version.rst:318 ../../cli_version.rst:322
+msgid "-1"
+msgstr "-1"
+
+#: ../../cli_version.rst:311
+msgid "максимально допустимая вложенность кода в теле функции"
+msgstr ""
+
+#: ../../cli_version.rst:312
+msgid "max_function_length"
+msgstr "max_function_length"
+
+#: ../../cli_version.rst:315
+msgid "максимальная длина тела функции (в строках)"
+msgstr ""
+
+#: ../../cli_version.rst:316
+msgid "max_function_params"
+msgstr "max_function_params"
+
+#: ../../cli_version.rst:319
+msgid "максимальное количество входных параметров функции (без учета OUT параметров)"
+msgstr ""
+
+#: ../../cli_version.rst:320
+msgid "method_count"
+msgstr "method_count"
+
+#: ../../cli_version.rst:323
+msgid "максимально допустимое количество выражений в функции"
+msgstr ""
+
+#: ../../cli_version.rst:324
+msgid "deny_grant"
+msgstr "deny_grant"
+
+#: ../../cli_version.rst:325 ../../cli_version.rst:329
+msgid "list"
+msgstr "list"
+
+#: ../../cli_version.rst:326 ../../cli_version.rst:330
+msgid "`-`"
+msgstr "`-`"
+
+#: ../../cli_version.rst:327
+msgid "список пользователей, которым запрещено выдавать права"
+msgstr ""
+
+#: ../../cli_version.rst:328
+msgid "allowed_function_start"
+msgstr "allowed_function_start"
+
+#: ../../cli_version.rst:331
+msgid "список допустимых значений, с которых может начинаться функция и проверка наличия переноса в начале функции"
+msgstr ""
+
+#: ../../cli_version.rst:333
+msgid "Пример файла с настройками"
+msgstr ""
+
+#: ../../cli_version.rst:351
+msgid "Пример команды для верификации кода:"
+msgstr ""
+
+#: ../../cli_version.rst:362
+msgid "Пример вывода результата"
+msgstr ""
+
+#: ../../cli_version.rst:385
 msgid "vmargs"
 msgstr "vmargs"
 
-#: ../../cli_version.rst:257
+#: ../../cli_version.rst:386
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr "All parameters after **-vmargs** will be transferred to VM."
 
-#: ../../cli_version.rst:259
+#: ../../cli_version.rst:388
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr "Usage with restrictions of the memory used:"
 
-#: ../../cli_version.rst:265
+#: ../../cli_version.rst:394
 msgid "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать количество потоков парсера:"
 msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to specify the number of parser threads:"
 
@@ -1528,5 +1729,331 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 #~ " качестве источника данных может "
 #~ "использоваться дамп, проект pgCodeKeeper или"
 #~ " база данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://jdk.dev/>`_ для вашей платформы."
+#~ msgstr ""
+
+#~ msgid "Список правил для проверки хранится в файле rules.properties."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Стилистические правила. Могут принимать "
+#~ "значение true - включить проверку или"
+#~ " false - выключить проверку (дефолтное "
+#~ "значение)."
+#~ msgstr ""
+
+#~ msgid "**check_indents** - проверка отступов."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Список правил для проверки хранится в"
+#~ " файле rules.properties. Стилистические правила."
+#~ " Могут принимать значение true - "
+#~ "включить проверку или false - выключить"
+#~ " проверку (дефолтное значение)."
+#~ msgstr ""
+
+#~ msgid "**check_indents** - проверка отступов. (в разработке)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_quotes_in_table_column** - проверка наличия"
+#~ " кавычек в имени столбца таблицы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_semicolon_after_simple_sql** - проверка "
+#~ "символа ; после простого sql-выражения."
+#~ msgstr ""
+
+#~ msgid "**check_space_after_if**  - проверка наличия пробела после if."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_space_on_math** - проверка наличия "
+#~ "пробелов до и после математических "
+#~ "выражений."
+#~ msgstr ""
+
+#~ msgid "**check_space_after_comma** - проверка наличия пробела после запятой."
+#~ msgstr ""
+
+#~ msgid "Базовые правила."
+#~ msgstr ""
+
+#~ msgid "**deny_grant** - проверка на группу, которой выдаются права."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_case_without_else** - проверка использования"
+#~ " else в блоке case. Может быть "
+#~ "значение true или false (дефолтное "
+#~ "значение)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**check_temp_table** - проверка создания "
+#~ "таблицы. Допустимо создание только временной"
+#~ " таблицы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**cyclomatic_complexity** - проверка сложности "
+#~ "кода. Код считается сложным если в "
+#~ "нем вложенность больше указанного значения."
+#~ msgstr ""
+
+#~ msgid "**indent_size** - дефолтное значение отступа."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**allowed_function_start** - проверка первых "
+#~ "символов тела функции. Тело функции "
+#~ "должно начинаться с этих символов. "
+#~ "Например: $$, $_$, $BODY$."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**max_function_length** - проверка на длину"
+#~ " функции. Размер функции не должен "
+#~ "быть больше указанного значения (количества"
+#~ " строк)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**max_function_params** - проверка количества "
+#~ "входных параметров. Число параметров не "
+#~ "должно быть больше указанного значения. "
+#~ "Параметры с ключевым словом OUT при "
+#~ "подсчете не учитываются."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**method_count** - проверка количества "
+#~ "выражений в функции. Количество выражений "
+#~ "не должно быть больше указанного "
+#~ "значения."
+#~ msgstr ""
+
+#~ msgid ":scale:50%"
+#~ msgstr ""
+
+#~ msgid "Правило"
+#~ msgstr ""
+
+#~ msgid "Тип Значения"
+#~ msgstr ""
+
+#~ msgid "Значение по умолчанию"
+#~ msgstr ""
+
+#~ msgid "Описание"
+#~ msgstr ""
+
+#~ msgid "check_quotes_in_table_column"
+#~ msgstr ""
+
+#~ msgid "true / false"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "проверка отсутствия кавычек в имени столбца таблицы"
+#~ msgstr ""
+
+#~ msgid "check_semicolon_after_simple_sql"
+#~ msgstr ""
+
+#~ msgid "проверка символа ; после простого sql-выражения"
+#~ msgstr ""
+
+#~ msgid "check_space_after_if"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробела после if"
+#~ msgstr ""
+
+#~ msgid "check_space_on_math"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробелов до и после математических выражений"
+#~ msgstr ""
+
+#~ msgid "check_space_after_comma"
+#~ msgstr ""
+
+#~ msgid "проверка наличия пробела после запятой"
+#~ msgstr ""
+
+#~ msgid "check_temp_table"
+#~ msgstr ""
+
+#~ msgid "проверка наличия созданий не temp таблицы"
+#~ msgstr ""
+
+#~ msgid "check_indents"
+#~ msgstr ""
+
+#~ msgid "проверка отступов (в разработке)"
+#~ msgstr ""
+
+#~ msgid "indent_size"
+#~ msgstr ""
+
+#~ msgid "число"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "значение отступа, используется с check_indents (в разработке)"
+#~ msgstr ""
+
+#~ msgid "cyclomatic_complexity"
+#~ msgstr ""
+
+#~ msgid "-1"
+#~ msgstr ""
+
+#~ msgid "максимально допустимая вложенность кода"
+#~ msgstr ""
+
+#~ msgid "max_function_length"
+#~ msgstr ""
+
+#~ msgid "максимальная длина функции (в строках)"
+#~ msgstr ""
+
+#~ msgid "max_function_params"
+#~ msgstr ""
+
+#~ msgid "максимальное количество входных параметров (без учета OUT параметров)"
+#~ msgstr ""
+
+#~ msgid "method_count"
+#~ msgstr ""
+
+#~ msgid "максимально допустимое количество выражений в функции"
+#~ msgstr ""
+
+#~ msgid "deny_grant"
+#~ msgstr ""
+
+#~ msgid "список"
+#~ msgstr ""
+
+#~ msgid "список пользователей, которым запрещено выдавать права"
+#~ msgstr ""
+
+#~ msgid "allowed_function_start"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "список допустимых значений, с которых "
+#~ "может начинаться функция и проверка "
+#~ "наличия переноса в начале функции"
+#~ msgstr ""
+
+#~ msgid "'-'"
+#~ msgstr ""
+
+#~ msgid "\"-\""
+#~ msgstr ""
+
+#~ msgid "Тип значения"
+#~ msgstr ""
+
+#~ msgid "`-`"
+#~ msgstr ""
+
+#~ msgid "**check_semicolon_after_simple_sql**"
+#~ msgstr ""
+
+#~ msgid "true/false"
+#~ msgstr ""
+
+#~ msgid "*check_semicolon_after_simple_sql*"
+#~ msgstr ""
+
+#~ msgid "`check_semicolon_after_simple_sql`"
+#~ msgstr ""
+
+#~ msgid "'check_semicolon_after_simple_sql'"
+#~ msgstr ""
+
+#~ msgid "\"check_space_after_if\""
+#~ msgstr ""
+
+#~ msgid "_check_semicolon_after_simple_sql:"
+#~ msgstr ""
+
+#~ msgid "::check_space_after_if"
+#~ msgstr ""
+
+#~ msgid "code"
+#~ msgstr ""
+
+#~ msgid "`check_quotes_in_table_column`"
+#~ msgstr ""
+
+#~ msgid ":code:`check_quotes_in_table_column`"
+#~ msgstr ""
+
+#~ msgid ":code:`check_semicolon_after_simple_sql`"
+#~ msgstr ""
+
+#~ msgid ":code:`boolean`"
+#~ msgstr ""
+
+#~ msgid "Пример:"
+#~ msgstr ""
+
+#~ msgid "verify"
+#~ msgstr ""
+
+#~ msgid "Тип"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--mode VERIFY** позволяет "
+#~ "переключить работу в режим проверки "
+#~ "качества SQL кода, которая позволяет "
+#~ "верифицировать код по стилистическим и "
+#~ "базовыми правилам. Команды, доступные в "
+#~ "этом режиме:"
+#~ msgstr ""
+
+#~ msgid "Пример команды для поиска зависимостей в локальном проекте:"
+#~ msgstr ""
+
+#~ msgid "boolean"
+#~ msgstr ""
+
+#~ msgid "integer"
+#~ msgstr ""
+
+#~ msgid "list"
+#~ msgstr ""
+
+#~ msgid "для функций"
+#~ msgstr ""
+
+#~ msgid "**для функций**"
+#~ msgstr ""
+
+#~ msgid "**общие параметры**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Команда **--mode VERIFY** позволяет "
+#~ "переключить работу в режим проверки "
+#~ "качества SQL кода для верификации по "
+#~ "набору правил. Команды, доступные в этом"
+#~ " режиме:"
 #~ msgstr ""
 
