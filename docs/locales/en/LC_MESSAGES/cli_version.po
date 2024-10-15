@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-14 18:15+0300\n"
-"PO-Revision-Date: 2024-10-14 16:01\n"
+"PO-Revision-Date: 2024-10-15 05:58\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr ":ref:`insertMode`"
 
 #: ../../cli_version.rst:29
 msgid ":ref:`verifyMode`"
-msgstr ""
+msgstr ":ref:`verifyMode`"
 
 #: ../../cli_version.rst:34
 msgid "diff"
@@ -242,7 +242,7 @@ msgstr "Example of a result output:"
 
 #: ../../cli_version.rst:259
 msgid "verify (beta)"
-msgstr ""
+msgstr "verify (beta)"
 
 #: ../../cli_version.rst:261
 msgid "Команда **--mode VERIFY** позволяет переключить работу в режим верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
@@ -285,14 +285,14 @@ msgstr ""
 #: ../../cli_version.rst:293 ../../cli_version.rst:297
 #: ../../cli_version.rst:301
 msgid "boolean"
-msgstr ""
+msgstr "boolean"
 
 #: ../../cli_version.rst:278 ../../cli_version.rst:282
 #: ../../cli_version.rst:286 ../../cli_version.rst:290
 #: ../../cli_version.rst:294 ../../cli_version.rst:298
 #: ../../cli_version.rst:302
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #: ../../cli_version.rst:279
 msgid "проверка отсутствия кавычек в имени столбца таблицы"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: ../../cli_version.rst:280
 msgid "check_semicolon_after_simple_sql"
-msgstr ""
+msgstr "check_semicolon_after_simple_sql"
 
 #: ../../cli_version.rst:283
 msgid "проверка символа ; после простого sql-выражения в теле функции"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../../cli_version.rst:284
 msgid "check_space_after_if"
-msgstr ""
+msgstr "check_space_after_if"
 
 #: ../../cli_version.rst:287
 msgid "проверка наличия пробела после if в теле функции"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: ../../cli_version.rst:288
 msgid "check_space_on_math"
-msgstr ""
+msgstr "check_space_on_math"
 
 #: ../../cli_version.rst:291
 msgid "проверка наличия пробелов до и после математических выражений в теле функции"
@@ -324,7 +324,7 @@ msgstr ""
 
 #: ../../cli_version.rst:292
 msgid "check_space_after_comma"
-msgstr ""
+msgstr "check_space_after_comma"
 
 #: ../../cli_version.rst:295
 msgid "проверка наличия пробела после запятой в теле функции"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: ../../cli_version.rst:296
 msgid "check_temp_table"
-msgstr ""
+msgstr "check_temp_table"
 
 #: ../../cli_version.rst:299
 msgid "проверка наличия созданий не temp таблицы в теле функции"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: ../../cli_version.rst:300
 msgid "check_indents"
-msgstr ""
+msgstr "check_indents"
 
 #: ../../cli_version.rst:303
 msgid "проверка отступов в теле функции (в разработке)"
@@ -348,17 +348,17 @@ msgstr ""
 
 #: ../../cli_version.rst:304
 msgid "indent_size"
-msgstr ""
+msgstr "indent_size"
 
 #: ../../cli_version.rst:305 ../../cli_version.rst:309
 #: ../../cli_version.rst:313 ../../cli_version.rst:317
 #: ../../cli_version.rst:321
 msgid "integer"
-msgstr ""
+msgstr "integer"
 
 #: ../../cli_version.rst:306
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../cli_version.rst:307
 msgid "значение отступа в теле функции, используется с check_indents (в разработке)"
@@ -366,12 +366,12 @@ msgstr ""
 
 #: ../../cli_version.rst:308
 msgid "cyclomatic_complexity"
-msgstr ""
+msgstr "cyclomatic_complexity"
 
 #: ../../cli_version.rst:310 ../../cli_version.rst:314
 #: ../../cli_version.rst:318 ../../cli_version.rst:322
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 #: ../../cli_version.rst:311
 msgid "максимально допустимая вложенность кода в теле функции"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: ../../cli_version.rst:312
 msgid "max_function_length"
-msgstr ""
+msgstr "max_function_length"
 
 #: ../../cli_version.rst:315
 msgid "максимальная длина тела функции (в строках)"
@@ -387,7 +387,7 @@ msgstr ""
 
 #: ../../cli_version.rst:316
 msgid "max_function_params"
-msgstr ""
+msgstr "max_function_params"
 
 #: ../../cli_version.rst:319
 msgid "максимальное количество входных параметров функции (без учета OUT параметров)"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: ../../cli_version.rst:320
 msgid "method_count"
-msgstr ""
+msgstr "method_count"
 
 #: ../../cli_version.rst:323
 msgid "максимально допустимое количество выражений в функции"
@@ -403,15 +403,15 @@ msgstr ""
 
 #: ../../cli_version.rst:324
 msgid "deny_grant"
-msgstr ""
+msgstr "deny_grant"
 
 #: ../../cli_version.rst:325 ../../cli_version.rst:329
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #: ../../cli_version.rst:326 ../../cli_version.rst:330
 msgid "`-`"
-msgstr ""
+msgstr "`-`"
 
 #: ../../cli_version.rst:327
 msgid "список пользователей, которым запрещено выдавать права"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../cli_version.rst:328
 msgid "allowed_function_start"
-msgstr ""
+msgstr "allowed_function_start"
 
 #: ../../cli_version.rst:331
 msgid "список допустимых значений, с которых может начинаться функция и проверка наличия переноса в начале функции"
