@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-14 18:15+0300\n"
-"PO-Revision-Date: 2024-10-16 11:58\n"
+"PO-Revision-Date: 2024-10-16 13:23\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -250,35 +250,35 @@ msgstr "**--mode VERIFY** allows you to switch the work to the SQL code verifica
 
 #: ../../cli_version.rst:263
 msgid "**--verify-source <path>** - путь к директории или файлу с исходниками для проверки."
-msgstr ""
+msgstr "**--verify-source <path>** - path to the directory or file with sources to be verified."
 
 #: ../../cli_version.rst:264
 msgid "**--verify-rule-set <path>** - путь к файлу с правилами."
-msgstr ""
+msgstr "**--verify-rule-set <path>** - path to the file containing rules."
 
 #: ../../cli_version.rst:266
 msgid "Правила настраиваются с помощью файла с расширением properties, который представляет собой список пар ключ-значение. Список доступных ключей:"
-msgstr ""
+msgstr "Rules are set using the file with the .properties extension which contains a list of key-value pairs. Here is the list of available keys:"
 
 #: ../../cli_version.rst:272
 msgid "Правило"
-msgstr ""
+msgstr "Rule"
 
 #: ../../cli_version.rst:273
 msgid "Тип значения"
-msgstr ""
+msgstr "Value type"
 
 #: ../../cli_version.rst:274
 msgid "Значение по умолчанию"
-msgstr ""
+msgstr "Default value"
 
 #: ../../cli_version.rst:275
 msgid "Описание"
-msgstr ""
+msgstr "Description"
 
 #: ../../cli_version.rst:276
 msgid "check_quotes_in_table_column"
-msgstr ""
+msgstr "check_quotes_in_table_column"
 
 #: ../../cli_version.rst:277 ../../cli_version.rst:281
 #: ../../cli_version.rst:285 ../../cli_version.rst:289
@@ -296,7 +296,7 @@ msgstr "false"
 
 #: ../../cli_version.rst:279
 msgid "проверка отсутствия кавычек в имени столбца таблицы"
-msgstr ""
+msgstr "check if there are no quotation marks in the table column name"
 
 #: ../../cli_version.rst:280
 msgid "check_semicolon_after_simple_sql"
@@ -304,7 +304,7 @@ msgstr "check_semicolon_after_simple_sql"
 
 #: ../../cli_version.rst:283
 msgid "проверка символа ; после простого sql-выражения в теле функции"
-msgstr ""
+msgstr "check of the semicolon symbol (;) after a simple sql expression in the body of a function"
 
 #: ../../cli_version.rst:284
 msgid "check_space_after_if"
@@ -312,7 +312,7 @@ msgstr "check_space_after_if"
 
 #: ../../cli_version.rst:287
 msgid "проверка наличия пробела после if в теле функции"
-msgstr ""
+msgstr "check if there is a space symbol after 'if' in the body of a function"
 
 #: ../../cli_version.rst:288
 msgid "check_space_on_math"
@@ -320,7 +320,7 @@ msgstr "check_space_on_math"
 
 #: ../../cli_version.rst:291
 msgid "проверка наличия пробелов до и после математических выражений в теле функции"
-msgstr ""
+msgstr "check if there are spaces before and after mathematical expressions in the body of a function"
 
 #: ../../cli_version.rst:292
 msgid "check_space_after_comma"
@@ -328,7 +328,7 @@ msgstr "check_space_after_comma"
 
 #: ../../cli_version.rst:295
 msgid "проверка наличия пробела после запятой в теле функции"
-msgstr ""
+msgstr "check if there is a space after a comma in the body of a function"
 
 #: ../../cli_version.rst:296
 msgid "check_temp_table"
@@ -336,7 +336,7 @@ msgstr "check_temp_table"
 
 #: ../../cli_version.rst:299
 msgid "проверка наличия созданий не temp таблицы в теле функции"
-msgstr ""
+msgstr "check if non-temp tables are created in the body of a function"
 
 #: ../../cli_version.rst:300
 msgid "check_indents"
@@ -344,7 +344,7 @@ msgstr "check_indents"
 
 #: ../../cli_version.rst:303
 msgid "проверка отступов в теле функции (в разработке)"
-msgstr ""
+msgstr "check if there are indents in the body of a function (in development)"
 
 #: ../../cli_version.rst:304
 msgid "indent_size"
@@ -362,7 +362,7 @@ msgstr "2"
 
 #: ../../cli_version.rst:307
 msgid "значение отступа в теле функции, используется с check_indents (в разработке)"
-msgstr ""
+msgstr "indent value in the body of a function, used with check_indents (in development)"
 
 #: ../../cli_version.rst:308
 msgid "cyclomatic_complexity"
@@ -375,7 +375,7 @@ msgstr "-1"
 
 #: ../../cli_version.rst:311
 msgid "максимально допустимая вложенность кода в теле функции"
-msgstr ""
+msgstr "maximum allowed code nesting in the body of a function"
 
 #: ../../cli_version.rst:312
 msgid "max_function_length"
@@ -383,7 +383,7 @@ msgstr "max_function_length"
 
 #: ../../cli_version.rst:315
 msgid "максимальная длина тела функции (в строках)"
-msgstr ""
+msgstr "maximum length of the body of a function (in strings)"
 
 #: ../../cli_version.rst:316
 msgid "max_function_params"
@@ -391,7 +391,7 @@ msgstr "max_function_params"
 
 #: ../../cli_version.rst:319
 msgid "максимальное количество входных параметров функции (без учета OUT параметров)"
-msgstr ""
+msgstr "maximum number of input parameters of a function (excluding OUT parameters)"
 
 #: ../../cli_version.rst:320
 msgid "method_count"
@@ -399,7 +399,7 @@ msgstr "method_count"
 
 #: ../../cli_version.rst:323
 msgid "максимально допустимое количество выражений в функции"
-msgstr ""
+msgstr "maximum allowed number of expressions in a function"
 
 #: ../../cli_version.rst:324
 msgid "deny_grant"
@@ -415,7 +415,7 @@ msgstr "`-`"
 
 #: ../../cli_version.rst:327
 msgid "список пользователей, которым запрещено выдавать права"
-msgstr ""
+msgstr "list of users who are not allowed to be granted rights"
 
 #: ../../cli_version.rst:328
 msgid "allowed_function_start"
@@ -423,19 +423,19 @@ msgstr "allowed_function_start"
 
 #: ../../cli_version.rst:331
 msgid "список допустимых значений, с которых может начинаться функция и проверка наличия переноса в начале функции"
-msgstr ""
+msgstr "list of allowed values a function can start with and check if there is a syllabification at the beginning of a function"
 
 #: ../../cli_version.rst:333
 msgid "Пример файла с настройками"
-msgstr ""
+msgstr "Example of a file containing settings"
 
 #: ../../cli_version.rst:351
 msgid "Пример команды для верификации кода:"
-msgstr ""
+msgstr "Example of a command used to verify code:"
 
 #: ../../cli_version.rst:362
 msgid "Пример вывода результата"
-msgstr ""
+msgstr "Example of a result output"
 
 #: ../../cli_version.rst:385
 msgid "vmargs"
