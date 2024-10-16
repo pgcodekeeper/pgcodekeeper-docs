@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-09 11:21+0300\n"
-"PO-Revision-Date: 2024-10-09 08:49\n"
+"PO-Revision-Date: 2024-10-16 13:23\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -280,7 +280,7 @@ msgstr "**Filter by object's SQL code** searches for matches in the object gener
 
 #: ../../editors.rst:129
 msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в :ref:`контейнерах <container>` с подходящими именами. Также будут отображены и сами объекты контейнеров."
-msgstr ""
+msgstr "**Search by container** searches for objects located in the :ref:`<container> containers` with appropriate names. Container objects will be displayed as well."
 
 #: ../../editors.rst:131
 msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
