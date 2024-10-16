@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-14 18:15+0300\n"
-"PO-Revision-Date: 2024-10-15 05:58\n"
+"PO-Revision-Date: 2024-10-16 11:58\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -246,7 +246,7 @@ msgstr "verify (beta)"
 
 #: ../../cli_version.rst:261
 msgid "Команда **--mode VERIFY** позволяет переключить работу в режим верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
-msgstr ""
+msgstr "**--mode VERIFY** allows you to switch the work to the SQL code verification based on a set of rules. In this mode, the following commands are available:"
 
 #: ../../cli_version.rst:263
 msgid "**--verify-source <path>** - путь к директории или файлу с исходниками для проверки."
