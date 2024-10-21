@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-14 18:15+0300\n"
-"PO-Revision-Date: 2024-10-16 13:23\n"
+"PO-Revision-Date: 2024-10-21 13:33\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -304,7 +304,7 @@ msgstr "check_semicolon_after_simple_sql"
 
 #: ../../cli_version.rst:283
 msgid "проверка символа ; после простого sql-выражения в теле функции"
-msgstr "check of the semicolon symbol (;) after a simple sql expression in the body of a function"
+msgstr "checking the semicolon (;) symbol after a simple sql expression in the body of a function"
 
 #: ../../cli_version.rst:284
 msgid "check_space_after_if"
@@ -423,7 +423,7 @@ msgstr "allowed_function_start"
 
 #: ../../cli_version.rst:331
 msgid "список допустимых значений, с которых может начинаться функция и проверка наличия переноса в начале функции"
-msgstr "list of allowed values a function can start with and check if there is a syllabification at the beginning of a function"
+msgstr "list of allowed values with which a function can start and a check if there is a syllabification at the beginning of a function"
 
 #: ../../cli_version.rst:333
 msgid "Пример файла с настройками"
