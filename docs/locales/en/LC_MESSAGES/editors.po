@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-09 11:21+0300\n"
-"PO-Revision-Date: 2024-10-09 08:49\n"
+"PO-Revision-Date: 2024-10-21 13:33\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +200,7 @@ msgstr "Database user - name of the database user who was the last one to change
 
 #: ../../editors.rst:66
 msgid "**Панель инструментов сравнения** предназначена для работы с панелью сравнения. Существуют следующие возможности:"
-msgstr "**Comparison tool bar** is used for working with object list. It has the following features:"
+msgstr "**Comparison tool bar** is used for working with comparison panel. It has the following features:"
 
 #: ../../editors.rst:68
 msgid "|switch| - поменять местами код объектов в панели сравнения."
@@ -280,7 +280,7 @@ msgstr "**Filter by object's SQL code** searches for matches in the object gener
 
 #: ../../editors.rst:129
 msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в :ref:`контейнерах <container>` с подходящими именами. Также будут отображены и сами объекты контейнеров."
-msgstr ""
+msgstr "**Search by container** searches for objects located in the :ref:`<container> containers` with appropriate names. Container objects will be displayed as well."
 
 #: ../../editors.rst:131
 msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
@@ -436,7 +436,7 @@ msgstr "**Show:** - direction of search: it's either dependent objects (**Calls*
 
 #: ../../editors.rst:224
 msgid "**Graph search depth / Глубина поиска** - глубина поиска зависимостей, по умолчанию 10."
-msgstr "**Graph search depth** - depth of search for dependencies. By default, this value equals 10."
+msgstr "**Graph search depth** - depth of search for dependencies. By default, this value is 10."
 
 #: ../../editors.rst:225
 msgid "**Object Type / Тип объекта** - типы отображаемых объектов, по умолчанию отображаются все типы."
