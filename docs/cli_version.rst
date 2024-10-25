@@ -54,11 +54,11 @@ diff
 Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль.
 ::
 
- ./pgcodekeeper-cli.sh                                                \
+ pgcodekeeper-cli.bat                                                 \
  --mode DIFF                                                          \
  --db-type MS                                                         \
  /path/to/project/                                                    \
- 'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
+ "jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true"
 
 
 Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных.
@@ -168,7 +168,7 @@ graph
  --graph-filter-object FUNCTION             \
  --enable-function-bodies-dependencies      \
  -o result.txt                              \
- 'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
+ "jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true"
 
 
 Пример вывода результата:
