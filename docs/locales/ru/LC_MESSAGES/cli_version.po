@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 18:15+0300\n"
+"POT-Creation-Date: 2024-10-25 10:58+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,154 +49,160 @@ msgid ""
 "Windows систем."
 msgstr ""
 
-#: ../../cli_version.rst:17
-msgid "Режимы работы"
+#: ../../cli_version.rst:16
+msgid ""
+"при использовании **.bat** - файла заковычивая значений аргументов нужно "
+"использовать двойные ковычки, а при **.sh** одинарные."
 msgstr ""
 
 #: ../../cli_version.rst:19
+msgid "Режимы работы"
+msgstr ""
+
+#: ../../cli_version.rst:21
 msgid ""
 "Полный набор параметров, доступных для работы с программой Вы можете "
 "посмотреть выполнив команду: ::"
 msgstr ""
 
-#: ../../cli_version.rst:29
+#: ../../cli_version.rst:31
 msgid "Консольная версия имеет следующие режимы работы:"
 msgstr ""
 
-#: ../../cli_version.rst:25
+#: ../../cli_version.rst:27
 msgid ":ref:`diffMode`"
 msgstr ""
 
-#: ../../cli_version.rst:26
+#: ../../cli_version.rst:28
 msgid ":ref:`parseMode`"
 msgstr ""
 
-#: ../../cli_version.rst:27
+#: ../../cli_version.rst:29
 msgid ":ref:`graphMode`"
 msgstr ""
 
-#: ../../cli_version.rst:28
+#: ../../cli_version.rst:30
 msgid ":ref:`insertMode`"
 msgstr ""
 
-#: ../../cli_version.rst:29
+#: ../../cli_version.rst:31
 msgid ":ref:`verifyMode`"
 msgstr ""
 
-#: ../../cli_version.rst:34
+#: ../../cli_version.rst:36
 msgid "diff"
 msgstr ""
 
-#: ../../cli_version.rst:36
+#: ../../cli_version.rst:38
 msgid ""
 "Режим по-умолчанию, команда для вызова **--mode DIFF**. Сравнивает два "
 "источника данных и формирует скрипт миграции. В качестве источника данных"
 " может использоваться дамп, проект pgCodeKeeper или база данных."
 msgstr ""
 
-#: ../../cli_version.rst:38
+#: ../../cli_version.rst:40
 msgid ""
 "Пример команды для сравнения двух баз данных PostgreSQL и сохранения "
 "скрипта миграции в файл. ::"
 msgstr ""
 
-#: ../../cli_version.rst:47
+#: ../../cli_version.rst:49
 msgid "**--db-type PG** - тип БД."
 msgstr ""
 
-#: ../../cli_version.rst:48
+#: ../../cli_version.rst:50
 msgid "**-s <url>** - путь до источника изменений."
 msgstr ""
 
-#: ../../cli_version.rst:49
+#: ../../cli_version.rst:51
 msgid "**-t <url>** - путь до приемника изменений."
 msgstr ""
 
-#: ../../cli_version.rst:50
+#: ../../cli_version.rst:52
 msgid ""
 "**- o <path>** - путь до файла, куда будет сохранен скрипт миграции. Без "
 "этого параметра результат отобразится в консоли."
 msgstr ""
 
-#: ../../cli_version.rst:52
+#: ../../cli_version.rst:54
 msgid ""
 "Сами указатели `-s / --source` и `-t / --target` (не <url>) могут быть "
 "опущены, тогда первые два аргумента без указателя будут использоваться в "
 "качестве источника и приемника соответственно."
 msgstr ""
 
-#: ../../cli_version.rst:54
+#: ../../cli_version.rst:56
 msgid ""
 "Пример команды для сравнения MS SQL проекта и базы данных и вывода "
 "результата в консоль. ::"
 msgstr ""
 
-#: ../../cli_version.rst:64
+#: ../../cli_version.rst:66
 msgid ""
 "Пример команды для сравнения ClickHouse дампа и базы данных и выполнение "
 "скрипта на этой же базе данных. ::"
 msgstr ""
 
-#: ../../cli_version.rst:75 ../../cli_version.rst:174
+#: ../../cli_version.rst:77 ../../cli_version.rst:176
 msgid "Пример вывода результата: ::"
 msgstr ""
 
-#: ../../cli_version.rst:91
+#: ../../cli_version.rst:93
 msgid "parse"
 msgstr ""
 
-#: ../../cli_version.rst:93
+#: ../../cli_version.rst:95
 msgid ""
 "Команда **--mode PARSE** позволяет переключить работу в режим сохранения "
 "базы данных в виде проекта. Команды, доступные в этом режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:95
+#: ../../cli_version.rst:97
 msgid "**--update-project** - обновление существующего проекта."
 msgstr ""
 
-#: ../../cli_version.rst:97
+#: ../../cli_version.rst:99
 msgid "Пример команды для создания нового проекта на основе данной БД. ::"
 msgstr ""
 
-#: ../../cli_version.rst:106 ../../cli_version.rst:150
-#: ../../cli_version.rst:215 ../../cli_version.rst:233
+#: ../../cli_version.rst:108 ../../cli_version.rst:152
+#: ../../cli_version.rst:217 ../../cli_version.rst:235
 msgid "где"
 msgstr ""
 
-#: ../../cli_version.rst:108 ../../cli_version.rst:152
-#: ../../cli_version.rst:217
+#: ../../cli_version.rst:110 ../../cli_version.rst:154
+#: ../../cli_version.rst:219
 msgid "**--db-type <type>** - тип БД."
 msgstr ""
 
-#: ../../cli_version.rst:109
+#: ../../cli_version.rst:111
 msgid "**-o <path>** - указание пути, куда будет сохранен проект."
 msgstr ""
 
-#: ../../cli_version.rst:111
+#: ../../cli_version.rst:113
 msgid ""
 "Пример команды для обновления существующего проекта на основе данной БД. "
 "::"
 msgstr ""
 
-#: ../../cli_version.rst:124
+#: ../../cli_version.rst:126
 msgid "graph"
 msgstr ""
 
-#: ../../cli_version.rst:126
+#: ../../cli_version.rst:128
 msgid ""
 "Команда **--mode GRAPH** позволяет переключить работу в режим поиска "
 "зависимостей объекта. Команды, доступные в этом режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:128
+#: ../../cli_version.rst:130
 msgid ""
 "**--graph-name <object_name>**  - имя искомого объекта, поддерживает "
 "регулярные выражения, при отсутствии параметра, будут показаны "
 "зависимости всех объектов. Для функций сигнатура является частью имени."
 msgstr ""
 
-#: ../../cli_version.rst:129
+#: ../../cli_version.rst:131
 msgid ""
 "**--graph-reverse**  - обратное направление поиска зависимостей, с данным"
 " параметром выполняется поиск объектов, от которых зависит искомый "
@@ -204,323 +210,323 @@ msgid ""
 "зависят от искомого."
 msgstr ""
 
-#: ../../cli_version.rst:130
+#: ../../cli_version.rst:132
 msgid "**--graph-depth <n>** - глубина поиска зависимостей, по-умолчанию 10."
 msgstr ""
 
-#: ../../cli_version.rst:131
+#: ../../cli_version.rst:133
 msgid ""
 "**--graph-filter-object <OBJECT_TYPE>** - фильтрация зависимых объектов "
 "по типу, отображаются только выбранные типы объектов."
 msgstr ""
 
-#: ../../cli_version.rst:132
+#: ../../cli_version.rst:134
 msgid ""
 "**--graph-invert-filter** - изменение поведения параметра **--graph-"
 "filter-object**, выбранные типы объектов скрываются."
 msgstr ""
 
-#: ../../cli_version.rst:134
+#: ../../cli_version.rst:136
 msgid "Пример команды для поиска зависимостей в локальном проекте: ::"
 msgstr ""
 
-#: ../../cli_version.rst:153
+#: ../../cli_version.rst:155
 msgid ""
 "**--enable-function-bodies-dependencies** - поиск зависимостей в телах "
 "функций."
 msgstr ""
 
-#: ../../cli_version.rst:154
+#: ../../cli_version.rst:156
 msgid "**--src-lib-xml <path>** - файл библиотек для проекта."
 msgstr ""
 
-#: ../../cli_version.rst:155 ../../cli_version.rst:219
+#: ../../cli_version.rst:157 ../../cli_version.rst:221
 msgid ""
 "**-o <path>** - файл, куда запишется результат, без этого параметра вывод"
 " отобразится в консоли."
 msgstr ""
 
-#: ../../cli_version.rst:156
+#: ../../cli_version.rst:158
 msgid "**/path/to/rep/** - путь до проекта или url базы данных."
 msgstr ""
 
-#: ../../cli_version.rst:158
+#: ../../cli_version.rst:160
 msgid "Пример команды для поиска зависимостей в MS SQL базе: ::"
 msgstr ""
 
-#: ../../cli_version.rst:194
+#: ../../cli_version.rst:196
 msgid "insert"
 msgstr ""
 
-#: ../../cli_version.rst:196
+#: ../../cli_version.rst:198
 msgid ""
 "Команда **--mode INSERT** позволяет переключить работу в режим сбора "
 "данных из базы источника с учетом зависимостей по FK. Команды, доступные "
 "в этом режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:198
+#: ../../cli_version.rst:200
 msgid ""
 "**--insert-name <table_name>** - имя таблицы, для который собираются "
 "данные."
 msgstr ""
 
-#: ../../cli_version.rst:199
+#: ../../cli_version.rst:201
 msgid ""
 "**--insert-filter <filter>** - условие по которому будут собираться "
 "данные из первоначальной таблицы."
 msgstr ""
 
-#: ../../cli_version.rst:201
+#: ../../cli_version.rst:203
 msgid ""
 "В данном режиме геометрические типы оборачиваются в специальные функции с"
 " указанием типа геометрии **4326**."
 msgstr ""
 
-#: ../../cli_version.rst:203
+#: ../../cli_version.rst:205
 msgid "Пример команды для сбора данных в локальный файл: ::"
 msgstr ""
 
-#: ../../cli_version.rst:218
+#: ../../cli_version.rst:220
 msgid "**-X** - оборачивает сгенерированный скрипт в транзакцию."
 msgstr ""
 
-#: ../../cli_version.rst:221
+#: ../../cli_version.rst:223
 msgid "Пример команды для сбора данных и выполнения скрипта в БД: ::"
 msgstr ""
 
-#: ../../cli_version.rst:235
+#: ../../cli_version.rst:237
 msgid "**-R <url>** - база данных, в которой будет выполнен полученный скрипт."
 msgstr ""
 
-#: ../../cli_version.rst:237
+#: ../../cli_version.rst:239
 msgid "Пример вывода результата:"
 msgstr ""
 
-#: ../../cli_version.rst:259
+#: ../../cli_version.rst:261
 msgid "verify (beta)"
 msgstr ""
 
-#: ../../cli_version.rst:261
+#: ../../cli_version.rst:263
 msgid ""
 "Команда **--mode VERIFY** позволяет переключить работу в режим "
 "верификации SQL кода по набору правил. Команды, доступные в этом режиме:"
 msgstr ""
 
-#: ../../cli_version.rst:263
+#: ../../cli_version.rst:265
 msgid ""
 "**--verify-source <path>** - путь к директории или файлу с исходниками "
 "для проверки."
 msgstr ""
 
-#: ../../cli_version.rst:264
+#: ../../cli_version.rst:266
 msgid "**--verify-rule-set <path>** - путь к файлу с правилами."
 msgstr ""
 
-#: ../../cli_version.rst:266
+#: ../../cli_version.rst:268
 msgid ""
 "Правила настраиваются с помощью файла с расширением properties, который "
 "представляет собой список пар ключ-значение. Список доступных ключей:"
 msgstr ""
 
-#: ../../cli_version.rst:272
+#: ../../cli_version.rst:274
 msgid "Правило"
 msgstr ""
 
-#: ../../cli_version.rst:273
+#: ../../cli_version.rst:275
 msgid "Тип значения"
 msgstr ""
 
-#: ../../cli_version.rst:274
+#: ../../cli_version.rst:276
 msgid "Значение по умолчанию"
 msgstr ""
 
-#: ../../cli_version.rst:275
+#: ../../cli_version.rst:277
 msgid "Описание"
 msgstr ""
 
-#: ../../cli_version.rst:276
+#: ../../cli_version.rst:278
 msgid "check_quotes_in_table_column"
 msgstr ""
 
-#: ../../cli_version.rst:277 ../../cli_version.rst:281
-#: ../../cli_version.rst:285 ../../cli_version.rst:289
-#: ../../cli_version.rst:293 ../../cli_version.rst:297
-#: ../../cli_version.rst:301
+#: ../../cli_version.rst:279 ../../cli_version.rst:283
+#: ../../cli_version.rst:287 ../../cli_version.rst:291
+#: ../../cli_version.rst:295 ../../cli_version.rst:299
+#: ../../cli_version.rst:303
 msgid "boolean"
 msgstr ""
 
-#: ../../cli_version.rst:278 ../../cli_version.rst:282
-#: ../../cli_version.rst:286 ../../cli_version.rst:290
-#: ../../cli_version.rst:294 ../../cli_version.rst:298
-#: ../../cli_version.rst:302
+#: ../../cli_version.rst:280 ../../cli_version.rst:284
+#: ../../cli_version.rst:288 ../../cli_version.rst:292
+#: ../../cli_version.rst:296 ../../cli_version.rst:300
+#: ../../cli_version.rst:304
 msgid "false"
 msgstr ""
 
-#: ../../cli_version.rst:279
+#: ../../cli_version.rst:281
 msgid "проверка отсутствия кавычек в имени столбца таблицы"
 msgstr ""
 
-#: ../../cli_version.rst:280
+#: ../../cli_version.rst:282
 msgid "check_semicolon_after_simple_sql"
 msgstr ""
 
-#: ../../cli_version.rst:283
+#: ../../cli_version.rst:285
 msgid "проверка символа ; после простого sql-выражения в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:284
+#: ../../cli_version.rst:286
 msgid "check_space_after_if"
 msgstr ""
 
-#: ../../cli_version.rst:287
+#: ../../cli_version.rst:289
 msgid "проверка наличия пробела после if в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:288
+#: ../../cli_version.rst:290
 msgid "check_space_on_math"
 msgstr ""
 
-#: ../../cli_version.rst:291
+#: ../../cli_version.rst:293
 msgid ""
 "проверка наличия пробелов до и после математических выражений в теле "
 "функции"
 msgstr ""
 
-#: ../../cli_version.rst:292
+#: ../../cli_version.rst:294
 msgid "check_space_after_comma"
 msgstr ""
 
-#: ../../cli_version.rst:295
+#: ../../cli_version.rst:297
 msgid "проверка наличия пробела после запятой в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:296
+#: ../../cli_version.rst:298
 msgid "check_temp_table"
 msgstr ""
 
-#: ../../cli_version.rst:299
+#: ../../cli_version.rst:301
 msgid "проверка наличия созданий не temp таблицы в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:300
+#: ../../cli_version.rst:302
 msgid "check_indents"
 msgstr ""
 
-#: ../../cli_version.rst:303
+#: ../../cli_version.rst:305
 msgid "проверка отступов в теле функции (в разработке)"
 msgstr ""
 
-#: ../../cli_version.rst:304
+#: ../../cli_version.rst:306
 msgid "indent_size"
 msgstr ""
 
-#: ../../cli_version.rst:305 ../../cli_version.rst:309
-#: ../../cli_version.rst:313 ../../cli_version.rst:317
-#: ../../cli_version.rst:321
+#: ../../cli_version.rst:307 ../../cli_version.rst:311
+#: ../../cli_version.rst:315 ../../cli_version.rst:319
+#: ../../cli_version.rst:323
 msgid "integer"
 msgstr ""
 
-#: ../../cli_version.rst:306
+#: ../../cli_version.rst:308
 msgid "2"
 msgstr ""
 
-#: ../../cli_version.rst:307
+#: ../../cli_version.rst:309
 msgid ""
 "значение отступа в теле функции, используется с check_indents (в "
 "разработке)"
 msgstr ""
 
-#: ../../cli_version.rst:308
+#: ../../cli_version.rst:310
 msgid "cyclomatic_complexity"
 msgstr ""
 
-#: ../../cli_version.rst:310 ../../cli_version.rst:314
-#: ../../cli_version.rst:318 ../../cli_version.rst:322
+#: ../../cli_version.rst:312 ../../cli_version.rst:316
+#: ../../cli_version.rst:320 ../../cli_version.rst:324
 msgid "-1"
 msgstr ""
 
-#: ../../cli_version.rst:311
+#: ../../cli_version.rst:313
 msgid "максимально допустимая вложенность кода в теле функции"
 msgstr ""
 
-#: ../../cli_version.rst:312
+#: ../../cli_version.rst:314
 msgid "max_function_length"
 msgstr ""
 
-#: ../../cli_version.rst:315
+#: ../../cli_version.rst:317
 msgid "максимальная длина тела функции (в строках)"
 msgstr ""
 
-#: ../../cli_version.rst:316
+#: ../../cli_version.rst:318
 msgid "max_function_params"
 msgstr ""
 
-#: ../../cli_version.rst:319
+#: ../../cli_version.rst:321
 msgid ""
 "максимальное количество входных параметров функции (без учета OUT "
 "параметров)"
 msgstr ""
 
-#: ../../cli_version.rst:320
+#: ../../cli_version.rst:322
 msgid "method_count"
 msgstr ""
 
-#: ../../cli_version.rst:323
+#: ../../cli_version.rst:325
 msgid "максимально допустимое количество выражений в функции"
 msgstr ""
 
-#: ../../cli_version.rst:324
+#: ../../cli_version.rst:326
 msgid "deny_grant"
 msgstr ""
 
-#: ../../cli_version.rst:325 ../../cli_version.rst:329
+#: ../../cli_version.rst:327 ../../cli_version.rst:331
 msgid "list"
 msgstr ""
 
-#: ../../cli_version.rst:326 ../../cli_version.rst:330
+#: ../../cli_version.rst:328 ../../cli_version.rst:332
 msgid "`-`"
 msgstr ""
 
-#: ../../cli_version.rst:327
+#: ../../cli_version.rst:329
 msgid "список пользователей, которым запрещено выдавать права"
 msgstr ""
 
-#: ../../cli_version.rst:328
+#: ../../cli_version.rst:330
 msgid "allowed_function_start"
 msgstr ""
 
-#: ../../cli_version.rst:331
+#: ../../cli_version.rst:333
 msgid ""
 "список допустимых значений, с которых может начинаться функция и проверка"
 " наличия переноса в начале функции"
 msgstr ""
 
-#: ../../cli_version.rst:333
+#: ../../cli_version.rst:335
 msgid "Пример файла с настройками"
 msgstr ""
 
-#: ../../cli_version.rst:351
+#: ../../cli_version.rst:353
 msgid "Пример команды для верификации кода:"
 msgstr ""
 
-#: ../../cli_version.rst:362
+#: ../../cli_version.rst:364
 msgid "Пример вывода результата"
 msgstr ""
 
-#: ../../cli_version.rst:385
+#: ../../cli_version.rst:387
 msgid "vmargs"
 msgstr ""
 
-#: ../../cli_version.rst:386
+#: ../../cli_version.rst:388
 msgid "Все параметры после специального параметра **-vmargs** будут переданы VM."
 msgstr ""
 
-#: ../../cli_version.rst:388
+#: ../../cli_version.rst:390
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:394
+#: ../../cli_version.rst:396
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
@@ -2128,5 +2134,19 @@ msgstr ""
 #~ "качества SQL кода для верификации по "
 #~ "набору правил. Команды, доступные в этом"
 #~ " режиме:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "при использовании *.bat* - файла "
+#~ "заковычивая значений аргументов нужно "
+#~ "использовать двойные ковычки, а при "
+#~ "**.sh** одинарные."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "при использовании **.bat* - файла "
+#~ "заковычивая значений аргументов нужно "
+#~ "использовать двойные ковычки, а при "
+#~ "**.sh** одинарные."
 #~ msgstr ""
 
