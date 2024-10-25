@@ -13,8 +13,6 @@ CLI версия
 
 Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
 
-.. attention:: при использовании **.bat** - файла заковычивая значений аргументов нужно использовать двойные ковычки, а при **.sh** одинарные.
-
 Режимы работы
 ~~~~~~~~~~~~~
 
@@ -56,11 +54,11 @@ diff
 Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль.
 ::
 
- ./pgcodekeeper-cli.sh                                                \
+ pgcodekeeper-cli.bat                                                 \
  --mode DIFF                                                          \
  --db-type MS                                                         \
  /path/to/project/                                                    \
- 'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
+ "jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true"
 
 
 Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных.
