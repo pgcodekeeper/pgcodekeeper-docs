@@ -396,3 +396,14 @@ vmargs
 ::
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
+
+Параметр VM -Dlogback.configurationFile используется для передачи настроек конфигурации логирования. Этот параметр позволяет указать файл с конфигурацией логирования, если вы хотите использовать свои настройки вместо дефолтных.
+
+Пример использования параметра *-Dlogback.configurationFile*:
+
+Чтобы использовать этот параметр, при запуске необходимо указать его с полным путем к файлу конфигурации *logback.xml*.
+Пример:
+
+::
+
+ ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogback.configurationFile=home/user/configs/logback.xml
