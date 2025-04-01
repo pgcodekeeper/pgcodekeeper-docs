@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'pgCodeKeeper'
-copyright = '2024, pgCodeKeeper'
+copyright = '2025, pgCodeKeeper'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
