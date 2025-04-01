@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 16:33+0300\n"
+"POT-Creation-Date: 2025-04-01 17:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -520,13 +520,21 @@ msgstr ""
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:394
+#: ../../cli_version.rst:395
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
 msgstr ""
 
-#: ../../cli_version.rst:402
+#: ../../cli_version.rst:401
+msgid ""
+"Параметр VM *-Dlogging.config* используется для передачи настроек "
+"конфигурации логирования. Этот параметр позволяет указать файл с "
+"конфигурацией логирования, если вы хотите использовать свои настройки "
+"вместо дефолтных."
+msgstr ""
+
+#: ../../cli_version.rst:403
 msgid "Пример использования параметра *-Dlogging.config*:"
 msgstr ""
 
