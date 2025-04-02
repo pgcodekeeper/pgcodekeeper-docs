@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 16:33+0300\n"
+"POT-Creation-Date: 2025-04-02 10:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,7 +174,7 @@ msgid "Распакуйте скачанный zip-файл."
 msgstr ""
 
 #: ../../installation.rst:67
-msgid "Запустите приложение ``pgCodeKeeper``"
+msgid "Запустите приложение ``pgcodekeeper``"
 msgstr ""
 
 #~ msgid ""
@@ -258,5 +258,8 @@ msgstr ""
 #~ "экземпляре Eclipse версии 4.19 или выше"
 #~ " с установленным Eclipse Marketplace, "
 #~ "выбрать **Help > Eclipse Markeplace...**."
+#~ msgstr ""
+
+#~ msgid "Запустите приложение ``pgCodeKeeper``"
 #~ msgstr ""
 

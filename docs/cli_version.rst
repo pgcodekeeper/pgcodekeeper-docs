@@ -391,7 +391,6 @@ vmargs
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Xms256m -Xmx2g
 
-
 Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать количество потоков парсера:
 
 ::
