@@ -6,8 +6,6 @@
 
 ``INSERT INTO table (col1, col2) VALUES ('T_601', 'Yojimbo');``
 
-Вы можете генерировать данные для баз данных PostgreSQL, MS SQL и ClickHouse.
-
 Для этого откройте мастер создания нового объекта **File -> New -> Others** и выберите категорию **pgCodeKeeper -> Сформировать тестовые данные** и нажмите **Next**.
 
 .. image:: ../images/mock_data_wizard.png

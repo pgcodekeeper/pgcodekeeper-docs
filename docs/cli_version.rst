@@ -398,8 +398,28 @@ vmargs
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
 
 Параметр VM *-Dlogging.config* используется для передачи настроек конфигурации логирования. Этот параметр позволяет указать файл с конфигурацией логирования, если вы хотите использовать свои настройки вместо дефолтных.
+Пример файла конфигурации:
 
-Пример использования параметра *-Dlogging.config*:
+::
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+            <file>${user.home}/.pgcodekeeper-cli/logs/pgcodekeeper-cli.log</file>
+            <append>true</append>
+            <immediateFlush>true</immediateFlush>
+            <encoder>
+              <pattern>%d{yyyy-MM-dd HH:mm:ss} [%level] [%logger{0}] - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="DEBUG">
+            <appender-ref ref="FILE" />
+        </root>
+    </configuration>
+
+
+Пример использования параметра *-Dlogging.config*
 
 Чтобы использовать этот параметр, при запуске необходимо указать его с полным путем к файлу конфигурации *logback.xml*.
 Пример:
@@ -407,3 +427,4 @@ vmargs
 ::
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogging.config=home/user/configs/logback.xml
+

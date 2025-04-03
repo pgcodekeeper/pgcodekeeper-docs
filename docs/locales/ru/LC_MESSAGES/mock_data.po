@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 16:33+0300\n"
+"POT-Creation-Date: 2025-04-03 13:41+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,34 +34,28 @@ msgstr ""
 
 #: ../../mock_data.rst:9
 msgid ""
-"Вы можете генерировать данные для баз данных PostgreSQL, MS SQL и "
-"ClickHouse."
-msgstr ""
-
-#: ../../mock_data.rst:11
-msgid ""
 "Для этого откройте мастер создания нового объекта **File -> New -> "
 "Others** и выберите категорию **pgCodeKeeper -> Сформировать тестовые "
 "данные** и нажмите **Next**."
 msgstr ""
 
-#: ../../mock_data.rst:15
+#: ../../mock_data.rst:13
 msgid ""
 "Для каждой колонки в зависимости от типа и генератора доступны следующие "
 "настройки:"
 msgstr ""
 
-#: ../../mock_data.rst:17
+#: ../../mock_data.rst:15
 msgid "**Имя колонки** - имя текущей колонки."
 msgstr ""
 
-#: ../../mock_data.rst:18
+#: ../../mock_data.rst:16
 msgid ""
 "**Тип колонки** - тип данных колонки. Для неподдерживаемых типов "
 "существует тип OTHER."
 msgstr ""
 
-#: ../../mock_data.rst:19
+#: ../../mock_data.rst:17
 msgid "**Генератор** - алгоритм генерации данных. На данный момент их 4:"
 msgstr ""
 
@@ -69,7 +63,7 @@ msgstr ""
 msgid "RANDOM"
 msgstr ""
 
-#: ../../mock_data.rst:21
+#: ../../mock_data.rst:19
 msgid "Случайное значение из диапазона."
 msgstr ""
 
@@ -77,7 +71,7 @@ msgstr ""
 msgid "INCREMENT"
 msgstr ""
 
-#: ../../mock_data.rst:22
+#: ../../mock_data.rst:20
 msgid "Последовательное увеличение стартового значения на значение инкремента."
 msgstr ""
 
@@ -85,7 +79,7 @@ msgstr ""
 msgid "CONSTANT"
 msgstr ""
 
-#: ../../mock_data.rst:23
+#: ../../mock_data.rst:21
 msgid ""
 "Константное значение. Текстовые значения будут заключены в одинарные "
 "кавычки."
@@ -95,70 +89,70 @@ msgstr ""
 msgid "ANY"
 msgstr ""
 
-#: ../../mock_data.rst:24
+#: ../../mock_data.rst:22
 msgid ""
 "Любое значение (включая вызовы функций). Значение не будет "
 "отформатировано."
 msgstr ""
 
-#: ../../mock_data.rst:26
+#: ../../mock_data.rst:24
 msgid "**Начало диапазона** - стартовое значение"
 msgstr ""
 
-#: ../../mock_data.rst:27
+#: ../../mock_data.rst:25
 msgid "**Конец диапазона** - конечное значение"
 msgstr ""
 
-#: ../../mock_data.rst:28
+#: ../../mock_data.rst:26
 msgid "**Шаг инкремента** - значение шага инкремента"
 msgstr ""
 
-#: ../../mock_data.rst:29
+#: ../../mock_data.rst:27
 msgid ""
 "**Произвольное выражение** - произвольное значение, которое будет "
 "записано без форматирования."
 msgstr ""
 
-#: ../../mock_data.rst:31
+#: ../../mock_data.rst:29
 msgid "Для управления списком колонок доступны следующие кнопки:"
 msgstr ""
 
-#: ../../mock_data.rst:33
+#: ../../mock_data.rst:31
 msgid "**Добавить колонку** добавляет колонку типа INTEGER с генератором RANDOM."
 msgstr ""
 
-#: ../../mock_data.rst:34
+#: ../../mock_data.rst:32
 msgid "**Удалить колонку** удаляет выбранные колонки."
 msgstr ""
 
-#: ../../mock_data.rst:35
+#: ../../mock_data.rst:33
 msgid "**Вверх** передвигает выбранную колонку вверх в списке."
 msgstr ""
 
-#: ../../mock_data.rst:36
+#: ../../mock_data.rst:34
 msgid "**Вниз** передвигает выбранную колонку вниз в списке."
 msgstr ""
 
-#: ../../mock_data.rst:37
+#: ../../mock_data.rst:35
 msgid ""
 "**Удалить необязательные** удаляет колонки у которых нет свойства NOT "
 "NULL."
 msgstr ""
 
-#: ../../mock_data.rst:39
+#: ../../mock_data.rst:37
 msgid ""
 "Настройка **Явное приведение типов** (только для базы данных PostgreSQL) "
 "добавляет явное приведение типов для каждого значения (например, "
 "7::integer)."
 msgstr ""
 
-#: ../../mock_data.rst:41
+#: ../../mock_data.rst:39
 msgid ""
 "После нажатия **Finish** будет открыт SQL редактор с готовым Insert "
 "запросом."
 msgstr ""
 
-#: ../../mock_data.rst:43
+#: ../../mock_data.rst:41
 msgid ""
 "Также имеется возможность вызвать данный мастер из контекстного меню "
 "файла таблицы. В этом случае данные заполнятся автоматически."
@@ -168,5 +162,11 @@ msgstr ""
 #~ "Настройка **Явное приведение типов** добавляет"
 #~ " явное приведение типов для каждого "
 #~ "значения (например, 7::integer)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вы можете генерировать данные для баз"
+#~ " данных PostgreSQL, MS SQL и "
+#~ "ClickHouse."
 #~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 10:50+0300\n"
+"POT-Creation-Date: 2025-04-03 13:41+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,77 +103,77 @@ msgid ""
 msgstr ""
 
 #: ../../installation.rst:42
-msgid "Самостоятельная сборка pgCodeKeeper"
+msgid "Установка из архива"
 msgstr ""
 
 #: ../../installation.rst:44
+msgid "Скачайте файл ``pgCodeKeeper-updatesite_<нужная версия>.zip``."
+msgstr ""
+
+#: ../../installation.rst:45
+msgid ""
+"В запущенном приложении **Eclipse** выберите ``Help > Install New "
+"Software…``."
+msgstr ""
+
+#: ../../installation.rst:46
+msgid ""
+"В появившемся окне **Install** рядом с полем ``Work with`` кликните по "
+"кнопке **Add**."
+msgstr ""
+
+#: ../../installation.rst:47
+msgid "В следующем окне **Add Repository** нажмите на кнопку **Archive…**."
+msgstr ""
+
+#: ../../installation.rst:48
+msgid ""
+"Выберите ранее скачанный zip-файл ``pgCodeKeeper-updatesite`` и нажмите "
+"**Add**."
+msgstr ""
+
+#: ../../installation.rst:49
+msgid ""
+"В результате в окне **Install** появится пакет **pgCodeKeeper**. Кликните"
+" по нему и нажмите **Next**."
+msgstr ""
+
+#: ../../installation.rst:50
+msgid ""
+"После завершения загрузки из zip-файла завершите работу с окном **Install"
+" New Software**, кликнув **Finish**."
+msgstr ""
+
+#: ../../installation.rst:51
+msgid "Далее подождите завершения установки pgCodeKeeper и перезагрузите Eclipse."
+msgstr ""
+
+#: ../../installation.rst:54
+msgid "Самостоятельная сборка pgCodeKeeper"
+msgstr ""
+
+#: ../../installation.rst:56
 msgid ""
 "Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, "
 "которую можно скачать `здесь "
 "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_."
 msgstr ""
 
-#: ../../installation.rst:48
-msgid "Установка в Eclipse из архива."
-msgstr ""
-
-#: ../../installation.rst:50
-msgid "Скачайте файл ``pgCodeKeeper-updatesite_<нужная версия>.zip``."
-msgstr ""
-
-#: ../../installation.rst:51
-msgid ""
-"В запущенном приложении **Eclipse** выберите ``Help > Install New "
-"Software…``."
-msgstr ""
-
-#: ../../installation.rst:52
-msgid ""
-"В появившемся окне **Install** рядом с полем ``Work with`` кликните по "
-"кнопке **Add**."
-msgstr ""
-
-#: ../../installation.rst:53
-msgid "В следующем окне **Add Repository** нажмите на кнопку **Archive…**."
-msgstr ""
-
-#: ../../installation.rst:54
-msgid ""
-"Выберите ранее скачанный zip-файл ``pgCodeKeeper-updatesite`` и нажмите "
-"**Add**."
-msgstr ""
-
-#: ../../installation.rst:55
-msgid ""
-"В результате в окне **Install** появится пакет **pgCodeKeeper**. Кликните"
-" по нему и нажмите **Next**."
-msgstr ""
-
 #: ../../installation.rst:59
-msgid ""
-"После завершения загрузки из zip-файла завершите работу с окном **Install"
-" New Software**, кликнув **Finish**."
+msgid "Запуск pgCodeKeeper из отдельной сборки"
 msgstr ""
 
-#: ../../installation.rst:60
-msgid "Далее подождите завершения установки pgCodeKeeper и перезагрузите Eclipse."
-msgstr ""
-
-#: ../../installation.rst:63
-msgid "Запуск pgCodeKeeper из отдельной сборки."
-msgstr ""
-
-#: ../../installation.rst:65
+#: ../../installation.rst:61
 msgid ""
 "Скачайте файл ``pgCodeKeeper-<нужная версия>.zip`` для вашей версии "
 "операционной системы."
 msgstr ""
 
-#: ../../installation.rst:66
+#: ../../installation.rst:62
 msgid "Распакуйте скачанный zip-файл."
 msgstr ""
 
-#: ../../installation.rst:67
+#: ../../installation.rst:63
 msgid "Запустите приложение ``pgcodekeeper``"
 msgstr ""
 
@@ -261,5 +261,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Запустите приложение ``pgCodeKeeper``"
+#~ msgstr ""
+
+#~ msgid "Установка в Eclipse из архива."
+#~ msgstr ""
+
+#~ msgid "Запуск pgCodeKeeper из отдельной сборки."
 #~ msgstr ""
 

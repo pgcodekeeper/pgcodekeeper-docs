@@ -38,14 +38,8 @@ Eclipse Marketplace
 
 Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**.
 
-Самостоятельная сборка pgCodeKeeper
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, которую можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
-
-
-Установка в Eclipse из архива.
-------------------------------
+Установка из архива
+~~~~~~~~~~~~~~~~~~~
 
 #. Скачайте файл ``pgCodeKeeper-updatesite_<нужная версия>.zip``.
 #. В запущенном приложении **Eclipse** выберите ``Help > Install New Software…``.
@@ -53,14 +47,16 @@ Eclipse Marketplace
 #. В следующем окне **Add Repository** нажмите на кнопку **Archive…**.
 #. Выберите ранее скачанный zip-файл ``pgCodeKeeper-updatesite`` и нажмите **Add**.
 #. В результате в окне **Install** появится пакет **pgCodeKeeper**. Кликните по нему и нажмите **Next**.
-
-.. image:: ../images/install_build.jpg
-
 #. После завершения загрузки из zip-файла завершите работу с окном **Install New Software**, кликнув **Finish**.
 #. Далее подождите завершения установки pgCodeKeeper и перезагрузите Eclipse.
 
-Запуск pgCodeKeeper из отдельной сборки.
-----------------------------------------
+Самостоятельная сборка pgCodeKeeper
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ещё одной альтернативой является самостоятельная сборка pgCodeKeeper, которую можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_.
+
+Запуск pgCodeKeeper из отдельной сборки
+---------------------------------------
 
 #. Скачайте файл ``pgCodeKeeper-<нужная версия>.zip`` для вашей версии операционной системы.
 #. Распакуйте скачанный zip-файл.

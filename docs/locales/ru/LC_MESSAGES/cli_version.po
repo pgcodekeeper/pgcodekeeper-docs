@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-01 17:18+0300\n"
+"POT-Creation-Date: 2025-04-03 13:41+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -520,25 +520,25 @@ msgstr ""
 msgid "Использование с ограничениями потребляемой памяти:"
 msgstr ""
 
-#: ../../cli_version.rst:395
+#: ../../cli_version.rst:394
 msgid ""
 "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
 "количество потоков парсера:"
 msgstr ""
 
-#: ../../cli_version.rst:401
+#: ../../cli_version.rst:400
 msgid ""
 "Параметр VM *-Dlogging.config* используется для передачи настроек "
 "конфигурации логирования. Этот параметр позволяет указать файл с "
 "конфигурацией логирования, если вы хотите использовать свои настройки "
-"вместо дефолтных."
+"вместо дефолтных. Пример файла конфигурации:"
 msgstr ""
 
-#: ../../cli_version.rst:403
-msgid "Пример использования параметра *-Dlogging.config*:"
+#: ../../cli_version.rst:422
+msgid "Пример использования параметра *-Dlogging.config*"
 msgstr ""
 
-#: ../../cli_version.rst:405
+#: ../../cli_version.rst:424
 msgid ""
 "Чтобы использовать этот параметр, при запуске необходимо указать его с "
 "полным путем к файлу конфигурации *logback.xml*. Пример:"
@@ -2167,5 +2167,17 @@ msgstr ""
 #~ "заковычивая значений аргументов нужно "
 #~ "использовать двойные ковычки, а при "
 #~ "**.sh** одинарные."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Параметр VM *-Dlogging.config* используется "
+#~ "для передачи настроек конфигурации "
+#~ "логирования. Этот параметр позволяет указать"
+#~ " файл с конфигурацией логирования, если "
+#~ "вы хотите использовать свои настройки "
+#~ "вместо дефолтных."
+#~ msgstr ""
+
+#~ msgid "Пример использования параметра *-Dlogging.config*:"
 #~ msgstr ""
 
