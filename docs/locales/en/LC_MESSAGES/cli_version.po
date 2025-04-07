@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-25 13:17+0300\n"
-"PO-Revision-Date: 2024-10-25 12:12\n"
+"POT-Creation-Date: 2025-04-07 17:33+0300\n"
+"PO-Revision-Date: 2025-04-07 14:46\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -452,6 +452,14 @@ msgstr "Usage with restrictions of the memory used:"
 #: ../../cli_version.rst:394
 msgid "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать количество потоков парсера:"
 msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to specify the number of parser threads:"
+
+#: ../../cli_version.rst:400
+msgid "Параметр VM *-Dlogging.config* позволяет указать файл с пользовательскими настройками логирования."
+msgstr ""
+
+#: ../../cli_version.rst:407
+msgid "Пример файла конфигурации с логированием debug вывода в файл:"
+msgstr ""
 
 #~ msgid "Консольная сборка программы может быть использована для:"
 #~ msgstr ""
@@ -2076,5 +2084,36 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 #~ "заковычивая значений аргументов нужно "
 #~ "использовать двойные ковычки, а при "
 #~ "**.sh** одинарные."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Параметр VM *-Dlogging.config* используется "
+#~ "для передачи настроек конфигурации "
+#~ "логирования. Этот параметр позволяет указать"
+#~ " файл с конфигурацией логирования, если "
+#~ "вы хотите использовать свои настройки "
+#~ "вместо дефолтных."
+#~ msgstr ""
+
+#~ msgid "Пример использования параметра *-Dlogging.config*:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Параметр VM *-Dlogging.config* используется "
+#~ "для передачи настроек конфигурации "
+#~ "логирования. Этот параметр позволяет указать"
+#~ " файл с конфигурацией логирования, если "
+#~ "вы хотите использовать свои настройки "
+#~ "вместо дефолтных. Пример файла конфигурации:"
+#~ msgstr ""
+
+#~ msgid "Пример использования параметра *-Dlogging.config*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Чтобы использовать этот параметр, при "
+#~ "запуске необходимо указать его с полным"
+#~ " путем к файлу конфигурации *logback.xml*."
+#~ " Пример:"
 #~ msgstr ""
 
