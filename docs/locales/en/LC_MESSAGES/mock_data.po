@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 10:54+0300\n"
-"PO-Revision-Date: 2023-05-12 08:44\n"
+"POT-Creation-Date: 2025-04-04 10:56+0300\n"
+"PO-Revision-Date: 2025-04-07 14:46\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.17.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -23,8 +23,8 @@ msgid "Генерация тестовых данных"
 msgstr "Test data generation"
 
 #: ../../mock_data.rst:5
-msgid "Существует возможность генерации тестовых данных для таблицы в виде **Insert** конструкции:"
-msgstr "There is a way of test data generation for the table in the form of the **Insert** construction:"
+msgid "Существует возможность генерации тестовых данных для таблицы в виде **Insert** конструкции."
+msgstr ""
 
 #: ../../mock_data.rst:7
 msgid "Для этого откройте мастер создания нового объекта **File -> New -> Others** и выберите категорию **pgCodeKeeper -> Сформировать тестовые данные** и нажмите **Next**."
@@ -119,8 +119,8 @@ msgid "**Удалить необязательные** удаляет колон
 msgstr "**Delete optional** deletes the columns without the NOT NULL property."
 
 #: ../../mock_data.rst:35
-msgid "Настройка **Явное приведение типов** добавляет явное приведение типов для каждого значения (например, 7::integer)."
-msgstr "The **Typcasting** setting adds typecasting for each value (for example, 7::integer)."
+msgid "Настройка **Явное приведение типов** (только для базы данных PostgreSQL) добавляет явное приведение типов для каждого значения (например, 7::integer)."
+msgstr ""
 
 #: ../../mock_data.rst:37
 msgid "После нажатия **Finish** будет открыт SQL редактор с готовым Insert запросом."
@@ -129,4 +129,25 @@ msgstr "After clicking **Finish** you'll see the SQL editor with a ready Insert 
 #: ../../mock_data.rst:39
 msgid "Также имеется возможность вызвать данный мастер из контекстного меню файла таблицы. В этом случае данные заполнятся автоматически."
 msgstr "This wizard may be launched from the table's right-click menu as well. In this case, all the data is filled in automatically."
+
+#~ msgid ""
+#~ "Настройка **Явное приведение типов** добавляет"
+#~ " явное приведение типов для каждого "
+#~ "значения (например, 7::integer)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вы можете генерировать данные для баз"
+#~ " данных PostgreSQL, MS SQL и "
+#~ "ClickHouse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Существует возможность генерации тестовых "
+#~ "данных для таблицы в виде **Insert** "
+#~ "конструкции:"
+#~ msgstr ""
+
+#~ msgid "``INSERT INTO table (col1, col2) VALUES ('T_601', 'Yojimbo');``"
+#~ msgstr ""
 
