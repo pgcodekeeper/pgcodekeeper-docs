@@ -396,3 +396,31 @@ vmargs
 ::
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
+
+Параметр VM *-Dlogging.config* позволяет указать файл с пользовательскими настройками логирования.
+
+::
+
+ ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogging.config=home/user/configs/logback.xml
+
+
+Пример файла конфигурации с логированием debug вывода в файл:
+
+::
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+            <file>${user.home}/.pgcodekeeper-cli/logs/pgcodekeeper-cli.log</file>
+            <append>true</append>
+            <immediateFlush>true</immediateFlush>
+            <encoder>
+              <pattern>%d{yyyy-MM-dd HH:mm:ss} [%level] [%logger{0}] - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="DEBUG">
+            <appender-ref ref="FILE" />
+        </root>
+    </configuration>
+
