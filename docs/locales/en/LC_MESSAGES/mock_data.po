@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-04 10:56+0300\n"
-"PO-Revision-Date: 2025-04-07 14:46\n"
+"PO-Revision-Date: 2025-04-08 11:48\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Test data generation"
 
 #: ../../mock_data.rst:5
 msgid "Существует возможность генерации тестовых данных для таблицы в виде **Insert** конструкции."
-msgstr ""
+msgstr "There is a way of test data generation for the table in the form of the **Insert** construction."
 
 #: ../../mock_data.rst:7
 msgid "Для этого откройте мастер создания нового объекта **File -> New -> Others** и выберите категорию **pgCodeKeeper -> Сформировать тестовые данные** и нажмите **Next**."
