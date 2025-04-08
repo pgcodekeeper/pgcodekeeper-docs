@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-04 10:56+0300\n"
-"PO-Revision-Date: 2025-04-08 11:48\n"
+"PO-Revision-Date: 2025-04-08 12:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "**Delete optional** deletes the columns without the NOT NULL property."
 
 #: ../../mock_data.rst:35
 msgid "Настройка **Явное приведение типов** (только для базы данных PostgreSQL) добавляет явное приведение типов для каждого значения (например, 7::integer)."
-msgstr ""
+msgstr "The **Typcasting (for the PostgreSQL database only)** setting adds typecasting for each value (for example, 7::integer)."
 
 #: ../../mock_data.rst:37
 msgid "После нажатия **Finish** будет открыт SQL редактор с готовым Insert запросом."
