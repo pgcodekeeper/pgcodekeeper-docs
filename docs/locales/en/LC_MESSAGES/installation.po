@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:24+0300\n"
-"PO-Revision-Date: 2025-04-07 14:46\n"
+"PO-Revision-Date: 2025-04-08 11:48\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -32,24 +32,24 @@ msgstr "Eclipse Marketplace"
 
 #: ../../installation.rst:10
 msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace."
-msgstr ""
+msgstr "The easiest way to install pgCodeKeeper is to use Eclipse Marketplace."
 
 #: ../../installation.rst:12
 msgid "В запущенном экземпляре Eclipse версии 4.19 или выше с установленным Eclipse Marketplace, выберите **Help > Eclipse Marketplace...**."
-msgstr ""
+msgstr "Launch Eclipse, version 4.19 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Marketplace...**."
 
 #: ../../installation.rst:13
 msgid "В поле поиска введите: pgCodeKeeper."
-msgstr ""
+msgstr "Enter \"pgCodeKeeper\" into the search box."
 
 #: ../../installation.rst:14
 msgid "Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish, после чего начнется установка последней версии pgCodeKeeper."
-msgstr ""
+msgstr "Select the pgCodeKeeper package, review the Terms of service and click Finish for the installation of the latest pgCodeKeeper version to begin."
 
 #: ../../installation.rst:15 ../../installation.rst:28
 #: ../../installation.rst:43
 msgid "По завершению установки для применения изменений перезапустите Eclipse."
-msgstr ""
+msgstr "After the installation is complete, restart Eclipse to apply the changes."
 
 #: ../../installation.rst:20
 msgid "Сайт обновления"
@@ -57,15 +57,15 @@ msgstr "Update website"
 
 #: ../../installation.rst:22
 msgid "Альтернативный путь установки pgCodeKeeper – сайт обновлений."
-msgstr ""
+msgstr "Another way to install pgCodeKeeper is the update website."
 
 #: ../../installation.rst:24
 msgid "В запущенном экземпляре Eclipse версии 4.19 или выше, выберите **Help > Install New Software...**. Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr ""
+msgstr "Launch Eclipse, version 4.19 or higher, select **Help > Install New Software…**. Plug-in installation (with the help of the update website) wizard will launch."
 
 #: ../../installation.rst:25
 msgid "В поле **Work With** введите путь к сайту обновлений: https://pgcodekeeper.org/update/."
-msgstr ""
+msgstr "In the **Work With** field specify the path to the update website: https://pgcodekeeper.org/update/."
 
 #: ../../installation.rst:26
 msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
@@ -77,31 +77,31 @@ msgstr "Select the pgCodeKeeper package, agree to the installation, review the T
 
 #: ../../installation.rst:33
 msgid "Установка из архива"
-msgstr ""
+msgstr "Installation from an archive"
 
 #: ../../installation.rst:35
 msgid "Предыдущие версии pgCodeKeeper вы можете найти по `ссылке <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. На сайте представлены архивы релизов версии 5.10.5 и выше."
-msgstr ""
+msgstr "You can find the previous pgCodeKeeper versions `here <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. This page contains archives of versions starting from 5.10.5 and higher."
 
 #: ../../installation.rst:37
 msgid "Скачайте файл ``pgCodeKeeper-updatesite-<version>.zip``."
-msgstr ""
+msgstr "Download the file ``pgCodeKeeper-updatesite-<version>.zip``."
 
 #: ../../installation.rst:38
 msgid "В запущенном экземпляре Eclipse версии 4.19 или выше, выберите **Help > Install New Software…**. Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr ""
+msgstr "Launch Eclipse, version 4.19 or higher, select **Help > Install New Software…**. Plug-in installation (with the help of the update website) wizard will launch."
 
 #: ../../installation.rst:39
 msgid "В появившемся окне **Install** рядом с полем **Work with** нажмите на кнопку **Add**."
-msgstr ""
+msgstr "In the appeared **Install** window, click **Add** next to the **Work with** field."
 
 #: ../../installation.rst:40
 msgid "В следующем окне **Add Repository** нажмите на кнопку **Archive…**."
-msgstr ""
+msgstr "In the next window, **Add Repository**, click **Archive…**."
 
 #: ../../installation.rst:41
 msgid "Выберите скачанный архив **pgCodeKeeper-updatesite** и нажмите **Add**."
-msgstr ""
+msgstr "Select the downloaded archive **pgCodeKeeper-updatesite** and click **Add**."
 
 #: ../../installation.rst:46
 msgid "Самостоятельная сборка pgCodeKeeper"
@@ -113,7 +113,7 @@ msgstr "Another alternative is pgCodeKeeper standalone build that you can downlo
 
 #: ../../installation.rst:50
 msgid "Для запуска pgCodeKeeper из отдельной сборки:"
-msgstr ""
+msgstr "To launch pgCodeKeeper using a separate build do the following:"
 
 #: ../../installation.rst:52
 msgid "Скачайте архив ``pgCodeKeeper-<version>-<os_name>`` для вашей операционной системы."
