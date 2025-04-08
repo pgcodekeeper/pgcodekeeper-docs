@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 16:33+0300\n"
-"PO-Revision-Date: 2025-04-07 14:46\n"
+"PO-Revision-Date: 2025-04-08 12:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "For the **.pgcodekeeperignoreschema** file, the same rules are applied, 
 
 #: ../../white_black_list_schemas.rst:25
 msgid "Мы можем применить список исключаемых схем и в :ref:`dbStore`. В :ref:`cliVersion` pgCodeKeeper эта опция прописывается так : ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
-msgstr ""
+msgstr "We can apply the list of ignored schemas in :ref:`dbStore`. In :ref:`cliVersion` of pgCodeKeeper this option configured using the following command: ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
 
 #: ../../white_black_list_schemas.rst:30
 msgid "Выбор объектов"
