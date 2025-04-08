@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:24+0300\n"
-"PO-Revision-Date: 2025-04-08 11:48\n"
+"PO-Revision-Date: 2025-04-08 12:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -117,15 +117,15 @@ msgstr "To launch pgCodeKeeper using a separate build do the following:"
 
 #: ../../installation.rst:52
 msgid "Скачайте архив ``pgCodeKeeper-<version>-<os_name>`` для вашей операционной системы."
-msgstr ""
+msgstr "Download the ``pgCodeKeeper-<version>-<os_name>`` archive for your OS."
 
 #: ../../installation.rst:53
 msgid "Распакуйте скачанный архив."
-msgstr ""
+msgstr "Extract the downloaded archive."
 
 #: ../../installation.rst:54
 msgid "Запустите приложение ``pgcodekeeper``"
-msgstr ""
+msgstr "Launch ``pgcodekeeper``."
 
 #~ msgid ""
 #~ "Кроме обычной установки вы можете "
