@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:33+0300\n"
-"PO-Revision-Date: 2025-04-07 14:46\n"
+"PO-Revision-Date: 2025-04-08 12:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "**Format object code automatically** allows display and save the formatt
 
 #: ../../preferences.rst:18
 msgid "**Number of parser threads / Количество потоков парсера** — позволяет оптимизировать использование ресурсов процессора (ЦПУ). При уменьшении числа потоков парсер будет использовать меньше ресурсов ЦПУ."
-msgstr ""
+msgstr "**Number of parser threads** allows you to optimize the use of the CPU resources. If the number of threads is reduced, the parser will use less CPU resources."
 
 #: ../../preferences.rst:19
 msgid "**Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяет автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение."
@@ -84,7 +84,7 @@ msgstr "The **Black list** - **White list** switch allows to invert black list t
 
 #: ../../preferences.rst:33
 msgid "Для добавления объекта в список исключенных, редактирования или удаления из него, служат кнопки |add_obj|, |edit_obj| и |delete| соответственно."
-msgstr ""
+msgstr "To add an object to the list of excluded, edit it or remove it from the list, use the |add_obj|, |edit_obj| and |delete| buttons respectively."
 
 #: ../../preferences.rst:241
 msgid "add_obj"
@@ -92,7 +92,7 @@ msgstr "add_obj"
 
 #: ../../preferences.rst:242
 msgid "edit_obj"
-msgstr ""
+msgstr "edit_obj"
 
 #: ../../preferences.rst:240
 msgid "delete"
@@ -100,11 +100,11 @@ msgstr "delete"
 
 #: ../../preferences.rst:35
 msgid "При добавлении и редактировании объекта откроется окно, в котором вы сможете выбрать необходимые настройки для исключенного объекта."
-msgstr ""
+msgstr "When adding or editing an object, a window will open where you'll be able to select the required settings for the excluded object."
 
 #: ../../preferences.rst:40
 msgid "Настройки исключенного объекта"
-msgstr ""
+msgstr "Settings of the excluded object"
 
 #: ../../preferences.rst:42
 msgid "**Pattern / Шаблон** – воспринимать имя объекта как регулярное выражение."
@@ -120,11 +120,11 @@ msgstr "**Qualification** – search objects by qualified name."
 
 #: ../../preferences.rst:45
 msgid "**Type / Тип** – тип объекта. Если ни один объект не выбран, настройки применятся к любому объекту."
-msgstr ""
+msgstr "**Type** is object type. If no type is selected, the settings are applied to any object."
 
 #: ../../preferences.rst:47
 msgid "Выбранные настройки будут отображены в главном окне \"Исключенные объекты\" рядом с именем объекта."
-msgstr ""
+msgstr "The selected settings will be displayed in the main \"Excluded objects\" window next to the object's name."
 
 #: ../../preferences.rst:49
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
@@ -344,7 +344,7 @@ msgstr "Creating, deleting and editing the templates for auto expand in the SQL 
 
 #: ../../preferences.rst:162
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL шаблонами для объектов базы данных PostgreSQL, MS SQL и ClickHouse, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL Editor -> SQL Editor Templates** settings page you can manage SQL templates for the PostgreSQL, MS SQL and ClickHouse database objects available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates list."
 
 #: ../../preferences.rst:168
 msgid "Хранилище БД"
