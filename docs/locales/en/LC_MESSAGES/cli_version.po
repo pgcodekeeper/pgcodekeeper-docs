@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:33+0300\n"
-"PO-Revision-Date: 2025-04-08 09:02\n"
+"PO-Revision-Date: 2025-04-08 11:48\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -459,7 +459,7 @@ msgstr "The VM *-Dlogging.config* parameter allows you to select a file with cus
 
 #: ../../cli_version.rst:407
 msgid "Пример файла конфигурации с логированием debug вывода в файл:"
-msgstr ""
+msgstr "Example of a configuration file with debug output logging to the file:"
 
 #~ msgid "Консольная сборка программы может быть использована для:"
 #~ msgstr ""
