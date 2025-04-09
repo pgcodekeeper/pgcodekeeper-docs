@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-04 10:56+0300\n"
-"PO-Revision-Date: 2025-04-09 06:43\n"
+"PO-Revision-Date: 2025-04-09 10:45\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Open the new object creation wizard: **File -> New -> Others**, select t
 
 #: ../../mock_data.rst:11
 msgid "Для каждой колонки в зависимости от типа и генератора доступны следующие настройки:"
-msgstr "For each column, depending on type and generator, the following settings are available:"
+msgstr "For each column, depending on the type and generator, the following settings are available:"
 
 #: ../../mock_data.rst:13
 msgid "**Имя колонки** - имя текущей колонки."
@@ -96,7 +96,7 @@ msgstr "**Undefined value** - unidentified value which will be written without f
 
 #: ../../mock_data.rst:27
 msgid "Для управления списком колонок доступны следующие кнопки:"
-msgstr "To manage the column list, the following buttons are available:"
+msgstr "For managing the column list, the following buttons are available:"
 
 #: ../../mock_data.rst:29
 msgid "**Добавить колонку** добавляет колонку типа INTEGER с генератором RANDOM."
