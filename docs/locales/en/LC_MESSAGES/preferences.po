@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:33+0300\n"
-"PO-Revision-Date: 2025-04-09 10:10\n"
+"PO-Revision-Date: 2025-04-09 10:45\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -80,11 +80,11 @@ msgstr "You can specify the objects that should not be considered when comparing
 
 #: ../../preferences.rst:31
 msgid "Переключатель **Черный список** - **Белый список** позволяет инвертировать черный список в белый и обратно."
-msgstr "The **Black list** - **White list** switch allows to invert black list to white list and the other way around."
+msgstr "The **Black list** - **White list** switch allows the user to invert black list to white list and the other way around."
 
 #: ../../preferences.rst:33
 msgid "Для добавления объекта в список исключенных, редактирования или удаления из него, служат кнопки |add_obj|, |edit_obj| и |delete| соответственно."
-msgstr "To add an object to the list of ignored, edit it or remove it from the list, use the |add_obj|, |edit_obj| and |delete| buttons respectively."
+msgstr "To add an object to the \"Ignored Objects\" list, edit it or remove it from the list, use the |add_obj|, |edit_obj| and |delete| buttons respectively."
 
 #: ../../preferences.rst:241
 msgid "add_obj"
@@ -100,7 +100,7 @@ msgstr "delete"
 
 #: ../../preferences.rst:35
 msgid "При добавлении и редактировании объекта откроется окно, в котором вы сможете выбрать необходимые настройки для исключенного объекта."
-msgstr "When adding or editing an object, a window will open where you'll be able to select the required settings for the ignored object."
+msgstr "When you add or edit an object, a window will open where you'll be able to select the required settings for the ignored object."
 
 #: ../../preferences.rst:40
 msgid "Настройки исключенного объекта"
@@ -128,7 +128,7 @@ msgstr "The selected settings will be displayed in the main \"Ignored objects\" 
 
 #: ../../preferences.rst:49
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
-msgstr "In this case, the list of excluded objects will be **general** and will expand its effect at all the projects present in the projects directory. A detailed description of work with lists see in :ref:`ignoreList`."
+msgstr "In this case, the list of excluded objects will be **general** and will apply its effect to all the projects present in the projects directory. For a detailed description of work with lists, see the :ref:`ignoreList` section."
 
 #: ../../preferences.rst:54
 msgid "Обновление БД"
@@ -340,7 +340,7 @@ msgstr "SQL Editor Templates"
 
 #: ../../preferences.rst:158
 msgid "Создание, удаление и редактирование шаблонов для автоподстановки в SQL редакторе"
-msgstr "Creating, deleting and editing the templates for auto expand in the SQL editor"
+msgstr "Creating, deleting and editing the templates for auto apply in the SQL editor"
 
 #: ../../preferences.rst:162
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL шаблонами для объектов базы данных PostgreSQL, MS SQL и ClickHouse, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
