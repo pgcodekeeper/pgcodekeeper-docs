@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 17:33+0300\n"
-"PO-Revision-Date: 2025-04-09 06:37\n"
+"PO-Revision-Date: 2025-04-09 08:34\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "**Clear parser cache** - allows to clear parser cache."
 
 #: ../../preferences.rst:25
 msgid "Исключенные объекты"
-msgstr "Excluded objects"
+msgstr "Ignored objects"
 
 #: ../../preferences.rst:27
 msgid "Объекты, которые не должны учитываться при сравнении БД, возможно указать на странице настроек **pgCodeKeeper -> Ignored Objects / Исключенные объекты**."
