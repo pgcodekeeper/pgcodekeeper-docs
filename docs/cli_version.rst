@@ -401,7 +401,7 @@ vmargs
 
 ::
 
- ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogging.config=home/user/configs/logback.xml
+ ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogback.configurationFile=home/user/configs/logback.xml
 
 
 Пример файла конфигурации с логированием debug вывода в файл:
