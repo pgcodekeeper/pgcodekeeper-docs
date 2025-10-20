@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-16 15:10+0300\n"
-"PO-Revision-Date: 2025-10-20 07:17\n"
+"PO-Revision-Date: 2025-10-20 11:30\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "First off, install `Java SDK <https://adoptium.net/temurin/releases/>`_ 
 
 #: ../../cli_version.rst:14
 msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper-cli/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
-msgstr ""
+msgstr "The latest version of cli build can be downloaded `here <https://github.com/pgcodekeeper/pgcodekeeper-cli/releases>`_. In the unpacked archive, use files for parameter passing: * * pgcodekeeper-cli.sh * * for Linux systems and * pgcodekeeper-cli.bat * for Windows systems."
 
 #: ../../cli_version.rst:17
 msgid "Режимы работы"
@@ -455,7 +455,7 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows you to
 
 #: ../../cli_version.rst:400
 msgid "Параметр VM *-Dlogback.configurationFile* позволяет указать файл с пользовательскими настройками логирования."
-msgstr ""
+msgstr "The VM *-Dlogback.configurationFile* parameter allows you to select a file with customized logging settings."
 
 #: ../../cli_version.rst:407
 msgid "Пример файла конфигурации с логированием debug вывода в файл:"
