@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-07 17:33+0300\n"
+"POT-Creation-Date: 2025-10-16 15:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../preferences.rst:3
 msgid "Глобальные настройки"
@@ -34,9 +34,11 @@ msgstr ""
 
 #: ../../preferences.rst:11
 msgid ""
-"**Ignore privileges and owners of database objects / Не учитывать "
-"привилегии и владельцев объектов** - позволяет отключить поиск различий в"
-" свойствах объектов, связанных с ролями БД."
+"**Reuse compare editor instead of opening new ones / Использовать "
+"открытый редактор сравнения вместо создания новых** - позволяет "
+"использовать открытый редактор сравнения при сравнения объектов базы "
+"данных (В контекстном меню таблицы различий выбрать пункт **Show Diff / "
+"Показать различия**)."
 msgstr ""
 
 #: ../../preferences.rst:12
@@ -48,19 +50,17 @@ msgstr ""
 
 #: ../../preferences.rst:13
 msgid ""
-"**Reuse compare editor instead of opening new ones / Использовать "
-"открытый редактор сравнения вместо создания новых** - позволяет "
-"использовать открытый редактор сравнения при сравнения объектов базы "
-"данных (В контекстном меню таблицы различий выбрать пункт **Show Diff / "
-"Показать различия**)."
-msgstr ""
-
-#: ../../preferences.rst:14
-msgid ""
 "**Enable full dependencies from bodies of functions and procedures "
 "(experimental) / Учитывать все зависимости из тел функций и процедур "
 "(экспериментально)** - позволяет искать внутри тел функций и процедур "
 "зависимости к другим функциям и процедурам."
+msgstr ""
+
+#: ../../preferences.rst:14
+msgid ""
+"**Ignore privileges and owners of database objects / Не учитывать "
+"привилегии и владельцев объектов** - позволяет отключить поиск различий в"
+" свойствах объектов, связанных с ролями БД."
 msgstr ""
 
 #: ../../preferences.rst:15
@@ -90,9 +90,9 @@ msgstr ""
 
 #: ../../preferences.rst:18
 msgid ""
-"**Number of parser threads / Количество потоков парсера** — позволяет "
-"оптимизировать использование ресурсов процессора (ЦПУ). При уменьшении "
-"числа потоков парсер будет использовать меньше ресурсов ЦПУ."
+"**Alert if Java heap size less than recommended / Оповещать, если объем "
+"heap-памяти Java меньше рекомендуемого** - позволяет предупреждать "
+"пользователя, если объем выделенной памяти меньше рекомендуемого."
 msgstr ""
 
 #: ../../preferences.rst:19
@@ -1261,5 +1261,40 @@ msgstr ""
 #~ " (ЦПУ). При уменьшении числа потоков "
 #~ "парсер будет использовать меньше ресурсов "
 #~ "ЦПУ."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Number of parser threads / Количество"
+#~ " потоков парсера** — позволяет "
+#~ "оптимизировать использование ресурсов процессора "
+#~ "(ЦПУ). При уменьшении числа потоков "
+#~ "парсер будет использовать меньше ресурсов "
+#~ "ЦПУ."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Alert if Java heap size less "
+#~ "than recommended/Оповещать, если объем "
+#~ "heap-памяти Java меньше рекомендуемого** - "
+#~ "Будет выводить диалоговое окно при "
+#~ "запуске приложения если объем выделенной "
+#~ "памяти меньше 2 гигабайт."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Alert if Java heap size less "
+#~ "than recommended / Оповещать, если объем"
+#~ " heap-памяти Java меньше рекомендуемого** -"
+#~ " позволяет выводить диалоговое окно при "
+#~ "запуске приложения если объем выделенной "
+#~ "памяти меньше рекомендуемой."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Alert if Java heap size less "
+#~ "than recommended / Оповещать, если объем"
+#~ " heap-памяти Java меньше рекомендуемого** -"
+#~ " позволяет предупреждать пользователя если "
+#~ "объем выделенной памяти меньше рекомендуемого."
 #~ msgstr ""
 

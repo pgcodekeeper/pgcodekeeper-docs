@@ -11,7 +11,7 @@ CLI версия
 
 Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ для вашей платформы.
 
-Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
+Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper-cli/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
 
 Режимы работы
 ~~~~~~~~~~~~~
@@ -397,11 +397,11 @@ vmargs
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
 
-Параметр VM *-Dlogging.config* позволяет указать файл с пользовательскими настройками логирования.
+Параметр VM *-Dlogback.configurationFile* позволяет указать файл с пользовательскими настройками логирования.
 
 ::
 
- ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogging.config=home/user/configs/logback.xml
+ ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogback.configurationFile=home/user/configs/logback.xml
 
 
 Пример файла конфигурации с логированием debug вывода в файл:
