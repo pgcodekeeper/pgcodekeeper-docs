@@ -22,7 +22,8 @@
 
 Для файла **.pgcodekeeperignoreschema** действуют те же правила заполнения, что и для :ref:`ignoreList` (смотри раздел :ref:`listSyntax`). 
 
-Мы можем применить список исключаемых схем и в :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper командой: ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``.
+Мы можем применить список исключаемых схем и в :ref:`dbStore`.
+В :ref:`cliVersion` pgCodeKeeper эта опция прописывается так : ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``.
 
 
 Выбор объектов

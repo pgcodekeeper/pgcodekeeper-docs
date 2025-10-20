@@ -11,7 +11,7 @@ CLI версия
 
 Для начала необходимо установить `Java SDK <https://adoptium.net/temurin/releases/>`_ для вашей платформы.
 
-Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
+Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper-cli/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
 
 Режимы работы
 ~~~~~~~~~~~~~
@@ -54,11 +54,11 @@ diff
 Пример команды для сравнения MS SQL проекта и базы данных и вывода результата в консоль.
 ::
 
- ./pgcodekeeper-cli.sh                                                \
+ pgcodekeeper-cli.bat                                                 \
  --mode DIFF                                                          \
  --db-type MS                                                         \
  /path/to/project/                                                    \
- 'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
+ "jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true"
 
 
 Пример команды для сравнения ClickHouse дампа и базы данных и выполнение скрипта на этой же базе данных.
@@ -168,7 +168,7 @@ graph
  --graph-filter-object FUNCTION             \
  --enable-function-bodies-dependencies      \
  -o result.txt                              \
- 'jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true'
+ "jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true"
 
 
 Пример вывода результата:
@@ -396,3 +396,31 @@ vmargs
 ::
 
  ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dru.taximaxim.codekeeper.parser.poolsize=5
+
+Параметр VM *-Dlogback.configurationFile* позволяет указать файл с пользовательскими настройками логирования.
+
+::
+
+ ./pgcodekeeper-cli.sh 1.sql 2.sql -vmargs -Dlogback.configurationFile=home/user/configs/logback.xml
+
+
+Пример файла конфигурации с логированием debug вывода в файл:
+
+::
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+            <file>${user.home}/.pgcodekeeper-cli/logs/pgcodekeeper-cli.log</file>
+            <append>true</append>
+            <immediateFlush>true</immediateFlush>
+            <encoder>
+              <pattern>%d{yyyy-MM-dd HH:mm:ss} [%level] [%logger{0}] - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="DEBUG">
+            <appender-ref ref="FILE" />
+        </root>
+    </configuration>
+

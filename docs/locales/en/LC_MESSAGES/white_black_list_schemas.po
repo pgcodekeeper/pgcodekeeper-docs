@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-01 16:24+0300\n"
-"PO-Revision-Date: 2024-07-09 06:52\n"
+"POT-Creation-Date: 2025-04-01 16:33+0300\n"
+"PO-Revision-Date: 2025-04-08 12:54\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.17.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -63,69 +63,76 @@ msgid "Для файла **.pgcodekeeperignoreschema** действуют те �
 msgstr "For the **.pgcodekeeperignoreschema** file, the same rules are applied, as for :ref:`ignoreList` (see the :ref:`listSyntax` section)."
 
 #: ../../white_black_list_schemas.rst:25
-msgid "Мы можем применить список исключаемых схем и в :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper командой: ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
-msgstr "We can apply the list of ignored schemas in :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper with the help of the following command: ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
+msgid "Мы можем применить список исключаемых схем и в :ref:`dbStore`. В :ref:`cliVersion` pgCodeKeeper эта опция прописывается так : ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
+msgstr "We can apply the list of ignored schemas in :ref:`dbStore`. In :ref:`cliVersion` of pgCodeKeeper this option configured using the following command: ``pgcodekeeper-cli --ignore-schema <path> SOURCE DEST``."
 
-#: ../../white_black_list_schemas.rst:29
+#: ../../white_black_list_schemas.rst:30
 msgid "Выбор объектов"
 msgstr "Object selection"
 
-#: ../../white_black_list_schemas.rst:31
+#: ../../white_black_list_schemas.rst:32
 msgid "При выборе флага Pattern(REGEX) в окне создания нового правила поиск объекта будет производится по регулярному выражению, указанном в поле для имени объекта. |ignore-schema|"
 msgstr "If you tick Pattern(REGEX) in the new rule creation window, objects will be searched by a regular expression specified in the object name field. |ignore-schema|"
 
-#: ../../white_black_list_schemas.rst:53
+#: ../../white_black_list_schemas.rst:54
 msgid "ignore-schema"
 msgstr "ignore-schema"
 
-#: ../../white_black_list_schemas.rst:36
+#: ../../white_black_list_schemas.rst:37
 msgid "Пример использования исключения схем при загрузке"
 msgstr "Example of using the ignoring of schemas in downloading"
 
-#: ../../white_black_list_schemas.rst:38
+#: ../../white_black_list_schemas.rst:39
 msgid "Например, нам понадобилось загрузить все объекты из базы данных, кроме объектов из схемы worker. Добавляем в список исключаемых схем worker, выбираем флаг Black-list / Черный список  в интерфейсе исключаемых схем:"
 msgstr "For instance, we need to download all the database objects, except for the objects from the worker schema. Add worker to the list of the ignored schemas, tick Black-list on the interface of the ignored schemas:"
 
-#: ../../white_black_list_schemas.rst:40
+#: ../../white_black_list_schemas.rst:41
 msgid "|black_list_2|"
 msgstr "|black_list_2|"
 
-#: ../../white_black_list_schemas.rst:55
+#: ../../white_black_list_schemas.rst:56
 msgid "black_list_2"
 msgstr "black_list_2"
 
-#: ../../white_black_list_schemas.rst:42
+#: ../../white_black_list_schemas.rst:43
 msgid "Нажимаем Apply and Close."
 msgstr "Click Apply and Close."
 
-#: ../../white_black_list_schemas.rst:44
+#: ../../white_black_list_schemas.rst:45
 msgid "В редакторе проекта  кликаем по **Changes / Получить изменения** |refresh|. На панели различий нет объектов из схемы worker!"
 msgstr "In the project editor, click **Changes** |refresh|. There are no objects from the worker schema on the differences panel!"
 
-#: ../../white_black_list_schemas.rst:56
+#: ../../white_black_list_schemas.rst:57
 msgid "refresh"
 msgstr "refresh"
 
-#: ../../white_black_list_schemas.rst:46
+#: ../../white_black_list_schemas.rst:47
 msgid "|black_list_worker|"
 msgstr "|black_list_worker|"
 
-#: ../../white_black_list_schemas.rst:59
+#: ../../white_black_list_schemas.rst:60
 msgid "black_list_worker"
 msgstr "black_list_worker"
 
-#: ../../white_black_list_schemas.rst:48
+#: ../../white_black_list_schemas.rst:49
 msgid "Если нам необходимо загрузить только объекты из схемы worker, то в интерфейсе исключаемых схем выбираем флаг White-list / Белый список. В результате на панели различий мы получим объекты только из схемы worker."
 msgstr "If you need to download the objects from the worker schema only, tick White-list in the ignored schemas interface. As a result, only the objects from the worker schema will be displayed."
 
-#: ../../white_black_list_schemas.rst:51
+#: ../../white_black_list_schemas.rst:52
 msgid "|white_list_worker|"
 msgstr "|white_list_worker|"
 
-#: ../../white_black_list_schemas.rst:60
+#: ../../white_black_list_schemas.rst:61
 msgid "white_list_worker"
 msgstr "white_list_worker"
 
 #~ msgid "example_black_list"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Мы можем применить список исключаемых "
+#~ "схем и в :ref:`dbStore`. :ref:`cliVersion` "
+#~ "pgCodeKeeper командой: ``pgcodekeeper-cli "
+#~ "--ignore-schema <path> SOURCE DEST``."
 #~ msgstr ""
 
