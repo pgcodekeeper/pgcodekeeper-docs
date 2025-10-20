@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-16 15:36+0300\n"
-"PO-Revision-Date: 2025-10-20 07:17\n"
+"PO-Revision-Date: 2025-10-20 11:30\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "**Format object code automatically** allows display and save the formatt
 
 #: ../../preferences.rst:18
 msgid "**Alert if Java heap size less than recommended / Оповещать, если объем heap-памяти Java меньше рекомендуемого** - позволяет предупреждать пользователя, если объем выделенной памяти меньше рекомендуемого."
-msgstr ""
+msgstr "**Alert if Java heap size less than recommended** - allows the user to receive a warning if the amount of allocated memory is less than the recommended amount."
 
 #: ../../preferences.rst:19
 msgid "**Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяет автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение."
