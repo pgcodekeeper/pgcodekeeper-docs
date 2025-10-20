@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 15:47+0300\n"
-"PO-Revision-Date: 2024-08-19 11:55\n"
+"POT-Creation-Date: 2025-10-15 17:59+0300\n"
+"PO-Revision-Date: 2025-10-20 07:17\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.10.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Project-ID: 301130\n"
@@ -55,12 +55,12 @@ msgid "Поддерживаемые версии баз данных:"
 msgstr "Supported database versions:"
 
 #: ../../index.rst:15
-msgid "PostgreSQL 9.4+"
-msgstr "PostgreSQL 9.4+"
+msgid "PostgreSQL 14+"
+msgstr ""
 
 #: ../../index.rst:16
-msgid "MS SQL 2012+"
-msgstr "MS SQL 2012+"
+msgid "MS SQL 2017+"
+msgstr ""
 
 #: ../../index.rst:17
 msgid "ClickHouse 23+"
@@ -96,5 +96,11 @@ msgstr "Greenplum 6+"
 #~ msgstr ""
 
 #~ msgid "MsSQl 2017+"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL 9.4+"
+#~ msgstr ""
+
+#~ msgid "MS SQL 2012+"
 #~ msgstr ""
 
