@@ -12,7 +12,7 @@ Windows аутентификация
 
 ::
 
-  pgcodekeeper-cli.bat --ms-sql jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true NUL
+  pgcodekeeper-cli.bat --db-type MS jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true NUL
 
 Конфигурация системы
 ~~~~~~~~~~~~~~~~~~~~
