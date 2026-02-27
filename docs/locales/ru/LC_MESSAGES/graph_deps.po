@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 13:16+0300\n"
+"POT-Creation-Date: 2026-02-27 13:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -99,11 +99,11 @@ msgid ""
 "Удалить**."
 msgstr ""
 
-#: ../../graph_deps.rst:37
+#: ../../graph_deps.rst:36
 msgid "Построение графа зависимостей"
 msgstr ""
 
-#: ../../graph_deps.rst:39
+#: ../../graph_deps.rst:38
 msgid ""
 "В редакторе сравнения предусмотрена возможность построения графа "
 "зависимостей для выбранного объекта. Чтобы построить граф, щёлкните "
@@ -112,39 +112,45 @@ msgid ""
 "зависимостей."
 msgstr ""
 
-#: ../../graph_deps.rst:45
+#: ../../graph_deps.rst:43
 msgid "После этого укажите параметры построения:"
 msgstr ""
 
-#: ../../graph_deps.rst:50
+#: ../../graph_deps.rst:48
 msgid ""
-"Schema source / Источник схемы — выберите источник, в котором будет "
+"**Schema source / Источник схемы** — выберите источник, в котором будет "
 "выполняться поиск зависимостей."
 msgstr ""
 
-#: ../../graph_deps.rst:52
+#: ../../graph_deps.rst:50
 msgid ""
 "**Show / Показать** — укажите, что именно отображать: зависимости объекта"
 " (**Dependencies / Зависимости**) или объекты, из которых вызывается "
 "выбранный объект (**Calls / Вызовы**)."
 msgstr ""
 
-#: ../../graph_deps.rst:54
+#: ../../graph_deps.rst:52
 msgid ""
 "**Graph search depth / Глубина поиска** — задайте необходимую глубину "
 "поиска (количество учитываемых объектов)."
 msgstr ""
 
-#: ../../graph_deps.rst:56
+#: ../../graph_deps.rst:54
 msgid ""
 "**Object type / Тип объекта** — выберите типы объектов базы данных, "
 "которые следует включить в результат. По умолчанию отображаются "
 "зависимости всех типов."
 msgstr ""
 
-#: ../../graph_deps.rst:58
+#: ../../graph_deps.rst:56
 msgid ""
 "После выполнения настроек будет построен и отображён граф зависимостей "
 "для указанного объекта."
 msgstr ""
+
+#~ msgid ""
+#~ "Schema source / Источник схемы — "
+#~ "выберите источник, в котором будет "
+#~ "выполняться поиск зависимостей."
+#~ msgstr ""
 
