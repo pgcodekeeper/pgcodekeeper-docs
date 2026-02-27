@@ -48,6 +48,7 @@
    refactoring
    object_search
    diff
+   graph_deps
    mock_data
 
 .. toctree::
