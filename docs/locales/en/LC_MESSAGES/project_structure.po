@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 13:58+0300\n"
-"PO-Revision-Date: 2024-07-10 09:02\n"
+"POT-Creation-Date: 2026-06-11 09:40+0300\n"
+"PO-Revision-Date: 2026-06-11 08:42\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgid "Структура проекта"
 msgstr "Project structure"
 
 #: ../../project_structure.rst:5
-msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
-msgstr "The **PostgreSQL** project has the following structure: ::"
+msgid "Проект **PostgreSQL** по-умолчанию имеет следующую структуру: ::"
+msgstr ""
 
 #: ../../project_structure.rst:32
 msgid "schema_name ... another_schema_name - имена схем."
@@ -47,8 +47,8 @@ msgid "определения индексов, ограничений, триг
 msgstr "definition of indexes, constraints, triggers and rules are located in the files of parent objects. For example, index **public.ii** for the **public.t1** table will be located in **SCHEMA/public/TABLE/t1.sql**."
 
 #: ../../project_structure.rst:38
-msgid "Проект **MS SQL** содержит следующую структуру: ::"
-msgstr "The **MS SQL** project has the following structure: ::"
+msgid "Проект **MS SQL** по-умолчанию имеет следующую структуру: ::"
+msgstr ""
 
 #: ../../project_structure.rst:58
 msgid "schema_name.sql - обязательный файл с определением схемы."
@@ -63,36 +63,68 @@ msgid "определения индексов, ограничений, триг
 msgstr "definitions of indexes, constraints, triggers are located in the files of parent objects. For example, index **dbo.ii** for the **dbo.t1** table will be located in **Tables/dbo.t1.sql**."
 
 #: ../../project_structure.rst:62
-msgid "Проект **ClickHouse** содержит следующую структуру: ::"
-msgstr "The **ClickHouse** project has the following structure: ::"
+msgid "Проект **ClickHouse** по-умолчанию имеет следующую структуру: ::"
+msgstr ""
 
-#: ../../project_structure.rst:83
+#: ../../project_structure.rst:84
 msgid "database_name.sql - обязательный файл с определением схемы, имя должно совпадать с именем директории."
 msgstr "database_name.sql - an obligatory file with schema definition, the name should be identical to the directory name."
 
-#: ../../project_structure.rst:84
+#: ../../project_structure.rst:85
 msgid "table_name.sql, dictionary_name.sql, view_name.sql - файлы с определениями объектов. Имена указываются без имени базы данных в директории соответствующей базы данных."
 msgstr "table_name.sql, dictionary_name.sql, view_name.sql - files with objects' definition. The names are specified without schema names in the directory of a corresponding database."
 
-#: ../../project_structure.rst:85
+#: ../../project_structure.rst:86
 msgid "function_name.sql, policy_name.sql, user_name.sql, role_name.sql - файлы с определением объектов."
 msgstr "function_name.sql, policy_name.sql, user_name.sql, role_name.sql - files with objects' definition."
 
-#: ../../project_structure.rst:86
+#: ../../project_structure.rst:87
 msgid "определение индексов и ограничений расположены в файлах родительских объектов. Например ограничение **check_t1** для таблицы **default.t1** будет рассположен в **DATABASE/default/TABLE/t1.sql**"
 msgstr "definitions of indices and constraints are located in the files of parent objects. For example, the **check_t1** constrain for the **default.t1** table will be located in **DATABASE/default/TABLE/t1.sql**"
 
-#: ../../project_structure.rst:89
-msgid "Кроме этого в проекте могут содержаться следующие директории:"
-msgstr "Apart from this, a project may contain the following directories:"
+#: ../../project_structure.rst:90
+msgid "Кроме этого в проекте могут содержаться следующие директории и файлы:"
+msgstr ""
 
-#: ../../project_structure.rst:91
-msgid "**MIGRATION**. Содержит сохраненные скрипты миграции. Автоматическое сохранение и удаление скриптов миграции в данной директории можно выбрать на странице настроек :ref:`dbUpdate`."
-msgstr "**MIGRATION**. Contains the saved migration scripts. You can select automatic save and deletion of migration scripts for this directory on the settings page :ref:`dbUpdate`."
+#: ../../project_structure.rst:92
+msgid "Директория **MIGRATION** содержит сохраненные скрипты миграции. Автоматическое сохранение и удаление скриптов миграции в данной директории можно выбрать на странице настроек :ref:`dbUpdate`."
+msgstr ""
 
-#: ../../project_structure.rst:93
-msgid "**OVERRIDES**. Содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
-msgstr "**OVERRIDES**. Contains files of object properties override. The inner structure of this directory duplicates the project structure. You can save the properties override by selecting the corresponding item while saving the objects in the project. Overriding privileges and owners of database objects is currently supported."
+#: ../../project_structure.rst:94
+msgid "Директория **OVERRIDES** содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно, выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
+msgstr ""
+
+#: ../../project_structure.rst:96
+msgid "Директория **.settings** содержит настройки проекта."
+msgstr ""
+
+#: ../../project_structure.rst:98
+msgid "Файл **.dependencies** хранит список библиотек в виде XML-файла. Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:100
+msgid "Файл **.pgcodekeeper** является маркером проекта pgCodeKeeper."
+msgstr ""
+
+#: ../../project_structure.rst:102
+msgid "Файл **.pgcodekeeperdependencies** содержит неявные зависимости объектов. Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:104
+msgid "Файл **.pgcodekeeperignore** содержит правила игнорирования объектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`. Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:106
+msgid "Файл **.pgcodekeeperignoreschema** содержит правила игнорирования схем. Подробное описание работы находится в разделе :ref:`ignoreSchemaList`. Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:108
+msgid "Файл **.project** является маркером проекта Eclipse."
+msgstr ""
+
+#: ../../project_structure.rst:110
+msgid "Файл **structure.properties** хранит структуру проекта. Редактируется через :doc:`Нормализацию проекта <normalize_project>`."
+msgstr ""
 
 #~ msgid ""
 #~ "another_schema_name.sql - обязательный файл с"
@@ -115,5 +147,36 @@ msgstr "**OVERRIDES**. Contains files of object properties override. The inner s
 #~ " ограничение **check_t1** для таблицы "
 #~ "**default.t1** будет рассположен в "
 #~ "***DATABASE/default/TABLE/t1.sql*"
+#~ msgstr ""
+
+#~ msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Проект **MS SQL** содержит следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Проект **ClickHouse** содержит следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Кроме этого в проекте могут содержаться следующие директории:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**MIGRATION**. Содержит сохраненные скрипты "
+#~ "миграции. Автоматическое сохранение и удаление"
+#~ " скриптов миграции в данной директории "
+#~ "можно выбрать на странице настроек "
+#~ ":ref:`dbUpdate`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**OVERRIDES**. Содержит файлы переопределения "
+#~ "свойств объектов. Внутренняя структура данной"
+#~ " директории дублирует структуру проекта. "
+#~ "Сохранить переопределения свойств возможно "
+#~ "выбрав соответствующую опцию при сохранении"
+#~ " объектов в проект. На данный момент"
+#~ " поддерживается переопределение привилегий и "
+#~ "владельцев объектов базы данных."
 #~ msgstr ""
 
