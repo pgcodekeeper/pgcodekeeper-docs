@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 13:58+0300\n"
+"POT-Creation-Date: 2026-06-11 09:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Структура проекта"
 msgstr ""
 
 #: ../../project_structure.rst:5
-msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
+msgid "Проект **PostgreSQL** по-умолчанию имеет следующую структуру: ::"
 msgstr ""
 
 #: ../../project_structure.rst:32
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 
 #: ../../project_structure.rst:38
-msgid "Проект **MS SQL** содержит следующую структуру: ::"
+msgid "Проект **MS SQL** по-умолчанию имеет следующую структуру: ::"
 msgstr ""
 
 #: ../../project_structure.rst:58
@@ -79,53 +79,98 @@ msgid ""
 msgstr ""
 
 #: ../../project_structure.rst:62
-msgid "Проект **ClickHouse** содержит следующую структуру: ::"
+msgid "Проект **ClickHouse** по-умолчанию имеет следующую структуру: ::"
 msgstr ""
 
-#: ../../project_structure.rst:83
+#: ../../project_structure.rst:84
 msgid ""
 "database_name.sql - обязательный файл с определением схемы, имя должно "
 "совпадать с именем директории."
 msgstr ""
 
-#: ../../project_structure.rst:84
+#: ../../project_structure.rst:85
 msgid ""
 "table_name.sql, dictionary_name.sql, view_name.sql - файлы с "
 "определениями объектов. Имена указываются без имени базы данных в "
 "директории соответствующей базы данных."
 msgstr ""
 
-#: ../../project_structure.rst:85
+#: ../../project_structure.rst:86
 msgid ""
 "function_name.sql, policy_name.sql, user_name.sql, role_name.sql - файлы "
 "с определением объектов."
 msgstr ""
 
-#: ../../project_structure.rst:86
+#: ../../project_structure.rst:87
 msgid ""
 "определение индексов и ограничений расположены в файлах родительских "
 "объектов. Например ограничение **check_t1** для таблицы **default.t1** "
 "будет рассположен в **DATABASE/default/TABLE/t1.sql**"
 msgstr ""
 
-#: ../../project_structure.rst:89
-msgid "Кроме этого в проекте могут содержаться следующие директории:"
+#: ../../project_structure.rst:90
+msgid "Кроме этого в проекте могут содержаться следующие директории и файлы:"
 msgstr ""
 
-#: ../../project_structure.rst:91
+#: ../../project_structure.rst:92
 msgid ""
-"**MIGRATION**. Содержит сохраненные скрипты миграции. Автоматическое "
-"сохранение и удаление скриптов миграции в данной директории можно выбрать"
-" на странице настроек :ref:`dbUpdate`."
+"Директория **MIGRATION** содержит сохраненные скрипты миграции. "
+"Автоматическое сохранение и удаление скриптов миграции в данной "
+"директории можно выбрать на странице настроек :ref:`dbUpdate`."
 msgstr ""
 
-#: ../../project_structure.rst:93
+#: ../../project_structure.rst:94
 msgid ""
-"**OVERRIDES**. Содержит файлы переопределения свойств объектов. "
-"Внутренняя структура данной директории дублирует структуру проекта. "
-"Сохранить переопределения свойств возможно выбрав соответствующую опцию "
+"Директория **OVERRIDES** содержит файлы переопределения свойств объектов."
+" Внутренняя структура данной директории дублирует структуру проекта. "
+"Сохранить переопределения свойств возможно, выбрав соответствующую опцию "
 "при сохранении объектов в проект. На данный момент поддерживается "
 "переопределение привилегий и владельцев объектов базы данных."
+msgstr ""
+
+#: ../../project_structure.rst:96
+msgid "Директория **.settings** содержит настройки проекта."
+msgstr ""
+
+#: ../../project_structure.rst:98
+msgid ""
+"Файл **.dependencies** хранит список библиотек в виде XML-файла. "
+"Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:100
+msgid "Файл **.pgcodekeeper** является маркером проекта pgCodeKeeper."
+msgstr ""
+
+#: ../../project_structure.rst:102
+msgid ""
+"Файл **.pgcodekeeperdependencies** содержит неявные зависимости объектов."
+" Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:104
+msgid ""
+"Файл **.pgcodekeeperignore** содержит правила игнорирования объектов. "
+"Подробное описание работы со списками находится в разделе "
+":ref:`ignoreList`. Редактируется через :doc:`настройки проекта "
+"<properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:106
+msgid ""
+"Файл **.pgcodekeeperignoreschema** содержит правила игнорирования схем. "
+"Подробное описание работы находится в разделе :ref:`ignoreSchemaList`. "
+"Редактируется через :doc:`настройки проекта <properties>`."
+msgstr ""
+
+#: ../../project_structure.rst:108
+msgid "Файл **.project** является маркером проекта Eclipse."
+msgstr ""
+
+#: ../../project_structure.rst:110
+msgid ""
+"Файл **structure.properties** хранит структуру проекта. Редактируется "
+"через :doc:`Нормализацию проекта <normalize_project>`."
 msgstr ""
 
 #~ msgid ""
@@ -149,5 +194,36 @@ msgstr ""
 #~ " ограничение **check_t1** для таблицы "
 #~ "**default.t1** будет рассположен в "
 #~ "***DATABASE/default/TABLE/t1.sql*"
+#~ msgstr ""
+
+#~ msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Проект **MS SQL** содержит следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Проект **ClickHouse** содержит следующую структуру: ::"
+#~ msgstr ""
+
+#~ msgid "Кроме этого в проекте могут содержаться следующие директории:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**MIGRATION**. Содержит сохраненные скрипты "
+#~ "миграции. Автоматическое сохранение и удаление"
+#~ " скриптов миграции в данной директории "
+#~ "можно выбрать на странице настроек "
+#~ ":ref:`dbUpdate`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**OVERRIDES**. Содержит файлы переопределения "
+#~ "свойств объектов. Внутренняя структура данной"
+#~ " директории дублирует структуру проекта. "
+#~ "Сохранить переопределения свойств возможно "
+#~ "выбрав соответствующую опцию при сохранении"
+#~ " объектов в проект. На данный момент"
+#~ " поддерживается переопределение привилегий и "
+#~ "владельцев объектов базы данных."
 #~ msgstr ""
 
