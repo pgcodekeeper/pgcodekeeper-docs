@@ -94,12 +94,6 @@
 
 .. image:: ../images/db_update_props.png
 
-
-.. |new_file| image:: ../images/pgcodekeeper_project_view/new_file.png
-.. |add_obj| image:: ../images/pgcodekeeper_project_view/add_obj.png
-.. |delete| image:: ../images/pgcodekeeper_project_view/delete_obj.png
-.. |editor_area| image:: ../images/pgcodekeeper_project_view/editor_area.png
-
 Структура проекта
 ~~~~~~~~~~~~~~~~~
 
