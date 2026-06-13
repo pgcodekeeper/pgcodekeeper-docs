@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-11 09:40+0300\n"
-"PO-Revision-Date: 2026-06-11 08:42\n"
+"PO-Revision-Date: 2026-06-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "**Enable full dependencies from bodies of functions and procedures (expe
 
 #: ../../preferences.rst:15
 msgid "**Simplified reading of NOT NULL constraints via JDBC (only for PostgreSQL 18+) / Упрощенное чтение ограничений NOT NULL через JDBC (только для PostgreSQL 18+)** - позволяет загружать NOT NULL как свойство колонки, а не как отдельное именованное ограничение, что соответствует поведению PostgreSQL 17 и ниже."
-msgstr ""
+msgstr "**Simplified reading of NOT NULL constraints via JDBC (only for PostgreSQL 18+)** — allows loading NOT NULL as a column property rather than a separate named constraint, matching PostgreSQL 17 and earlier behavior."
 
 #: ../../preferences.rst:16
 msgid "**Simple formatting for VIEWs when reading via JDBC (not recommended by PostgreSQL) / Упрощенное форматирование представлений при чтении через JDBC (не рекомендовано PostgreSQL)** - позволяет использовать упрощенное форматирование представлений, убирая лишние скобки в выражениях. Данный формат может не поддерживаться в будущих версиях PostgeSQL."
@@ -64,7 +64,7 @@ msgstr "**Ignore concurrent modification errors when reading DB** - allows you t
 
 #: ../../preferences.rst:21
 msgid "**Use parallel database loading / Использовать параллельную загрузку БД** — позволяет ускорить процесс сравнения баз данных за счет увеличения потребления системных ресурсов (CPU, память, дисковые операции)."
-msgstr ""
+msgstr "**Use parallel database loading** — allows speeding up database comparison by increasing consumption of system resources (CPU, memory, disk I/O)."
 
 #: ../../preferences.rst:22
 msgid "**Alert if Java heap size less than recommended / Оповещать, если объем heap-памяти Java меньше рекомендуемого** - позволяет предупреждать пользователя, если объем выделенной памяти меньше рекомендуемого."
@@ -200,11 +200,11 @@ msgstr "**Print DROP before CREATE statement** allows to add the DROP statement 
 
 #: ../../preferences.rst:77
 msgid "**Create script only from objects selected in comparison panel / Создавать скрипт только из объектов, выбранных в панели сравнения** – позволяет исключить из скрипта объекты, которые не были выбраны явно."
-msgstr ""
+msgstr "**Create script only from objects selected in comparison panel** — allows excluding objects that were not explicitly selected from the script."
 
 #: ../../preferences.rst:78
 msgid "**Print comments at end of script / Печатать комментарии в конце скрипта** - позволяет переносить добавление всех комментариев в конец скрипта миграции."
-msgstr ""
+msgstr "**Print comments at end of script** — allows moving all comments to the end of the migration script."
 
 #: ../../preferences.rst:79
 msgid "**Migrate data when re-creating tables / Мигрировать данные при пересоздании таблиц** - позволяет сохранить данные при пересоздании таблицы. При пересоздании существующая таблица переименовывается и создается новая, данные из исходной переливаются в новую. Старая переименованная таблица удаляется. Состояние IDENTITY SEQUENCE переносится из старой таблицы в новую. Обычные SEQUENCE не поддерживаются."
@@ -212,7 +212,7 @@ msgstr "**Migrate data when re-creating tables** allows to save the data when re
 
 #: ../../preferences.rst:80
 msgid "**Use current database version syntax to generate migration script / Использовать синтаксис текущей версии базы данных для генерации скрипта миграции** - позволяет использовать синтаксис из более новых версий БД вместо синтаксиса минимальной поддерживаемой версии."
-msgstr ""
+msgstr "**Use current database version syntax to generate migration script** — allows using syntax from newer database versions instead of the minimum supported version syntax."
 
 #: ../../preferences.rst:81
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
