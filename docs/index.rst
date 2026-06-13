@@ -30,6 +30,7 @@
    import_project
    project_structure
    convert_project
+   normalize_project
    editors
    preferences
    properties

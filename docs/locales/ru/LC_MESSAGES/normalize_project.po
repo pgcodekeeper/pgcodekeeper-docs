@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 14.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-11 09:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../normalize_project.rst:3
+msgid "Нормализация проекта"
+msgstr ""
+
+#: ../../normalize_project.rst:5
+msgid ""
+"Для восстановления или изменения структуры можно воспользоваться "
+"нормализацией проекта. Для этого из меню проекта выберите пункт "
+"**pgCodeKeeper -> Normalize Project... / Нормализовать проект...**"
+msgstr ""
+
+#: ../../normalize_project.rst:9
+msgid ""
+"В открывшемся диалоговом окне можно изменить настройку группировки "
+"объектов по схемам, а также изменить соответствие типа объекта и его "
+"директории."
+msgstr ""
+
+#: ../../normalize_project.rst:13
+msgid ""
+"После нажатия кнопки **OK** структура проекта будет изменена в "
+"соответствии с заданными настройками."
+msgstr ""
+
