@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-11 09:40+0300\n"
-"PO-Revision-Date: 2026-06-11 08:42\n"
+"PO-Revision-Date: 2026-06-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "**Timezone for all DB connections** allows selecting, which time zone to
 
 #: ../../properties.rst:20
 msgid "**Enable project specific settings / Переопределить глобальные настройки (только для текущего проекта)** — позволяет переопределить некоторые :ref:`globalPref` для текущего проекта. Набор доступных для переопределения настроек может отличаться в зависимости от типа проекта."
-msgstr ""
+msgstr "**Enable project specific settings** — allows overriding some :ref:`globalPref` for the current project. The set of available settings may vary depending on the project type."
 
 #: ../../properties.rst:22
 msgid "**Use global ignore list / Использовать глобальный список игнорирования** - позволяет включить или отключить использование глобального списка различий со страницы настроек :ref:`ignoredObjects`."
@@ -116,7 +116,7 @@ msgstr "To delete an object, click |delete|."
 
 #: ../../properties.rst:55
 msgid "Для редактирования объекта нажмите кнопку |editor_area|."
-msgstr ""
+msgstr "To edit an object, click the |editor_area| button."
 
 #: ../../properties.rst:59
 msgid "Библиотечные зависимости"
@@ -184,47 +184,47 @@ msgstr "DB update"
 
 #: ../../properties.rst:93
 msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые настройки со страницы :ref:`dbUpdate` для текущего проекта. Набор доступных для переопределения настроек может отличаться в зависимости от типа проекта."
-msgstr ""
+msgstr "Settings that manage the database update and allow overriding some settings from the :ref:`dbUpdate` page for the current project. The set of available settings may vary depending on the project type."
 
 #: ../../properties.rst:104
 msgid "Структура проекта"
-msgstr ""
+msgstr "Project Structure"
 
 #: ../../properties.rst:106
 msgid "Настройки соответстия типа объекта и его директории для текущего проекта."
-msgstr ""
+msgstr "Settings for mapping object types to their directories for the current project."
 
 #: ../../properties.rst:110
 msgid "**Split objects by schema / Разделять объекты по схемам** — определяет, группировать ли объекты внутри проекта по схемам."
-msgstr ""
+msgstr "**Split objects by schema** — determines whether to group objects within the project by schemas."
 
 #: ../../properties.rst:112
 msgid "Страница в режиме только для чтения. Для изменения структуры нужно использовать :doc:`Нормализацию проекта <normalize_project>`."
-msgstr ""
+msgstr "This page is read-only. Use :doc:`Project Normalization <normalize_project>` to change the structure."
 
 #: ../../properties.rst:115
 msgid "Дополнительные зависимости"
-msgstr ""
+msgstr "Additional Dependencies"
 
 #: ../../properties.rst:117
 msgid "Настройки для ручного указания неявных зависимостей между объектами."
-msgstr ""
+msgstr "Settings for manually specifying implicit dependencies between objects."
 
 #: ../../properties.rst:121
 msgid "Для добавления зависимости нажмите кнопку |add_obj| - откроется диалоговое окно."
-msgstr ""
+msgstr "To add a dependency, click the |add_obj| button — the dialog window will open."
 
 #: ../../properties.rst:125
 msgid "Выберите тип источника и приёмника, заполните имена объектов, затем нажмите **ОК**."
-msgstr ""
+msgstr "Select the source and receiver types, fill in the object names, then click **OK**."
 
 #: ../../properties.rst:127
 msgid "Для удаления зависимости нажмите кнопку |delete|."
-msgstr ""
+msgstr "To delete a dependency, click the |delete| button."
 
 #: ../../properties.rst:129
 msgid "Для редактирования зависимости нажмите кнопку |editor_area|."
-msgstr ""
+msgstr "To edit a dependency, click the |editor_area| button."
 
 #~ msgid ""
 #~ "Столбец **Owner / Владелец** позволяет "
