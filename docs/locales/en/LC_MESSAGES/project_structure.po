@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-11 09:40+0300\n"
-"PO-Revision-Date: 2026-06-11 08:42\n"
+"PO-Revision-Date: 2026-06-13 10:20\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Project structure"
 
 #: ../../project_structure.rst:5
 msgid "Проект **PostgreSQL** по-умолчанию имеет следующую структуру: ::"
-msgstr ""
+msgstr "The **PostgreSQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:32
 msgid "schema_name ... another_schema_name - имена схем."
@@ -48,7 +48,7 @@ msgstr "definition of indexes, constraints, triggers and rules are located in th
 
 #: ../../project_structure.rst:38
 msgid "Проект **MS SQL** по-умолчанию имеет следующую структуру: ::"
-msgstr ""
+msgstr "The **MS SQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:58
 msgid "schema_name.sql - обязательный файл с определением схемы."
@@ -64,7 +64,7 @@ msgstr "definitions of indexes, constraints, triggers are located in the files o
 
 #: ../../project_structure.rst:62
 msgid "Проект **ClickHouse** по-умолчанию имеет следующую структуру: ::"
-msgstr ""
+msgstr "The **ClickHouse** project has the following structure: ::"
 
 #: ../../project_structure.rst:84
 msgid "database_name.sql - обязательный файл с определением схемы, имя должно совпадать с именем директории."
@@ -84,47 +84,47 @@ msgstr "definitions of indices and constraints are located in the files of paren
 
 #: ../../project_structure.rst:90
 msgid "Кроме этого в проекте могут содержаться следующие директории и файлы:"
-msgstr ""
+msgstr "Apart from this, a project may contain the following directories and files:"
 
 #: ../../project_structure.rst:92
 msgid "Директория **MIGRATION** содержит сохраненные скрипты миграции. Автоматическое сохранение и удаление скриптов миграции в данной директории можно выбрать на странице настроек :ref:`dbUpdate`."
-msgstr ""
+msgstr "The **MIGRATION** directory contains saved migration scripts. Automatic saving and deletion of migration scripts in this directory can be configured on the :ref:`dbUpdate` settings page."
 
 #: ../../project_structure.rst:94
 msgid "Директория **OVERRIDES** содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно, выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
-msgstr ""
+msgstr "The **OVERRIDES** directory contains files for overriding object properties. The internal structure of this directory duplicates the project structure. You can save property overrides by selecting the corresponding option when saving objects to the project. Currently, overriding of database object privileges and owners is supported."
 
 #: ../../project_structure.rst:96
 msgid "Директория **.settings** содержит настройки проекта."
-msgstr ""
+msgstr "The **.settings** directory contains project settings."
 
 #: ../../project_structure.rst:98
 msgid "Файл **.dependencies** хранит список библиотек в виде XML-файла. Редактируется через :doc:`настройки проекта <properties>`."
-msgstr ""
+msgstr "The **.dependencies** file stores the list of libraries as an XML file. It can be edited via :doc:`project settings <properties>`."
 
 #: ../../project_structure.rst:100
 msgid "Файл **.pgcodekeeper** является маркером проекта pgCodeKeeper."
-msgstr ""
+msgstr "The **.pgcodekeeper** file is a marker of a pgCodeKeeper project."
 
 #: ../../project_structure.rst:102
 msgid "Файл **.pgcodekeeperdependencies** содержит неявные зависимости объектов. Редактируется через :doc:`настройки проекта <properties>`."
-msgstr ""
+msgstr "The **.pgcodekeeperdependencies** file contains implicit object dependencies. It can be edited via :doc:`project settings <properties>`."
 
 #: ../../project_structure.rst:104
 msgid "Файл **.pgcodekeeperignore** содержит правила игнорирования объектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`. Редактируется через :doc:`настройки проекта <properties>`."
-msgstr ""
+msgstr "The **.pgcodekeeperignore** file contains object ignoring rules. A detailed description of working with lists can be found in the :ref:`ignoreList` section. It can be edited via :doc:`project settings <properties>`."
 
 #: ../../project_structure.rst:106
 msgid "Файл **.pgcodekeeperignoreschema** содержит правила игнорирования схем. Подробное описание работы находится в разделе :ref:`ignoreSchemaList`. Редактируется через :doc:`настройки проекта <properties>`."
-msgstr ""
+msgstr "The **.pgcodekeeperignoreschema** file contains schema ignoring rules. A detailed description of working with lists can be found in the :ref:`ignoreSchemaList` section. It can be edited via :doc:`project settings <properties>`."
 
 #: ../../project_structure.rst:108
 msgid "Файл **.project** является маркером проекта Eclipse."
-msgstr ""
+msgstr "The **.project** file is a marker of an Eclipse project."
 
 #: ../../project_structure.rst:110
 msgid "Файл **structure.properties** хранит структуру проекта. Редактируется через :doc:`Нормализацию проекта <normalize_project>`."
-msgstr ""
+msgstr "The **structure.properties** file stores the project structure. It can be edited via :doc:`Project Normalization <normalize_project>`."
 
 #~ msgid ""
 #~ "another_schema_name.sql - обязательный файл с"
