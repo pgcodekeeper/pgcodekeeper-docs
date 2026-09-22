@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 7.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 17:59+0300\n"
+"POT-Creation-Date: 2026-09-22 15:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Начало работы"
 msgstr ""
 
-#: ../../index.rst:37
+#: ../../index.rst:38
 msgid "Задачи"
 msgstr ""
 
-#: ../../index.rst:53
+#: ../../index.rst:54
 msgid "Дополнительная информация"
 msgstr ""
 
@@ -66,7 +66,7 @@ msgid "Поддерживаемые версии баз данных:"
 msgstr ""
 
 #: ../../index.rst:15
-msgid "PostgreSQL 14+"
+msgid "PostgreSQL 15+"
 msgstr ""
 
 #: ../../index.rst:16
@@ -113,5 +113,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "MS SQL 2012+"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL 14+"
 #~ msgstr ""
 
