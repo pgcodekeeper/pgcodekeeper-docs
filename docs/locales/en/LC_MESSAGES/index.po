@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 17:59+0300\n"
-"PO-Revision-Date: 2025-10-20 11:30\n"
+"POT-Creation-Date: 2026-09-22 15:30+0300\n"
+"PO-Revision-Date: 2026-09-22 14:30\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "Начало работы"
 msgstr "Getting Started"
 
-#: ../../index.rst:37
+#: ../../index.rst:38
 msgid "Задачи"
 msgstr "Tasks"
 
-#: ../../index.rst:53
+#: ../../index.rst:54
 msgid "Дополнительная информация"
 msgstr "Additional Information"
 
@@ -55,8 +55,8 @@ msgid "Поддерживаемые версии баз данных:"
 msgstr "Supported database versions:"
 
 #: ../../index.rst:15
-msgid "PostgreSQL 14+"
-msgstr "PostgreSQL 14+"
+msgid "PostgreSQL 15+"
+msgstr ""
 
 #: ../../index.rst:16
 msgid "MS SQL 2017+"
@@ -102,5 +102,8 @@ msgstr "Greenplum 6+"
 #~ msgstr ""
 
 #~ msgid "MS SQL 2012+"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL 14+"
 #~ msgstr ""
 
